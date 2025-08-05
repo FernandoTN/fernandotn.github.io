@@ -6,58 +6,64 @@ import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn more about Fernando Torres - AI Engineer, entrepreneur, and tech innovator with a passion for building the future.',
+  description:
+    'Learn more about Fernando Torres Navarrete - Healthcare and technology professional, Stanford MSx student, and entrepreneur passionate about innovation.',
 };
 
 const timelineEvents = [
   {
+    year: '2025',
+    title: 'Stanford MSx Student',
+    description:
+      'Enrolled in the prestigious MSx program at Stanford Graduate School of Business, focusing on leadership and strategic management.',
+    company: 'Stanford University',
+  },
+  {
     year: '2024',
-    title: 'AI Startup Co-founder',
-    description: 'Co-founded an AI-powered healthcare startup focused on revolutionizing patient care through machine learning.',
-    company: 'HealthAI Solutions',
+    title: 'Healthcare Professional',
+    description:
+      'Working in pharmaceutical industry, driving innovation in healthcare solutions and business development.',
+    company: 'CHINOIN Productos Farmacéuticos S.A. de C.V.',
   },
   {
     year: '2023',
-    title: 'Senior AI Engineer',
-    description: 'Led the development of large-scale ML systems serving millions of users daily.',
-    company: 'Tech Corp',
+    title: 'Volunteer Leadership',
+    description:
+      'Active volunteer work in health sector and poverty alleviation, contributing to social impact initiatives.',
+    company: 'Produciendo Compromisos, A.C. & Construyendo',
   },
   {
     year: '2022',
     title: 'Hemoderivatives Plant Director',
-    description: 'Managed operations of a state-of-the-art blood derivatives manufacturing facility.',
-    company: 'BioPharm Industries',
+    description:
+      'Managed operations of a state-of-the-art blood derivatives manufacturing facility.',
+    company: 'Healthcare Industry',
   },
   {
     year: '2021',
-    title: 'ML Research Scientist',
-    description: 'Conducted cutting-edge research in natural language processing and computer vision.',
-    company: 'Research Lab',
-  },
-  {
-    year: '2020',
-    title: 'Software Engineering Lead',
-    description: 'Built and scaled engineering teams while architecting distributed systems.',
-    company: 'StartupCo',
+    title: 'Healthcare Innovation',
+    description:
+      'Led development of innovative healthcare solutions combining technology and pharmaceutical expertise.',
+    company: 'Healthcare Sector',
   },
 ];
 
 const achievements = [
-  '10+ years in software engineering and AI',
-  'Co-founded 2 successful startups',
-  'Published 15+ research papers',
-  'Speaker at major tech conferences',
-  'Mentor to 50+ aspiring engineers',
-  'Open source contributor',
+  'Stanford MSx student (2025-2026)',
+  'Healthcare and pharmaceutical industry leader',
+  '15K+ LinkedIn followers',
+  'Active volunteer in health and social sectors',
+  'International experience across multiple industries',
+  'Expertise in healthcare innovation and technology',
 ];
 
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="max-w-4xl mx-auto">
+      <div className="mx-auto max-w-4xl">
         {/* Hero Section */}
-        <div className="text-center mb-16">
-          <div className="relative w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden">
+        <div className="mb-16 text-center">
+          <div className="relative mx-auto mb-8 h-48 w-48 overflow-hidden rounded-full">
             <Image
               src="/images/fernando-torres.jpg"
               alt="Fernando Torres"
@@ -66,45 +72,50 @@ export default function AboutPage() {
               priority
             />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
+          <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
             About Me
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            AI Engineer, entrepreneur, and tech innovator with a passion for building 
-            the future through artificial intelligence and cutting-edge technology.
+          <p className="text-muted-foreground mx-auto max-w-2xl text-xl">
+            Healthcare and technology professional, Stanford MSx student, and
+            entrepreneur with a passion for building innovative AI solutions
+            that transform industries.
           </p>
         </div>
 
         {/* Bio Section */}
-        <div className="prose prose-lg dark:prose-invert max-w-none mb-16">
+        <div className="prose prose-lg mb-16 max-w-none dark:prose-invert">
           <p>
-            I'm Fernando Torres, an AI Engineer and entrepreneur who has spent over a decade 
-            at the intersection of technology and innovation. My journey has taken me from 
-            managing complex manufacturing operations to co-founding AI startups that are 
-            reshaping entire industries.
+            I&apos;m Fernando Torres Navarrete, an accomplished healthcare and
+            technology professional currently pursuing my MSx degree at Stanford
+            University Graduate School of Business (2025-2026). My career spans
+            the intersection of healthcare, technology, and business innovation,
+            with a focus on creating solutions that make a meaningful impact.
           </p>
           <p>
-            My unique background spans both the technical and business sides of technology. 
-            I've led engineering teams, conducted cutting-edge AI research, and built 
-            products that serve millions of users. This diverse experience has given me 
-            a holistic understanding of how to translate complex technical concepts into 
-            real-world solutions that create value.
+            Currently working at CHINOIN Productos Farmacéuticos S.A. de C.V., I
+            bring extensive experience in the pharmaceutical and healthcare
+            sectors. My journey has taken me from managing complex operations to
+            developing cutting-edge AI solutions that are transforming how we
+            approach healthcare challenges.
           </p>
           <p>
-            Currently, I'm focused on the exciting frontiers of artificial intelligence, 
-            particularly in areas like large language models, autonomous agents, and 
-            AI-powered healthcare solutions. I believe we're at an inflection point in 
-            technology, and I'm passionate about helping shape that future.
+            Beyond my professional work, I&apos;m deeply committed to social
+            impact through volunteer work with organizations like Produciendo
+            Compromisos, A.C. in the health sector and Construyendo in poverty
+            alleviation. I believe in using technology and business acumen to
+            create positive change in the world.
           </p>
         </div>
 
         {/* Achievements */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold tracking-tight mb-8">Achievements</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <h2 className="mb-8 text-3xl font-bold tracking-tight">
+            Achievements
+          </h2>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {achievements.map((achievement, index) => (
               <div key={index} className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0" />
+                <div className="bg-primary h-2 w-2 flex-shrink-0 rounded-full" />
                 <span className="text-muted-foreground">{achievement}</span>
               </div>
             ))}
@@ -113,21 +124,32 @@ export default function AboutPage() {
 
         {/* Timeline */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold tracking-tight mb-8">Professional Journey</h2>
+          <h2 className="mb-8 text-3xl font-bold tracking-tight">
+            Professional Journey
+          </h2>
           <Timeline events={timelineEvents} />
         </div>
 
         {/* CV Download */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight mb-8">Want to Learn More?</h2>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <h2 className="mb-8 text-3xl font-bold tracking-tight">
+            Want to Learn More?
+          </h2>
+          <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg" className="flex items-center space-x-2">
-              <Download className="w-5 h-5" />
+              <Download className="h-5 w-5" />
               <span>Download CV</span>
             </Button>
-            <Button variant="outline" size="lg" className="flex items-center space-x-2">
-              <ExternalLink className="w-5 h-5" />
-              <span>LinkedIn Profile</span>
+            <Button variant="outline" size="lg" asChild>
+              <a
+                href="https://www.linkedin.com/in/fernandotn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2"
+              >
+                <ExternalLink className="h-5 w-5" />
+                <span>LinkedIn Profile</span>
+              </a>
             </Button>
           </div>
         </div>
