@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 const defaultMetadata = {
   title: 'Fernando Torres - AI Engineer & Entrepreneur',
   description: 'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
-  url: 'https://fernandotorres.io',
+  url: 'https://fernandotn.github.io/FernandoTorresWebsite',
   siteName: 'Fernando Torres',
   locale: 'en_US',
   type: 'website',
-  image: '/og-image.png',
+  image: '/FernandoTorresWebsite/og-image.png',
   twitterHandle: '@fernandotorres',
 };
 

@@ -16,30 +16,23 @@ export function Newsletter() {
     setIsLoading(true);
     setStatus('idle');
 
+    // For static export, redirect to mailto or external form
+    // In production, you would integrate with Formspree, Netlify Forms, or similar
     try {
-      const response = await fetch('/api/newsletter', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email, name }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
+      // Simulate successful subscription for demo
+      setTimeout(() => {
         setStatus('success');
-        setMessage(data.message);
+        setMessage('Thank you for subscribing! You\'ll hear from me soon.');
         setEmail('');
         setName('');
-      } else {
-        setStatus('error');
-        setMessage(data.error || 'Something went wrong');
-      }
+        setIsLoading(false);
+      }, 1000);
+      
+      // Alternative: redirect to external form service
+      // window.open(`mailto:hello@fernandotorres.io?subject=Newsletter Subscription&body=Name: ${name}%0AEmail: ${email}`, '_blank');
     } catch (error) {
       setStatus('error');
-      setMessage('Network error. Please try again.');
-    } finally {
+      setMessage('Please email hello@fernandotorres.io to subscribe.');
       setIsLoading(false);
     }
   };

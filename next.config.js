@@ -2,10 +2,15 @@ const { withContentlayer } = require('next-contentlayer');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/FernandoTorresWebsite',
+  assetPrefix: '/FernandoTorresWebsite/',
   experimental: {
     mdxRs: true,
   },
   images: {
+    unoptimized: true,
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
   },
