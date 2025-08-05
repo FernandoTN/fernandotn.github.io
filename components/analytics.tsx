@@ -1,24 +1,30 @@
 'use client';
 
 import { useEffect } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 
 declare global {
   interface Window {
-    gtag: (command: string, targetId: string, config?: Record<string, any>) => void;
+    gtag: (
+      command: string,
+      targetId: string,
+      config?: Record<string, any>
+    ) => void;
   }
 }
 
 export function Analytics() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-    
+
     if (!GA_MEASUREMENT_ID) return;
 
-    const url = pathname + searchParams.toString();
+    const url =
+      typeof window !== 'undefined'
+        ? window.location.pathname + window.location.search
+        : pathname;
 
     // Track page views
     if (typeof window.gtag !== 'undefined') {
@@ -26,7 +32,7 @@ export function Analytics() {
         page_path: url,
       });
     }
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   // Only render the script in production
   if (process.env.NODE_ENV !== 'production') {

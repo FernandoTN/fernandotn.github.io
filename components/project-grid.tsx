@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { ExternalLink, Github } from 'lucide-react';
@@ -19,7 +21,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
         >
           {/* Project Image */}
           {project.image && (
-            <div className="bg-muted relative aspect-video overflow-hidden">
+            <div className="relative aspect-video overflow-hidden bg-muted">
               <Image
                 src={project.image}
                 alt={project.title}
@@ -31,7 +33,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
 
           <div className="space-y-4 p-6">
             {/* Title */}
-            <h3 className="group-hover:text-primary text-xl font-semibold transition-colors">
+            <h3 className="text-xl font-semibold transition-colors group-hover:text-primary">
               <Link
                 href={`/projects/${project.slugAsParams}`}
                 className="stretched-link"
@@ -41,7 +43,7 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
             </h3>
 
             {/* Summary */}
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="leading-relaxed text-muted-foreground">
               {project.summary}
             </p>
 

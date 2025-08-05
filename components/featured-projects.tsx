@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
@@ -32,7 +34,7 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
 
             <div className="space-y-4 p-6">
               {/* Title */}
-              <h3 className="group-hover:text-primary text-xl font-semibold transition-colors">
+              <h3 className="text-xl font-semibold transition-colors group-hover:text-primary">
                 <Link
                   href={`/projects/${project.slugAsParams}`}
                   className="stretched-link"
@@ -42,7 +44,7 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
               </h3>
 
               {/* Summary */}
-              <p className="text-muted-foreground line-clamp-3">
+              <p className="line-clamp-3 text-muted-foreground">
                 {project.summary}
               </p>
 

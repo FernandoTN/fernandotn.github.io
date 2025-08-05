@@ -30,16 +30,16 @@ jobs:
       run: npm ci --legacy-peer-deps
       
     - name: Build Next.js site
-      run: npm run build || echo "Build failed, using static HTML fallback"
+      run: npm run build
       
     - name: Prepare deployment files
       run: |
-        mkdir -p dist
         if [ -d "out" ]; then
-          cp -r out/* dist/
+          echo "Using Next.js static export from 'out' directory"
+          cp -r out/ dist/
         else
-          cp index.html dist/
-          cp -r public/* dist/ 2>/dev/null || true
+          echo "Error: 'out' directory not found after build"
+          exit 1
         fi
         
     - name: Setup Pages
