@@ -12,11 +12,11 @@ interface FeaturedProjectsProps {
 export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
   return (
     <div className="space-y-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
           <article
             key={project.slug}
-            className="group relative rounded-lg border overflow-hidden hover:shadow-lg transition-all duration-200"
+            className="group relative overflow-hidden rounded-lg border transition-all duration-200 hover:shadow-lg"
           >
             {/* Project Image */}
             {project.image && (
@@ -25,15 +25,18 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-200"
+                  className="object-cover transition-transform duration-200 group-hover:scale-105"
                 />
               </div>
             )}
 
-            <div className="p-6 space-y-4">
+            <div className="space-y-4 p-6">
               {/* Title */}
-              <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
-                <Link href={project.slug} className="stretched-link">
+              <h3 className="group-hover:text-primary text-xl font-semibold transition-colors">
+                <Link
+                  href={`/projects/${project.slugAsParams}`}
+                  className="stretched-link"
+                >
                   {project.title}
                 </Link>
               </h3>
@@ -60,28 +63,28 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
               )}
 
               {/* Links */}
-              <div className="flex items-center space-x-2 relative z-10">
+              <div className="relative z-10 flex items-center space-x-2">
                 {project.website && (
                   <Button size="sm" variant="ghost" asChild>
-                    <a 
-                      href={project.website} 
-                      target="_blank" 
+                    <a
+                      href={project.website}
+                      target="_blank"
                       rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      <ExternalLink className="w-4 h-4" />
+                      <ExternalLink className="h-4 w-4" />
                     </a>
                   </Button>
                 )}
                 {project.github && (
                   <Button size="sm" variant="ghost" asChild>
-                    <a 
-                      href={project.github} 
-                      target="_blank" 
+                    <a
+                      href={project.github}
+                      target="_blank"
                       rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      <Github className="w-4 h-4" />
+                      <Github className="h-4 w-4" />
                     </a>
                   </Button>
                 )}
@@ -96,7 +99,7 @@ export function FeaturedProjects({ projects }: FeaturedProjectsProps) {
         <Button variant="outline" asChild>
           <Link href="/projects" className="flex items-center space-x-2">
             <span>View All Projects</span>
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="h-4 w-4" />
           </Link>
         </Button>
       </div>
