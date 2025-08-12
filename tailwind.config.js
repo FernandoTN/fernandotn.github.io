@@ -79,7 +79,7 @@ module.exports = {
             '--tw-prose-pre-bg': 'rgb(31 41 55)',
             '--tw-prose-th-borders': 'rgb(209 213 219)',
             '--tw-prose-td-borders': 'rgb(229 231 235)',
-            '--tw-prose-invert-body': 'rgb(209 213 219)',
+            '--tw-prose-invert-body': 'rgb(243 244 246)',
             '--tw-prose-invert-headings': 'rgb(255 255 255)',
             '--tw-prose-invert-lead': 'rgb(156 163 175)',
             '--tw-prose-invert-links': 'rgb(147 197 253)',
