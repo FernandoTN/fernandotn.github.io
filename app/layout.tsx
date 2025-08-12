@@ -9,6 +9,7 @@ import { Analytics } from '@/components/analytics';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fernandotn.github.io'),
   title: {
     default: 'Fernando Torres - ALM Research & Stanford MSx',
     template: '%s | Fernando Torres',
