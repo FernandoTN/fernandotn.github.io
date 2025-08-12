@@ -37,6 +37,8 @@ jobs:
         if [ -d "out" ]; then
           echo "Using Next.js static export from 'out' directory"
           cp -r out/ dist/
+          # Add .nojekyll file to disable Jekyll processing
+          touch dist/.nojekyll
         else
           echo "Error: 'out' directory not found after build"
           exit 1
