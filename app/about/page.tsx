@@ -7,54 +7,54 @@ import { Button } from '@/components/ui/button';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn more about Fernando Torres Navarrete - Healthcare and technology professional, Stanford MSx student, and entrepreneur passionate about innovation.',
+    'Learn about Fernando Torres - Stanford MSx researcher investigating Autonomous Language Models (ALMs) and healthcare executive turned tech-focused founder.',
 };
 
 const timelineEvents = [
   {
-    year: '2025',
-    title: 'Stanford MSx Student',
+    year: '2025-2026',
+    title: 'Stanford MSx Program',
     description:
-      'Enrolled in the prestigious MSx program at Stanford Graduate School of Business, focusing on leadership and strategic management.',
-    company: 'Stanford University',
+      "Currently enrolled in Stanford Graduate School of Business's MSx program, conducting in-depth research on Autonomous Language Models (ALMs) using the Research Driven Inspiration (RDI) framework.",
+    company: 'Stanford Graduate School of Business',
   },
   {
     year: '2024',
-    title: 'Healthcare Professional',
+    title: 'Business Development Director',
     description:
-      'Working in pharmaceutical industry, driving innovation in healthcare solutions and business development.',
-    company: 'CHINOIN Productos Farmacéuticos S.A. de C.V.',
+      "Led global partnership deals and expansion across the Americas at one of Mexico's leading pharmaceutical companies, forging licensing agreements to bring innovative therapies into Latin American markets.",
+    company: 'Chinoin Pharmaceuticals',
   },
   {
     year: '2023',
-    title: 'Volunteer Leadership',
+    title: 'Global Healthcare Partnerships',
     description:
-      'Active volunteer work in health sector and poverty alleviation, contributing to social impact initiatives.',
-    company: 'Produciendo Compromisos, A.C. & Construyendo',
+      'Drove growth in highly regulated, tech-driven pharmaceutical markets, gaining first-hand insight into how emerging technologies impact healthcare on a global scale.',
+    company: 'Chinoin Pharmaceuticals',
   },
   {
     year: '2022',
-    title: 'Hemoderivatives Plant Director',
+    title: 'Healthcare Technology Integration',
     description:
-      'Managed operations of a state-of-the-art blood derivatives manufacturing facility.',
+      'Led initiatives to integrate technology solutions in pharmaceutical operations and business development processes.',
     company: 'Healthcare Industry',
   },
   {
     year: '2021',
-    title: 'Healthcare Innovation',
+    title: 'Pharmaceutical Leadership',
     description:
-      'Led development of innovative healthcare solutions combining technology and pharmaceutical expertise.',
+      'Established expertise in pharmaceutical business development and regulatory environments across international markets.',
     company: 'Healthcare Sector',
   },
 ];
 
 const achievements = [
-  'Stanford MSx student (2025-2026)',
-  'Healthcare and pharmaceutical industry leader',
-  '15K+ LinkedIn followers',
-  'Active volunteer in health and social sectors',
-  'International experience across multiple industries',
-  'Expertise in healthcare innovation and technology',
+  'Stanford Graduate School of Business MSx 2025-2026',
+  'Autonomous Language Models (ALM) research focus',
+  'Business Development Director at Chinoin Pharmaceuticals',
+  'Global partnership deals across the Americas',
+  'Research Driven Inspiration (RDI) methodology expertise',
+  'Healthcare technology and AI thought leadership',
 ];
 
 export default function AboutPage() {
@@ -76,34 +76,55 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="mx-auto max-w-2xl text-xl text-muted-foreground">
-            Healthcare and technology professional, Stanford MSx student, and
-            entrepreneur with a passion for building innovative AI solutions
-            that transform industries.
+            Stanford MSx researcher investigating Autonomous Language Models and
+            healthcare executive turned tech-focused founder exploring the
+            future of AI-driven innovation.
           </p>
         </div>
 
         {/* Bio Section */}
         <div className="prose prose-lg mb-16 max-w-none dark:prose-invert">
           <p>
-            I&apos;m Fernando Torres Navarrete, an accomplished healthcare and
-            technology professional currently pursuing my MSx degree at Stanford
-            University Graduate School of Business (2025-2026). My career spans
-            the intersection of healthcare, technology, and business innovation,
-            with a focus on creating solutions that make a meaningful impact.
+            I&apos;m Fernando Torres, a healthcare and tech-savvy executive
+            turned researcher and aspiring founder. I&apos;m currently a member
+            of Stanford Graduate School of Business&apos;s MSx class of
+            2025–2026, a mid-career master&apos;s program for experienced
+            leaders. As part of this program, I&apos;m conducting in-depth
+            research on Autonomous Language Models (ALMs) using Stanford&apos;s
+            Research Driven Inspiration (RDI) framework.
           </p>
           <p>
-            Currently working at CHINOIN Productos Farmacéuticos S.A. de C.V., I
-            bring extensive experience in the pharmaceutical and healthcare
-            sectors. My journey has taken me from managing complex operations to
-            developing cutting-edge AI solutions that are transforming how we
-            approach healthcare challenges.
+            RDI is a systematic, curiosity-driven approach to gain deep domain
+            expertise and uncover hidden insights. It emphasizes primary
+            research and pattern recognition to identify non-obvious
+            opportunities, helping students develop forward-looking hypotheses
+            about where an industry is headed in the next 2–3 years. My ALM
+            project is an RDI endeavor, meaning it&apos;s not about confirming
+            pre-set ideas but about discovering new angles and future
+            opportunities in the AI landscape.
           </p>
           <p>
-            Beyond my professional work, I&apos;m deeply committed to social
-            impact through volunteer work with organizations like Produciendo
-            Compromisos, A.C. in the health sector and Construyendo in poverty
-            alleviation. I believe in using technology and business acumen to
-            create positive change in the world.
+            Professionally, I have a strong background at the intersection of
+            healthcare and business. I previously served as Business Development
+            Director at Chinoin Pharmaceuticals, one of Mexico&apos;s leading
+            pharma companies. In that role, I led global partnership deals and
+            expansion across the Americas – forging licensing agreements to
+            bring innovative therapies from abroad into Latin American markets.
+            This experience honed my ability to drive growth in highly
+            regulated, tech-driven industries and gave me first-hand insight
+            into how emerging technologies can impact healthcare on a global
+            scale.
+          </p>
+          <p>
+            Now, as a tech-literate healthcare executive transitioning into a
+            founder/operator role, I&apos;m leveraging my industry experience
+            and Stanford training to explore cutting-edge technology
+            opportunities. My current focus on ALMs positions me at the
+            forefront of AI-driven innovation. The combination of a healthcare
+            background, business development expertise, and new research into
+            advanced AI systems provides me with a unique lens – I understand
+            both the practical realities of implementing technology in business
+            and the transformative potential of new AI advancements.
           </p>
         </div>
 

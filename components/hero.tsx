@@ -12,13 +12,13 @@ export function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-                Building the <span className="text-primary">Future</span> with
-                AI
+                Exploring <span className="text-primary">Autonomous</span>{' '}
+                Language AI
               </h1>
               <p className="max-w-lg text-xl text-muted-foreground">
-                Healthcare and technology professional, Stanford MSx student,
-                and entrepreneur passionate about building innovative AI
-                solutions that transform industries.
+                Stanford MSx researcher and healthcare executive investigating
+                Autonomous Language Models (ALMs) and their transformative
+                potential across industries.
               </p>
             </div>
 
@@ -46,19 +46,19 @@ export function Hero() {
               <div>
                 <div className="text-3xl font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">
-                  Years Experience
+                  Years Healthcare Leadership
                 </div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">2</div>
+                <div className="text-3xl font-bold text-primary">Stanford</div>
                 <div className="text-sm text-muted-foreground">
-                  Startups Founded
+                  MSx 2025-2026
                 </div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary">15+</div>
+                <div className="text-3xl font-bold text-primary">ALM</div>
                 <div className="text-sm text-muted-foreground">
-                  Research Papers
+                  Research Focus
                 </div>
               </div>
             </div>

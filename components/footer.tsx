@@ -50,8 +50,8 @@ export function Footer() {
               <span className="text-xl font-bold">Fernando Torres</span>
             </Link>
             <p className="mb-4 max-w-md text-muted-foreground">
-              AI Engineer and entrepreneur building the future through
-              artificial intelligence and innovative technology solutions.
+              Stanford MSx researcher investigating Autonomous Language Models
+              and healthcare executive exploring AI-driven business innovation.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link) => {

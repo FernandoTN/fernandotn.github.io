@@ -8,7 +8,9 @@ import { Newsletter } from '@/components/newsletter';
 export default function HomePage() {
   const posts = allPosts
     .filter((post) => post.featured)
-    .sort((a, b) => compareDesc(new Date(a.publishedAt), new Date(b.publishedAt)))
+    .sort((a, b) =>
+      compareDesc(new Date(a.publishedAt), new Date(b.publishedAt))
+    )
     .slice(0, 3);
 
   const projects = allProjects
@@ -19,15 +21,16 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <div className="container mx-auto px-4 py-16 space-y-24">
+      <div className="container mx-auto space-y-24 px-4 py-16">
         {posts.length > 0 && (
           <section>
-            <div className="text-center mb-12">
+            <div className="mb-12 text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Latest Insights
+                ALM Research Insights
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Exploring the frontiers of AI and technology
+                Exploring Autonomous Language Models and their transformative
+                potential
               </p>
             </div>
             <FeaturedPosts posts={posts} />
@@ -36,12 +39,12 @@ export default function HomePage() {
 
         {projects.length > 0 && (
           <section>
-            <div className="text-center mb-12">
+            <div className="mb-12 text-center">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Featured Projects
+                Research Projects
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Building the future through innovation
+                Investigating autonomous AI and its business applications
               </p>
             </div>
             <FeaturedProjects projects={projects} />

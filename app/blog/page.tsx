@@ -4,9 +4,9 @@ import { compareDesc } from 'date-fns';
 import { BlogList } from '@/components/blog-list';
 
 export const metadata: Metadata = {
-  title: 'AI Journey Blog',
+  title: 'ALM Research Blog',
   description:
-    'Insights and thoughts on artificial intelligence, machine learning, and the future of technology.',
+    'Research insights into Autonomous Language Models, their capabilities, limitations, and transformative potential across industries.',
 };
 
 export default function BlogPage() {
@@ -24,11 +24,11 @@ export default function BlogPage() {
         {/* Header */}
         <div className="mb-16 text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
-            AI Journey Blog
+            ALM Research Series
           </h1>
           <p className="mx-auto max-w-2xl text-xl text-muted-foreground">
-            Insights and thoughts on artificial intelligence, machine learning,
-            and the future of technology.
+            Weekly insights into Autonomous Language Models, their capabilities,
+            limitations, and transformative potential across industries.
           </p>
         </div>
 

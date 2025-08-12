@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 const defaultMetadata = {
-  title: 'Fernando Torres - AI Engineer & Entrepreneur',
+  title: 'Fernando Torres - ALM Research & Stanford MSx',
   description:
-    'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+    'Stanford MSx researcher investigating Autonomous Language Models (ALMs) and healthcare executive turned tech-focused founder.',
   url: 'https://fernandotn.github.io',
   siteName: 'Fernando Torres',
   locale: 'en_US',
@@ -29,12 +29,12 @@ export function constructMetadata({
     title,
     description,
     keywords: [
-      'AI',
-      'Machine Learning',
-      'Entrepreneurship',
-      'Technology',
-      'Innovation',
-      'Startups',
+      'Autonomous Language Models',
+      'ALM',
+      'Stanford MSx',
+      'AI Research',
+      'Healthcare Technology',
+      'Business Development',
       'Fernando Torres',
     ],
     authors: [

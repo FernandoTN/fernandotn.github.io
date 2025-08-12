@@ -10,8 +10,8 @@ function generateRSS() {
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fernando Torres - AI Journey Blog</title>
-    <description>Insights and thoughts on artificial intelligence, machine learning, and the future of technology.</description>
+    <title>Fernando Torres - ALM Research Series</title>
+    <description>Research insights into Autonomous Language Models, their capabilities, limitations, and transformative potential across industries.</description>
     <link>${baseUrl}</link>
     <language>en-US</language>
     <managingEditor>${email} (${author})</managingEditor>

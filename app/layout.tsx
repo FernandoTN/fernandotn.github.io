@@ -10,18 +10,18 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Fernando Torres - AI Engineer & Entrepreneur',
+    default: 'Fernando Torres - ALM Research & Stanford MSx',
     template: '%s | Fernando Torres',
   },
   description:
-    'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+    'Stanford MSx researcher investigating Autonomous Language Models (ALMs) and healthcare executive turned tech-focused founder.',
   keywords: [
-    'AI',
-    'Machine Learning',
-    'Entrepreneurship',
-    'Technology',
-    'Innovation',
-    'Startups',
+    'Autonomous Language Models',
+    'ALM',
+    'Stanford MSx',
+    'AI Research',
+    'Healthcare Technology',
+    'Business Development',
   ],
   authors: [{ name: 'Fernando Torres' }],
   creator: 'Fernando Torres',
@@ -41,24 +41,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://fernandotn.github.io',
-    title: 'Fernando Torres - AI Engineer & Entrepreneur',
+    title: 'Fernando Torres - ALM Research & Stanford MSx',
     description:
-      'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+      'Stanford MSx researcher investigating Autonomous Language Models (ALMs) and healthcare executive turned tech-focused founder.',
     siteName: 'Fernando Torres',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Fernando Torres - AI Engineer & Entrepreneur',
+        alt: 'Fernando Torres - ALM Research & Stanford MSx',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fernando Torres - AI Engineer & Entrepreneur',
+    title: 'Fernando Torres - ALM Research & Stanford MSx',
     description:
-      'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+      'Stanford MSx researcher investigating Autonomous Language Models (ALMs) and healthcare executive turned tech-focused founder.',
     images: ['/og-image.png'],
     creator: '@FernandoTN',
   },
