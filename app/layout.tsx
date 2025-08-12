@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
     images: ['/og-image.png'],
-    creator: '@fernandotorres',
+    creator: '@FernandoTN',
   },
   icons: {
     icon: '/favicon.ico',

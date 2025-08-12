@@ -19,8 +19,8 @@ export default function ContactPage() {
           I’d love to hear from you. For partnerships, collaborations, speaking
           engagements, or consulting inquiries, use the form below or email me
           directly at{' '}
-          <a className="underline" href="mailto:hello@fernandotorres.io">
-            hello@fernandotorres.io
+          <a className="underline" href="mailto:fertorresnavarrete@gmail.com">
+            fertorresnavarrete@gmail.com
           </a>
           .
         </p>
@@ -76,8 +76,11 @@ export default function ContactPage() {
           <div className="rounded-lg border p-6">
             <p className="text-muted-foreground">
               Form endpoint is not configured. Please email{' '}
-              <a className="underline" href="mailto:hello@fernandotorres.io">
-                hello@fernandotorres.io
+              <a
+                className="underline"
+                href="mailto:fertorresnavarrete@gmail.com"
+              >
+                fertorresnavarrete@gmail.com
               </a>
               .
             </p>

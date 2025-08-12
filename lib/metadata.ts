@@ -9,7 +9,7 @@ const defaultMetadata = {
   locale: 'en_US',
   type: 'website',
   image: '/og-image.png',
-  twitterHandle: '@fernandotorres',
+  twitterHandle: '@FernandoTN',
 };
 
 export function constructMetadata({

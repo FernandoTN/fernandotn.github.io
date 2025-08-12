@@ -9,17 +9,17 @@ const socialLinks = [
   },
   {
     name: 'Twitter',
-    href: 'https://twitter.com/fernandotorres',
+    href: 'https://twitter.com/FernandoTN',
     icon: Twitter,
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/fernandotorres',
+    href: 'https://www.linkedin.com/in/fernandotn/',
     icon: Linkedin,
   },
   {
     name: 'Email',
-    href: 'mailto:hello@fernandotorres.io',
+    href: 'mailto:fertorresnavarrete@gmail.com',
     icon: Mail,
   },
 ];
@@ -43,14 +43,14 @@ export function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-4">
+            <Link href="/" className="mb-4 flex items-center space-x-2">
               <span className="text-xl font-bold">Fernando Torres</span>
             </Link>
-            <p className="text-muted-foreground mb-4 max-w-md">
-              AI Engineer and entrepreneur building the future through 
+            <p className="mb-4 max-w-md text-muted-foreground">
+              AI Engineer and entrepreneur building the future through
               artificial intelligence and innovative technology solutions.
             </p>
             <div className="flex space-x-4">
@@ -62,9 +62,9 @@ export function Footer() {
                     href={link.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground transition-colors hover:text-primary"
                   >
-                    <Icon className="w-5 h-5" />
+                    <Icon className="h-5 w-5" />
                     <span className="sr-only">{link.name}</span>
                   </a>
                 );
@@ -74,13 +74,13 @@ export function Footer() {
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4">Content</h3>
+            <h3 className="mb-4 font-semibold">Content</h3>
             <ul className="space-y-2">
               {footerLinks.content.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground transition-colors hover:text-primary"
                   >
                     {link.name}
                   </Link>
@@ -90,13 +90,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
+            <h3 className="mb-4 font-semibold">Legal</h3>
             <ul className="space-y-2">
               {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className="text-muted-foreground transition-colors hover:text-primary"
                   >
                     {link.name}
                   </Link>
@@ -106,11 +106,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-foreground text-sm">
+        <div className="mt-8 flex flex-col items-center justify-between border-t pt-8 md:flex-row">
+          <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} Fernando Torres. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm mt-2 md:mt-0">
+          <p className="mt-2 text-sm text-muted-foreground md:mt-0">
             Built with Next.js, TypeScript, and Tailwind CSS
           </p>
         </div>

@@ -4,7 +4,7 @@ const { allPosts } = require('../.contentlayer/generated');
 
 const baseUrl = 'https://fernandotn.github.io';
 const author = 'Fernando Torres';
-const email = 'hello@fernandotorres.io';
+const email = 'fertorresnavarrete@gmail.com';
 
 function generateRSS() {
   const rss = `<?xml version="1.0" encoding="UTF-8"?>

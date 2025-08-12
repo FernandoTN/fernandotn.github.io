@@ -54,9 +54,9 @@ export function Newsletter() {
               Newsletter endpoint not configured. Email{' '}
               <a
                 className="underline"
-                href="mailto:hello@fernandotorres.io?subject=Newsletter%20Subscription"
+                href="mailto:fertorresnavarrete@gmail.com?subject=Newsletter%20Subscription"
               >
-                hello@fernandotorres.io
+                fertorresnavarrete@gmail.com
               </a>{' '}
               to subscribe.
             </p>

@@ -30,7 +30,10 @@ export default function PrivacyPage() {
         <h2>Contact</h2>
         <p>
           For privacy requests, contact{' '}
-          <a href="mailto:hello@fernandotorres.io">hello@fernandotorres.io</a>.
+          <a href="mailto:fertorresnavarrete@gmail.com">
+            fertorresnavarrete@gmail.com
+          </a>
+          .
         </p>
         <p>Last updated: {new Date().toLocaleDateString()}</p>
       </div>

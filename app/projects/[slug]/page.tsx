@@ -159,7 +159,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm" asChild>
                 <Link
-                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out ${project.title} by @fernandotorres`)}&url=${encodeURIComponent(`${getBaseUrl()}/projects/${project.slugAsParams}`)}`}
+                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out ${project.title} by @FernandoTN`)}&url=${encodeURIComponent(`${getBaseUrl()}/projects/${project.slugAsParams}`)}`}
                 >
                   Share Project
                 </Link>
