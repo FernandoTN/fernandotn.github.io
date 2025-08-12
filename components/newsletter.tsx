@@ -18,7 +18,7 @@ export function Newsletter() {
         </div>
 
         <form
-          action="https://formspree.io/f/xdkovdlg"
+          action="https://formspree.io/f/xqalnlwv"
           method="POST"
           className="space-y-4"
         >
