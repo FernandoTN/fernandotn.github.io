@@ -1,10 +1,10 @@
 ---
-title: "Building My First LLM Agent: Lessons from the Trenches"
-summary: "A deep dive into creating an autonomous AI agent using large language models, including the challenges, breakthroughs, and practical insights gained along the way."
-publishedAt: "2025-08-05"
-tags: ["LLMs", "AI Agents", "Machine Learning", "Experiments"]
+title: 'Building My First LLM Agent: Lessons from the Trenches'
+summary: 'A deep dive into creating an autonomous AI agent using large language models, including the challenges, breakthroughs, and practical insights gained along the way.'
+publishedAt: '2025-08-05'
+tags: ['LLMs', 'AI Agents', 'Machine Learning', 'Experiments']
 featured: true
-author: "Fernando Torres"
+author: 'Fernando Torres'
 ---
 
 Building my first LLM agent was both exhilarating and humbling. After years of working with traditional ML models, diving into the world of autonomous agents felt like stepping into the future. Here's what I learned during this fascinating journey.
@@ -29,7 +29,7 @@ class AgentOrchestrator:
         self.planner = GPT4Model()
         self.analyzer = ClaudeModel()
         self.local_model = LlamaModel()
-    
+
     def route_task(self, task_type, content):
         if task_type == "planning":
             return self.planner.generate(content)
@@ -54,11 +54,13 @@ One of the biggest challenges was managing the agent's memory. Unlike humans, LL
 Initially, I underestimated the importance of prompt engineering. The difference between a mediocre and excellent agent often came down to how instructions were framed.
 
 **Before:**
+
 ```
 Research the topic and write a report.
 ```
 
 **After:**
+
 ```
 You are a senior research analyst. Your task is to:
 1. Identify 3-5 key aspects of the topic
@@ -152,4 +154,4 @@ The key is approaching them not as replacements for human thinking, but as power
 
 ---
 
-*Want to discuss LLM agents or share your own experiences? Feel free to reach out on [Twitter](https://twitter.com/fernandotorres) or via [email](mailto:hello@fernandotorres.io).*
+_Want to discuss LLM agents or share your own experiences? Feel free to reach out on [Twitter](https://twitter.com/FernandoTN) or via [email](mailto:fertorresnavarrete@gmail.com)._

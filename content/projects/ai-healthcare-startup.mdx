@@ -1,10 +1,20 @@
 ---
-title: "AI Healthcare Startup"
-summary: "Co-founded and built an AI-powered healthcare platform that helps medical professionals make faster, more accurate diagnoses using machine learning and computer vision."
-image: "/images/projects/ai-healthcare.jpg"
-technologies: ["Python", "PyTorch", "React", "FastAPI", "Docker", "AWS", "Computer Vision", "NLP"]
-github: "https://github.com/fernandotorres/ai-healthcare"
-website: "https://aihealthcare.demo.com"
+title: 'AI Healthcare Startup'
+summary: 'Co-founded and built an AI-powered healthcare platform that helps medical professionals make faster, more accurate diagnoses using machine learning and computer vision.'
+image: '/images/projects/ai-healthcare.jpg'
+technologies:
+  [
+    'Python',
+    'PyTorch',
+    'React',
+    'FastAPI',
+    'Docker',
+    'AWS',
+    'Computer Vision',
+    'NLP',
+  ]
+github: 'https://github.com/FernandoTN/ai-healthcare'
+website: 'https://aihealthcare.demo.com'
 featured: true
 order: 2
 ---
@@ -18,6 +28,7 @@ In 2024, I co-founded an AI healthcare startup with the mission of democratizing
 Healthcare faces a critical challenge: the growing gap between diagnostic demand and available expertise. Rural hospitals lack specialists, medical imaging backlogs grow longer, and diagnostic errors affect millions of patients annually.
 
 Our research revealed key pain points:
+
 - **40% of diagnostic errors** stem from inadequate data analysis
 - **Average radiology report turnaround**: 24-48 hours
 - **Specialist shortage**: 200,000+ vacant positions globally
@@ -30,17 +41,18 @@ Our research revealed key pain points:
 Our platform consists of four integrated modules:
 
 #### 1. Medical Image Analysis Engine
+
 ```python
 class DiagnosticAI:
     def __init__(self):
         self.chest_xray_model = load_pretrained_model('chest_xray_v2')
         self.ct_scan_model = load_pretrained_model('ct_analysis_v1')
         self.confidence_threshold = 0.85
-    
+
     def analyze_image(self, image_data, modality):
         preprocessed = self.preprocess_image(image_data, modality)
         prediction = self.get_model(modality).predict(preprocessed)
-        
+
         return {
             'findings': prediction.findings,
             'confidence': prediction.confidence,
@@ -50,18 +62,21 @@ class DiagnosticAI:
 ```
 
 #### 2. Clinical Decision Support System
+
 - **Evidence-based recommendations** from medical literature
 - **Drug interaction checking** and dosage optimization
 - **Risk stratification** based on patient history
 - **Treatment pathway suggestions** following clinical guidelines
 
 #### 3. Natural Language Processing Module
+
 - **Medical report generation** from imaging findings
 - **Clinical note summarization** for efficient documentation
 - **Symptom extraction** from patient narratives
 - **Medical terminology normalization** across different systems
 
 #### 4. Integration and Workflow Management
+
 - **EHR integration** with major hospital systems
 - **DICOM viewer** with AI overlay capabilities
 - **Secure messaging** for care team collaboration
@@ -80,26 +95,26 @@ class MLPipeline:
         self.feature_store = FeatureStore()
         self.model_registry = ModelRegistry()
         self.monitoring = ModelMonitoring()
-    
+
     def train_model(self, dataset, model_config):
         # Validate data quality
         validation_report = self.data_validator.validate(dataset)
         if not validation_report.is_valid:
             raise DataQualityError(validation_report.issues)
-        
+
         # Feature engineering
         features = self.feature_store.create_features(dataset)
-        
+
         # Model training with cross-validation
         model = self.train_with_cv(features, model_config)
-        
+
         # Model evaluation and testing
         evaluation = self.evaluate_model(model, test_set)
-        
+
         # Register model if performance meets criteria
         if evaluation.meets_clinical_standards():
             self.model_registry.register(model, evaluation)
-        
+
         return model, evaluation
 ```
 
@@ -126,20 +141,23 @@ Implemented comprehensive security measures:
 ## Key Results
 
 ### Clinical Impact
+
 - **35% reduction** in diagnostic time for common conditions
 - **92% accuracy** on chest X-ray abnormality detection
 - **25% improvement** in early-stage cancer detection rates
 - **99.7% uptime** for critical diagnostic workflows
 
 ### Business Metrics
+
 - **50+ healthcare facilities** using the platform
 - **10,000+ patients** served monthly
 - **$2.5M ARR** within 18 months of launch
 - **Series A funding** of $8M raised
 
 ### User Adoption
+
 - **89% physician satisfaction** rating
-- **Average session time** increased by 40%  
+- **Average session time** increased by 40%
 - **95% of diagnoses** confirmed by follow-up testing
 - **Training time** reduced from weeks to days
 
@@ -157,6 +175,7 @@ Achieved FDA Breakthrough Device status for our chest X-ray AI:
 ### International Expansion
 
 Navigated regulatory requirements in multiple markets:
+
 - **CE marking** for European deployment
 - **Health Canada approval** for Canadian market
 - **TGA registration** for Australian operations
@@ -174,20 +193,20 @@ class FederatedLearning:
     def __init__(self):
         self.central_server = CentralServer()
         self.encryption = HomomorphicEncryption()
-    
+
     def federated_training(self, hospital_clients):
         global_model = self.initialize_model()
-        
+
         for round in range(self.training_rounds):
             # Send global model to hospitals
             for client in hospital_clients:
                 local_model = client.train_locally(global_model)
                 encrypted_updates = self.encryption.encrypt(local_model.weights)
                 client.send_updates(encrypted_updates)
-            
+
             # Aggregate updates without seeing raw data
             global_model = self.aggregate_encrypted_updates()
-        
+
         return global_model
 ```
 
@@ -227,7 +246,7 @@ Adapted agile methodologies for healthcare requirements:
 ### Clinical Validation Methodology
 
 - **Retrospective studies** on historical data
-- **Prospective trials** with control groups  
+- **Prospective trials** with control groups
 - **Multi-site validation** across different hospitals
 - **External validation** with independent datasets
 
@@ -260,12 +279,14 @@ Adapted agile methodologies for healthcare requirements:
 ## Future Roadmap
 
 ### Short-term (Next 6 months)
+
 - **Expand to MRI analysis** for neurological conditions
 - **Mobile app** for point-of-care diagnostics
 - **API marketplace** for third-party integrations
 - **International market expansion**
 
 ### Long-term (12-24 months)
+
 - **Multi-modal AI** combining imaging, lab results, and clinical notes
 - **Predictive analytics** for patient deterioration
 - **Population health insights** for health systems
