@@ -243,9 +243,9 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## 📧 Contact
 
 - **Website**: [fernandotn.github.io](https://fernandotn.github.io)
-- **Email**: hello@fernandotorres.io
-- **Twitter**: [@fernandotorres](https://twitter.com/fernandotorres)
-- **LinkedIn**: [fernandotorres](https://linkedin.com/in/fernandotorres)
+- **Email**: fertorresnavarrete@gmail.com
+- **Twitter**: [@FernandoTN](https://twitter.com/FernandoTN)
+- **LinkedIn**: [fernandotn](https://www.linkedin.com/in/fernandotn/)
 
 ---
 
