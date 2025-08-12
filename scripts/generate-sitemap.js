@@ -2,19 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const { allPosts, allProjects } = require('../.contentlayer/generated');
 
-const baseUrl = 'https://fernandotorres.io';
+const baseUrl = 'https://fernandotn.github.io';
 
 function generateSitemap() {
-  const staticPages = [
-    '',
-    '/about',
-    '/blog',
-    '/projects',
-    '/contact',
-  ];
+  const staticPages = ['', '/about', '/blog', '/projects', '/contact'];
 
   const blogPages = allPosts.map((post) => `/blog/${post.slugAsParams}`);
-  const projectPages = allProjects.map((project) => `/projects/${project.slugAsParams}`);
+  const projectPages = allProjects.map(
+    (project) => `/projects/${project.slugAsParams}`
+  );
 
   const allPages = [...staticPages, ...blogPages, ...projectPages];
 

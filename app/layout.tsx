@@ -13,8 +13,16 @@ export const metadata: Metadata = {
     default: 'Fernando Torres - AI Engineer & Entrepreneur',
     template: '%s | Fernando Torres',
   },
-  description: 'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
-  keywords: ['AI', 'Machine Learning', 'Entrepreneurship', 'Technology', 'Innovation', 'Startups'],
+  description:
+    'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+  keywords: [
+    'AI',
+    'Machine Learning',
+    'Entrepreneurship',
+    'Technology',
+    'Innovation',
+    'Startups',
+  ],
   authors: [{ name: 'Fernando Torres' }],
   creator: 'Fernando Torres',
   publisher: 'Fernando Torres',
@@ -32,9 +40,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://fernandotorres.io',
+    url: 'https://fernandotn.github.io',
     title: 'Fernando Torres - AI Engineer & Entrepreneur',
-    description: 'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+    description:
+      'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
     siteName: 'Fernando Torres',
     images: [
       {
@@ -48,7 +57,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Fernando Torres - AI Engineer & Entrepreneur',
-    description: 'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
+    description:
+      'AI Engineer, entrepreneur, and tech innovator. Exploring the frontiers of artificial intelligence and building the future.',
     images: ['/og-image.png'],
     creator: '@fernandotorres',
   },
@@ -59,9 +69,14 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   alternates: {
-    canonical: 'https://fernandotorres.io',
+    canonical: 'https://fernandotn.github.io',
     types: {
-      'application/rss+xml': [{ url: 'https://fernandotorres.io/rss.xml', title: 'Fernando Torres Blog' }],
+      'application/rss+xml': [
+        {
+          url: 'https://fernandotn.github.io/rss.xml',
+          title: 'Fernando Torres Blog',
+        },
+      ],
     },
   },
 };
@@ -80,11 +95,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="min-h-screen flex flex-col">
+          <div className="flex min-h-screen flex-col">
             <Navbar />
-            <main className="flex-1">
-              {children}
-            </main>
+            <main className="flex-1">{children}</main>
             <Footer />
           </div>
           <Analytics />

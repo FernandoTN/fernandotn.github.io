@@ -155,6 +155,14 @@ Detailed project description and case study...
 The site uses a custom design system built on Tailwind CSS:
 
 - **Colors**: Customizable color palette in `tailwind.config.js`
+
+## 🔧 Configuration and Updates
+
+- New static pages: `/contact`, `/privacy`, `/terms`.
+- Newsletter/Contact configured via `NEXT_PUBLIC_NEWSLETTER_ENDPOINT` (e.g., Formspree endpoint). If unset, UI falls back to a mailto link.
+- CV download: place your PDF at `public/fernando-torres-cv.pdf` to enable the Download buttons.
+- Domain alignment: default `NEXT_PUBLIC_SITE_URL` and metadata use `https://fernandotn.github.io` for GitHub Pages.
+- Legacy `index.html` placeholder moved out of the repo root to avoid conflicts; see `static-placeholder/README.md`.
 - **Typography**: Inter font with consistent type scale
 - **Spacing**: Harmonious spacing system
 - **Components**: Reusable UI components with variants

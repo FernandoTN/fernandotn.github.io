@@ -1,99 +1,66 @@
-'use client';
+import { Mail } from 'lucide-react';
 
-import { useState } from 'react';
-import { Mail, Loader2, CheckCircle } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-
+// Static-friendly newsletter: posts to a configured endpoint (e.g., Formspree)
+// Fallback shows a mailto subscribe option if no endpoint is configured
 export function Newsletter() {
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
-  const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsLoading(true);
-    setStatus('idle');
-
-    // For static export, redirect to mailto or external form
-    // In production, you would integrate with Formspree, Netlify Forms, or similar
-    try {
-      // Simulate successful subscription for demo
-      setTimeout(() => {
-        setStatus('success');
-        setMessage('Thank you for subscribing! You\'ll hear from me soon.');
-        setEmail('');
-        setName('');
-        setIsLoading(false);
-      }, 1000);
-      
-      // Alternative: redirect to external form service
-      // window.open(`mailto:hello@fernandotorres.io?subject=Newsletter Subscription&body=Name: ${name}%0AEmail: ${email}`, '_blank');
-    } catch (error) {
-      setStatus('error');
-      setMessage('Please email hello@fernandotorres.io to subscribe.');
-      setIsLoading(false);
-    }
-  };
+  const endpoint = process.env.NEXT_PUBLIC_NEWSLETTER_ENDPOINT;
 
   return (
-    <section className="bg-muted/50 rounded-2xl p-8 md:p-12">
-      <div className="max-w-2xl mx-auto text-center">
+    <section className="rounded-2xl bg-muted/50 p-8 md:p-12">
+      <div className="mx-auto max-w-2xl text-center">
         <div className="mb-8">
-          <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
-          <h2 className="text-3xl font-bold tracking-tight mb-4">
+          <Mail className="mx-auto mb-4 h-12 w-12 text-primary" />
+          <h2 className="mb-4 text-3xl font-bold tracking-tight">
             Stay Updated
           </h2>
           <p className="text-lg text-muted-foreground">
-            Get the latest insights on AI, technology trends, and startup adventures 
-            delivered straight to your inbox.
+            Get the latest insights on AI, technology trends, and startup
+            adventures delivered straight to your inbox.
           </p>
         </div>
 
-        {status === 'success' ? (
-          <div className="flex items-center justify-center space-x-2 text-green-600">
-            <CheckCircle className="w-5 h-5" />
-            <span className="font-medium">{message}</span>
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="flex flex-col sm:flex-row gap-4">
+        {endpoint ? (
+          <form action={endpoint} method="POST" className="space-y-4">
+            {/* Honeypot */}
+            <input type="text" name="_honey" className="hidden" />
+            <div className="flex flex-col gap-4 sm:flex-row">
               <input
                 type="text"
+                name="name"
                 placeholder="Your name (optional)"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="flex-1 px-4 py-3 rounded-lg border border-input bg-background focus:ring-2 focus:ring-ring focus:border-transparent outline-none"
+                className="flex-1 rounded-lg border border-input bg-background px-4 py-3 outline-none focus:border-transparent focus:ring-2 focus:ring-ring"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Your email address"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
                 required
-                className="flex-1 px-4 py-3 rounded-lg border border-input bg-background focus:ring-2 focus:ring-ring focus:border-transparent outline-none"
+                className="flex-1 rounded-lg border border-input bg-background px-4 py-3 outline-none focus:border-transparent focus:ring-2 focus:ring-ring"
               />
-              <Button type="submit" disabled={isLoading} className="px-8">
-                {isLoading ? (
-                  <>
-                    <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                    Subscribing...
-                  </>
-                ) : (
-                  'Subscribe'
-                )}
-              </Button>
+              <button
+                type="submit"
+                className="rounded-lg bg-primary px-8 py-3 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+              >
+                Subscribe
+              </button>
             </div>
-            
-            {status === 'error' && (
-              <p className="text-red-600 text-sm">{message}</p>
-            )}
-            
             <p className="text-sm text-muted-foreground">
               No spam, unsubscribe at any time. I respect your privacy.
             </p>
           </form>
+        ) : (
+          <div className="rounded-lg border p-6">
+            <p className="text-muted-foreground">
+              Newsletter endpoint not configured. Email{' '}
+              <a
+                className="underline"
+                href="mailto:hello@fernandotorres.io?subject=Newsletter%20Subscription"
+              >
+                hello@fernandotorres.io
+              </a>{' '}
+              to subscribe.
+            </p>
+          </div>
         )}
       </div>
     </section>

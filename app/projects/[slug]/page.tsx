@@ -5,6 +5,7 @@ import { ExternalLink, Github, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { MDXContent } from '@/components/mdx-content';
+import { getBaseUrl } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 
@@ -52,7 +53,9 @@ export async function generateMetadata({
   };
 }
 
-export async function generateStaticParams(): Promise<ProjectPageProps['params'][]> {
+export async function generateStaticParams(): Promise<
+  ProjectPageProps['params'][]
+> {
   return allProjects.map((project) => ({
     slug: project.slugAsParams,
   }));
@@ -67,12 +70,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
   return (
     <article className="container mx-auto px-4 py-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="mx-auto max-w-4xl">
         {/* Back Button */}
         <div className="mb-8">
           <Button variant="ghost" asChild>
             <Link href="/projects" className="flex items-center space-x-2">
-              <ArrowLeft className="w-4 h-4" />
+              <ArrowLeft className="h-4 w-4" />
               <span>Back to Projects</span>
             </Link>
           </Button>
@@ -81,7 +84,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         {/* Header */}
         <header className="mb-12">
           {project.image && (
-            <div className="relative w-full h-64 md:h-80 mb-8 rounded-lg overflow-hidden">
+            <div className="relative mb-8 h-64 w-full overflow-hidden rounded-lg md:h-80">
               <Image
                 src={project.image}
                 alt={project.title}
@@ -92,17 +95,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </div>
           )}
 
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
+          <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
             {project.title}
           </h1>
 
-          <p className="text-xl text-muted-foreground mb-6">
+          <p className="mb-6 text-xl text-muted-foreground">
             {project.summary}
           </p>
 
           {/* Technologies */}
           {project.technologies && project.technologies.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-6">
+            <div className="mb-6 flex flex-wrap gap-2">
               {project.technologies.map((tech) => (
                 <Badge key={tech} variant="outline">
                   {tech}
@@ -115,26 +118,26 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <div className="flex flex-wrap gap-4">
             {project.website && (
               <Button asChild>
-                <a 
-                  href={project.website} 
-                  target="_blank" 
+                <a
+                  href={project.website}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2"
                 >
-                  <ExternalLink className="w-4 h-4" />
+                  <ExternalLink className="h-4 w-4" />
                   <span>Visit Website</span>
                 </a>
               </Button>
             )}
             {project.github && (
               <Button variant="outline" asChild>
-                <a 
-                  href={project.github} 
-                  target="_blank" 
+                <a
+                  href={project.github}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2"
                 >
-                  <Github className="w-4 h-4" />
+                  <Github className="h-4 w-4" />
                   <span>View Code</span>
                 </a>
               </Button>
@@ -143,19 +146,21 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </header>
 
         {/* Content */}
-        <div className="prose prose-lg dark:prose-invert max-w-none">
+        <div className="prose prose-lg max-w-none dark:prose-invert">
           <MDXContent code={project.body.code} />
         </div>
 
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t">
+        <footer className="mt-16 border-t pt-8">
           <div className="flex items-center justify-between">
             <div className="text-sm text-muted-foreground">
               Project by Fernando Torres
             </div>
             <div className="flex items-center space-x-4">
               <Button variant="outline" size="sm" asChild>
-                <Link href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out ${project.title} by @fernandotorres`)}&url=${encodeURIComponent(`https://fernandotorres.io/projects/${project.slugAsParams}`)}`}>
+                <Link
+                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`Check out ${project.title} by @fernandotorres`)}&url=${encodeURIComponent(`${getBaseUrl()}/projects/${project.slugAsParams}`)}`}
+                >
                   Share Project
                 </Link>
               </Button>

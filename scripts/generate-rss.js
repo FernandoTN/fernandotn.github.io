@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { allPosts } = require('../.contentlayer/generated');
 
-const baseUrl = 'https://fernandotorres.io';
+const baseUrl = 'https://fernandotn.github.io';
 const author = 'Fernando Torres';
 const email = 'hello@fernandotorres.io';
 
@@ -31,7 +31,7 @@ function generateRSS() {
       <guid>${postUrl}</guid>
       <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
       <author>${email} (${post.author || author})</author>
-      ${post.tags?.map(tag => `<category>${tag}</category>`).join('\n      ') || ''}
+      ${post.tags?.map((tag) => `<category>${tag}</category>`).join('\n      ') || ''}
     </item>`;
       })
       .join('')}

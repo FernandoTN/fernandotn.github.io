@@ -75,7 +75,7 @@ export default function AboutPage() {
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
             About Me
           </h1>
-          <p className="text-muted-foreground mx-auto max-w-2xl text-xl">
+          <p className="mx-auto max-w-2xl text-xl text-muted-foreground">
             Healthcare and technology professional, Stanford MSx student, and
             entrepreneur with a passion for building innovative AI solutions
             that transform industries.
@@ -115,7 +115,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {achievements.map((achievement, index) => (
               <div key={index} className="flex items-center space-x-3">
-                <div className="bg-primary h-2 w-2 flex-shrink-0 rounded-full" />
+                <div className="h-2 w-2 flex-shrink-0 rounded-full bg-primary" />
                 <span className="text-muted-foreground">{achievement}</span>
               </div>
             ))}
@@ -136,9 +136,15 @@ export default function AboutPage() {
             Want to Learn More?
           </h2>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
-            <Button size="lg" className="flex items-center space-x-2">
-              <Download className="h-5 w-5" />
-              <span>Download CV</span>
+            <Button size="lg" asChild>
+              <a
+                href="/fernando-torres-cv.pdf"
+                download
+                className="flex items-center space-x-2"
+              >
+                <Download className="h-5 w-5" />
+                <span>Download CV</span>
+              </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a
