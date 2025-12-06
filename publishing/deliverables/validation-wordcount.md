@@ -24,15 +24,15 @@
 | 2025-12-handoff-rate-metric.mdx           | Theme Deep-Dive | 1,865      | 1,800-2,400 | Within Target |
 | 2025-12-component-evaluation.mdx          | Theme Deep-Dive | 1,912      | 1,800-2,400 | Within Target |
 | 2025-12-evaluation-gap.mdx                | Theme Deep-Dive | 2,499      | 1,800-2,400 | Above Target  |
-| 2025-12-autonomy-interview.mdx            | Interview       | 2,214      | 1,600-2,200 | Above Target  |
-| 2025-12-qurrent-interview.mdx             | Interview       | 2,239      | 1,600-2,200 | Above Target  |
-| 2025-12-okta-interview.mdx                | Interview       | 2,170      | 1,600-2,200 | Within Target |
-| 2025-12-crewai-interview.mdx              | Interview       | 2,178      | 1,600-2,200 | Within Target |
-| 2025-12-sybill-interview.mdx              | Interview       | 1,877      | 1,600-2,200 | Within Target |
+| 2025-12-practitioner-interview-2.mdx      | Interview       | 2,214      | 1,600-2,200 | Above Target  |
+| 2025-12-practitioner-interview-1.mdx      | Interview       | 2,239      | 1,600-2,200 | Above Target  |
+| 2025-12-practitioner-interview-3.mdx      | Interview       | 2,170      | 1,600-2,200 | Within Target |
+| 2025-12-practitioner-interview-4.mdx      | Interview       | 2,178      | 1,600-2,200 | Within Target |
+| 2025-12-practitioner-interview-5.mdx      | Interview       | 1,877      | 1,600-2,200 | Within Target |
 | 2025-12-shopping-agent.mdx                | Conference      | 2,302      | 1,600-2,000 | Above Target  |
 | 2025-12-repo-patcher.mdx                  | Conference      | 2,647      | 1,600-2,000 | Above Target  |
 | 2025-12-good-agents.mdx                   | Conference      | 2,215      | 1,600-2,000 | Above Target  |
-| 2025-12-manus-fireside.mdx                | Conference      | 1,849      | 1,600-2,000 | Within Target |
+| 2025-12-autonomous-agent-fireside.mdx     | Conference      | 1,849      | 1,600-2,000 | Within Target |
 | 2025-12-why-95-fail.mdx                   | Conference      | 2,178      | 1,600-2,000 | Above Target  |
 | 2025-12-production-summit.mdx             | Conference      | 2,275      | 1,600-2,000 | Above Target  |
 | 2025-12-research-methodology.mdx          | Methodology     | 2,093      | 1,600-2,000 | Above Target  |
@@ -73,26 +73,26 @@
 
 ### Interview Posts (5)
 
-| File                           | Word Count | Target      | Status        |
-| ------------------------------ | ---------- | ----------- | ------------- |
-| 2025-12-autonomy-interview.mdx | 2,214      | 1,600-2,200 | Above Target  |
-| 2025-12-qurrent-interview.mdx  | 2,239      | 1,600-2,200 | Above Target  |
-| 2025-12-okta-interview.mdx     | 2,170      | 1,600-2,200 | Within Target |
-| 2025-12-crewai-interview.mdx   | 2,178      | 1,600-2,200 | Within Target |
-| 2025-12-sybill-interview.mdx   | 1,877      | 1,600-2,200 | Within Target |
+| File                                 | Word Count | Target      | Status        |
+| ------------------------------------ | ---------- | ----------- | ------------- |
+| 2025-12-practitioner-interview-2.mdx | 2,214      | 1,600-2,200 | Above Target  |
+| 2025-12-practitioner-interview-1.mdx | 2,239      | 1,600-2,200 | Above Target  |
+| 2025-12-practitioner-interview-3.mdx | 2,170      | 1,600-2,200 | Within Target |
+| 2025-12-practitioner-interview-4.mdx | 2,178      | 1,600-2,200 | Within Target |
+| 2025-12-practitioner-interview-5.mdx | 1,877      | 1,600-2,200 | Within Target |
 
 **Summary**: 3 within target, 2 above target, 0 below target
 
 ### Conference Posts (6)
 
-| File                          | Word Count | Target      | Status        |
-| ----------------------------- | ---------- | ----------- | ------------- |
-| 2025-12-shopping-agent.mdx    | 2,302      | 1,600-2,000 | Above Target  |
-| 2025-12-repo-patcher.mdx      | 2,647      | 1,600-2,000 | Above Target  |
-| 2025-12-good-agents.mdx       | 2,215      | 1,600-2,000 | Above Target  |
-| 2025-12-manus-fireside.mdx    | 1,849      | 1,600-2,000 | Within Target |
-| 2025-12-why-95-fail.mdx       | 2,178      | 1,600-2,000 | Above Target  |
-| 2025-12-production-summit.mdx | 2,275      | 1,600-2,000 | Above Target  |
+| File                                  | Word Count | Target      | Status        |
+| ------------------------------------- | ---------- | ----------- | ------------- |
+| 2025-12-shopping-agent.mdx            | 2,302      | 1,600-2,000 | Above Target  |
+| 2025-12-repo-patcher.mdx              | 2,647      | 1,600-2,000 | Above Target  |
+| 2025-12-good-agents.mdx               | 2,215      | 1,600-2,000 | Above Target  |
+| 2025-12-autonomous-agent-fireside.mdx | 1,849      | 1,600-2,000 | Within Target |
+| 2025-12-why-95-fail.mdx               | 2,178      | 1,600-2,000 | Above Target  |
+| 2025-12-production-summit.mdx         | 2,275      | 1,600-2,000 | Above Target  |
 
 **Summary**: 1 within target, 5 above target, 0 below target
 
@@ -122,8 +122,8 @@ These publications exceed their word count targets. While being above target is 
 
 1. **2025-12-dual-memory-architecture.mdx** (Theme Deep-Dive): 2,456 words (56 over)
 2. **2025-12-evaluation-gap.mdx** (Theme Deep-Dive): 2,499 words (99 over)
-3. **2025-12-autonomy-interview.mdx** (Interview): 2,214 words (14 over)
-4. **2025-12-qurrent-interview.mdx** (Interview): 2,239 words (39 over)
+3. **2025-12-practitioner-interview-2.mdx** (Interview): 2,214 words (14 over)
+4. **2025-12-practitioner-interview-1.mdx** (Interview): 2,239 words (39 over)
 5. **2025-12-shopping-agent.mdx** (Conference): 2,302 words (302 over)
 6. **2025-12-repo-patcher.mdx** (Conference): 2,647 words (647 over)
 7. **2025-12-good-agents.mdx** (Conference): 2,215 words (215 over)

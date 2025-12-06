@@ -85,13 +85,13 @@ _Fernando Torres & Shekhar Bhende (MSx '26) | Faculty Sponsor: Prof. Scott J. Br
 
 **Key Discoveries:**
 
-| Finding                                                            | Data Point                                                    |
-| ------------------------------------------------------------------ | ------------------------------------------------------------- |
-| Production AI agents are an engineering problem, not an AI problem | Models contribute only 30-40% to success                      |
-| System integration dominates deployment effort                     | Appears in 92% of sources; consumes 40-50% of deployment time |
-| Framework abandonment is systematic                                | 80-90% of teams abandon LangChain for custom solutions        |
-| Business case failure precedes technical failure                   | 90% of pilots fail due to undefined ROI, not technology       |
-| Context windows require engineering, not expansion                 | 40% utilization threshold regardless of window size           |
+| Finding                                                            | Data Point                                                                |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| Production AI agents are an engineering problem, not an AI problem | Models contribute only 30-40% to success                                  |
+| System integration dominates deployment effort                     | Appears in 92% of sources; consumes 40-50% of deployment time             |
+| Framework abandonment is systematic                                | 80-90% of teams abandon a popular AI agent framework for custom solutions |
+| Business case failure precedes technical failure                   | 90% of pilots fail due to undefined ROI, not technology                   |
+| Context windows require engineering, not expansion                 | 40% utilization threshold regardless of window size                       |
 
 **Implications:**
 
@@ -122,7 +122,7 @@ _Fernando Torres & Shekhar Bhende (MSx '26) | Faculty Sponsor: Prof. Scott J. Br
 **Slide 3: Research Methodology**
 
 - 36 expert interviews (enterprise platforms, coding agents, vertical SaaS, framework companies)
-- 5 industry conferences (Alibaba Qwen, Production Agents Summit, Manus Fireside, Project Nanda)
+- 5 industry conferences (Alibaba Qwen, Production Agents Summit, an AI autonomous agent company Fireside, Project Nanda)
 - 3 functional prototypes (Shopping Agent, Repo Patcher, Good Agents)
 
 **Slide 4: Initial Hypotheses**
@@ -149,7 +149,7 @@ _Fernando Torres & Shekhar Bhende (MSx '26) | Faculty Sponsor: Prof. Scott J. Br
 
 **Slide 7: Key Pattern 2 - Framework Abandonment**
 
-- 80-90% of production teams abandon LangChain
+- 80-90% of production teams abandon a popular AI agent framework
 - Bloat, 3-4x slower performance, loss of control
 - Validated in our Shopping Agent prototype
 - Paradox: prototyping accelerators become production obstacles
@@ -220,7 +220,7 @@ The surprising finding: Models contribute only 30-40% to agent success. The rema
 Key discoveries:
 
 - 92% of sources cite system integration as the dominant challenge
-- 80-90% of production teams abandon popular frameworks like LangChain
+- 80-90% of production teams abandon popular frameworks like a popular AI agent framework
 - 40-50% of deployment time is spent on integration—not AI development
 - Business case failure precedes technical failure
 

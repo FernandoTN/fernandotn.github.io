@@ -41,12 +41,12 @@ What's your team's handoff rate? Is it actually improving?
 **Hook**: 95% failure rate statistic as pattern interrupt
 **Key Quote Used**:
 
-- "The real question is does it actually reduce the handoff to humans" (Cece, Visigrate)
+- "The real question is does it actually reduce the handoff to humans" (Cece, an AI infrastructure company)
 
 **Key Data Points Used**:
 
 - 95% failure rate (Conference title/theme)
-- 30% accuracy drop beyond 25 MCP tools (Conference insight + CC/Vivgrid research)
+- 30% accuracy drop beyond 25 MCP tools (Conference insight + CC/an AI infrastructure company research)
 - Four traps taxonomy (Conference framework)
 - Handoff rate metric (Conference key insight)
 

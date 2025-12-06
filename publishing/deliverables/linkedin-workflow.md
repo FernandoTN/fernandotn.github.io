@@ -38,10 +38,10 @@ For each post before publishing:
 
 ### Week 2: Framework & Production Challenges
 
-| Day | Post File                   | Title                                                                  | Blog Link to Insert                   |
-| --- | --------------------------- | ---------------------------------------------------------------------- | ------------------------------------- |
-| Tue | 04-framework-abandonment.md | 80-90% of Teams Abandon LangChain for Production - Here's Why          | /blog/framework-ecosystem-abandonment |
-| Thu | 05-demo-production-chasm.md | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations | /blog/demo-production-chasm           |
+| Day | Post File                   | Title                                                                            | Blog Link to Insert                   |
+| --- | --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------- |
+| Tue | 04-framework-abandonment.md | 80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why | /blog/framework-ecosystem-abandonment |
+| Thu | 05-demo-production-chasm.md | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations           | /blog/demo-production-chasm           |
 
 ### Week 3: Enterprise & Model Reality
 
@@ -68,20 +68,20 @@ For each post before publishing:
 
 ### Week 6: Practitioner Perspectives (Part 1)
 
-| Day | Post File                | Title                                                               | Blog Link to Insert      |
-| --- | ------------------------ | ------------------------------------------------------------------- | ------------------------ |
-| Tue | 14-qurrent-interview.md  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert | /blog/qurrent-interview  |
-| Thu | 15-autonomy-interview.md | Autonomy's Take: Managing Expectations with Probabilistic Systems   | /blog/autonomy-interview |
+| Day | Post File                      | Title                                                                                         | Blog Link to Insert            |
+| --- | ------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------ |
+| Tue | 14-practitioner-interview-1.md | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert | /blog/practitioner-interview-1 |
+| Thu | 15-practitioner-interview-2.md | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems         | /blog/practitioner-interview-2 |
 
 **Note**: Practitioner interview posts require attribution permissions before publishing. Confirm with interviewees.
 
 ### Week 7: Practitioner Perspectives (Part 2)
 
-| Day | Post File              | Title                                                            | Blog Link to Insert    |
-| --- | ---------------------- | ---------------------------------------------------------------- | ---------------------- |
-| Mon | 16-okta-interview.md   | How Okta is Solving AI Agent Identity: The Next SSO Moment       | /blog/okta-interview   |
-| Wed | 17-crewai-interview.md | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat | /blog/crewai-interview |
-| Fri | 18-sybill-interview.md | Sybill's Approach: Building AI Sales Agents That Actually Work   | /blog/sybill-interview |
+| Day | Post File                      | Title                                                                                     | Blog Link to Insert            |
+| --- | ------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------ |
+| Mon | 16-practitioner-interview-3.md | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment | /blog/practitioner-interview-3 |
+| Wed | 17-practitioner-interview-4.md | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat | /blog/practitioner-interview-4 |
+| Fri | 18-practitioner-interview-5.md | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work  | /blog/practitioner-interview-5 |
 
 **Note**: Practitioner interview posts require attribution permissions before publishing. Confirm with interviewees.
 
@@ -94,11 +94,11 @@ For each post before publishing:
 
 ### Week 9: Multi-Agent & Conference Insights
 
-| Day | Post File            | Title                                                                       | Blog Link to Insert           |
-| --- | -------------------- | --------------------------------------------------------------------------- | ----------------------------- |
-| Mon | 21-good-agents.md    | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration | /blog/good-agents-multi-agent |
-| Wed | 22-manus-fireside.md | Manus Fireside: The 30-40% Model Revelation That Changed Everything         | /blog/manus-fireside          |
-| Fri | 23-why-95-fail.md    | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways               | /blog/why-95-fail             |
+| Day | Post File                       | Title                                                                                        | Blog Link to Insert             |
+| --- | ------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------- |
+| Mon | 21-good-agents.md               | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration                  | /blog/good-agents-multi-agent   |
+| Wed | 22-autonomous-agent-fireside.md | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything | /blog/autonomous-agent-fireside |
+| Fri | 23-why-95-fail.md               | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways                                | /blog/why-95-fail               |
 
 ### Week 10: Methodology & Wrap-up
 
@@ -231,13 +231,13 @@ Contact communications support if:
 
 Before publishing practitioner interview posts (Posts 14-18):
 
-| Post | Interviewee | Company  | Permission Status |
-| ---- | ----------- | -------- | ----------------- |
-| 14   | David       | Qurrent  | [ ] Confirmed     |
-| 15   | TBD         | Autonomy | [ ] Confirmed     |
-| 16   | Tian        | Okta     | [ ] Confirmed     |
-| 17   | TBD         | CrewAI   | [ ] Confirmed     |
-| 18   | TBD         | Sybill   | [ ] Confirmed     |
+| Post | Interviewee            | Company                             | Permission Status |
+| ---- | ---------------------- | ----------------------------------- | ----------------- |
+| 14   | the practitioner       | an AI agent orchestration company   | [ ] Confirmed     |
+| 15   | TBD                    | an AI infrastructure company        | [ ] Confirmed     |
+| 16   | the engineering leader | a major enterprise identity company | [ ] Confirmed     |
+| 17   | TBD                    | a multi-agent framework company     | [ ] Confirmed     |
+| 18   | TBD                    | an AI sales intelligence company    | [ ] Confirmed     |
 
 ---
 

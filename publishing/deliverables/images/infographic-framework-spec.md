@@ -32,14 +32,14 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 
 ## Key Data Points
 
-| Metric                                         | Value                               | Source Frequency    | Visual Treatment           |
-| ---------------------------------------------- | ----------------------------------- | ------------------- | -------------------------- |
-| Framework abandonment rate                     | 80-90%                              | 12/26 sources       | Large prominent percentage |
-| Model contribution to agent success            | 30-40%                              | 18/26 sources       | Supporting data point      |
-| System architecture contribution               | 60-70%                              | 18/26 sources       | Supporting data point      |
-| Performance improvement (custom vs. framework) | 3-4x faster                         | Clientell interview | Speedometer visual         |
-| MCP accuracy threshold                         | 25 tools (30% accuracy drop beyond) | 6/26 sources        | Warning indicator          |
-| Framework contribution to success              | 30-40%                              | Manus Fireside      | Pie segment                |
+| Metric                                         | Value                               | Source Frequency                        | Visual Treatment           |
+| ---------------------------------------------- | ----------------------------------- | --------------------------------------- | -------------------------- |
+| Framework abandonment rate                     | 80-90%                              | 12/26 sources                           | Large prominent percentage |
+| Model contribution to agent success            | 30-40%                              | 18/26 sources                           | Supporting data point      |
+| System architecture contribution               | 60-70%                              | 18/26 sources                           | Supporting data point      |
+| Performance improvement (custom vs. framework) | 3-4x faster                         | a CRM AI company interview              | Speedometer visual         |
+| MCP accuracy threshold                         | 25 tools (30% accuracy drop beyond) | 6/26 sources                            | Warning indicator          |
+| Framework contribution to success              | 30-40%                              | an AI autonomous agent company Fireside | Pie segment                |
 
 ---
 
@@ -57,7 +57,7 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 
 - Visual: Smooth road with clear signage
 - Label: "PROTOTYPE PHASE"
-- Framework icons: LangChain, LangGraph, CrewAI logos/placeholders
+- Framework icons: a popular AI agent framework, LangGraph, a multi-agent framework company logos/placeholders
 - Callout bubble: "Fast iteration, pre-built components"
 - Statistic: "80-90% start here"
 
@@ -69,7 +69,7 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
   - "Bloat Ahead"
   - "3-4x Performance Gap"
   - "Control Detour Required"
-- Quote callout: _"Full of bloat... unnecessary things"_ - Cynthia, WiseAgents
+- Quote callout: _"Full of bloat... unnecessary things"_ - Cynthia, a consulting firm
 
 **Stage 3 - The Build Phase (center-right)**
 
@@ -78,7 +78,7 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 - Fork visualization:
   - Upper path (narrow): "Stay with Framework" (10-20%)
   - Lower path (wider): "Build Custom" (80-90%)
-- Quote callout: _"3-4x faster than LangChain"_ - Sahil, Clientell
+- Quote callout: _"3-4x faster than a popular AI agent framework"_ - a practitioner, a CRM AI company
 
 **Stage 4 - Destination (right side)**
 
@@ -105,7 +105,7 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 - Central callout box:
   - **"Model: 30-40% | Architecture: 60-70%"**
   - "System architecture matters more than model selection"
-  - Source: Manus Fireside empirical data
+  - Source: an AI autonomous agent company Fireside empirical data
 
 ### Zone 5: Footer (1120-1200px height)
 
@@ -172,9 +172,9 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 
 ### Framework Logos/Representations
 
-- LangChain (chain link icon or placeholder)
+- a popular AI agent framework (chain link icon or placeholder)
 - LangGraph (graph icon)
-- CrewAI (team/crew icon)
+- a multi-agent framework company (team/crew icon)
 - MCP (connector icon)
 
 ### Journey Icons
@@ -203,23 +203,23 @@ _Subtitle: Why 80-90% of Production Teams Move Beyond Initial Frameworks_
 
 **Primary Quote (Stage 2/3):**
 
-> "Every company we've talked to, they stop. They started with LangChain... But once they start going into customers and into production, they realize... It's full of bloat."
-> _- Cynthia, WiseAgents_
+> "Every company we've talked to, they stop. They started with a popular AI agent framework... But once they start going into customers and into production, they realize... It's full of bloat."
+> _- Cynthia, a consulting firm_
 
 **Performance Quote (Stage 3):**
 
-> "We are like, three to four times faster than LangChain."
-> _- Sahil, Clientell_
+> "We are like, three to four times faster than a popular AI agent framework."
+> _- a practitioner, a CRM AI company_
 
 **Architecture Quote (Stage 4):**
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. The framework, the whole system you build upon the model is much more important."
-> _- Manus Fireside_
+> _- an AI autonomous agent company Fireside_
 
 **Control Quote (Supporting):**
 
 > "The instinct is to at least start it in house just to build the intuition... they [frameworks] weren't giving us the amount of control we wanted."
-> _- Saurav, RunLLM_
+> _- a practitioner, an AI observability company_
 
 ---
 

@@ -18,14 +18,14 @@ This analysis examines theme occurrence patterns across all extraction documents
 
 ### Core Themes (Predefined)
 
-| Theme                                   | Occurrences | Percentage | Sources                                                                                                                                                                                                                                                                                                                                                       |
-| --------------------------------------- | ----------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **System Integration**                  | 24/26       | 92%        | David_Qurrent, Saurav_RunLLM, Tushar_CodeForge, Tian_Okta, Mrinal_Autonomy, CC_Vivgrid, Sahil_Clientell, Mehak_Sybill, Abhishek_Apna, Yujian_Tan, Cynthia_WiseAgents, ChatPRD, CrewAI, Roblox, VCatTheory, Alibaba_Qwen, Project_Nanda, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Shopping_Agent, Repo_Patcher, Good_Agents, Stephen_GMI |
-| **Framework & Tooling Ecosystem**       | 22/26       | 85%        | Saurav_RunLLM, Tushar_CodeForge, Tian_Okta, Mrinal_Autonomy, CC_Vivgrid, Sahil_Clientell, Mehak_Sybill, Abhishek_Apna, Yujian_Tan, Cynthia_WiseAgents, ChatPRD, CrewAI, Roblox, Stephen_GMI, VCatTheory, Alibaba_Qwen, Project_Nanda, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Shopping_Agent, Repo_Patcher, Good_Agents                |
-| **Probabilistic Systems & Reliability** | 22/26       | 85%        | David_Qurrent, Saurav_RunLLM, Mrinal_Autonomy, CC_Vivgrid, Sahil_Clientell, Mehak_Sybill, Abhishek_Apna, Yujian_Tan, Cynthia_WiseAgents, CrewAI, Roblox, Stephen_GMI, VCatTheory, Project_Nanda, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents, Tian_Okta, ChatPRD, Shopping_Agent                                 |
-| **Enterprise Blockers & Governance**    | 21/26       | 81%        | David_Qurrent, Saurav_RunLLM, Tushar_CodeForge, Tian_Okta, Mrinal_Autonomy, CC_Vivgrid, Sahil_Clientell, Abhishek_Apna, Yujian_Tan, Cynthia_WiseAgents, CrewAI, Roblox, Stephen_GMI, VCatTheory, Alibaba_Qwen, Project_Nanda, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                        |
-| **Context Management & Memory**         | 18/26       | 69%        | Saurav_RunLLM, Tushar_CodeForge, Mrinal_Autonomy, CC_Vivgrid, Sahil_Clientell, Mehak_Sybill, Abhishek_Apna, ChatPRD, CrewAI, Roblox, VCatTheory, Alibaba_Qwen, Project_Nanda, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                                                                        |
-| **Model Capabilities & Limitations**    | 16/26       | 62%        | Tushar_CodeForge, Tian_Okta, Sahil_Clientell, Mehak_Sybill, Abhishek_Apna, Yujian_Tan, ChatPRD, Roblox, Stephen_GMI, VCatTheory, Alibaba_Qwen, Manus_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                                                                                                       |
+| Theme                                   | Occurrences | Percentage | Sources                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------- | ----------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **System Integration**                  | 24/26       | 92%        | the practitioner_an AI agent orchestration company, a practitioner_an AI observability company, a developer_an AI coding company, the engineering leader_a major enterprise identity company, the founder_an AI infrastructure company, CC_an AI infrastructure company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company, an engineering leader_a workforce platform, Yujian_Tan, Cynthia_a consulting firm, ChatPRD, a multi-agent framework company, Roblox, a VC investor, Alibaba_Qwen, Project_Nanda, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Shopping_Agent, Repo_Patcher, Good_Agents, Stephen_GMI |
+| **Framework & Tooling Ecosystem**       | 22/26       | 85%        | a practitioner_an AI observability company, a developer_an AI coding company, the engineering leader_a major enterprise identity company, the founder_an AI infrastructure company, CC_an AI infrastructure company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company, an engineering leader_a workforce platform, Yujian_Tan, Cynthia_a consulting firm, ChatPRD, a multi-agent framework company, Roblox, Stephen_GMI, a VC investor, Alibaba_Qwen, Project_Nanda, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Shopping_Agent, Repo_Patcher, Good_Agents                                                     |
+| **Probabilistic Systems & Reliability** | 22/26       | 85%        | the practitioner_an AI agent orchestration company, a practitioner_an AI observability company, the founder_an AI infrastructure company, CC_an AI infrastructure company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company, an engineering leader_a workforce platform, Yujian_Tan, Cynthia_a consulting firm, a multi-agent framework company, Roblox, Stephen_GMI, a VC investor, Project_Nanda, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents, the engineering leader_a major enterprise identity company, ChatPRD, Shopping_Agent                                                 |
+| **Enterprise Blockers & Governance**    | 21/26       | 81%        | the practitioner_an AI agent orchestration company, a practitioner_an AI observability company, a developer_an AI coding company, the engineering leader_a major enterprise identity company, the founder_an AI infrastructure company, CC_an AI infrastructure company, a practitioner_a CRM AI company, an engineering leader_a workforce platform, Yujian_Tan, Cynthia_a consulting firm, a multi-agent framework company, Roblox, Stephen_GMI, a VC investor, Alibaba_Qwen, Project_Nanda, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                                                        |
+| **Context Management & Memory**         | 18/26       | 69%        | a practitioner_an AI observability company, a developer_an AI coding company, the founder_an AI infrastructure company, CC_an AI infrastructure company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company, an engineering leader_a workforce platform, ChatPRD, a multi-agent framework company, Roblox, a VC investor, Alibaba_Qwen, Project_Nanda, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                                                                                                                                                                     |
+| **Model Capabilities & Limitations**    | 16/26       | 62%        | a developer_an AI coding company, the engineering leader_a major enterprise identity company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company, an engineering leader_a workforce platform, Yujian_Tan, ChatPRD, Roblox, Stephen_GMI, a VC investor, Alibaba_Qwen, an AI autonomous agent company_Fireside, Production_Agents_Summit, Why_95_Percent_Fail, Repo_Patcher, Good_Agents                                                                                                                                                                                                                                                                       |
 
 ### Analysis Notes:
 
@@ -47,29 +47,29 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 ### Emergent Themes by Frequency
 
-| Emergent Theme                          | Count | Sources                                                   |
-| --------------------------------------- | ----- | --------------------------------------------------------- |
-| **Business Case & ROI Calculation**     | 5     | David_Qurrent, Tian_Okta, Alibaba_Qwen, CrewAI, ChatPRD   |
-| **Deployment & Service Models**         | 4     | David_Qurrent, Tian_Okta, CrewAI, Cynthia_WiseAgents      |
-| **Infrastructure & Scaling Economics**  | 4     | CC_Vivgrid, Stephen_GMI, Alibaba_Qwen, Project_Nanda      |
-| **Agent Memory Architecture (Dual)**    | 3     | Saurav_RunLLM, Sahil_Clientell, Mehak_Sybill              |
-| **Software Engineering Paradigm Shift** | 3     | Mrinal_Autonomy, ChatPRD, Manus_Fireside                  |
-| **Evaluation Methodology & Metrics**    | 3     | Yujian_Tan, Production_Agents_Summit, Why_95_Percent_Fail |
-| **Harness Obsolescence & Timing**       | 2     | Tushar_CodeForge, Manus_Fireside                          |
-| **Open Source Strategy & Ecosystem**    | 2     | Alibaba_Qwen, Project_Nanda                               |
-| **Multi-Agent Orchestration Patterns**  | 2     | VCatTheory, Good_Agents                                   |
-| **Agent UX Design Patterns**            | 2     | Production_Agents_Summit, Why_95_Percent_Fail             |
-| **Generation vs. Analysis Asymmetry**   | 1     | Tushar_CodeForge                                          |
-| **Organizational Change Management**    | 1     | Mrinal_Autonomy                                           |
-| **Data Architecture as Moat**           | 1     | Mehak_Sybill                                              |
-| **Voice AI Infrastructure**             | 1     | Abhishek_Apna                                             |
-| **Agentic Economics & Commerce**        | 1     | Project_Nanda                                             |
-| **Cost Management in Production**       | 1     | Repo_Patcher                                              |
-| **Geographic Labor Arbitrage for AI**   | 1     | CrewAI                                                    |
+| Emergent Theme                          | Count | Sources                                                                                                                                                                    |
+| --------------------------------------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Business Case & ROI Calculation**     | 5     | the practitioner_an AI agent orchestration company, the engineering leader_a major enterprise identity company, Alibaba_Qwen, a multi-agent framework company, ChatPRD     |
+| **Deployment & Service Models**         | 4     | the practitioner_an AI agent orchestration company, the engineering leader_a major enterprise identity company, a multi-agent framework company, Cynthia_a consulting firm |
+| **Infrastructure & Scaling Economics**  | 4     | CC_an AI infrastructure company, Stephen_GMI, Alibaba_Qwen, Project_Nanda                                                                                                  |
+| **Agent Memory Architecture (Dual)**    | 3     | a practitioner_an AI observability company, a practitioner_a CRM AI company, the AI lead_an AI sales intelligence company                                                  |
+| **Software Engineering Paradigm Shift** | 3     | the founder_an AI infrastructure company, ChatPRD, an AI autonomous agent company_Fireside                                                                                 |
+| **Evaluation Methodology & Metrics**    | 3     | Yujian_Tan, Production_Agents_Summit, Why_95_Percent_Fail                                                                                                                  |
+| **Harness Obsolescence & Timing**       | 2     | a developer_an AI coding company, an AI autonomous agent company_Fireside                                                                                                  |
+| **Open Source Strategy & Ecosystem**    | 2     | Alibaba_Qwen, Project_Nanda                                                                                                                                                |
+| **Multi-Agent Orchestration Patterns**  | 2     | a VC investor, Good_Agents                                                                                                                                                 |
+| **Agent UX Design Patterns**            | 2     | Production_Agents_Summit, Why_95_Percent_Fail                                                                                                                              |
+| **Generation vs. Analysis Asymmetry**   | 1     | a developer_an AI coding company                                                                                                                                           |
+| **Organizational Change Management**    | 1     | the founder_an AI infrastructure company                                                                                                                                   |
+| **Data Architecture as Moat**           | 1     | the AI lead_an AI sales intelligence company                                                                                                                               |
+| **Voice AI Infrastructure**             | 1     | an engineering leader_a workforce platform                                                                                                                                 |
+| **Agentic Economics & Commerce**        | 1     | Project_Nanda                                                                                                                                                              |
+| **Cost Management in Production**       | 1     | Repo_Patcher                                                                                                                                                               |
+| **Geographic Labor Arbitrage for AI**   | 1     | a multi-agent framework company                                                                                                                                            |
 
 ### Key Findings:
 
-**Business Case & ROI Calculation** emerged most frequently (5 sources), indicating that the primary failure mode isn't technical—it's economic viability and unclear value proposition. David (Qurrent) explicitly stated: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
+**Business Case & ROI Calculation** emerged most frequently (5 sources), indicating that the primary failure mode isn't technical—it's economic viability and unclear value proposition. an enterprise AI deployment expert explicitly stated: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
 
 **Deployment & Service Models** (4 sources) reflects a fundamental business model shift from SaaS subscription to outcome-based pricing, managed services, and consulting-heavy implementations.
 
@@ -77,7 +77,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Agent Memory Architecture** (3 sources) reveals a critical distinction: user memory (preferences, context) vs. agent memory (problem-solving patterns, tool selection). Most vendors conflate these.
 
-**Software Engineering Paradigm Shift** (3 sources) captures the fundamental change from millisecond request/response to long-lived sessions (minutes/hours), stateless to stateful, and deterministic to probabilistic systems. Mrinal (Autonomy) emphasized: "Most people building super lightweight three tier web apps now have to run systems that learn for a long time, have long lived state, can have buffer problems..."
+**Software Engineering Paradigm Shift** (3 sources) captures the fundamental change from millisecond request/response to long-lived sessions (minutes/hours), stateless to stateful, and deterministic to probabilistic systems. a founder at an AI infrastructure company emphasized: "Most people building super lightweight three tier web apps now have to run systems that learn for a long time, have long lived state, can have buffer problems..."
 
 ---
 
@@ -123,30 +123,30 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **1. Framework & Tooling Ecosystem**
 
-- **Early sources**: General mentions of LangChain, framework skepticism
+- **Early sources**: General mentions of a popular AI agent framework, framework skepticism
 - **Later sources**: Specific critiques (LangGraph bloat, Shopping Agent framework switch), observability gaps (OpenTelemetry requirements), move toward custom solutions
-- **Evidence**: Cynthia (WiseAgents, Nov 19): "80-90% abandon LangChain for production"; Production Agents Summit (Oct 10): Required full observability stack (Jaeger, Langfuse, Prometheus, Grafana)
+- **Evidence**: Cynthia (a consulting firm, Nov 19): "80-90% abandon a popular AI agent framework for production"; Production Agents Summit (Oct 10): Required full observability stack (Jaeger, Langfuse, Prometheus, Grafana)
 - **Trajectory**: From "framework overhead" to "framework abandonment" as pattern
 
 **2. Business Case & ROI Calculation** (emergent)
 
-- **Early sources**: David (Oct 14) identified as "primary failure mode"
-- **Later sources**: Alibaba (Oct 7), CrewAI (Nov 13), ChatPRD (Nov 17) reinforced with quantified examples
-- **Evidence**: CrewAI customer saving $2M in single use case, $100M target for 2026; ChatPRD 3-4x throughput improvement (4,000 → 12,000-16,000 leads/year)
+- **Early sources**: the practitioner (Oct 14) identified as "primary failure mode"
+- **Later sources**: Alibaba (Oct 7), a multi-agent framework company (Nov 13), ChatPRD (Nov 17) reinforced with quantified examples
+- **Evidence**: a multi-agent framework company customer saving $2M in single use case, $100M target for 2026; ChatPRD 3-4x throughput improvement (4,000 → 12,000-16,000 leads/year)
 - **Trajectory**: From theoretical concern to quantified business impact data
 
 **3. Evaluation Methodology** (emergent)
 
 - **Early sources**: Basic mention of evals as missing
 - **Later sources**: Specific methodologies emerged (LLM-as-judge, component-level vs end-to-end, handoff rate metric)
-- **Evidence**: Mehak (Sybill, Nov 3): "Build blind after step one"; Why 95% Fail (Nov 3): "Handoff rate as success metric"
+- **Evidence**: the AI lead (an AI sales intelligence company, Nov 3): "Build blind after step one"; Why 95% Fail (Nov 3): "Handoff rate as success metric"
 - **Trajectory**: From "we need evals" to "specific evaluation architectures and metrics"
 
 **4. MCP Protocol Specificity**
 
 - **Early sources**: MCP as potential solution
 - **Later sources**: Detailed critiques of MCP limitations (context bloat, over-generality, scalability issues)
-- **Evidence**: CC (Vivgrid, Nov 11): "25-tool limit, 30% accuracy drop"; Saurav (RunLLM, Nov 11): "Way too many operations specified"
+- **Evidence**: CC (an AI infrastructure company, Nov 11): "25-tool limit, 30% accuracy drop"; a practitioner (an AI observability company, Nov 11): "Way too many operations specified"
 - **Trajectory**: From optimism to practical limitations with quantified failures
 
 ### Themes That DIMINISHED
@@ -155,14 +155,14 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 - **Early expectation**: Models need to improve for agents to work
 - **Later consensus**: Models are "good enough"; framework and integration are bottlenecks
-- **Evidence**: David (Oct 14): "GPT-4 level models already sufficient"; Manus (Sept 25): "Models only contribute 30-40%, framework 60-70%"
+- **Evidence**: the practitioner (Oct 14): "GPT-4 level models already sufficient"; an AI autonomous agent company (Sept 25): "Models only contribute 30-40%, framework 60-70%"
 - **Trajectory**: From capability focus to integration/architecture focus
 
 **2. Multi-Agent Architecture as Solution**
 
 - **Early discussion**: Multi-agent as default pattern
 - **Later critique**: Limited to specific use cases (orthogonal research tasks); coordination failures
-- **Evidence**: Tushar (CodeForge, Oct 29): "Multi-agent works only for research, fails for parallel execution on shared resources"
+- **Evidence**: a developer (an AI coding company, Oct 29): "Multi-agent works only for research, fails for parallel execution on shared resources"
 - **Trajectory**: From general solution to narrow applicability
 
 ### Themes That Remained STABLE
@@ -170,7 +170,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 **1. System Integration Complexity**
 
 - **Consistency**: 24/26 sources (92%) across entire timeline
-- **Evidence**: Equally critical in Oct (David, Tushar, Tian) and Nov (CC, Saurav, Cynthia) interviews
+- **Evidence**: Equally critical in Oct (the practitioner, a developer, the engineering leader) and Nov (CC, a practitioner, Cynthia) interviews
 - **Nature**: Heterogeneous tech stacks, API fabrication, MCP immaturity remain constant challenges
 
 **2. Enterprise Blockers & Governance**
@@ -182,7 +182,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 **3. Probabilistic Systems Reliability Gap**
 
 - **Consistency**: 22/26 sources (85%) across timeline
-- **Evidence**: Demo vs production gap, 70% demo threshold (Mrinal), 90% pilot failure (David), evaluation challenges persist
+- **Evidence**: Demo vs production gap, 70% demo threshold (the founder), 90% pilot failure (the practitioner), evaluation challenges persist
 - **Nature**: Core characteristic of LLM-based systems, not diminishing with time
 
 ---
@@ -195,46 +195,46 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 - E = Emergent theme introduced by source
 - [Blank] = Theme not present
 
-| Source                   | System Integration | Context Mgmt | Probabilistic | Model Caps | Enterprise | Framework | Emergent Count                                                                             |
-| ------------------------ | ------------------ | ------------ | ------------- | ---------- | ---------- | --------- | ------------------------------------------------------------------------------------------ |
-| **Interviews**           |
-| David_Qurrent            | ✓                  |              | ✓             |            | ✓          |           | 3E (ROI, Service Models, Deployment)                                                       |
-| Saurav_RunLLM            | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Dual Memory, Sub-Agent)                                                                |
-| Tushar_CodeForge         | ✓                  | ✓            |               | ✓          | ✓          | ✓         | 3E (Harness Obsolescence, Gen vs Analysis, Product Exp)                                    |
-| Tian_Okta                | ✓                  |              | ✓             | ✓          | ✓          | ✓         | 3E (Pricing/Economic, Adoption Patterns, Standards)                                        |
-| Mrinal_Autonomy          | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Paradigm Shift, Organizational Openness)                                               |
-| CC_Vivgrid               | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 3E (Infrastructure, Agent-to-Agent, Fat Client)                                            |
-| Sahil_Clientell          | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (Data Structures, User Articulation, Hybrid Roles)                                      |
-| Mehak_Sybill             | ✓                  | ✓            | ✓             | ✓          |            | ✓         | 4E (Eval Granularity, UI Abstraction, Data Moat, Opinionated Design)                       |
-| Abhishek_Apna            | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Voice AI, Industry Customization, Demo Gap, Context Burden)                            |
-| Stephen_GMI              |                    |              | ✓             | ✓          | ✓          | ✓         | 4E (Infrastructure, Model Independence, Neo-Cloud, Eval Gap)                               |
-| Yujian_Tan               | ✓                  |              | ✓             | ✓          | ✓          | ✓         | 2E (Definition, Evaluation Methodology)                                                    |
-| Cynthia_WiseAgents       | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (GTM Strategy, Consulting-to-Product)                                                   |
-| ChatPRD                  | ✓                  | ✓            |               | ✓          |            | ✓         | 3E (Capital Efficiency, Personal Brand, AI-Native Org)                                     |
-| CrewAI                   | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 3E (Business Logic Migration, Geographic Labor, AI Capital)                                |
-| Roblox                   | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Gaming Platform, Org Design, Role Modeling, Assist Mode)                               |
-| VCatTheory               | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 2E (Agent Management Scale, Business Disruption)                                           |
-| Zeena                    |                    |              |               |            |            |           | 5E (Acquisition tactics, not technical)                                                    |
-| **Conferences**          |
-| Alibaba_Qwen             | ✓                  | ✓            |               | ✓          | ✓          | ✓         | 4E (Open Source, Inference Cost, Vertical AI, AGI Timeline)                                |
-| Project_Nanda            | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Agentic Economics, Open Standards, Human-Centered, Permissionless)                     |
-| Manus_Fireside           | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (GTM Strategy, Product Velocity, Multi-Model)                                           |
-| Production_Agents_Summit | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (Agent UX, Protocol Std, Parallelism)                                                   |
-| Why_95_Percent_Fail      | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 6E (Handoff Rate, Tech Debt, AI Decoupling, Edge Computing, UX Defense, Cost Optimization) |
-| **Prototypes**           |
-| Shopping_Agent           | ✓                  |              |               |            |            | ✓         | 2E (Framework Pragmatism, Polyglot)                                                        |
-| Repo_Patcher             | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 2E (Cost Management, Safety-First)                                                         |
-| Good_Agents              | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Transparency/Trust, Production Scale)                                                  |
+| Source                                                     | System Integration | Context Mgmt | Probabilistic | Model Caps | Enterprise | Framework | Emergent Count                                                                             |
+| ---------------------------------------------------------- | ------------------ | ------------ | ------------- | ---------- | ---------- | --------- | ------------------------------------------------------------------------------------------ |
+| **Interviews**                                             |
+| the practitioner_an AI agent orchestration company         | ✓                  |              | ✓             |            | ✓          |           | 3E (ROI, Service Models, Deployment)                                                       |
+| a practitioner_an AI observability company                 | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Dual Memory, Sub-Agent)                                                                |
+| a developer_an AI coding company                           | ✓                  | ✓            |               | ✓          | ✓          | ✓         | 3E (Harness Obsolescence, Gen vs Analysis, Product Exp)                                    |
+| the engineering leader_a major enterprise identity company | ✓                  |              | ✓             | ✓          | ✓          | ✓         | 3E (Pricing/Economic, Adoption Patterns, Standards)                                        |
+| the founder_an AI infrastructure company                   | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Paradigm Shift, Organizational Openness)                                               |
+| CC_an AI infrastructure company                            | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 3E (Infrastructure, Agent-to-Agent, Fat Client)                                            |
+| a practitioner_a CRM AI company                            | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (Data Structures, User Articulation, Hybrid Roles)                                      |
+| the AI lead_an AI sales intelligence company               | ✓                  | ✓            | ✓             | ✓          |            | ✓         | 4E (Eval Granularity, UI Abstraction, Data Moat, Opinionated Design)                       |
+| an engineering leader_a workforce platform                 | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Voice AI, Industry Customization, Demo Gap, Context Burden)                            |
+| Stephen_GMI                                                |                    |              | ✓             | ✓          | ✓          | ✓         | 4E (Infrastructure, Model Independence, Neo-Cloud, Eval Gap)                               |
+| Yujian_Tan                                                 | ✓                  |              | ✓             | ✓          | ✓          | ✓         | 2E (Definition, Evaluation Methodology)                                                    |
+| Cynthia_a consulting firm                                  | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (GTM Strategy, Consulting-to-Product)                                                   |
+| ChatPRD                                                    | ✓                  | ✓            |               | ✓          |            | ✓         | 3E (Capital Efficiency, Personal Brand, AI-Native Org)                                     |
+| a multi-agent framework company                            | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 3E (Business Logic Migration, Geographic Labor, AI Capital)                                |
+| Roblox                                                     | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Gaming Platform, Org Design, Role Modeling, Assist Mode)                               |
+| a VC investor                                              | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 2E (Agent Management Scale, Business Disruption)                                           |
+| Zeena                                                      |                    |              |               |            |            |           | 5E (Acquisition tactics, not technical)                                                    |
+| **Conferences**                                            |
+| Alibaba_Qwen                                               | ✓                  | ✓            |               | ✓          | ✓          | ✓         | 4E (Open Source, Inference Cost, Vertical AI, AGI Timeline)                                |
+| Project_Nanda                                              | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 4E (Agentic Economics, Open Standards, Human-Centered, Permissionless)                     |
+| an AI autonomous agent company_Fireside                    | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (GTM Strategy, Product Velocity, Multi-Model)                                           |
+| Production_Agents_Summit                                   | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 3E (Agent UX, Protocol Std, Parallelism)                                                   |
+| Why_95_Percent_Fail                                        | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 6E (Handoff Rate, Tech Debt, AI Decoupling, Edge Computing, UX Defense, Cost Optimization) |
+| **Prototypes**                                             |
+| Shopping_Agent                                             | ✓                  |              |               |            |            | ✓         | 2E (Framework Pragmatism, Polyglot)                                                        |
+| Repo_Patcher                                               | ✓                  | ✓            | ✓             | ✓          | ✓          | ✓         | 2E (Cost Management, Safety-First)                                                         |
+| Good_Agents                                                | ✓                  | ✓            | ✓             |            | ✓          | ✓         | 2E (Transparency/Trust, Production Scale)                                                  |
 
 ### Summary Statistics
 
 **Most Comprehensive Sources** (All 6 core themes + multiple emergent):
 
-- Sahil_Clientell: All 6 themes + 3 emergent
-- Mehak_Sybill: 5 themes + 4 emergent
-- Abhishek_Apna: All 6 themes + 4 emergent
+- a practitioner_a CRM AI company: All 6 themes + 3 emergent
+- the AI lead_an AI sales intelligence company: 5 themes + 4 emergent
+- an engineering leader_a workforce platform: All 6 themes + 4 emergent
 - Roblox: All 6 themes + 4 emergent
-- VCatTheory: All 6 themes + 2 emergent
+- a VC investor: All 6 themes + 2 emergent
 - Most conferences: 5-6 themes + 3-6 emergent
 
 **Specialized Focus Sources**:
@@ -247,8 +247,8 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 - Why_95_Percent_Fail: 6 emergent themes (most comprehensive conference)
 - Zeena: 5 emergent (but non-technical)
-- Mehak_Sybill: 4 emergent
-- Abhishek_Apna: 4 emergent
+- the AI lead_an AI sales intelligence company: 4 emergent
+- an engineering leader_a workforce platform: 4 emergent
 - Roblox: 4 emergent
 - Stephen_GMI: 4 emergent
 
@@ -260,7 +260,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Evidence**: System Integration (92%, 24/26) vastly exceeds Model Capabilities (62%, 16/26)
 
-**Significance**: The bottleneck for production agents is not AI intelligence but rather the mundane work of connecting systems, managing authentication, handling heterogeneous tech stacks, and orchestrating tool calls. As David (Qurrent) stated: "40-50% of deployment time spent on system integration... intelligence is smart enough already."
+**Significance**: The bottleneck for production agents is not AI intelligence but rather the mundane work of connecting systems, managing authentication, handling heterogeneous tech stacks, and orchestrating tool calls. As an enterprise AI deployment expert stated: "40-50% of deployment time spent on system integration... intelligence is smart enough already."
 
 **Implication**: Startups focused on "better models" may miss the real opportunity in integration infrastructure.
 
@@ -270,8 +270,8 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Convergent quotes**:
 
-- Mrinal (Autonomy): "70% reliability is demo-able, but creates false expectations"
-- David (Qurrent): "90% of pilots never convert to production"
+- a founder at an AI infrastructure company: "70% reliability is demo-able, but creates false expectations"
+- an enterprise AI deployment expert: "90% of pilots never convert to production"
 - Why 95% Fail: "Demos are easy, production is hard—handoff rate is the real metric"
 
 **Significance**: This isn't an edge case or skill issue—it's a fundamental characteristic of probabilistic systems meeting enterprise reliability requirements.
@@ -282,9 +282,9 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Data points**:
 
-- Shopping Agent: Switched from LangGraph → LangChain mid-development
-- Cynthia (WiseAgents): "80-90% abandon LangChain for production"
-- Sahil (Clientell): "3-4x slower than custom solution"
+- Shopping Agent: Switched from LangGraph → a popular AI agent framework mid-development
+- a consulting firm practitioner: "80-90% abandon a popular AI agent framework for production"
+- a practitioner at a CRM AI company: "3-4x slower than custom solution"
 - Multiple sources: Build on OpenAI SDK directly
 
 **Significance**: Billion-dollar valuations for frameworks may be misaligned with production usage. Frameworks serve prototyping but create bloat for production.
@@ -293,13 +293,13 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Evidence**: Business Case & ROI (emergent, 5 sources, 5.0 avg relevance)
 
-**Critical insight from David (Qurrent)**: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
+**Critical insight from an enterprise AI deployment expert**: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
 
 **Validated by**:
 
-- Tian (Okta): Pricing model confusion blocking adoption
+- an engineering leader at a major identity company: Pricing model confusion blocking adoption
 - Alibaba: $20-30/month pricing vs $5+ token cost = unsustainable
-- CrewAI: Enterprises want guarantees on $2M+ savings
+- a multi-agent framework company: Enterprises want guarantees on $2M+ savings
 
 **Significance**: Research focused purely on technical challenges may miss the primary failure mode.
 
@@ -309,9 +309,9 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Quantified failures**:
 
-- CC (Vivgrid): "25-tool limit, accuracy drops to 30%"
-- Saurav (RunLLM): "Too many operations specified, no specificity"
-- David (Qurrent): "Platforms still experimenting, not industry standard"
+- a practitioner at an AI infrastructure company: "25-tool limit, accuracy drops to 30%"
+- a practitioner at an AI observability company: "Too many operations specified, no specificity"
+- an enterprise AI deployment expert: "Platforms still experimenting, not industry standard"
 
 **Prototype validation**:
 
@@ -326,8 +326,8 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Explicit statements**:
 
-- Tushar (CodeForge): "Only two killer apps: search and coding agents"
-- Tian (Okta): "3x productivity for coding, but terrible at generic tasks"
+- a developer at an AI coding company: "Only two killer apps: search and coding agents"
+- an engineering leader at a major identity company: "3x productivity for coding, but terrible at generic tasks"
 - Yujian: "Outside coding agents, very few in production"
 
 **Explanation**: Coding succeeds because it's generation-focused (unstructured output) vs analysis-focused (structured reasoning). Most enterprise use cases require analysis.
@@ -340,7 +340,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Divergent approaches**:
 
-- Mehak (Sybill): "Build blind after step one, only test retrieval"
+- an AI lead at a sales intelligence company: "Build blind after step one, only test retrieval"
 - Yujian: "Measure final outcomes (meetings scheduled), not intermediate steps"
 - Stephen (GMI): "7 YC companies building evals, but no adoption even in YC mafia"
 - Summer (Harvey): "Best eval is a human looks at result"
@@ -351,7 +351,7 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Evidence**: Dual Memory (emergent, 3 sources) reveals critical distinction
 
-**Saurav's insight**: User memory (preferences, past interactions) vs agent memory (problem-solving patterns, tool selection learnings) are architecturally different problems.
+**a practitioner's insight**: User memory (preferences, past interactions) vs agent memory (problem-solving patterns, tool selection learnings) are architecturally different problems.
 
 **Most vendors conflate these**, building one system for two distinct use cases.
 
@@ -390,15 +390,15 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 ### Quantitative Highlights for Final Report
 
 - 92% of sources cite system integration challenges
-- 90% of pilot projects fail to reach production (David/Qurrent)
-- 80-90% abandon LangChain for production (Cynthia/WiseAgents)
+- 90% of pilot projects fail to reach production (the practitioner/an AI agent orchestration company)
+- 80-90% abandon a popular AI agent framework for production (Cynthia/a consulting firm)
 - 85% of sources discuss probabilistic reliability gaps
-- 40-50% of deployment time is integration, not AI work (David/Qurrent)
-- 30-40% model contribution vs 60-70% framework/system (Manus)
-- 25-tool limit for MCP before accuracy drops to 30% (CC/Vivgrid)
-- 3-4x productivity gains for coding agents (Tian/Okta, Tushar/CodeForge)
-- 3-5x cost disadvantage for generic agents vs offshore labor (Tian/Okta)
-- $2M single use case savings, $100M annual target (CrewAI customer)
+- 40-50% of deployment time is integration, not AI work (the practitioner/an AI agent orchestration company)
+- 30-40% model contribution vs 60-70% framework/system (an AI autonomous agent company)
+- 25-tool limit for MCP before accuracy drops to 30% (CC/an AI infrastructure company)
+- 3-4x productivity gains for coding agents (the engineering leader/a major enterprise identity company, a developer/an AI coding company)
+- 3-5x cost disadvantage for generic agents vs offshore labor (the engineering leader/a major enterprise identity company)
+- $2M single use case savings, $100M annual target (a multi-agent framework company customer)
 
 ---
 
@@ -435,9 +435,9 @@ Beyond the 6 core themes, **17 distinct emergent themes** appeared across the ex
 
 **Cross-source validation examples**:
 
-- Framework abandonment: Cynthia (80-90%), Sahil (3-4x slower), Shopping Agent (switched)
-- MCP limitations: David (experimenting), Saurav (over-general), CC (25-tool limit)
-- Demo-production gap: David (90% failure), Mrinal (70% demo threshold), Why 95% Fail (handoff rate)
+- Framework abandonment: Cynthia (80-90%), a practitioner (3-4x slower), Shopping Agent (switched)
+- MCP limitations: the practitioner (experimenting), a practitioner (over-general), CC (25-tool limit)
+- Demo-production gap: the practitioner (90% failure), the founder (70% demo threshold), Why 95% Fail (handoff rate)
 
 ---
 

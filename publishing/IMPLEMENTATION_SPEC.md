@@ -1549,7 +1549,7 @@ export default function ResearchPage() {
             <SeriesCard
               title="Practitioner Perspectives"
               count={5}
-              description="Interviews with Qurrent, Autonomy, Okta, CrewAI, Sybill"
+              description="Interviews with an AI agent orchestration company, an AI infrastructure company, a major enterprise identity company, a multi-agent framework company, an AI sales intelligence company"
               href="/blog?category=practitioner"
             />
           </div>
@@ -1658,33 +1658,33 @@ export function TableOfContents() {
 
 ### Calendar Starting December 8, 2025
 
-| Week   | Dates          | Day | #   | Publication                                                                   | Category     | LinkedIn  |
-| ------ | -------------- | --- | --- | ----------------------------------------------------------------------------- | ------------ | --------- |
-| **1**  | Dec 8-12       | Mon | 1   | What's Really Blocking AI Agents from Production?                             | Anchor       | 09:00 PST |
-|        |                | Wed | 2   | Why 92% of AI Agent Deployments Struggle with System Integration              | Theme        | 09:00 PST |
-|        |                | Fri | 3   | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent             | Theme        | 09:00 PST |
-| **2**  | Dec 15-19      | Tue | 4   | 80-90% of Teams Abandon LangChain for Production                              | Theme        | 09:00 PST |
-|        |                | Thu | 5   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations        | Theme        | 09:00 PST |
-| **3**  | Dec 22-26      | Mon | 6   | Enterprise AI Agents: When Business Case Failure Precedes Technical Failure   | Theme        | 09:00 PST |
-|        |                | Wed | 7   | Why Coding Agents Are the Exception, Not the Rule                             | Theme        | 09:00 PST |
-|        |                | Fri | 8   | The 30-40% Model Myth: Why Framework Architecture Matters More                | Emergent     | 09:00 PST |
-| **4**  | Dec 29 - Jan 2 | Tue | 9   | Handoff Rate: The North Star Metric for AI Agent Success                      | Emergent     | 09:00 PST |
-|        |                | Thu | 10  | Dual Memory Architecture: The Distinction Most AI Companies Miss              | Emergent     | 09:00 PST |
-| **5**  | Jan 5-9        | Mon | 11  | MCP Reality Check: The 25-Tool Accuracy Cliff No One Talks About              | Emergent     | 09:00 PST |
-|        |                | Wed | 12  | Component-Level Evaluation: Why End-to-End Testing Fails for AI Agents        | Emergent     | 09:00 PST |
-|        |                | Fri | 13  | The Evaluation Gap: Why 7 YC Companies Building Eval Tools Have Zero Adoption | Emergent     | 09:00 PST |
-| **6**  | Jan 12-16      | Tue | 14  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert           | Practitioner | 09:00 PST |
-|        |                | Thu | 15  | Autonomy's Take: Managing Expectations with Probabilistic Systems             | Practitioner | 09:00 PST |
-| **7**  | Jan 19-23      | Mon | 16  | How Okta is Solving AI Agent Identity: The Next SSO Moment                    | Practitioner | 09:00 PST |
-|        |                | Wed | 17  | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat              | Practitioner | 09:00 PST |
-|        |                | Fri | 18  | Sybill's Approach: Building AI Sales Agents That Actually Work                | Practitioner | 09:00 PST |
-| **8**  | Jan 26-30      | Tue | 19  | Building a Shopping Agent: Framework Bloat in Action                          | Prototype    | 09:00 PST |
-|        |                | Thu | 20  | Repo Patcher: Using State Machines to Make AI Agents Reliable                 | Prototype    | 09:00 PST |
-| **9**  | Feb 2-6        | Mon | 21  | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration   | Prototype    | 09:00 PST |
-|        |                | Wed | 22  | Manus Fireside: The 30-40% Model Revelation That Changed Everything           | Conference   | 09:00 PST |
-|        |                | Fri | 23  | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways                 | Conference   | 09:00 PST |
-| **10** | Feb 9-13       | Tue | 24  | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths | Conference   | 09:00 PST |
-|        |                | Thu | 25  | How We Processed 36 Interviews into One Research Report                       | Methodology  | 09:00 PST |
+| Week   | Dates          | Day | #   | Publication                                                                                   | Category     | LinkedIn  |
+| ------ | -------------- | --- | --- | --------------------------------------------------------------------------------------------- | ------------ | --------- |
+| **1**  | Dec 8-12       | Mon | 1   | What's Really Blocking AI Agents from Production?                                             | Anchor       | 09:00 PST |
+|        |                | Wed | 2   | Why 92% of AI Agent Deployments Struggle with System Integration                              | Theme        | 09:00 PST |
+|        |                | Fri | 3   | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent                             | Theme        | 09:00 PST |
+| **2**  | Dec 15-19      | Tue | 4   | 80-90% of Teams Abandon a popular AI agent framework for Production                           | Theme        | 09:00 PST |
+|        |                | Thu | 5   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations                        | Theme        | 09:00 PST |
+| **3**  | Dec 22-26      | Mon | 6   | Enterprise AI Agents: When Business Case Failure Precedes Technical Failure                   | Theme        | 09:00 PST |
+|        |                | Wed | 7   | Why Coding Agents Are the Exception, Not the Rule                                             | Theme        | 09:00 PST |
+|        |                | Fri | 8   | The 30-40% Model Myth: Why Framework Architecture Matters More                                | Emergent     | 09:00 PST |
+| **4**  | Dec 29 - Jan 2 | Tue | 9   | Handoff Rate: The North Star Metric for AI Agent Success                                      | Emergent     | 09:00 PST |
+|        |                | Thu | 10  | Dual Memory Architecture: The Distinction Most AI Companies Miss                              | Emergent     | 09:00 PST |
+| **5**  | Jan 5-9        | Mon | 11  | MCP Reality Check: The 25-Tool Accuracy Cliff No One Talks About                              | Emergent     | 09:00 PST |
+|        |                | Wed | 12  | Component-Level Evaluation: Why End-to-End Testing Fails for AI Agents                        | Emergent     | 09:00 PST |
+|        |                | Fri | 13  | The Evaluation Gap: Why 7 YC Companies Building Eval Tools Have Zero Adoption                 | Emergent     | 09:00 PST |
+| **6**  | Jan 12-16      | Tue | 14  | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert | Practitioner | 09:00 PST |
+|        |                | Thu | 15  | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems         | Practitioner | 09:00 PST |
+| **7**  | Jan 19-23      | Mon | 16  | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment     | Practitioner | 09:00 PST |
+|        |                | Wed | 17  | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat     | Practitioner | 09:00 PST |
+|        |                | Fri | 18  | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work      | Practitioner | 09:00 PST |
+| **8**  | Jan 26-30      | Tue | 19  | Building a Shopping Agent: Framework Bloat in Action                                          | Prototype    | 09:00 PST |
+|        |                | Thu | 20  | Repo Patcher: Using State Machines to Make AI Agents Reliable                                 | Prototype    | 09:00 PST |
+| **9**  | Feb 2-6        | Mon | 21  | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration                   | Prototype    | 09:00 PST |
+|        |                | Wed | 22  | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything  | Conference   | 09:00 PST |
+|        |                | Fri | 23  | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways                                 | Conference   | 09:00 PST |
+| **10** | Feb 9-13       | Tue | 24  | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                 | Conference   | 09:00 PST |
+|        |                | Thu | 25  | How We Processed 36 Interviews into One Research Report                                       | Methodology  | 09:00 PST |
 
 ### Calendar JSON
 

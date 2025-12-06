@@ -16,10 +16,10 @@
 
 ### Week 2: Framework & Production Challenges
 
-| Day | Post                        | Title                                                                  |
-| --- | --------------------------- | ---------------------------------------------------------------------- |
-| Tue | 04-framework-abandonment.md | 80-90% of Teams Abandon LangChain for Production - Here's Why          |
-| Thu | 05-demo-production-chasm.md | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations |
+| Day | Post                        | Title                                                                            |
+| --- | --------------------------- | -------------------------------------------------------------------------------- |
+| Tue | 04-framework-abandonment.md | 80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why |
+| Thu | 05-demo-production-chasm.md | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations           |
 
 ### Week 3: Enterprise & Model Reality
 
@@ -46,20 +46,20 @@
 
 ### Week 6: Practitioner Perspectives (Part 1)
 
-| Day | Post                     | Title                                                               |
-| --- | ------------------------ | ------------------------------------------------------------------- |
-| Tue | 14-qurrent-interview.md  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert |
-| Thu | 15-autonomy-interview.md | Autonomy's Take: Managing Expectations with Probabilistic Systems   |
+| Day | Post                           | Title                                                                                         |
+| --- | ------------------------------ | --------------------------------------------------------------------------------------------- |
+| Tue | 14-practitioner-interview-1.md | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert |
+| Thu | 15-practitioner-interview-2.md | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems         |
 
 _Note: Practitioner interview posts require attribution permissions before publishing_
 
 ### Week 7: Practitioner Perspectives (Part 2)
 
-| Day | Post                   | Title                                                            |
-| --- | ---------------------- | ---------------------------------------------------------------- |
-| Mon | 16-okta-interview.md   | How Okta is Solving AI Agent Identity: The Next SSO Moment       |
-| Wed | 17-crewai-interview.md | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat |
-| Fri | 18-sybill-interview.md | Sybill's Approach: Building AI Sales Agents That Actually Work   |
+| Day | Post                           | Title                                                                                     |
+| --- | ------------------------------ | ----------------------------------------------------------------------------------------- |
+| Mon | 16-practitioner-interview-3.md | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment |
+| Wed | 17-practitioner-interview-4.md | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat |
+| Fri | 18-practitioner-interview-5.md | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work  |
 
 _Note: Practitioner interview posts require attribution permissions before publishing_
 
@@ -72,11 +72,11 @@ _Note: Practitioner interview posts require attribution permissions before publi
 
 ### Week 9: Multi-Agent & Conference Insights
 
-| Day | Post                 | Title                                                                       |
-| --- | -------------------- | --------------------------------------------------------------------------- |
-| Mon | 21-good-agents.md    | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration |
-| Wed | 22-manus-fireside.md | Manus Fireside: The 30-40% Model Revelation That Changed Everything         |
-| Fri | 23-why-95-fail.md    | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways               |
+| Day | Post                            | Title                                                                                        |
+| --- | ------------------------------- | -------------------------------------------------------------------------------------------- |
+| Mon | 21-good-agents.md               | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration                  |
+| Wed | 22-autonomous-agent-fireside.md | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything |
+| Fri | 23-why-95-fail.md               | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways                                |
 
 ### Week 10: Methodology & Wrap-up
 

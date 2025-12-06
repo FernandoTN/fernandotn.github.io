@@ -13,7 +13,7 @@ Most AI memory vendors are solving the wrong problem. Or rather, they are solvin
 When I began researching production AI agent deployments, I expected the conversation about memory to center on technical challenges: vector database selection, retrieval accuracy, context window optimization. Instead, practitioners kept circling back to a more fundamental issue. The systems they were building needed to remember two completely different things for two completely different stakeholders. And the solutions on the market kept conflating them.
 
 > "Memory as Two Distinct Problems: user memory (preferences, past interactions) versus memory for improving agent performance (which tools work best, problem-solving patterns). Most vendors conflate these."
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 This distinction, which emerged repeatedly across 36 expert interviews, represents one of the most underexploited architectural insights in the AI agent space. Teams investing heavily in unified memory infrastructure are building systems destined to fail both use cases.
 
@@ -36,7 +36,7 @@ The requirements for user memory are demanding. It must persist across sessions,
 The challenges compound quickly. Voice conversations spanning 30-40 minutes require real-time memory pruning to prevent latency degradation. When conversations span multiple channels (phone, email, chat), retrieval systems struggle with multi-modal content.
 
 > "If you look at the voice conversation, especially, there are there is nothing out of the box that I can quickly integrate and get started with... you can't really have long conversations. Do it for ten minutes, fifteen minutes. But if you wanna do it for thirty, forty minutes, with AI... the latency will keep increasing because fundamentally, the context keep increasing."
-> — Abhishek, Apna
+> — an engineering leader, a workforce platform
 
 Customer support agents face the additional challenge of determining memory scope boundaries. Some context is ticket-specific and should expire when the issue is resolved. Other context is customer-wide and should persist indefinitely. Making this determination correctly is itself a non-trivial problem.
 
@@ -49,7 +49,7 @@ The requirements are architecturally distinct. Agent memory does not require rea
 One team described their approach to building agent memory:
 
 > "Using LLM judges to extract observations at end of investigations, stored in vector DB for future retrieval."
-> — Saurav, RunLLM, on Cross-Session Memory V0 Approaches
+> — a practitioner, an AI observability company, on Cross-Session Memory V0 Approaches
 
 This approach makes sense for agent memory but would be inadequate for user memory. Extracting observations at the end of sessions is too slow for personalization that needs to happen mid-conversation. The tradeoffs acceptable for one category are unacceptable for the other.
 
@@ -80,7 +80,7 @@ The AI memory market is filled with vendors offering unified solutions: Letta, M
 The problem is that one-size-fits-all architectures create tradeoffs that harm both use cases. Applying PII governance to agent memory adds unnecessary friction to engineering workflows. Applying agent memory update patterns to user data creates compliance risks as preferences become stale during batch processing.
 
 > "I think their [Letta's] approach takes away too much control. I think our team would personally find that like we want more control over our management system... I would want some sort of solution that's like not that hands off because I think that a system I don't have as much configurability into."
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 Teams consistently report that unified solutions take away too much control. The configurability needed for one memory type conflicts with the configurability needed for the other. Engineering teams want direct access to agent memory for debugging, which would create security concerns if applied to user memory containing PII.
 
@@ -89,7 +89,7 @@ Teams consistently report that unified solutions take away too much control. The
 Enterprise adoption of memory systems has been blocked more by governance concerns than technical limitations.
 
 > "In enterprise scenario most of them failed because currently they cannot... Well with the PII information that's for privacy... Enterprise afraid of built the memory system because they afraid the RM told another user said tax shipment address is la la la."
-> — CC, Vivgrid
+> — CC, an AI infrastructure company
 
 When user memory and agent memory share infrastructure, governance requirements for user memory must be applied to everything. This means agent memory, which should be freely accessible to engineering teams, becomes locked behind compliance controls. Debugging becomes slower. Optimization becomes harder. And the enterprise still worries about PII leakage because the systems are not cleanly separated.
 
@@ -121,10 +121,10 @@ User memory retrieval happens at request time. When a conversation begins, the s
 
 Agent memory retrieval happens in the background. During planning phases, the system retrieves hints about which tools work best for similar queries. This can be asynchronous. Slight delays do not damage user experience because the retrieval is invisible to end users.
 
-The sub-agent pattern, recently popularized by Anthropic and implemented by teams like RunLLM, provides a concrete approach:
+The sub-agent pattern, recently popularized by Anthropic and implemented by teams like an AI observability company, provides a concrete approach:
 
-> "RunLLM is implementing Anthropic's recently published pattern of using sub-agents with internal tool loops (like Claude Code) to avoid context bloat, specifically for log analysis."
-> — Saurav, RunLLM
+> "an AI observability company is implementing Anthropic's recently published pattern of using sub-agents with internal tool loops (like Claude Code) to avoid context bloat, specifically for log analysis."
+> — a practitioner, an AI observability company
 
 Sub-agents with internal iteration loops can query agent memory extensively during their tool loops without bloating the main context window. This pattern works well for agent memory but would be inappropriate for user memory, which needs to be immediately available to the primary agent for personalization.
 
@@ -136,10 +136,10 @@ User memory success is measured by personalization quality. Are user preferences
 
 Agent memory success is measured by system performance improvement. Are task success rates increasing? Are error rates decreasing? Is the agent selecting the right tools more often? Engineering metrics and evaluation suite results are the relevant measures.
 
-The first-step retrieval philosophy, developed by teams like Sybill, applies differently to each:
+The first-step retrieval philosophy, developed by teams like an AI sales intelligence company, applies differently to each:
 
 > "Almost never do we evaluate something end to end because it is pointless... the only thing that we continuously tested for is that it gets the first step right. The first step typically ends up being retrieval."
-> — Mehak, Sybill
+> — the AI lead, an AI sales intelligence company
 
 For user memory, first-step retrieval success means the right preferences and history are available when the conversation begins. For agent memory, it means the right tool selection hints and problem-solving patterns are available when planning begins. The principle is the same but the implementation differs.
 
@@ -153,12 +153,12 @@ The implications extend beyond architecture into strategy and competitive positi
 
 **Enterprise adoption** becomes possible when governance requirements can be cleanly applied to user memory without affecting engineering access to agent memory. Separation removes the compliance blockers that have stalled enterprise memory adoption.
 
-**Competitive moats** emerge from custom context engineering. Companies like Sybill and RunLLM position their proprietary memory architectures as differentiation precisely because they have built separate systems optimized for different purposes. This is not a build versus buy decision for generic infrastructure; it is a strategic investment in defensible architecture.
+**Competitive moats** emerge from custom context engineering. Companies like an AI sales intelligence company and an AI observability company position their proprietary memory architectures as differentiation precisely because they have built separate systems optimized for different purposes. This is not a build versus buy decision for generic infrastructure; it is a strategic investment in defensible architecture.
 
 The 40% context utilization rule from the Production Agents Summit reinforces why this matters:
 
 > "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes."
-> — Speaker B (Rel), Production Agents Summit
+> — a conference speaker, Production Agents Summit
 
 With strict limits on how much context can be utilized effectively, every piece of memory must earn its place. Conflated systems that retrieve user and agent memory together waste precious context budget on information irrelevant to the current need. Separated systems can be more selective, retrieving only what is needed for the task at hand.
 

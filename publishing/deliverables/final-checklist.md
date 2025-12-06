@@ -26,17 +26,17 @@
   - `2025-12-component-evaluation.mdx`
   - `2025-12-evaluation-gap.mdx`
 - [x] Practitioner perspectives (5)
-  - `2025-12-qurrent-interview.mdx`
-  - `2025-12-autonomy-interview.mdx`
-  - `2025-12-okta-interview.mdx`
-  - `2025-12-crewai-interview.mdx`
-  - `2025-12-sybill-interview.mdx`
+  - `2025-12-practitioner-interview-1.mdx`
+  - `2025-12-practitioner-interview-2.mdx`
+  - `2025-12-practitioner-interview-3.mdx`
+  - `2025-12-practitioner-interview-4.mdx`
+  - `2025-12-practitioner-interview-5.mdx`
 - [x] Prototype learnings (3)
   - `2025-12-shopping-agent.mdx`
   - `2025-12-repo-patcher.mdx`
   - `2025-12-good-agents.mdx`
 - [x] Conference insights (3)
-  - `2025-12-manus-fireside.mdx`
+  - `2025-12-autonomous-agent-fireside.mdx`
   - `2025-12-why-95-fail.mdx`
   - `2025-12-production-summit.mdx`
 - [x] Methodology (1)

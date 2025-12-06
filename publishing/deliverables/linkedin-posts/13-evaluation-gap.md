@@ -55,5 +55,5 @@ What evaluation challenges have you faced with AI agents?
 - Post timing recommendation: 9-11am PST on Tuesday-Thursday
 - Consider adding cover image from blog post for higher engagement
 - Respond to comments within first 60 minutes for algorithm boost
-- Key quote attribution: Yujian Tan (AI practitioner and investor)
+- Key quote attribution: a practitioner (AI practitioner and investor)
 - Secondary attribution: Stephen Li, GMI (on YC adoption failure)

@@ -57,7 +57,7 @@ Key challenges encountered:
 - **Accuracy Degradation**: Consistent with interview findings, tool selection accuracy degraded as we added more MCP operations. We had to carefully curate the tool surface area exposed to the agent.
 
 > "There was a lot of talk around MCP kind of solving for everybody. We quickly learned that it didn't work out of the box for us... the MCPs that either companies are putting up themselves or frankly at the time there was a lot of like open source third party MCP servers... they had way too many operations specified. There is no specificity."
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 This finding validates concerns raised across our 36 interviews: MCP provides structure but not simplicity. The protocol standardizes the interface without reducing the integration work required to make tools useful for specific use cases.
 
@@ -95,7 +95,7 @@ Key security components:
 - **AES-256 Encryption**: Protection for data at rest, ensuring agent memory and session data remain secure
 
 > "There is a lot of resistance in sharing data with the agentic systems, whether it's on their premise, out of premise... there is a lot of trust deficit in terms of sharing, especially with out of the box models."
-> — Abhishek Shukla, Apna
+> — an engineering leader Shukla, a workforce platform
 
 The "verify" step in Plan-Verify-Execute integrates with these security controls. Verification includes authorization checks—ensuring the planned actions are permitted for the current user's role before execution begins. This prevents the common failure mode where agents execute actions and only later discover permission violations.
 
@@ -111,7 +111,7 @@ Our Good Agents prototype implemented a comprehensive monitoring infrastructure 
 - **Prometheus and Grafana**: Metrics and dashboards for operational monitoring, providing real-time visibility into system health and performance trends.
 
 > "I think a lot of companies that are doing agents, there's not like a standardized way of logging what are the exact actions and being able to do like really detailed debugging and maybe even like time traveling of like, why did the agent take this action at this moment in time?"
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 This observability stack addresses the debugging challenge unique to probabilistic systems. When an agent fails, engineers need to understand not just what happened, but what context the agent had when making each decision. The goal is "time travel" debugging—the ability to reconstruct the exact state the agent was in when it made a particular choice. Without comprehensive tracing, debugging becomes guesswork.
 

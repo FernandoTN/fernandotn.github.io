@@ -25,7 +25,7 @@ Here's what the research revealed:
 - Enterprise scenarios routinely exceed 25 tools (CRM, ERP, ticketing, email, APIs...)
 - Context bloat from tool definitions violates the 40% utilization rule
 
-As CC Fan from Vivgrid put it: "When you have more than 25 MCP tools, accuracy will drop to 30%. That's totally cannot use in production for enterprise usage."
+As CC Fan from an AI infrastructure company put it: "When you have more than 25 MCP tools, accuracy will drop to 30%. That's totally cannot use in production for enterprise usage."
 
 The gap between protocol promise and deployment reality demands mitigation strategies, not blind faith in standardization.
 
@@ -43,8 +43,8 @@ What's been your experience deploying MCP at scale?
 **Hook**: MCP/USB analogy pattern interrupt with surprising failure
 **Key Data Points Used**:
 
-- 25-tool accuracy threshold (CC/Vivgrid)
-- 30% accuracy drop (CC/Vivgrid)
+- 25-tool accuracy threshold (CC/an AI infrastructure company)
+- 30% accuracy drop (CC/an AI infrastructure company)
 - 40% context utilization rule (Production Agents Summit)
 - 36 interviews research methodology
 

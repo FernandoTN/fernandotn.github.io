@@ -1,27 +1,27 @@
 ---
-title: "Autonomy's Take: Managing Expectations with Probabilistic Systems"
-summary: 'Mrinal Wadhwa on why 30 years of deterministic software conditioning creates expectation mismatches with AI agents, and the scientific approach needed to bridge the gap.'
+title: "An AI Infrastructure Company's Take: Managing Expectations with Probabilistic Systems"
+summary: 'a founder at an AI infrastructure company on why 30 years of deterministic software conditioning creates expectation mismatches with AI agents, and the scientific approach needed to bridge the gap.'
 publishedAt: '2025-12-15'
 tags:
   [
     'AI Agents',
-    'Autonomy',
+    'an AI infrastructure company',
     'Reliability',
     'Expectations',
     'Probabilistic Systems',
   ]
 featured: false
 author: 'Fernando Torres'
-image: '/images/blog/autonomy-probabilistic-systems.png'
+image: '/images/blog/practitioner-interview-2-probabilistic-systems.png'
 ---
 
 For three decades, software engineers have lived by a simple rule: if code works once, it works forever. This assumption, deeply embedded in how we build, test, and ship software, is now colliding head-on with the reality of AI agents. The result? A generation of developers and stakeholders who see a successful demo and assume they are ready for production. They are not. And until organizations understand why, AI agent deployments will continue to fail at alarming rates.
 
 ## The Discovery
 
-In October 2024, I sat down with Mrinal Wadhwa, Founder and CEO of Autonomy, to discuss what he sees as the fundamental challenge blocking AI agent adoption. Mrinal has spent years building distributed systems and now leads a company focused on helping teams move from AI prototypes to production. His perspective cuts to the heart of why 90% of AI agent pilots never convert to production deployments.
+In October 2024, I sat down with a founder at an AI infrastructure company, Founder and CEO of an AI infrastructure company, to discuss what he sees as the fundamental challenge blocking AI agent adoption. the founder has spent years building distributed systems and now leads a company focused on helping teams move from AI prototypes to production. His perspective cuts to the heart of why 90% of AI agent pilots never convert to production deployments.
 
-What emerged from our conversation was not a discussion of model capabilities or prompt engineering techniques. Instead, Mrinal articulated a paradigm shift that most organizations have yet to recognize: the move from deterministic to probabilistic systems requires fundamentally different approaches to building, testing, and managing expectations. The technology works. The problem is that we do not know how to work with it.
+What emerged from our conversation was not a discussion of model capabilities or prompt engineering techniques. Instead, the founder articulated a paradigm shift that most organizations have yet to recognize: the move from deterministic to probabilistic systems requires fundamentally different approaches to building, testing, and managing expectations. The technology works. The problem is that we do not know how to work with it.
 
 ## What We Found
 
@@ -30,18 +30,18 @@ What emerged from our conversation was not a discussion of model capabilities or
 The most insidious problem in AI agent deployment is the demo. It looks magical. It impresses stakeholders. And it sets entirely false expectations.
 
 > "Me demoing, I know that I just got lucky. Maybe 70 out of 100 runs of this demo, I will get lucky so I can run it, right? And when it fails, I will chuckle and go, whatever. So you can get away with it. If it works 70% of the time, you can demo it. Now, the other person on the other end, they are not used to that probabilistic nature. So they assume, oh my God, this works, I'm going to ship it."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
-This 70% threshold creates what Mrinal calls a "demo-production chasm." The person presenting the demo understands they got lucky. They know that roughly three out of ten runs will fail. But the person watching does not carry this context. They see a working system and project deterministic expectations onto it.
+This 70% threshold creates what the founder calls a "demo-production chasm." The person presenting the demo understands they got lucky. They know that roughly three out of ten runs will fail. But the person watching does not carry this context. They see a working system and project deterministic expectations onto it.
 
 The challenge is not that 70% accuracy is insufficient for production. For many use cases, it might be acceptable with proper guardrails. The problem is the expectation mismatch. When stakeholders expect 99.9% reliability because that is what software has always provided, 70% feels like catastrophic failure rather than an impressive starting point.
 
 ### The Thirty-Year Conditioning Problem
 
-Why do these expectation mismatches occur so consistently? According to Mrinal, it comes down to three decades of conditioning.
+Why do these expectation mismatches occur so consistently? According to the founder, it comes down to three decades of conditioning.
 
 > "Most people that have built and deployed technology over the last, say, 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 Consider how traditional software development works. You write a function. You test it. If the test passes, you can reasonably expect that function to behave the same way every time it runs with the same inputs. This deterministic model has been the foundation of software engineering since its inception.
 
@@ -49,10 +49,10 @@ AI agents break this model entirely. The same input can produce different output
 
 ### The Doom Loop
 
-When organizations attempt to productionize their impressive demos, they typically enter what Mrinal describes as a "doom loop" of futile improvement attempts:
+When organizations attempt to productionize their impressive demos, they typically enter what the founder describes as a "doom loop" of futile improvement attempts:
 
 > "That's where the skill problem really starts to kind of hurt is because most people aren't used to how to make that better. They kind of go into this like doom loop almost... They'll go, oh, I see, okay, this scenario didn't work. I'll go change the prompt and the instructions and the data or whatever to make this scenario work. But then they go, oh, but the other one stopped working and they're now in this continuous loop."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 This pattern is remarkably common. A team identifies a failing scenario, tweaks prompts or instructions to fix it, and inadvertently breaks something that was previously working. Without systematic approaches to improvement, teams oscillate between success and failure indefinitely. They make no forward progress because they lack the tools and methodologies to work with probabilistic systems.
 
@@ -60,10 +60,10 @@ The doom loop is particularly frustrating because each fix feels like progress. 
 
 ### The Science Behind the Solution
 
-Mrinal argues that escaping the doom loop requires adopting methodologies borrowed from science rather than traditional software engineering:
+the founder argues that escaping the doom loop requires adopting methodologies borrowed from science rather than traditional software engineering:
 
 > "People who are used to science know that you can do it with probabilistic things in the world, right? You need to run a controlled experiment and you need an iteration that builds on a set of controls... I will set up some controls, I'll set up an iterative process. I look at my data, do error analysis, figure out what are the category of errors... make sure that there's a set of tests that are evals is the new term like that makes sure that I don't regress as I try to progress."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 This scientific approach involves several key practices:
 
@@ -75,11 +75,11 @@ This scientific approach involves several key practices:
 
 **Iterative improvement with controls**: Each improvement builds on established baselines. You know what works, you protect it, and you systematically expand from there.
 
-The irony, Mrinal notes, is that even traditional software engineering has poor testing discipline. He estimates that only about 20% of software projects have comprehensive automated testing. Expecting the same developers to adopt rigorous evaluation practices for probabilistic systems is ambitious. Yet without this discipline, production deployment remains out of reach.
+The irony, the founder notes, is that even traditional software engineering has poor testing discipline. He estimates that only about 20% of software projects have comprehensive automated testing. Expecting the same developers to adopt rigorous evaluation practices for probabilistic systems is ambitious. Yet without this discipline, production deployment remains out of reach.
 
 ## Organizational Openness to Change
 
-Despite these challenges, Mrinal observes a surprising willingness among organizations to adopt new approaches. The fear of being disrupted is driving faster adoption than anyone anticipated. Organizations from startups to banks are fundamentally reconsidering their workflows and are willing to deploy agent-based systems into production faster than he expected.
+Despite these challenges, the founder observes a surprising willingness among organizations to adopt new approaches. The fear of being disrupted is driving faster adoption than anyone anticipated. Organizations from startups to banks are fundamentally reconsidering their workflows and are willing to deploy agent-based systems into production faster than he expected.
 
 He shared an example of a neo-bank deploying an AI agent into production on a live customer call, a process that would historically have taken one to two years of evaluation. The pressure of potential disruption is compressing timelines dramatically.
 
@@ -87,10 +87,10 @@ This openness creates an opportunity. Organizations are willing to change, but t
 
 ## Actor Model Insights for Agent Reliability
 
-Mrinal's technical approach at Autonomy offers insights into how architecture can support reliability. Rather than treating agents as simple prompt-response systems, Autonomy builds on the actor model from distributed systems theory:
+the founder's technical approach at an AI infrastructure company offers insights into how architecture can support reliability. Rather than treating agents as simple prompt-response systems, an AI infrastructure company builds on the actor model from distributed systems theory:
 
-> "In our system. In Autonomy, we've taken an even more powerful abstraction, which is the actor model that comes from like Scala and Erlang and those systems... which allows us to have thousands or tens of thousands of parallel and distributed agents work on some problem. So what I am able to communicate to people is, look, you can like I clicked a button, 5,000 agents appear."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> "In our system. In an AI infrastructure company, we've taken an even more powerful abstraction, which is the actor model that comes from like Scala and Erlang and those systems... which allows us to have thousands or tens of thousands of parallel and distributed agents work on some problem. So what I am able to communicate to people is, look, you can like I clicked a button, 5,000 agents appear."
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 The actor model provides several reliability benefits:
 
@@ -106,23 +106,23 @@ This architecture acknowledges that individual agent actions are probabilistic a
 
 ## Why This Matters
 
-The probabilistic systems challenge is not going away. As Mrinal put it:
+The probabilistic systems challenge is not going away. As the founder put it:
 
 > "The pool of things possible with the current capability is gigantic. It is transformative already. It doesn't need to. If it stopped today, it can still solve a whole bunch of problems we couldn't do earlier. And so I think that there's massive opportunity in the current state."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 Current AI capabilities are sufficient for transformative applications. The bottleneck is not model intelligence or context windows or reasoning ability. The bottleneck is deployment practices and expectation management. Organizations that figure out how to work with probabilistic systems will capture enormous value. Those that continue applying deterministic expectations will remain stuck in the doom loop.
 
 This represents a new paradigm in software engineering:
 
 > "Most people building this super lightweight three tier web apps and now they have to run a system that runs for a long time, has long lived state, can have buffer problems, can have communication channel problems with bi directional communication. There's a whole bunch of new software engineering things, not new deep software engineering things that 90% of people didn't have to care about that suddenly everybody must care about because we've got this new paradigm of software."
-> — Mrinal Wadhwa, Founder/CEO, Autonomy
+> — a founder at an AI infrastructure company, Founder/CEO, an AI infrastructure company
 
 The shift from millisecond request-response cycles to hour-long agent sessions fundamentally changes what developers need to understand. Stateless design principles do not apply. Session management becomes critical. Error handling must account for partial failures over extended time periods. This is not about being smarter; it is about learning different skills.
 
 ## What You Can Do
 
-Based on Mrinal's insights, here are actionable recommendations for managing stakeholder expectations and succeeding with probabilistic systems:
+Based on the founder's insights, here are actionable recommendations for managing stakeholder expectations and succeeding with probabilistic systems:
 
 - **Set explicit probability expectations from the start**: Before any demo, communicate that the system works probabilistically. Share accuracy metrics. Frame success in terms of improvement over time rather than perfection out of the gate. A 70% accurate system that improves to 85% in three months tells a very different story than a "failed" system that "only" works 70% of the time.
 
@@ -140,7 +140,7 @@ Based on Mrinal's insights, here are actionable recommendations for managing sta
 
 The gap between AI agent demos and production is not a technology problem. It is an expectations problem rooted in thirty years of deterministic software conditioning. Organizations that recognize this shift and adopt scientific methodologies for working with probabilistic systems will succeed. Those that keep applying deterministic expectations will remain frustrated.
 
-As Mrinal Wadhwa demonstrates, the tools and architectures for reliable AI agents exist today. The question is whether organizations can evolve their thinking fast enough to use them.
+As a founder at an AI infrastructure company demonstrates, the tools and architectures for reliable AI agents exist today. The question is whether organizations can evolve their thinking fast enough to use them.
 
 ---
 

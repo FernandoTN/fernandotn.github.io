@@ -1,6 +1,6 @@
-# LinkedIn Post - Publication 17: CrewAI Interview
+# LinkedIn Post - Publication 17: a multi-agent framework company Interview
 
-**Publication**: CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat
+**Publication**: a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat
 **Type**: Practitioner Perspectives
 **Target Post Date**: Week 6-7 (Phase 4: Practitioner Perspectives)
 
@@ -12,7 +12,7 @@ Enterprise topology complexity is your moat, not your obstacle.
 
 One Fortune 100 company saved $2M from a single AI agent use case built in a week. Their target for 2026? $100M in annual savings.
 
-I spoke with Joao, founder of CrewAI, who works with Global 2000 enterprises navigating 40-country operations, acquired company tech stacks, and varying labor laws across jurisdictions.
+I spoke with the co-founder, founder of a multi-agent framework company, who works with Global 2000 enterprises navigating 40-country operations, acquired company tech stacks, and varying labor laws across jurisdictions.
 
 His key insight flipped my thinking:
 
@@ -27,7 +27,7 @@ Here's what enterprise agent deployments reveal:
 
 The uncomfortable truth: enterprises are now making geographic staffing decisions based on how easily they can deploy AI agents. The timeline has compressed dramatically.
 
-Full breakdown with Joao's insights on enterprise topology strategy: [LINK]
+Full breakdown with the co-founder's insights on enterprise topology strategy: [LINK]
 
 How is your organization approaching multi-country AI agent deployment? Is geographic complexity a barrier or becoming a strategic advantage?
 
@@ -43,12 +43,12 @@ How is your organization approaching multi-country AI agent deployment? Is geogr
 **Hook**: "Enterprise topology complexity is your moat" - reframing complexity as advantage
 **Key Data Points Used**:
 
-- $2M saved from single use case (CrewAI customer)
-- $100M annual savings target for 2026 (CrewAI customer)
+- $2M saved from single use case (a multi-agent framework company customer)
+- $100M annual savings target for 2026 (a multi-agent framework company customer)
 - 40-country presence, 100,000+ employees (Global 100 enterprise example)
 - Geographic strategy based on labor laws (Canada vs Europe)
 
-**Key Quote**: Joao on operational knowledge as defensibility that money cannot buy
+**Key Quote**: the co-founder on operational knowledge as defensibility that money cannot buy
 **Engagement Prompt**: Question about multi-country deployment and geographic complexity
 **Hashtags**: 5 relevant hashtags as specified
 
@@ -56,9 +56,9 @@ How is your organization approaching multi-country AI agent deployment? Is geogr
 
 ## Publishing Notes
 
-- Replace [LINK] with: https://fernandotorres.io/blog/crewai-interview
+- Replace [LINK] with: https://fernandotorres.io/blog/practitioner-interview-4
 - Post timing recommendation: 9-11am PST on Tuesday-Thursday
 - Consider adding cover image from blog post for higher engagement
 - Respond to comments within first 60 minutes for algorithm boost
-- Note: Ensure attribution permission from Joao/CrewAI before publishing
+- Note: Ensure attribution permission from the co-founder/a multi-agent framework company before publishing
 - Strong appeal to enterprise leaders, CTOs, and operations executives dealing with global complexity

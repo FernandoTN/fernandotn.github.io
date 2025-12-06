@@ -20,30 +20,30 @@ People interviewed who should see the research and may help amplify it.
 
 ### Featured Practitioners (Publications 14-18)
 
-| #   | Name          | Company  | Role               | Publication | Permission Status | Notes                                                |
-| --- | ------------- | -------- | ------------------ | ----------- | ----------------- | ---------------------------------------------------- |
-| 1   | David         | Qurrent  | Executive          | Pub 14      | Pending           | 90% pilot failure quote; system integration insights |
-| 2   | Mrinal Wadhwa | Autonomy | Founder            | Pub 15      | Pending           | Probabilistic systems; paradigm shift insights       |
-| 3   | Tian Lan      | Okta     | Engineering Leader | Pub 16      | Pending           | Agent identity; 3x productivity quote                |
-| 4   | Joao          | CrewAI   | Founder            | Pub 17      | Pending           | Enterprise topology; $100M ROI target                |
-| 5   | Mehak         | Sybill   | AI Lead            | Pub 18      | Pending           | Component evaluation; "build blind" approach         |
+| #   | Name                                              | Company                             | Role               | Publication | Permission Status | Notes                                                |
+| --- | ------------------------------------------------- | ----------------------------------- | ------------------ | ----------- | ----------------- | ---------------------------------------------------- |
+| 1   | the practitioner                                  | an AI agent orchestration company   | Executive          | Pub 14      | Pending           | 90% pilot failure quote; system integration insights |
+| 2   | a founder at an AI infrastructure company         | an AI infrastructure company        | Founder            | Pub 15      | Pending           | Probabilistic systems; paradigm shift insights       |
+| 3   | an engineering leader at a major identity company | a major enterprise identity company | Engineering Leader | Pub 16      | Pending           | Agent identity; 3x productivity quote                |
+| 4   | the co-founder                                    | a multi-agent framework company     | Founder            | Pub 17      | Pending           | Enterprise topology; $100M ROI target                |
+| 5   | the AI lead                                       | an AI sales intelligence company    | AI Lead            | Pub 18      | Pending           | Component evaluation; "build blind" approach         |
 
 ### Additional Interview Sources
 
-| #   | Name                | Company             | Role              | Topic Expertise                     | Contact Priority      |
-| --- | ------------------- | ------------------- | ----------------- | ----------------------------------- | --------------------- |
-| 6   | CC Fan              | Vivgrid             | CEO/Co-founder    | MCP scalability, 25-tool limit      | High                  |
-| 7   | Abhishek Shukla     | Apna                | CTO               | Voice AI, enterprise trust          | High                  |
-| 8   | Saurav              | RunLLM              | Founding Engineer | Memory systems, observability       | High                  |
-| 9   | Tushar Mathur       | CodeForge           | Founder/CEO       | Coding agents, model capabilities   | High                  |
-| 10  | Sahil Dhaka         | Clientell           | Co-founder        | Custom frameworks, evaluation       | Medium                |
-| 11  | Stephen Li          | GMI                 | Sales             | GPU infrastructure, scaling         | Medium                |
-| 12  | Yujian Tan          | Community Organizer | AI Events         | Framework gaps, evaluation          | Medium                |
-| 13  | Cynthia             | Wise Agents         | GTM Lead          | Framework abandonment, 80-90% stat  | High                  |
-| 14  | Claire              | ChatPRD             | Founder           | Solo founder AI productivity        | Medium                |
-| 15  | Dan Nelm            | Theory VC           | Investor          | Agent orchestration, VC perspective | High                  |
-| 16  | Roblox Executive    | Roblox              | Systems Lead      | Enterprise AI deployment            | Low (anonymize)       |
-| 17  | Zeena Ashaq Qureshi | Sonantic/Spotify    | Former CEO        | Acquisition strategy                | Low (different focus) |
+| #   | Name                         | Company                      | Role              | Topic Expertise                     | Contact Priority      |
+| --- | ---------------------------- | ---------------------------- | ----------------- | ----------------------------------- | --------------------- |
+| 6   | CC Fan                       | an AI infrastructure company | CEO/Co-founder    | MCP scalability, 25-tool limit      | High                  |
+| 7   | an engineering leader Shukla | a workforce platform         | CTO               | Voice AI, enterprise trust          | High                  |
+| 8   | a practitioner               | an AI observability company  | Founding Engineer | Memory systems, observability       | High                  |
+| 9   | a developer Mathur           | an AI coding company         | Founder/CEO       | Coding agents, model capabilities   | High                  |
+| 10  | a practitioner Dhaka         | a CRM AI company             | Co-founder        | Custom frameworks, evaluation       | Medium                |
+| 11  | Stephen Li                   | GMI                          | Sales             | GPU infrastructure, scaling         | Medium                |
+| 12  | a practitioner               | Community Organizer          | AI Events         | Framework gaps, evaluation          | Medium                |
+| 13  | Cynthia                      | Wise Agents                  | GTM Lead          | Framework abandonment, 80-90% stat  | High                  |
+| 14  | Claire                       | ChatPRD                      | Founder           | Solo founder AI productivity        | Medium                |
+| 15  | Dan Nelm                     | Theory VC                    | Investor          | Agent orchestration, VC perspective | High                  |
+| 16  | Roblox Executive             | Roblox                       | Systems Lead      | Enterprise AI deployment            | Low (anonymize)       |
+| 17  | Zeena Ashaq Qureshi          | Sonantic/Spotify             | Former CEO        | Acquisition strategy                | Low (different focus) |
 
 **Interview Sources Subtotal**: 17 named contacts
 
@@ -91,18 +91,18 @@ People interviewed who should see the research and may help amplify it.
 
 ### AI/ML Thought Leaders
 
-| #   | Name            | Role                    | Followers | Topic Alignment  | Engagement Strategy          |
-| --- | --------------- | ----------------------- | --------- | ---------------- | ---------------------------- |
-| 1   | Andrej Karpathy | Former Tesla AI         | 900K+     | LLM capabilities | Tag in technical posts       |
-| 2   | Yann LeCun      | Meta Chief AI Scientist | 700K+     | AI research      | Academic angle               |
-| 3   | Andrew Ng       | DeepLearning.AI         | 2M+       | AI education     | Educational framing          |
-| 4   | Harrison Chase  | LangChain CEO           | 100K+     | Frameworks       | Framework critique (careful) |
-| 5   | Chip Huyen      | ML Systems Author       | 200K+     | MLOps            | Production systems focus     |
-| 6   | Swyx            | Latent Space            | 100K+     | AI Engineering   | Direct engagement            |
-| 7   | Sam Altman      | OpenAI CEO              | 2M+       | AI industry      | Industry trends              |
-| 8   | Dario Amodei    | Anthropic CEO           | 100K+     | AI safety        | Model capabilities angle     |
-| 9   | Greg Brockman   | OpenAI                  | 500K+     | AI deployment    | Production focus             |
-| 10  | Jim Fan         | NVIDIA                  | 200K+     | Embodied AI      | Agent systems                |
+| #   | Name            | Role                             | Followers | Topic Alignment  | Engagement Strategy          |
+| --- | --------------- | -------------------------------- | --------- | ---------------- | ---------------------------- |
+| 1   | Andrej Karpathy | Former Tesla AI                  | 900K+     | LLM capabilities | Tag in technical posts       |
+| 2   | Yann LeCun      | Meta Chief AI Scientist          | 700K+     | AI research      | Academic angle               |
+| 3   | Andrew Ng       | DeepLearning.AI                  | 2M+       | AI education     | Educational framing          |
+| 4   | Harrison Chase  | a popular AI agent framework CEO | 100K+     | Frameworks       | Framework critique (careful) |
+| 5   | Chip Huyen      | ML Systems Author                | 200K+     | MLOps            | Production systems focus     |
+| 6   | Swyx            | Latent Space                     | 100K+     | AI Engineering   | Direct engagement            |
+| 7   | Sam Altman      | OpenAI CEO                       | 2M+       | AI industry      | Industry trends              |
+| 8   | Dario Amodei    | Anthropic CEO                    | 100K+     | AI safety        | Model capabilities angle     |
+| 9   | Greg Brockman   | OpenAI                           | 500K+     | AI deployment    | Production focus             |
+| 10  | Jim Fan         | NVIDIA                           | 200K+     | Embodied AI      | Agent systems                |
 
 ### Enterprise/Product Leaders
 
@@ -122,14 +122,14 @@ People interviewed who should see the research and may help amplify it.
 
 ### Reddit Communities
 
-| #   | Subreddit         | Members | Content Type         | Best For           |
-| --- | ----------------- | ------- | -------------------- | ------------------ |
-| 1   | r/MachineLearning | 3M+     | Technical discussion | Deep dive posts    |
-| 2   | r/artificial      | 900K+   | General AI news      | Anchor post        |
-| 3   | r/LocalLLaMA      | 200K+   | LLM deployment       | Technical insights |
-| 4   | r/LangChain       | 30K+    | Framework users      | Framework critique |
-| 5   | r/OpenAI          | 500K+   | OpenAI ecosystem     | Agent discussions  |
-| 6   | r/ChatGPT         | 5M+     | General audience     | Accessible posts   |
+| #   | Subreddit                      | Members | Content Type         | Best For           |
+| --- | ------------------------------ | ------- | -------------------- | ------------------ |
+| 1   | r/MachineLearning              | 3M+     | Technical discussion | Deep dive posts    |
+| 2   | r/artificial                   | 900K+   | General AI news      | Anchor post        |
+| 3   | r/LocalLLaMA                   | 200K+   | LLM deployment       | Technical insights |
+| 4   | r/a popular AI agent framework | 30K+    | Framework users      | Framework critique |
+| 5   | r/OpenAI                       | 500K+   | OpenAI ecosystem     | Agent discussions  |
+| 6   | r/ChatGPT                      | 5M+     | General audience     | Accessible posts   |
 
 ### Hacker News
 
@@ -140,14 +140,14 @@ People interviewed who should see the research and may help amplify it.
 
 ### Discord/Slack Communities
 
-| #   | Community         | Focus          | Members | Access |
-| --- | ----------------- | -------------- | ------- | ------ |
-| 1   | MLOps Community   | ML Operations  | 20K+    | Open   |
-| 2   | Weights & Biases  | ML Tools       | 15K+    | Open   |
-| 3   | LangChain Discord | Framework      | 50K+    | Open   |
-| 4   | Hugging Face      | ML Community   | 50K+    | Open   |
-| 5   | AI Tinkerers      | AI Builders    | 10K+    | Open   |
-| 6   | Latent Space      | AI Engineering | 5K+     | Invite |
+| #   | Community                            | Focus          | Members | Access |
+| --- | ------------------------------------ | -------------- | ------- | ------ |
+| 1   | MLOps Community                      | ML Operations  | 20K+    | Open   |
+| 2   | Weights & Biases                     | ML Tools       | 15K+    | Open   |
+| 3   | a popular AI agent framework Discord | Framework      | 50K+    | Open   |
+| 4   | Hugging Face                         | ML Community   | 50K+    | Open   |
+| 5   | AI Tinkerers                         | AI Builders    | 10K+    | Open   |
+| 6   | Latent Space                         | AI Engineering | 5K+     | Invite |
 
 **Communities Subtotal**: 13 channels
 
@@ -227,13 +227,13 @@ People interviewed who should see the research and may help amplify it.
 
 ### Permission Request Status
 
-| Contact           | Email Sent | Response | Permission | Follow-up |
-| ----------------- | ---------- | -------- | ---------- | --------- |
-| David (Qurrent)   | [ ]        |          |            |           |
-| Mrinal (Autonomy) | [ ]        |          |            |           |
-| Tian (Okta)       | [ ]        |          |            |           |
-| Joao (CrewAI)     | [ ]        |          |            |           |
-| Mehak (Sybill)    | [ ]        |          |            |           |
+| Contact                                           | Email Sent | Response | Permission | Follow-up |
+| ------------------------------------------------- | ---------- | -------- | ---------- | --------- |
+| an enterprise AI deployment expert                | [ ]        |          |            |           |
+| a founder at an AI infrastructure company         | [ ]        |          |            |           |
+| an engineering leader at a major identity company | [ ]        |          |            |           |
+| a co-founder at a multi-agent framework company   | [ ]        |          |            |           |
+| an AI lead at a sales intelligence company        | [ ]        |          |            |           |
 
 ### Newsletter Submission Status
 
@@ -279,7 +279,7 @@ People interviewed who should see the research and may help amplify it.
 
 - 90% of AI agent pilots never convert to production
 - 92% of practitioners cite system integration as the primary challenge
-- 80-90% abandon frameworks like LangChain for production
+- 80-90% abandon frameworks like a popular AI agent framework for production
 - Models contribute only 30-40% to successful deployments
 
 ### Unique Value Proposition

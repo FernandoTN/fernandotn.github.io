@@ -31,42 +31,42 @@ This document outlines the tagging strategy for the 25-post LinkedIn content ser
 
 These posts feature direct quotes and insights from industry practitioners. Tagging is highly relevant but requires permission.
 
-| Post | Date   | Person to Tag | Title | Company  | Permission Status |
-| ---- | ------ | ------------- | ----- | -------- | ----------------- |
-| 14   | Jan 14 | David         | (TBD) | Qurrent  | **Pending**       |
-| 15   | Jan 16 | Mrinal        | (TBD) | Autonomy | **Pending**       |
-| 16   | Jan 20 | Tian Lan      | (TBD) | Okta     | **Pending**       |
-| 17   | Jan 22 | Joao          | (TBD) | CrewAI   | **Pending**       |
-| 18   | Jan 24 | Mehak         | (TBD) | Sybill   | **Pending**       |
+| Post | Date   | Person to Tag                                     | Title | Company                             | Permission Status |
+| ---- | ------ | ------------------------------------------------- | ----- | ----------------------------------- | ----------------- |
+| 14   | Jan 14 | the practitioner                                  | (TBD) | an AI agent orchestration company   | **Pending**       |
+| 15   | Jan 16 | the founder                                       | (TBD) | an AI infrastructure company        | **Pending**       |
+| 16   | Jan 20 | an engineering leader at a major identity company | (TBD) | a major enterprise identity company | **Pending**       |
+| 17   | Jan 22 | the co-founder                                    | (TBD) | a multi-agent framework company     | **Pending**       |
+| 18   | Jan 24 | the AI lead                                       | (TBD) | an AI sales intelligence company    | **Pending**       |
 
 **Action Required**:
 
-- [ ] Obtain tagging permission from David (Qurrent) before Jan 14
-- [ ] Obtain tagging permission from Mrinal (Autonomy) before Jan 16
-- [ ] Obtain tagging permission from Tian Lan (Okta) before Jan 20
-- [ ] Obtain tagging permission from Joao (CrewAI) before Jan 22
-- [ ] Obtain tagging permission from Mehak (Sybill) before Jan 24
+- [ ] Obtain tagging permission from an enterprise AI deployment expert before Jan 14
+- [ ] Obtain tagging permission from a founder at an AI infrastructure company before Jan 16
+- [ ] Obtain tagging permission from an engineering leader at a major identity company before Jan 20
+- [ ] Obtain tagging permission from a co-founder at a multi-agent framework company before Jan 22
+- [ ] Obtain tagging permission from an AI lead at a sales intelligence company before Jan 24
 
 ### Conference/Event Posts (22-24)
 
-| Post | Date   | Title                                       | Potential Tags        | Notes                               |
-| ---- | ------ | ------------------------------------------- | --------------------- | ----------------------------------- |
-| 22   | Feb 5  | Manus Fireside: The 30-40% Model Revelation | Manus team members    | Only if speakers are public figures |
-| 23   | Feb 7  | Why 95% of Agentic AI Projects Fail         | Conference organizers | If quoting specific speakers        |
-| 24   | Feb 11 | Production Agents Summit                    | Summit organizers     | If attributing specific insights    |
+| Post | Date   | Title                                                                | Potential Tags                              | Notes                               |
+| ---- | ------ | -------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------- |
+| 22   | Feb 5  | an AI autonomous agent company Fireside: The 30-40% Model Revelation | an AI autonomous agent company team members | Only if speakers are public figures |
+| 23   | Feb 7  | Why 95% of Agentic AI Projects Fail                                  | Conference organizers                       | If quoting specific speakers        |
+| 24   | Feb 11 | Production Agents Summit                                             | Summit organizers                           | If attributing specific insights    |
 
 **Action Required**:
 
-- [ ] Identify public speakers from Manus fireside
+- [ ] Identify public speakers from an AI autonomous agent company fireside
 - [ ] Verify attribution preferences for conference content
 
 ### Framework & Tool Posts
 
-| Post | Date   | Title                                     | Company Mention | Tag Recommendation                   |
-| ---- | ------ | ----------------------------------------- | --------------- | ------------------------------------ |
-| 04   | Dec 17 | 80-90% of Teams Abandon LangChain         | LangChain       | **Do NOT tag** - Critical content    |
-| 11   | Jan 6  | MCP Reality Check: 25-Tool Accuracy Cliff | Anthropic (MCP) | Consider tagging - Technical insight |
-| 17   | Jan 22 | CrewAI's Lesson: Enterprise Topology      | CrewAI          | Tag company page - Positive mention  |
+| Post | Date   | Title                                                         | Company Mention                 | Tag Recommendation                   |
+| ---- | ------ | ------------------------------------------------------------- | ------------------------------- | ------------------------------------ |
+| 04   | Dec 17 | 80-90% of Teams Abandon a popular AI agent framework          | a popular AI agent framework    | **Do NOT tag** - Critical content    |
+| 11   | Jan 6  | MCP Reality Check: 25-Tool Accuracy Cliff                     | Anthropic (MCP)                 | Consider tagging - Technical insight |
+| 17   | Jan 22 | a multi-agent framework company's Lesson: Enterprise Topology | a multi-agent framework company | Tag company page - Positive mention  |
 
 ### Prototype/Technical Posts (19-21)
 
@@ -91,20 +91,20 @@ These posts feature direct quotes and insights from industry practitioners. Tagg
 
 ### Companies to Consider Tagging
 
-| Company       | Context                  | When to Tag                              | When NOT to Tag      |
-| ------------- | ------------------------ | ---------------------------------------- | -------------------- |
-| **Qurrent**   | Interview (Post 14)      | With David's permission                  | Without permission   |
-| **Autonomy**  | Interview (Post 15)      | With Mrinal's permission                 | Without permission   |
-| **Okta**      | Interview (Post 16)      | With Tian Lan's permission               | Without permission   |
-| **CrewAI**    | Interview (Post 17)      | With Joao's permission; positive mention | Without permission   |
-| **Sybill**    | Interview (Post 18)      | With Mehak's permission                  | Without permission   |
-| **Anthropic** | MCP content (Post 11)    | Technical insights, neutral/positive     | Critical comparisons |
-| **LangChain** | Framework post (Post 04) | Never - critical content                 | Always avoid         |
-| **OpenAI**    | General AI mentions      | Major positive platform mentions         | Competitive contexts |
+| Company                                 | Context                  | When to Tag                                                         | When NOT to Tag      |
+| --------------------------------------- | ------------------------ | ------------------------------------------------------------------- | -------------------- |
+| **an AI agent orchestration company**   | Interview (Post 14)      | With the practitioner's permission                                  | Without permission   |
+| **an AI infrastructure company**        | Interview (Post 15)      | With the founder's permission                                       | Without permission   |
+| **a major enterprise identity company** | Interview (Post 16)      | With an engineering leader at a major identity company's permission | Without permission   |
+| **a multi-agent framework company**     | Interview (Post 17)      | With the co-founder's permission; positive mention                  | Without permission   |
+| **an AI sales intelligence company**    | Interview (Post 18)      | With the AI lead's permission                                       | Without permission   |
+| **Anthropic**                           | MCP content (Post 11)    | Technical insights, neutral/positive                                | Critical comparisons |
+| **a popular AI agent framework**        | Framework post (Post 04) | Never - critical content                                            | Always avoid         |
+| **OpenAI**                              | General AI mentions      | Major positive platform mentions                                    | Competitive contexts |
 
 ### Companies to Avoid Tagging
 
-- **LangChain** - Post 04 is critical of framework adoption
+- **a popular AI agent framework** - Post 04 is critical of framework adoption
 - Any company mentioned in negative/critical context
 - Competitors when making comparisons
 
@@ -141,13 +141,13 @@ These posts feature direct quotes and insights from industry practitioners. Tagg
 
 ### Interview Permission Requests
 
-| Interviewee | Company  | Request Sent | Response | Approved | Notes |
-| ----------- | -------- | ------------ | -------- | -------- | ----- |
-| David       | Qurrent  | [ ]          | -        | [ ]      |       |
-| Mrinal      | Autonomy | [ ]          | -        | [ ]      |       |
-| Tian Lan    | Okta     | [ ]          | -        | [ ]      |       |
-| Joao        | CrewAI   | [ ]          | -        | [ ]      |       |
-| Mehak       | Sybill   | [ ]          | -        | [ ]      |       |
+| Interviewee                                       | Company                             | Request Sent | Response | Approved | Notes |
+| ------------------------------------------------- | ----------------------------------- | ------------ | -------- | -------- | ----- |
+| the practitioner                                  | an AI agent orchestration company   | [ ]          | -        | [ ]      |       |
+| the founder                                       | an AI infrastructure company        | [ ]          | -        | [ ]      |       |
+| an engineering leader at a major identity company | a major enterprise identity company | [ ]          | -        | [ ]      |       |
+| the co-founder                                    | a multi-agent framework company     | [ ]          | -        | [ ]      |       |
+| the AI lead                                       | an AI sales intelligence company    | [ ]          | -        | [ ]      |       |
 
 ### Permission Request Template
 
@@ -196,12 +196,12 @@ Fernando & Shekhar
 
 ## Summary: Potential Tags by Category
 
-| Category                    | Posts  | Potential Tags                  | Status             |
-| --------------------------- | ------ | ------------------------------- | ------------------ |
-| **Practitioner Interviews** | 14-18  | 5 people + 5 companies          | Permission pending |
-| **Conference Posts**        | 22-24  | 2-3 speakers/organizers         | TBD                |
-| **Company Mentions**        | 11, 17 | 2 companies (Anthropic, CrewAI) | Consider           |
-| **Total Potential**         | -      | **~12-15 tags**                 | -                  |
+| Category                    | Posts  | Potential Tags                                           | Status             |
+| --------------------------- | ------ | -------------------------------------------------------- | ------------------ |
+| **Practitioner Interviews** | 14-18  | 5 people + 5 companies                                   | Permission pending |
+| **Conference Posts**        | 22-24  | 2-3 speakers/organizers                                  | TBD                |
+| **Company Mentions**        | 11, 17 | 2 companies (Anthropic, a multi-agent framework company) | Consider           |
+| **Total Potential**         | -      | **~12-15 tags**                                          | -                  |
 
 ### Confirmed Tags: 0
 

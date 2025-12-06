@@ -292,13 +292,13 @@ The visual emphasizes that the blockers are organizational/governance layers, no
 
 ## Publication Reference
 
-- Title: "The Framework Paradox: Why 80-90% of Teams Abandon LangChain for Production"
+- Title: "The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework for Production"
 - Filename: `framework-abandonment.mdx`
 - Key Stat: 80-90% abandonment rate; 3-4x performance difference custom vs framework
 
 ## Visual Concept: "The Scaffolding Transition"
 
-A split visualization showing the journey from prototype to production. The left side shows a quick, temporary scaffold structure (representing frameworks like LangChain) that enables rapid building. The right side shows a solid, custom-built foundation that teams actually ship to production.
+A split visualization showing the journey from prototype to production. The left side shows a quick, temporary scaffold structure (representing frameworks like a popular AI agent framework) that enables rapid building. The right side shows a solid, custom-built foundation that teams actually ship to production.
 
 The visual metaphor captures the paradox: scaffolding gets you up fast but isn't the final structure. Teams must rebuild for production.
 

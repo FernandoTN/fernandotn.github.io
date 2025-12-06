@@ -98,25 +98,25 @@ The publication suite is substantially ready for deployment with one critical fi
 
 ### 4. Practitioner Perspectives (5)
 
-| #   | File                           | Date       | Frontmatter | Content | Links | Images       | Permission                |
-| --- | ------------------------------ | ---------- | ----------- | ------- | ----- | ------------ | ------------------------- |
-| 14  | 2025-12-autonomy-interview.mdx | 2025-12-15 | PASS        | PASS    | PASS  | INCONSISTENT | CONFIRMED (Mrinal Wadhwa) |
-| 15  | 2025-12-qurrent-interview.mdx  | 2025-12-16 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (David)       |
-| 16  | 2025-12-okta-interview.mdx     | 2025-12-18 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (Tian Lan)    |
-| 17  | 2025-12-crewai-interview.mdx   | 2025-12-22 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (Joao)        |
-| 18  | 2025-12-sybill-interview.mdx   | 2025-12-18 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (Mehak)       |
+| #   | File                                 | Date       | Frontmatter | Content | Links | Images       | Permission                                                      |
+| --- | ------------------------------------ | ---------- | ----------- | ------- | ----- | ------------ | --------------------------------------------------------------- |
+| 14  | 2025-12-practitioner-interview-2.mdx | 2025-12-15 | PASS        | PASS    | PASS  | INCONSISTENT | CONFIRMED (a founder at an AI infrastructure company)           |
+| 15  | 2025-12-practitioner-interview-1.mdx | 2025-12-16 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (the practitioner)                                  |
+| 16  | 2025-12-practitioner-interview-3.mdx | 2025-12-18 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (an engineering leader at a major identity company) |
+| 17  | 2025-12-practitioner-interview-4.mdx | 2025-12-22 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (the co-founder)                                    |
+| 18  | 2025-12-practitioner-interview-5.mdx | 2025-12-18 | PASS        | PASS    | PASS  | INCONSISTENT | **PENDING** (the AI lead)                                       |
 
 **Word Counts (Target: 1,600-2,200):**
 
-- autonomy-interview: 2,214 words - SLIGHTLY OVER
-- qurrent-interview: 2,239 words - SLIGHTLY OVER
-- okta-interview: 2,170 words - PASS
-- crewai-interview: 2,178 words - PASS
-- sybill-interview: 1,877 words - PASS
+- practitioner-interview-2: 2,214 words - SLIGHTLY OVER
+- practitioner-interview-1: 2,239 words - SLIGHTLY OVER
+- practitioner-interview-3: 2,170 words - PASS
+- practitioner-interview-4: 2,178 words - PASS
+- practitioner-interview-5: 1,877 words - PASS
 
 **Permission Status:**
 
-- 1/5 confirmed (Autonomy/Mrinal Wadhwa - named with title)
+- 1/5 confirmed (an AI infrastructure company/a founder at an AI infrastructure company - named with title)
 - 4/5 pending explicit permission before publication
 
 **Result:** CONDITIONAL (pending 4 permissions)
@@ -151,15 +151,15 @@ The publication suite is substantially ready for deployment with one critical fi
 
 ### 6. Conference Insights (3)
 
-| #   | File                          | Date       | Frontmatter | Content      | Links | Images       |
-| --- | ----------------------------- | ---------- | ----------- | ------------ | ----- | ------------ |
-| 22  | 2025-12-manus-fireside.mdx    | 2025-12-24 | PASS        | PASS         | PASS  | INCONSISTENT |
-| 23  | 2025-12-why-95-fail.mdx       | 2025-12-25 | PASS        | NEEDS REVIEW | PASS  | INCONSISTENT |
-| 24  | 2025-12-production-summit.mdx | 2025-12-26 | PASS        | PASS         | PASS  | INCONSISTENT |
+| #   | File                                  | Date       | Frontmatter | Content      | Links | Images       |
+| --- | ------------------------------------- | ---------- | ----------- | ------------ | ----- | ------------ |
+| 22  | 2025-12-autonomous-agent-fireside.mdx | 2025-12-24 | PASS        | PASS         | PASS  | INCONSISTENT |
+| 23  | 2025-12-why-95-fail.mdx               | 2025-12-25 | PASS        | NEEDS REVIEW | PASS  | INCONSISTENT |
+| 24  | 2025-12-production-summit.mdx         | 2025-12-26 | PASS        | PASS         | PASS  | INCONSISTENT |
 
 **Word Counts (Target: 1,600-2,000):**
 
-- manus-fireside: 1,849 words - PASS
+- autonomous-agent-fireside: 1,849 words - PASS
 - why-95-fail: 2,178 words - OVER (178 words)
 - production-summit: 2,275 words - OVER (275 words)
 
@@ -281,18 +281,18 @@ Multiple apparent transcription errors in quoted conference content:
 
 ## Known Issues Summary
 
-| Issue                                 | Severity     | Category      | Status        | File(s)                                            |
-| ------------------------------------- | ------------ | ------------- | ------------- | -------------------------------------------------- |
-| Invalid date placeholder `2025-12-XX` | **CRITICAL** | Date          | FIX REQUIRED  | system-integration-92-percent.mdx                  |
-| Pending interview permissions (4)     | HIGH         | Legal/Privacy | WAITING       | qurrent, okta, crewai, sybill interviews           |
-| Pending interview permission (1)      | MEDIUM       | Legal/Privacy | WAITING       | Mehak/Sybill (also quoted in component-evaluation) |
-| MDX comment blocks in production file | LOW          | Cleanup       | RECOMMENDED   | model-myth.mdx                                     |
-| Transcription errors in quotes        | MEDIUM       | Content       | REVIEW NEEDED | why-95-fail.mdx                                    |
-| Attribution error                     | MEDIUM       | Accuracy      | REVIEW NEEDED | ai-agents-research-overview.mdx                    |
-| Image path outside /images/blog/      | LOW          | Consistency   | RECOMMENDED   | research-methodology.mdx                           |
-| Internal link inconsistency           | LOW          | Links         | RECOMMENDED   | repo-patcher.mdx                                   |
-| Image naming inconsistencies          | LOW          | Consistency   | OPTIONAL      | 15 files                                           |
-| Anchor post below word count target   | LOW          | Content       | OPTIONAL      | ai-agents-research-overview.mdx                    |
+| Issue                                 | Severity     | Category      | Status        | File(s)                                                                            |
+| ------------------------------------- | ------------ | ------------- | ------------- | ---------------------------------------------------------------------------------- |
+| Invalid date placeholder `2025-12-XX` | **CRITICAL** | Date          | FIX REQUIRED  | system-integration-92-percent.mdx                                                  |
+| Pending interview permissions (4)     | HIGH         | Legal/Privacy | WAITING       | practitioner 1, 3, 4, 5 interviews                                                 |
+| Pending interview permission (1)      | MEDIUM       | Legal/Privacy | WAITING       | the AI lead/an AI sales intelligence company (also quoted in component-evaluation) |
+| MDX comment blocks in production file | LOW          | Cleanup       | RECOMMENDED   | model-myth.mdx                                                                     |
+| Transcription errors in quotes        | MEDIUM       | Content       | REVIEW NEEDED | why-95-fail.mdx                                                                    |
+| Attribution error                     | MEDIUM       | Accuracy      | REVIEW NEEDED | ai-agents-research-overview.mdx                                                    |
+| Image path outside /images/blog/      | LOW          | Consistency   | RECOMMENDED   | research-methodology.mdx                                                           |
+| Internal link inconsistency           | LOW          | Links         | RECOMMENDED   | repo-patcher.mdx                                                                   |
+| Image naming inconsistencies          | LOW          | Consistency   | OPTIONAL      | 15 files                                                                           |
+| Anchor post below word count target   | LOW          | Content       | OPTIONAL      | ai-agents-research-overview.mdx                                                    |
 
 ---
 
@@ -328,10 +328,10 @@ The publication suite demonstrates high quality across:
 1. **CRITICAL FIX:** Update `publishedAt: '2025-12-XX'` to valid date in `2025-12-system-integration-92-percent.mdx`
 
 2. **PERMISSIONS (Required for Phase 4):**
-   - [ ] David (Qurrent) - Publication 15
-   - [ ] Tian Lan (Okta) - Publication 16
-   - [ ] Joao (CrewAI) - Publication 17
-   - [ ] Mehak (Sybill) - Publications 12 and 18
+   - [ ] an enterprise AI deployment expert - Publication 15
+   - [ ] an engineering leader at a major identity company - Publication 16
+   - [ ] a co-founder at a multi-agent framework company - Publication 17
+   - [ ] an AI lead at a sales intelligence company - Publications 12 and 18
 
 ### Recommended Before Publication
 

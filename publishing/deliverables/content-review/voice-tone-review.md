@@ -27,9 +27,9 @@
 **Consistency score:** 9/10
 **Notes:** Maintains data-driven approach with specific statistics. Good use of practitioner quotes. Rhetorical question opening mirrors anchor style. Clear actionable recommendations.
 
-### Post 3: "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat" (Interview)
+### Post 3: "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat" (Interview)
 
-**File:** `2025-12-crewai-interview.mdx`
+**File:** `2025-12-practitioner-interview-4.mdx`
 **Tone:** Professional/Business-focused
 **Voice:** First person singular ("my conversation with", "I discovered")
 **Jargon level:** Low - business terms accessible to general audience
@@ -54,7 +54,7 @@
 **Consistency score:** 8/10
 **Notes:** Slight voice shift to third person for conference reporting, which is appropriate for event coverage. Returns to first person in implications. Maintains data-driven approach with quotes.
 
-### Post 6: "The Framework Paradox: Why 80-90% of Teams Abandon LangChain" (Theme)
+### Post 6: "The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework" (Theme)
 
 **File:** `2025-12-framework-abandonment.mdx`
 **Tone:** Professional/Analytical
@@ -63,9 +63,9 @@
 **Consistency score:** 9/10
 **Notes:** Uses "we" more frequently, suggesting team research perspective. Strong evidence chain. Critical analysis balanced with practical recommendations.
 
-### Post 7: "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert" (Interview)
+### Post 7: "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert" (Interview)
 
-**File:** `2025-12-qurrent-interview.mdx`
+**File:** `2025-12-practitioner-interview-1.mdx`
 **Tone:** Professional/Business-focused
 **Voice:** First person singular ("I spoke with", "my assumptions")
 **Jargon level:** Low

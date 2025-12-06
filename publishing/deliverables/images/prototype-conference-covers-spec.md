@@ -2,15 +2,15 @@
 
 ## Generated Images
 
-| Publication                  | Image                                                                                                                     | File Path                                                                                          |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| 19. Shopping Agent           | ![Shopping Agent](generated-images/prototype-conference/prototype-conference-covers-19-shopping-agent-v1.png)             | `generated-images/prototype-conference/prototype-conference-covers-19-shopping-agent-v1.png`       |
-| 20. Repo Patcher             | ![Repo Patcher](generated-images/prototype-conference/prototype-conference-covers-20-repo-patcher-v1.png)                 | `generated-images/prototype-conference/prototype-conference-covers-20-repo-patcher-v1.png`         |
-| 21. Good Agents              | ![Good Agents](generated-images/prototype-conference/prototype-conference-covers-21-good-agents-v1.png)                   | `generated-images/prototype-conference/prototype-conference-covers-21-good-agents-v1.png`          |
-| 22. Manus Fireside           | ![Manus Fireside](generated-images/prototype-conference/prototype-conference-covers-22-manus-fireside-v1.png)             | `generated-images/prototype-conference/prototype-conference-covers-22-manus-fireside-v1.png`       |
-| 23. Why 95% Fail             | ![95% Fail](generated-images/prototype-conference/prototype-conference-covers-23-95-percent-fail-v1.png)                  | `generated-images/prototype-conference/prototype-conference-covers-23-95-percent-fail-v1.png`      |
-| 24. Production Agents Summit | ![Prod Agents Summit](generated-images/prototype-conference/prototype-conference-covers-24-prod-agents-summit-v1.png)     | `generated-images/prototype-conference/prototype-conference-covers-24-prod-agents-summit-v1.png`   |
-| 25. Research Methodology     | ![Research Methodology](generated-images/prototype-conference/prototype-conference-covers-25-research-methodology-v1.png) | `generated-images/prototype-conference/prototype-conference-covers-25-research-methodology-v1.png` |
+| Publication                                 | Image                                                                                                                                             | File Path                                                                                               |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 19. Shopping Agent                          | ![Shopping Agent](generated-images/prototype-conference/prototype-conference-covers-19-shopping-agent-v1.png)                                     | `generated-images/prototype-conference/prototype-conference-covers-19-shopping-agent-v1.png`            |
+| 20. Repo Patcher                            | ![Repo Patcher](generated-images/prototype-conference/prototype-conference-covers-20-repo-patcher-v1.png)                                         | `generated-images/prototype-conference/prototype-conference-covers-20-repo-patcher-v1.png`              |
+| 21. Good Agents                             | ![Good Agents](generated-images/prototype-conference/prototype-conference-covers-21-good-agents-v1.png)                                           | `generated-images/prototype-conference/prototype-conference-covers-21-good-agents-v1.png`               |
+| 22. an AI autonomous agent company Fireside | ![an AI autonomous agent company Fireside](generated-images/prototype-conference/prototype-conference-covers-22-autonomous-agent-fireside-v1.png) | `generated-images/prototype-conference/prototype-conference-covers-22-autonomous-agent-fireside-v1.png` |
+| 23. Why 95% Fail                            | ![95% Fail](generated-images/prototype-conference/prototype-conference-covers-23-95-percent-fail-v1.png)                                          | `generated-images/prototype-conference/prototype-conference-covers-23-95-percent-fail-v1.png`           |
+| 24. Production Agents Summit                | ![Prod Agents Summit](generated-images/prototype-conference/prototype-conference-covers-24-prod-agents-summit-v1.png)                             | `generated-images/prototype-conference/prototype-conference-covers-24-prod-agents-summit-v1.png`        |
+| 25. Research Methodology                    | ![Research Methodology](generated-images/prototype-conference/prototype-conference-covers-25-research-methodology-v1.png)                         | `generated-images/prototype-conference/prototype-conference-covers-25-research-methodology-v1.png`      |
 
 ---
 
@@ -22,11 +22,11 @@ Cover image specifications for AI Agents Research publications 19-25, encompassi
 
 ## Prototype Publications (19-21)
 
-| #   | Title                                                                       | Core Theme                                                  |
-| --- | --------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 19  | Building a Shopping Agent: Framework Bloat in Action                        | LangGraph to LangChain migration under deadline pressure    |
-| 20  | Repo Patcher: Using State Machines to Make AI Agents Reliable               | INGEST-PLAN-PATCH-TEST-REPAIR-PR state machine architecture |
-| 21  | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration | Verification-based governance for probabilistic systems     |
+| #   | Title                                                                       | Core Theme                                                                  |
+| --- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 19  | Building a Shopping Agent: Framework Bloat in Action                        | LangGraph to a popular AI agent framework migration under deadline pressure |
+| 20  | Repo Patcher: Using State Machines to Make AI Agents Reliable               | INGEST-PLAN-PATCH-TEST-REPAIR-PR state machine architecture                 |
+| 21  | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration | Verification-based governance for probabilistic systems                     |
 
 ---
 
@@ -34,7 +34,7 @@ Cover image specifications for AI Agents Research publications 19-25, encompassi
 
 | #   | Title                                                                                           | Core Theme                                      |
 | --- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| 22  | Manus Fireside: The 30-40% Model Revelation That Changed Everything                             | Model contribution inversion insight            |
+| 22  | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything    | Model contribution inversion insight            |
 | 23  | Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About | Four traps and handoff rate metric              |
 | 24  | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                   | Context engineering and production requirements |
 
@@ -58,7 +58,7 @@ Cover image specifications for AI Agents Research publications 19-25, encompassi
 
 - Split-screen design showing framework transition
 - Left side: Complex tangled graph nodes (LangGraph abstraction layers)
-- Right side: Clean linear chain links (LangChain simplicity)
+- Right side: Clean linear chain links (a popular AI agent framework simplicity)
 - Shopping cart icon at center bridging both approaches
 - Clock/countdown overlay suggesting deadline pressure
 - Color gradient from complexity (deep purple/red) to clarity (teal/blue)
@@ -67,7 +67,7 @@ Cover image specifications for AI Agents Research publications 19-25, encompassi
 
 - Title: Bold sans-serif, 48pt minimum
 - "Framework Bloat" emphasized in contrasting color
-- Subtitle: "From LangGraph to LangChain Under Deadline Pressure"
+- Subtitle: "From LangGraph to a popular AI agent framework Under Deadline Pressure"
 
 **Color Palette:**
 
@@ -161,7 +161,7 @@ Cover image specifications for AI Agents Research publications 19-25, encompassi
 
 ---
 
-### Publication 22: Manus Fireside
+### Publication 22: an AI autonomous agent company Fireside
 
 **Visual Concept:** Pie chart inversion showing the 30-40% model revelation
 
@@ -404,7 +404,7 @@ This specification covers 7 unique cover images across three content categories:
 
 **Prototype Publications (19-21):** Technical, hands-on aesthetic with code/building themes emphasizing practical learnings from the Shopping Agent, Repo Patcher, and Good Agents prototypes.
 
-**Conference Publications (22-24):** Professional, insight-focused designs capturing key revelations from Manus Fireside (30-40% model contribution), the 95% failure conference (four traps and handoff rate), and Production Agents Summit (40% context rule).
+**Conference Publications (22-24):** Professional, insight-focused designs capturing key revelations from an AI autonomous agent company Fireside (30-40% model contribution), the 95% failure conference (four traps and handoff rate), and Production Agents Summit (40% context rule).
 
 **Methodology Publication (25):** Academic, systematic visualization showing the research pipeline from 44 sources to actionable insights.
 

@@ -22,7 +22,7 @@ Unique tags found across all 25 publications (32 total):
 
 1. AI Agents
 2. Architecture
-3. Autonomy
+3. an AI infrastructure company
 4. Best Practices
 5. Case Study
 6. Code Agents
@@ -30,7 +30,7 @@ Unique tags found across all 25 publications (32 total):
 8. Conference
 9. Context Management
 10. Context Windows
-11. CrewAI
+11. a multi-agent framework company
 12. Developer Tools
 13. E-commerce
 14. Enterprise
@@ -44,9 +44,9 @@ Unique tags found across all 25 publications (32 total):
 22. Identity
 23. Infrastructure
 24. Integration
-25. LangChain
+25. a popular AI agent framework
 26. LangGraph
-27. Manus
+27. an AI autonomous agent company
 28. Market Opportunity
 29. MCP
 30. Memory
@@ -54,7 +54,7 @@ Unique tags found across all 25 publications (32 total):
 32. Model Capabilities
 33. Models
 34. Multi-Agent
-35. Okta
+35. a major enterprise identity company
 36. Orchestration
 37. Probabilistic Systems
 38. Production
@@ -63,7 +63,7 @@ Unique tags found across all 25 publications (32 total):
 41. Productivity
 42. Prototyping
 43. QA
-44. Qurrent
+44. an AI agent orchestration company
 45. RAG
 46. Reliability
 47. Research
@@ -75,7 +75,7 @@ Unique tags found across all 25 publications (32 total):
 53. Stanford GSB
 54. Startups
 55. State Machines
-56. Sybill
+56. an AI sales intelligence company
 57. System Integration
 58. systematic-analysis
 59. Testing
@@ -85,70 +85,70 @@ Unique tags found across all 25 publications (32 total):
 
 ### Tag Frequency
 
-| Tag                   | Count | Posts                                                                                                 |
-| --------------------- | ----- | ----------------------------------------------------------------------------------------------------- |
-| AI Agents             | 25    | All 25 posts                                                                                          |
-| Enterprise            | 5     | qurrent-interview, okta-interview, crewai-interview, enterprise-business-case, coding-agent-exception |
-| Enterprise AI         | 4     | research-overview, system-integration, enterprise-business-case, coding-agent-exception               |
-| Evaluation            | 5     | evaluation-gap, component-evaluation, sybill-interview, demo-production-chasm, handoff-rate-metric    |
-| Production            | 5     | research-overview, demo-production-chasm, repo-patcher, production-summit, system-integration         |
-| Reliability           | 4     | autonomy-interview, demo-production-chasm, repo-patcher, production-summit                            |
-| MCP                   | 3     | mcp-tool-cliff, system-integration, good-agents                                                       |
-| Integration           | 3     | crewai-interview, mcp-tool-cliff, system-integration                                                  |
-| Memory                | 3     | dual-memory-architecture, 40-percent-context-rule, context-management                                 |
-| Architecture          | 3     | model-myth, dual-memory-architecture, manus-fireside                                                  |
-| Models                | 2     | model-myth, manus-fireside                                                                            |
-| Context Windows       | 1     | 40-percent-context-rule                                                                               |
-| RAG                   | 2     | 40-percent-context-rule, dual-memory-architecture                                                     |
-| LangChain             | 2     | framework-abandonment, shopping-agent                                                                 |
-| LangGraph             | 1     | shopping-agent                                                                                        |
-| Frameworks            | 1     | framework-abandonment                                                                                 |
-| Production AI         | 1     | framework-abandonment                                                                                 |
-| Developer Tools       | 1     | framework-abandonment                                                                                 |
-| Tools                 | 1     | mcp-tool-cliff                                                                                        |
-| Metrics               | 1     | handoff-rate-metric                                                                                   |
-| Automation            | 1     | handoff-rate-metric                                                                                   |
-| Testing               | 1     | component-evaluation                                                                                  |
-| QA                    | 1     | component-evaluation                                                                                  |
-| Startups              | 1     | evaluation-gap                                                                                        |
-| Market Opportunity    | 1     | evaluation-gap                                                                                        |
-| Autonomy              | 1     | autonomy-interview                                                                                    |
-| Expectations          | 1     | autonomy-interview                                                                                    |
-| Probabilistic Systems | 1     | autonomy-interview                                                                                    |
-| Qurrent               | 1     | qurrent-interview                                                                                     |
-| Case Study            | 1     | qurrent-interview                                                                                     |
-| ROI                   | 2     | qurrent-interview, enterprise-business-case                                                           |
-| Okta                  | 1     | okta-interview                                                                                        |
-| Identity              | 1     | okta-interview                                                                                        |
-| Security              | 1     | okta-interview                                                                                        |
-| CrewAI                | 1     | crewai-interview                                                                                      |
-| Multi-Agent           | 2     | crewai-interview, good-agents                                                                         |
-| Sybill                | 1     | sybill-interview                                                                                      |
-| Sales                 | 1     | sybill-interview                                                                                      |
-| Vertical AI           | 1     | sybill-interview                                                                                      |
-| Prototyping           | 1     | shopping-agent                                                                                        |
-| E-commerce            | 1     | shopping-agent                                                                                        |
-| State Machines        | 1     | repo-patcher                                                                                          |
-| Code Agents           | 1     | repo-patcher                                                                                          |
-| Orchestration         | 1     | good-agents                                                                                           |
-| Trust                 | 2     | good-agents, enterprise-business-case                                                                 |
-| Manus                 | 1     | manus-fireside                                                                                        |
-| Conference            | 3     | manus-fireside, why-95-fail, production-summit                                                        |
-| Failure Patterns      | 1     | why-95-fail                                                                                           |
-| Best Practices        | 1     | why-95-fail                                                                                           |
-| Handoff Rate          | 1     | why-95-fail                                                                                           |
-| Snowflake             | 1     | production-summit                                                                                     |
-| Context Management    | 1     | production-summit                                                                                     |
-| Research              | 1     | research-overview                                                                                     |
-| Stanford GSB          | 1     | research-overview                                                                                     |
-| Governance            | 1     | enterprise-business-case                                                                              |
-| Coding Agents         | 1     | coding-agent-exception                                                                                |
-| Model Capabilities    | 1     | coding-agent-exception                                                                                |
-| Productivity          | 1     | coding-agent-exception                                                                                |
-| Infrastructure        | 1     | model-myth                                                                                            |
-| research-methodology  | 1     | research-methodology                                                                                  |
-| systematic-analysis   | 1     | research-methodology                                                                                  |
-| ai-agents             | 1     | research-methodology                                                                                  |
+| Tag                                 | Count | Posts                                                                                                                          |
+| ----------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------ |
+| AI Agents                           | 25    | All 25 posts                                                                                                                   |
+| Enterprise                          | 5     | practitioner-interview-1, practitioner-interview-3, practitioner-interview-4, enterprise-business-case, coding-agent-exception |
+| Enterprise AI                       | 4     | research-overview, system-integration, enterprise-business-case, coding-agent-exception                                        |
+| Evaluation                          | 5     | evaluation-gap, component-evaluation, practitioner-interview-5, demo-production-chasm, handoff-rate-metric                     |
+| Production                          | 5     | research-overview, demo-production-chasm, repo-patcher, production-summit, system-integration                                  |
+| Reliability                         | 4     | practitioner-interview-2, demo-production-chasm, repo-patcher, production-summit                                               |
+| MCP                                 | 3     | mcp-tool-cliff, system-integration, good-agents                                                                                |
+| Integration                         | 3     | practitioner-interview-4, mcp-tool-cliff, system-integration                                                                   |
+| Memory                              | 3     | dual-memory-architecture, 40-percent-context-rule, context-management                                                          |
+| Architecture                        | 3     | model-myth, dual-memory-architecture, autonomous-agent-fireside                                                                |
+| Models                              | 2     | model-myth, autonomous-agent-fireside                                                                                          |
+| Context Windows                     | 1     | 40-percent-context-rule                                                                                                        |
+| RAG                                 | 2     | 40-percent-context-rule, dual-memory-architecture                                                                              |
+| a popular AI agent framework        | 2     | framework-abandonment, shopping-agent                                                                                          |
+| LangGraph                           | 1     | shopping-agent                                                                                                                 |
+| Frameworks                          | 1     | framework-abandonment                                                                                                          |
+| Production AI                       | 1     | framework-abandonment                                                                                                          |
+| Developer Tools                     | 1     | framework-abandonment                                                                                                          |
+| Tools                               | 1     | mcp-tool-cliff                                                                                                                 |
+| Metrics                             | 1     | handoff-rate-metric                                                                                                            |
+| Automation                          | 1     | handoff-rate-metric                                                                                                            |
+| Testing                             | 1     | component-evaluation                                                                                                           |
+| QA                                  | 1     | component-evaluation                                                                                                           |
+| Startups                            | 1     | evaluation-gap                                                                                                                 |
+| Market Opportunity                  | 1     | evaluation-gap                                                                                                                 |
+| an AI infrastructure company        | 1     | practitioner-interview-2                                                                                                       |
+| Expectations                        | 1     | practitioner-interview-2                                                                                                       |
+| Probabilistic Systems               | 1     | practitioner-interview-2                                                                                                       |
+| an AI agent orchestration company   | 1     | practitioner-interview-1                                                                                                       |
+| Case Study                          | 1     | practitioner-interview-1                                                                                                       |
+| ROI                                 | 2     | practitioner-interview-1, enterprise-business-case                                                                             |
+| a major enterprise identity company | 1     | practitioner-interview-3                                                                                                       |
+| Identity                            | 1     | practitioner-interview-3                                                                                                       |
+| Security                            | 1     | practitioner-interview-3                                                                                                       |
+| a multi-agent framework company     | 1     | practitioner-interview-4                                                                                                       |
+| Multi-Agent                         | 2     | practitioner-interview-4, good-agents                                                                                          |
+| an AI sales intelligence company    | 1     | practitioner-interview-5                                                                                                       |
+| Sales                               | 1     | practitioner-interview-5                                                                                                       |
+| Vertical AI                         | 1     | practitioner-interview-5                                                                                                       |
+| Prototyping                         | 1     | shopping-agent                                                                                                                 |
+| E-commerce                          | 1     | shopping-agent                                                                                                                 |
+| State Machines                      | 1     | repo-patcher                                                                                                                   |
+| Code Agents                         | 1     | repo-patcher                                                                                                                   |
+| Orchestration                       | 1     | good-agents                                                                                                                    |
+| Trust                               | 2     | good-agents, enterprise-business-case                                                                                          |
+| an AI autonomous agent company      | 1     | autonomous-agent-fireside                                                                                                      |
+| Conference                          | 3     | autonomous-agent-fireside, why-95-fail, production-summit                                                                      |
+| Failure Patterns                    | 1     | why-95-fail                                                                                                                    |
+| Best Practices                      | 1     | why-95-fail                                                                                                                    |
+| Handoff Rate                        | 1     | why-95-fail                                                                                                                    |
+| Snowflake                           | 1     | production-summit                                                                                                              |
+| Context Management                  | 1     | production-summit                                                                                                              |
+| Research                            | 1     | research-overview                                                                                                              |
+| Stanford GSB                        | 1     | research-overview                                                                                                              |
+| Governance                          | 1     | enterprise-business-case                                                                                                       |
+| Coding Agents                       | 1     | coding-agent-exception                                                                                                         |
+| Model Capabilities                  | 1     | coding-agent-exception                                                                                                         |
+| Productivity                        | 1     | coding-agent-exception                                                                                                         |
+| Infrastructure                      | 1     | model-myth                                                                                                                     |
+| research-methodology                | 1     | research-methodology                                                                                                           |
+| systematic-analysis                 | 1     | research-methodology                                                                                                           |
+| ai-agents                           | 1     | research-methodology                                                                                                           |
 
 ### Tag Recommendations
 
@@ -164,7 +164,7 @@ Unique tags found across all 25 publications (32 total):
 
 #### Missing Tags (Suggested Additions)
 
-- **Cost Optimization** - Several posts discuss cost (manus-fireside, repo-patcher, enterprise-business-case) but no dedicated tag
+- **Cost Optimization** - Several posts discuss cost (autonomous-agent-fireside, repo-patcher, enterprise-business-case) but no dedicated tag
 - **Observability** - Mentioned in good-agents, repo-patcher, production-summit but no tag
 - **Human-in-the-Loop / HITL** - Key concept in repo-patcher, good-agents, demo-production-chasm
 - **Pilot Failure** - Key theme across multiple posts about 90% failure rate
@@ -183,18 +183,18 @@ Unique tags found across all 25 publications (32 total):
 | 8   | 2025-12-evaluation-gap.mdx                | 2025-12-13     | VALID       |
 | 9   | 2025-12-40-percent-context-rule.mdx       | 2025-12-14     | VALID       |
 | 10  | 2025-12-dual-memory-architecture.mdx      | 2025-12-15     | VALID       |
-| 11  | 2025-12-autonomy-interview.mdx            | 2025-12-15     | VALID       |
+| 11  | 2025-12-practitioner-interview-2.mdx      | 2025-12-15     | VALID       |
 | 12  | 2025-12-component-evaluation.mdx          | 2025-12-15     | VALID       |
-| 13  | 2025-12-qurrent-interview.mdx             | 2025-12-16     | VALID       |
+| 13  | 2025-12-practitioner-interview-1.mdx      | 2025-12-16     | VALID       |
 | 14  | 2025-12-demo-production-chasm.mdx         | 2025-12-18     | VALID       |
-| 15  | 2025-12-okta-interview.mdx                | 2025-12-18     | VALID       |
-| 16  | 2025-12-sybill-interview.mdx              | 2025-12-18     | VALID       |
+| 15  | 2025-12-practitioner-interview-3.mdx      | 2025-12-18     | VALID       |
+| 16  | 2025-12-practitioner-interview-5.mdx      | 2025-12-18     | VALID       |
 | 17  | 2025-12-shopping-agent.mdx                | 2025-12-19     | VALID       |
 | 18  | 2025-12-repo-patcher.mdx                  | 2025-12-20     | VALID       |
-| 19  | 2025-12-crewai-interview.mdx              | 2025-12-22     | VALID       |
+| 19  | 2025-12-practitioner-interview-4.mdx      | 2025-12-22     | VALID       |
 | 20  | 2025-12-good-agents.mdx                   | 2025-12-23     | VALID       |
 | 21  | 2025-12-model-myth.mdx                    | 2025-12-24     | VALID       |
-| 22  | 2025-12-manus-fireside.mdx                | 2025-12-24     | VALID       |
+| 22  | 2025-12-autonomous-agent-fireside.mdx     | 2025-12-24     | VALID       |
 | 23  | 2025-12-why-95-fail.mdx                   | 2025-12-25     | VALID       |
 | 24  | 2025-12-production-summit.mdx             | 2025-12-26     | VALID       |
 | 25  | 2025-12-system-integration-92-percent.mdx | **2025-12-XX** | **INVALID** |

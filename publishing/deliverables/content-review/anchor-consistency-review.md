@@ -58,12 +58,12 @@
 
 ### Quote Accuracy
 
-| Quote                               | Final Report                                                                                                                                                                                  | Anchor Post                                                                                                                          | Verification                                                    |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| Manus model contribution quote      | "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important than the model itself." | "Model only contributes 30-40% of the whole thing. The framework, the whole system you build upon the model is much more important." | **ACCURATE** - Anchor uses condensed version, preserves meaning |
-| David ROI quote                     | "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."                                                                 | "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."        | **EXACT MATCH**                                                 |
-| Cynthia framework abandonment quote | Full quote about LangChain bloat and 80-90% abandonment                                                                                                                                       | Full quote preserved                                                                                                                 | **EXACT MATCH**                                                 |
-| Production Agents Summit 40% rule   | "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes..."                                                                                | Referenced in table, not quoted directly                                                                                             | **ACCURATE** - Source attribution correct                       |
+| Quote                                                   | Final Report                                                                                                                                                                                  | Anchor Post                                                                                                                          | Verification                                                    |
+| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| an AI autonomous agent company model contribution quote | "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important than the model itself." | "Model only contributes 30-40% of the whole thing. The framework, the whole system you build upon the model is much more important." | **ACCURATE** - Anchor uses condensed version, preserves meaning |
+| the practitioner ROI quote                              | "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."                                                                 | "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."        | **EXACT MATCH**                                                 |
+| Cynthia framework abandonment quote                     | Full quote about a popular AI agent framework bloat and 80-90% abandonment                                                                                                                    | Full quote preserved                                                                                                                 | **EXACT MATCH**                                                 |
+| Production Agents Summit 40% rule                       | "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes..."                                                                                | Referenced in table, not quoted directly                                                                                             | **ACCURATE** - Source attribution correct                       |
 
 ---
 
@@ -96,19 +96,19 @@
 
 #### Content in Final Report Missing from Anchor Post
 
-| Gap                                                        | Severity         | Assessment                            |
-| ---------------------------------------------------------- | ---------------- | ------------------------------------- |
-| 81% enterprise blockers frequency                          | Low              | Not critical for blog format          |
-| 69% context management frequency                           | Low              | Not critical for blog format          |
-| 70% demo threshold detail                                  | Low              | Concept covered without specific stat |
-| Dual memory architecture (user vs agent memory)            | Medium           | Interesting insight omitted           |
-| Small model constellations prediction                      | Low              | Future prediction, not core finding   |
-| $10B+ evaluation market opportunity                        | Low              | Venture-specific, appropriate to omit |
-| PII detection challenges (18-24 month timeline)            | Low              | Technical detail, appropriate to omit |
-| Organizational change management (3-5 year timeline)       | Low              | Future timeline, appropriate to omit  |
-| Prototype names: Shopping Agent, Repo Patcher, Good Agents | Already included | **No gap**                            |
-| Company names: Qurrent, Autonomy, CodeForge, CrewAI, etc.  | Already included | **No gap**                            |
-| Evaluation-as-a-Service opportunity                        | Low              | Venture-focused, appropriate to omit  |
+| Gap                                                                                                                                         | Severity         | Assessment                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------- |
+| 81% enterprise blockers frequency                                                                                                           | Low              | Not critical for blog format          |
+| 69% context management frequency                                                                                                            | Low              | Not critical for blog format          |
+| 70% demo threshold detail                                                                                                                   | Low              | Concept covered without specific stat |
+| Dual memory architecture (user vs agent memory)                                                                                             | Medium           | Interesting insight omitted           |
+| Small model constellations prediction                                                                                                       | Low              | Future prediction, not core finding   |
+| $10B+ evaluation market opportunity                                                                                                         | Low              | Venture-specific, appropriate to omit |
+| PII detection challenges (18-24 month timeline)                                                                                             | Low              | Technical detail, appropriate to omit |
+| Organizational change management (3-5 year timeline)                                                                                        | Low              | Future timeline, appropriate to omit  |
+| Prototype names: Shopping Agent, Repo Patcher, Good Agents                                                                                  | Already included | **No gap**                            |
+| Company names: an AI agent orchestration company, an AI infrastructure company, an AI coding company, a multi-agent framework company, etc. | Already included | **No gap**                            |
+| Evaluation-as-a-Service opportunity                                                                                                         | Low              | Venture-focused, appropriate to omit  |
 
 #### Content in Anchor Post Not in Final Report
 
@@ -120,25 +120,25 @@
 
 ### Attribution Verification
 
-| Attributed Source                 | In Anchor | In Final Report | Status    |
-| --------------------------------- | --------- | --------------- | --------- |
-| Manus Co-Founder (Manus Fireside) | Yes       | Yes             | **MATCH** |
-| David (Qurrent)                   | Yes       | Yes             | **MATCH** |
-| Cynthia (Wise Agents)             | Yes       | Yes             | **MATCH** |
-| Sahil (Clientell)                 | Yes       | Yes             | **MATCH** |
-| Production Agents Summit          | Yes       | Yes             | **MATCH** |
-| CC (Vivgrid)                      | Yes       | Yes             | **MATCH** |
-| CrewAI                            | Yes       | Yes             | **MATCH** |
+| Attributed Source                                                                   | In Anchor | In Final Report | Status    |
+| ----------------------------------------------------------------------------------- | --------- | --------------- | --------- |
+| an AI autonomous agent company Co-Founder (an AI autonomous agent company Fireside) | Yes       | Yes             | **MATCH** |
+| an enterprise AI deployment expert                                                  | Yes       | Yes             | **MATCH** |
+| Cynthia (Wise Agents)                                                               | Yes       | Yes             | **MATCH** |
+| a practitioner at a CRM AI company                                                  | Yes       | Yes             | **MATCH** |
+| Production Agents Summit                                                            | Yes       | Yes             | **MATCH** |
+| a practitioner at an AI infrastructure company                                      | Yes       | Yes             | **MATCH** |
+| a multi-agent framework company                                                     | Yes       | Yes             | **MATCH** |
 
 ---
 
 ### Minor Discrepancies Noted
 
-| Item                            | Final Report                                                                                  | Anchor Post                                                                                        | Assessment                                                                                                                                                                         |
-| ------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Research timing                 | "September through November 2024"                                                             | "Autumn 2024"                                                                                      | **EQUIVALENT**                                                                                                                                                                     |
-| Semester                        | "Autumn 2025" (in header)                                                                     | "Autumn 2024" (in text)                                                                            | **NOTE**: Final Report header says "Autumn 2025" but text says "September through November 2024" - appears to be typo in Final Report header. Anchor correctly says "Autumn 2024". |
-| Shopping Agent framework switch | "Initially implemented with LangGraph, we were forced to switch to LangChain mid-development" | "Initially implemented with LangGraph, the team was forced to switch to LangChain mid-development" | **EQUIVALENT** - Minor pronoun change                                                                                                                                              |
+| Item                            | Final Report                                                                                                     | Anchor Post                                                                                                           | Assessment                                                                                                                                                                         |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Research timing                 | "September through November 2024"                                                                                | "Autumn 2024"                                                                                                         | **EQUIVALENT**                                                                                                                                                                     |
+| Semester                        | "Autumn 2025" (in header)                                                                                        | "Autumn 2024" (in text)                                                                                               | **NOTE**: Final Report header says "Autumn 2025" but text says "September through November 2024" - appears to be typo in Final Report header. Anchor correctly says "Autumn 2024". |
+| Shopping Agent framework switch | "Initially implemented with LangGraph, we were forced to switch to a popular AI agent framework mid-development" | "Initially implemented with LangGraph, the team was forced to switch to a popular AI agent framework mid-development" | **EQUIVALENT** - Minor pronoun change                                                                                                                                              |
 
 ---
 
@@ -150,7 +150,7 @@
 
 3. **Typo Note** - The Final Report header states "Autumn 2025" but the research was conducted in "Autumn 2024" (per the body text). The anchor post correctly states "Autumn 2024". This is a Final Report issue, not an anchor post issue.
 
-4. **70% Demo Threshold** - The anchor post could optionally include the "70% reliability creates demos but fails production" insight with attribution to Mrinal (Autonomy), as it's a memorable and actionable finding.
+4. **70% Demo Threshold** - The anchor post could optionally include the "70% reliability creates demos but fails production" insight with attribution to a founder at an AI infrastructure company, as it's a memorable and actionable finding.
 
 ---
 

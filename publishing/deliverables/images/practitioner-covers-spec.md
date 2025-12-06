@@ -2,13 +2,13 @@
 
 ## Generated Images
 
-| Publication            | Image                                                                                           | File Path                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 14. Autonomy Interview | ![Autonomy Interview](generated-images/practitioner-interviews/autonomy-interview-cover-14.png) | `generated-images/practitioner-interviews/autonomy-interview-cover-14.png` |
-| 15. Qurrent Interview  | ![Qurrent Interview](generated-images/practitioner-interviews/qurrent-interview-cover-15.png)   | `generated-images/practitioner-interviews/qurrent-interview-cover-15.png`  |
-| 16. Anon Interview     | ![Anon Interview](generated-images/practitioner-interviews/anon-interview-cover-16.png)         | `generated-images/practitioner-interviews/anon-interview-cover-16.png`     |
-| 17. CrewAI Interview   | ![CrewAI Interview](generated-images/practitioner-interviews/crewai-interview-cover-17.png)     | `generated-images/practitioner-interviews/crewai-interview-cover-17.png`   |
-| 18. Sybill Interview   | ![Sybill Interview](generated-images/practitioner-interviews/sybill-interview-cover-18.png)     | `generated-images/practitioner-interviews/sybill-interview-cover-18.png`   |
+| Publication                                     | Image                                                                                                                          | File Path                                                                        |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| 14. an AI infrastructure company Interview      | ![an AI infrastructure company Interview](generated-images/practitioner-interviews/practitioner-interview-2-cover-14.png)      | `generated-images/practitioner-interviews/practitioner-interview-2-cover-14.png` |
+| 15. an AI agent orchestration company Interview | ![an AI agent orchestration company Interview](generated-images/practitioner-interviews/practitioner-interview-1-cover-15.png) | `generated-images/practitioner-interviews/practitioner-interview-1-cover-15.png` |
+| 16. Anon Interview                              | ![Anon Interview](generated-images/practitioner-interviews/anon-interview-cover-16.png)                                        | `generated-images/practitioner-interviews/anon-interview-cover-16.png`           |
+| 17. a multi-agent framework company Interview   | ![a multi-agent framework company Interview](generated-images/practitioner-interviews/practitioner-interview-4-cover-17.png)   | `generated-images/practitioner-interviews/practitioner-interview-4-cover-17.png` |
+| 18. an AI sales intelligence company Interview  | ![an AI sales intelligence company Interview](generated-images/practitioner-interviews/practitioner-interview-5-cover-18.png)  | `generated-images/practitioner-interviews/practitioner-interview-5-cover-18.png` |
 
 ---
 
@@ -22,13 +22,13 @@
 
 ## Publications 14-18 Overview
 
-| #   | Title                                                                             | Company  | Key Theme                                      |
-| --- | --------------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
-| 14  | Autonomy's Take: Managing Expectations with Probabilistic Systems                 | Autonomy | Deterministic vs Probabilistic Thinking        |
-| 15  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | Qurrent  | ROI & Business Case Failure                    |
-| 16  | How Okta is Solving AI Agent Identity: The Next SSO Moment                        | Okta     | Agent Identity & Security                      |
-| 17  | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat                  | CrewAI   | Enterprise Complexity as Advantage             |
-| 18  | Sybill's Approach: Building AI Sales Agents That Actually Work                    | Sybill   | Component-Level Evaluation & Data Architecture |
+| #   | Title                                                                                                       | Company                             | Key Theme                                      |
+| --- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------- |
+| 14  | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems                       | an AI infrastructure company        | Deterministic vs Probabilistic Thinking        |
+| 15  | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | an AI agent orchestration company   | ROI & Business Case Failure                    |
+| 16  | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment                   | a major enterprise identity company | Agent Identity & Security                      |
+| 17  | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat                   | a multi-agent framework company     | Enterprise Complexity as Advantage             |
+| 18  | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work                    | an AI sales intelligence company    | Component-Level Evaluation & Data Architecture |
 
 ## Series Color Palette (Consistent Across All Covers)
 
@@ -59,12 +59,12 @@ To differentiate from Theme Deep-Dives while maintaining series unity:
 
 ---
 
-# Publication 14: Autonomy Interview
+# Publication 14: an AI infrastructure company Interview
 
 ## Publication Reference
 
-- Title: "Autonomy's Take: Managing Expectations with Probabilistic Systems"
-- Filename: `2025-12-autonomy-interview.mdx`
+- Title: "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems"
+- Filename: `2025-12-practitioner-interview-2.mdx`
 - Key Stats: 70% demo success rate; 30 years of deterministic conditioning; the "doom loop"
 
 ## Visual Concept: "The Probability Dice"
@@ -106,12 +106,12 @@ A stylized conversation bubble frames the transition, suggesting this insight em
 
 ---
 
-# Publication 15: Qurrent Interview
+# Publication 15: an AI agent orchestration company Interview
 
 ## Publication Reference
 
-- Title: "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production"
-- Filename: `2025-12-qurrent-interview.mdx`
+- Title: "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production"
+- Filename: `2025-12-practitioner-interview-1.mdx`
 - Key Stats: 90% pilot failure rate; 40-50% time on integration; $7 trillion knowledge work sector
 
 ## Visual Concept: "The Pilot Graveyard"
@@ -200,12 +200,12 @@ The visual references the "SSO moment" by showing a before/after: fragmented, in
 
 ---
 
-# Publication 17: CrewAI Interview
+# Publication 17: a multi-agent framework company Interview
 
 ## Publication Reference
 
-- Title: "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat"
-- Filename: `2025-12-crewai-talk.mdx`
+- Title: "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat"
+- Filename: `2025-12-practitioner-interview-4.mdx`
 - Key Stats: 40-country operations; 100,000+ employees; $2M+ single use case savings; $100M target
 
 ## Visual Concept: "The Complexity Fortress"
@@ -247,12 +247,12 @@ The insight: what appears as an obstacle is actually protection. Competitors can
 
 ---
 
-# Publication 18: Sybill Interview
+# Publication 18: an AI sales intelligence company Interview
 
 ## Publication Reference
 
-- Title: "Sybill's Approach: Building AI Sales Agents That Actually Work"
-- Filename: `2025-12-sybill-interview.mdx`
+- Title: "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work"
+- Filename: `2025-12-practitioner-interview-5.mdx`
 - Key Stats: 60M data points per company; 600K data points per deal; retrieval as the key; "build blind after step one"
 
 ## Visual Concept: "The Data Funnel"
@@ -314,7 +314,7 @@ To maintain series branding across all 5 practitioner covers:
 While maintaining visual consistency with the broader series:
 
 1. **Dialogue Motif**: Practitioner covers include conversation/quote visual elements not present in Theme Deep-Dives
-2. **Company Context**: Each cover subtly reflects the company's domain (identity for Okta, sales data for Sybill, etc.)
+2. **Company Context**: Each cover subtly reflects the company's domain (identity for a major enterprise identity company, sales data for an AI sales intelligence company, etc.)
 3. **Human Element**: Slightly warmer feel suggesting interview/conversation origin
 4. **Insight Framing**: Key quotes or insights visually highlighted as coming from a source
 
@@ -367,11 +367,11 @@ Create 5 cover images for practitioner interview blog posts. These should feel l
 
 **Production Priority:**
 
-1. Publication 15 (Qurrent) - highest priority - strongest "90% failure" visual narrative
-2. Publication 16 (Okta) - SSO/identity theme highly relevant to current enterprise discussion
-3. Publication 14 (Autonomy) - probabilistic vs deterministic is foundational concept
-4. Publication 17 (CrewAI) - complexity as moat is compelling counternarrative
-5. Publication 18 (Sybill) - data funnel visualization completes the technical perspective
+1. Publication 15 (an AI agent orchestration company) - highest priority - strongest "90% failure" visual narrative
+2. Publication 16 (a major enterprise identity company) - SSO/identity theme highly relevant to current enterprise discussion
+3. Publication 14 (an AI infrastructure company) - probabilistic vs deterministic is foundational concept
+4. Publication 17 (a multi-agent framework company) - complexity as moat is compelling counternarrative
+5. Publication 18 (an AI sales intelligence company) - data funnel visualization completes the technical perspective
 
 **Delivery Format:**
 

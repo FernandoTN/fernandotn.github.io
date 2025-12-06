@@ -20,21 +20,21 @@ Subtitle: _"The blockers aren't technical — they're organizational, economic, 
 
 ### Primary Statistics
 
-- **90%** enterprise pilot failure rate (McKinsey/Bain research via David, Qurrent)
-- **95%** POC-to-production failure rate (CrewAI, Project Nanda)
+- **90%** enterprise pilot failure rate (McKinsey/Bain research via the practitioner, an AI agent orchestration company)
+- **95%** POC-to-production failure rate (a multi-agent framework company, Project Nanda)
 - **Single-digit** enterprise adoption rates across the industry
 - **89%** of research sources (24 of 27) explicitly reference enterprise blockers
 - **3-5x** cost disadvantage for generic agent tasks vs. offshore human labor
 
 ### The Five Enterprise Blockers (Non-Technical)
 
-| Blocker                   | Key Insight                                                                           | Source Quote                                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Security & Compliance** | Trust deficit in regulated industries (BFSI, healthcare) prevents cloud LLM adoption  | "There is a lot of resistance in sharing data with agentic systems... a lot of trust deficit" — Abhishek (Apna)     |
-| **Identity Management**   | Agents need distinct identities from users (virtual employees) but no standards exist | "AI agents may be present... They have their own identity that the tools can access every system" — CC (Vivgrid)    |
-| **Pricing Confusion**     | Multiple competing models (seat/token/outcome) prevent cost forecasting               | "Those pricing schemes are confusing... They can't model their usage, they can't model their outcome" — Tian (Okta) |
-| **Human-in-the-Loop**     | HITL requirements must be architectural, not procedural                               | "You have to trust the LLM to make decisions on your behalf... a people and processes issue" — Yujian Tan           |
-| **Business Case Unclear** | ROI justification is #1 blocker before any technical issues                           | "90% of all pilots don't work or stop at pilot stage... never convert into production" — David (Qurrent)            |
+| Blocker                   | Key Insight                                                                           | Source Quote                                                                                                                                              |
+| ------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Security & Compliance** | Trust deficit in regulated industries (BFSI, healthcare) prevents cloud LLM adoption  | "There is a lot of resistance in sharing data with agentic systems... a lot of trust deficit" — an engineering leader at a workforce platform             |
+| **Identity Management**   | Agents need distinct identities from users (virtual employees) but no standards exist | "AI agents may be present... They have their own identity that the tools can access every system" — a practitioner at an AI infrastructure company        |
+| **Pricing Confusion**     | Multiple competing models (seat/token/outcome) prevent cost forecasting               | "Those pricing schemes are confusing... They can't model their usage, they can't model their outcome" — an engineering leader at a major identity company |
+| **Human-in-the-Loop**     | HITL requirements must be architectural, not procedural                               | "You have to trust the LLM to make decisions on your behalf... a people and processes issue" — a practitioner                                             |
+| **Business Case Unclear** | ROI justification is #1 blocker before any technical issues                           | "90% of all pilots don't work or stop at pilot stage... never convert into production" — an enterprise AI deployment expert                               |
 
 ### Supporting Data
 
@@ -262,11 +262,11 @@ This emphasizes the finding: _"Enterprise adoption is governance-constrained, no
 
 ### Primary Data Sources
 
-- David (Qurrent): 90% pilot failure rate, McKinsey/Bain research
-- CrewAI (Joao): 95% POC failure rate
-- Tian (Okta): Pricing confusion, identity challenges
-- Abhishek (Apna): Trust deficit in regulated industries
-- Yujian Tan: Human-in-the-loop requirements
+- an enterprise AI deployment expert: 90% pilot failure rate, McKinsey/Bain research
+- a multi-agent framework company (the co-founder): 95% POC failure rate
+- an engineering leader at a major identity company: Pricing confusion, identity challenges
+- an engineering leader at a workforce platform: Trust deficit in regulated industries
+- a practitioner: Human-in-the-loop requirements
 
 ### Research Basis
 

@@ -17,15 +17,15 @@
 
 ### Phase 2: Core Themes (Publications 2-8)
 
-| Pub # | Title                    | Related Posts     | Key Topics                                                                           |
-| ----- | ------------------------ | ----------------- | ------------------------------------------------------------------------------------ |
-| 2     | System Integration       | 1, 11, 14, 16, 17 | 92% integration challenges, 40-50% deployment time, MCP, enterprise systems          |
-| 3     | Context Management       | 1, 10, 24         | 40% utilization rule, context quality vs capacity, memory architecture               |
-| 4     | Framework Abandonment    | 1, 8, 19, 22      | 80-90% LangChain abandonment, 3-4x performance gap, custom frameworks                |
-| 5     | Demo to Production Chasm | 1, 6, 14, 15      | 70% demo accuracy trap, probabilistic systems, doom loop, stakeholder expectations   |
-| 6     | Enterprise Blockers      | 1, 5, 14, 16, 17  | 90% ROI failure, CISO/CIO gatekeepers, pricing confusion, security governance        |
-| 7     | Coding Agent Exception   | 1, 8, 20          | Only two killer apps (search, coding), 3x productivity gains, generation vs analysis |
-| 8     | Model Myth               | 1, 4, 7, 22       | 30-40% model contribution, 60-70% framework importance, architecture > model         |
+| Pub # | Title                    | Related Posts     | Key Topics                                                                               |
+| ----- | ------------------------ | ----------------- | ---------------------------------------------------------------------------------------- |
+| 2     | System Integration       | 1, 11, 14, 16, 17 | 92% integration challenges, 40-50% deployment time, MCP, enterprise systems              |
+| 3     | Context Management       | 1, 10, 24         | 40% utilization rule, context quality vs capacity, memory architecture                   |
+| 4     | Framework Abandonment    | 1, 8, 19, 22      | 80-90% a popular AI agent framework abandonment, 3-4x performance gap, custom frameworks |
+| 5     | Demo to Production Chasm | 1, 6, 14, 15      | 70% demo accuracy trap, probabilistic systems, doom loop, stakeholder expectations       |
+| 6     | Enterprise Blockers      | 1, 5, 14, 16, 17  | 90% ROI failure, CISO/CIO gatekeepers, pricing confusion, security governance            |
+| 7     | Coding Agent Exception   | 1, 8, 20          | Only two killer apps (search, coding), 3x productivity gains, generation vs analysis     |
+| 8     | Model Myth               | 1, 4, 7, 22       | 30-40% model contribution, 60-70% framework importance, architecture > model             |
 
 ### Phase 3: Emergent Insights (Publications 9-13)
 
@@ -39,29 +39,29 @@
 
 ### Phase 4: Practitioner Perspectives (Publications 14-18)
 
-| Pub # | Title              | Related Posts | Key Topics                                                                           |
-| ----- | ------------------ | ------------- | ------------------------------------------------------------------------------------ |
-| 14    | Qurrent Interview  | 1, 2, 5, 6    | 90% pilot failure, undefined ROI, 25+ production use cases, custom deployments       |
-| 15    | Autonomy Interview | 1, 5, 24      | 70% demo success rate, doom loop, deterministic conditioning, scientific methodology |
-| 16    | Okta Interview     | 1, 2, 6, 11   | Agent identity, next SSO moment, MCP extensions, CISO gatekeepers                    |
-| 17    | CrewAI Interview   | 1, 2, 6       | Enterprise topology, $2M savings, 40-country complexity, labor law strategy          |
-| 18    | Sybill Interview   | 1, 10, 12, 13 | Vertical AI, 60M to 20 data points, component evaluation, retrieval as moat          |
+| Pub # | Title                                         | Related Posts | Key Topics                                                                           |
+| ----- | --------------------------------------------- | ------------- | ------------------------------------------------------------------------------------ |
+| 14    | an AI agent orchestration company Interview   | 1, 2, 5, 6    | 90% pilot failure, undefined ROI, 25+ production use cases, custom deployments       |
+| 15    | an AI infrastructure company Interview        | 1, 5, 24      | 70% demo success rate, doom loop, deterministic conditioning, scientific methodology |
+| 16    | a major enterprise identity company Interview | 1, 2, 6, 11   | Agent identity, next SSO moment, MCP extensions, CISO gatekeepers                    |
+| 17    | a multi-agent framework company Interview     | 1, 2, 6       | Enterprise topology, $2M savings, 40-country complexity, labor law strategy          |
+| 18    | an AI sales intelligence company Interview    | 1, 10, 12, 13 | Vertical AI, 60M to 20 data points, component evaluation, retrieval as moat          |
 
 ### Phase 5: Prototype Learnings (Publications 19-21)
 
-| Pub # | Title          | Related Posts | Key Topics                                                                   |
-| ----- | -------------- | ------------- | ---------------------------------------------------------------------------- |
-| 19    | Shopping Agent | 1, 4, 11      | Framework switch mid-project, LangGraph to LangChain, MCP mocking            |
-| 20    | Repo Patcher   | 1, 7, 5       | State machines, HITL escalation, 6-stage workflow, $0.25 cost target         |
-| 21    | Good Agents    | 1, 11, 16     | Plan-Verify-Execute, SSE streaming, OAuth/RBAC security, governed automation |
+| Pub # | Title          | Related Posts | Key Topics                                                                           |
+| ----- | -------------- | ------------- | ------------------------------------------------------------------------------------ |
+| 19    | Shopping Agent | 1, 4, 11      | Framework switch mid-project, LangGraph to a popular AI agent framework, MCP mocking |
+| 20    | Repo Patcher   | 1, 7, 5       | State machines, HITL escalation, 6-stage workflow, $0.25 cost target                 |
+| 21    | Good Agents    | 1, 11, 16     | Plan-Verify-Execute, SSE streaming, OAuth/RBAC security, governed automation         |
 
 ### Phase 6: Conference Insights (Publications 22-24)
 
-| Pub # | Title                    | Related Posts | Key Topics                                                                    |
-| ----- | ------------------------ | ------------- | ----------------------------------------------------------------------------- |
-| 22    | Manus Fireside           | 1, 4, 8       | 30-40% model revelation, multi-model orchestration, 8x cost reduction         |
-| 23    | Why 95% Fail Conference  | 1, 9, 11      | Four traps taxonomy, RAG chatbots, handoff rate, MCP context bloat            |
-| 24    | Production Agents Summit | 1, 3, 10, 15  | 40% context rule, context engineering, notes summarization, left turn problem |
+| Pub # | Title                                   | Related Posts | Key Topics                                                                    |
+| ----- | --------------------------------------- | ------------- | ----------------------------------------------------------------------------- |
+| 22    | an AI autonomous agent company Fireside | 1, 4, 8       | 30-40% model revelation, multi-model orchestration, 8x cost reduction         |
+| 23    | Why 95% Fail Conference                 | 1, 9, 11      | Four traps taxonomy, RAG chatbots, handoff rate, MCP context bloat            |
+| 24    | Production Agents Summit                | 1, 3, 10, 15  | 40% context rule, context engineering, notes summarization, left turn problem |
 
 ### Phase 7: Methodology (Publication 25)
 
@@ -91,7 +91,7 @@
 ### Framework Abandonment
 
 **Posts:** 1, 4, 8, 19, 22
-**Description:** 80-90% of teams abandon LangChain for production; custom solutions outperform
+**Description:** 80-90% of teams abandon a popular AI agent framework for production; custom solutions outperform
 
 ### Enterprise Adoption/Blockers
 
@@ -206,7 +206,7 @@
 ### Conference Insights
 
 **Posts:** 22, 23, 24
-**Description:** Manus Fireside, Why 95% Fail, Production Agents Summit learnings
+**Description:** an AI autonomous agent company Fireside, Why 95% Fail, Production Agents Summit learnings
 
 ### Prototype Learnings
 
@@ -216,7 +216,7 @@
 ### Practitioner Interviews
 
 **Posts:** 14, 15, 16, 17, 18
-**Description:** Qurrent, Autonomy, Okta, CrewAI, Sybill perspectives
+**Description:** an AI agent orchestration company, an AI infrastructure company, a major enterprise identity company, a multi-agent framework company, an AI sales intelligence company perspectives
 
 ### Research Methodology
 
@@ -253,7 +253,7 @@
 3. **Then:** Enterprise Blockers (Pub 6) - Why pilots fail (ROI focus)
 4. **Then:** Handoff Rate Metric (Pub 9) - The metric that actually matters
 5. **Then:** Coding Agent Exception (Pub 7) - Where AI agents work today
-6. **Finally:** Qurrent Interview (Pub 14) - Practitioner perspective on deployment
+6. **Finally:** an AI agent orchestration company Interview (Pub 14) - Practitioner perspective on deployment
 
 ### For Researchers
 
@@ -262,15 +262,15 @@
 3. **Then:** Evaluation Gap Market (Pub 13) - Evaluation challenges
 4. **Then:** Component-Level Evaluation (Pub 12) - Testing methodologies
 5. **Then:** Context Management (Pub 3) - 40% utilization research
-6. **Finally:** Manus Fireside (Pub 22) - Primary source insights
+6. **Finally:** an AI autonomous agent company Fireside (Pub 22) - Primary source insights
 
 ### For Enterprise Architects
 
 1. **Start:** Anchor (Pub 1) - Overview of production challenges
 2. **Then:** System Integration (Pub 2) - 92% integration challenge
 3. **Then:** MCP 25-Tool Cliff (Pub 11) - Protocol limitations at scale
-4. **Then:** Okta Interview (Pub 16) - Agent identity and SSO
-5. **Then:** CrewAI Interview (Pub 17) - Enterprise topology complexity
+4. **Then:** a major enterprise identity company Interview (Pub 16) - Agent identity and SSO
+5. **Then:** a multi-agent framework company Interview (Pub 17) - Enterprise topology complexity
 6. **Finally:** Dual Memory Architecture (Pub 10) - Memory system design
 
 ### For Startup Founders
@@ -278,7 +278,7 @@
 1. **Start:** Anchor (Pub 1) - Market reality check
 2. **Then:** Evaluation Gap Market (Pub 13) - $10B+ opportunity
 3. **Then:** Coding Agent Exception (Pub 7) - Where PMF exists
-4. **Then:** Sybill Interview (Pub 18) - Vertical AI success story
+4. **Then:** an AI sales intelligence company Interview (Pub 18) - Vertical AI success story
 5. **Then:** Framework Abandonment (Pub 4) - Build vs buy decisions
 6. **Finally:** Why 95% Fail (Pub 23) - Four traps to avoid
 
@@ -295,33 +295,33 @@
 
 ## Quick Reference
 
-| #   | Title                      | Type         | Primary Theme | Key Statistic                 |
-| --- | -------------------------- | ------------ | ------------- | ----------------------------- |
-| 1   | Anchor - Research Overview | Anchor       | All Themes    | 90% pilot failure rate        |
-| 2   | System Integration         | Core Theme   | Integration   | 92% struggle with integration |
-| 3   | Context Management         | Core Theme   | Context       | 40% utilization rule          |
-| 4   | Framework Abandonment      | Core Theme   | Frameworks    | 80-90% abandon LangChain      |
-| 5   | Demo to Production Chasm   | Core Theme   | Probabilistic | 70% demo accuracy trap        |
-| 6   | Enterprise Blockers        | Core Theme   | Enterprise    | 90% fail from undefined ROI   |
-| 7   | Coding Agent Exception     | Core Theme   | Use Cases     | Only 2 killer apps            |
-| 8   | Model Myth                 | Core Theme   | Architecture  | 30-40% model contribution     |
-| 9   | Handoff Rate Metric        | Emergent     | Metrics       | North star for success        |
-| 10  | Dual Memory Architecture   | Emergent     | Memory        | User vs agent memory          |
-| 11  | MCP 25-Tool Cliff          | Emergent     | MCP           | 30% accuracy beyond 25 tools  |
-| 12  | Component-Level Evaluation | Emergent     | Evaluation    | 59% end-to-end accuracy       |
-| 13  | Evaluation Gap Market      | Emergent     | Evaluation    | 7 YC tools, zero adoption     |
-| 14  | Qurrent Interview          | Practitioner | Enterprise    | 25+ production deployments    |
-| 15  | Autonomy Interview         | Practitioner | Probabilistic | 70% demo success rate         |
-| 16  | Okta Interview             | Practitioner | Identity      | Next SSO moment               |
-| 17  | CrewAI Interview           | Practitioner | Enterprise    | $2M saved, one use case       |
-| 18  | Sybill Interview           | Practitioner | Vertical AI   | 60M to 20 data points         |
-| 19  | Shopping Agent             | Prototype    | Frameworks    | Framework switch mid-project  |
-| 20  | Repo Patcher               | Prototype    | Reliability   | 6-stage state machine         |
-| 21  | Good Agents                | Prototype    | Governance    | Plan-Verify-Execute           |
-| 22  | Manus Fireside             | Conference   | Architecture  | 8x cost reduction             |
-| 23  | Why 95% Fail               | Conference   | Traps         | Four failure traps            |
-| 24  | Production Agents Summit   | Conference   | Context       | 40% context ceiling           |
-| 25  | Research Methodology       | Methodology  | Process       | 35 parallel agents            |
+| #   | Title                                         | Type         | Primary Theme | Key Statistic                               |
+| --- | --------------------------------------------- | ------------ | ------------- | ------------------------------------------- |
+| 1   | Anchor - Research Overview                    | Anchor       | All Themes    | 90% pilot failure rate                      |
+| 2   | System Integration                            | Core Theme   | Integration   | 92% struggle with integration               |
+| 3   | Context Management                            | Core Theme   | Context       | 40% utilization rule                        |
+| 4   | Framework Abandonment                         | Core Theme   | Frameworks    | 80-90% abandon a popular AI agent framework |
+| 5   | Demo to Production Chasm                      | Core Theme   | Probabilistic | 70% demo accuracy trap                      |
+| 6   | Enterprise Blockers                           | Core Theme   | Enterprise    | 90% fail from undefined ROI                 |
+| 7   | Coding Agent Exception                        | Core Theme   | Use Cases     | Only 2 killer apps                          |
+| 8   | Model Myth                                    | Core Theme   | Architecture  | 30-40% model contribution                   |
+| 9   | Handoff Rate Metric                           | Emergent     | Metrics       | North star for success                      |
+| 10  | Dual Memory Architecture                      | Emergent     | Memory        | User vs agent memory                        |
+| 11  | MCP 25-Tool Cliff                             | Emergent     | MCP           | 30% accuracy beyond 25 tools                |
+| 12  | Component-Level Evaluation                    | Emergent     | Evaluation    | 59% end-to-end accuracy                     |
+| 13  | Evaluation Gap Market                         | Emergent     | Evaluation    | 7 YC tools, zero adoption                   |
+| 14  | an AI agent orchestration company Interview   | Practitioner | Enterprise    | 25+ production deployments                  |
+| 15  | an AI infrastructure company Interview        | Practitioner | Probabilistic | 70% demo success rate                       |
+| 16  | a major enterprise identity company Interview | Practitioner | Identity      | Next SSO moment                             |
+| 17  | a multi-agent framework company Interview     | Practitioner | Enterprise    | $2M saved, one use case                     |
+| 18  | an AI sales intelligence company Interview    | Practitioner | Vertical AI   | 60M to 20 data points                       |
+| 19  | Shopping Agent                                | Prototype    | Frameworks    | Framework switch mid-project                |
+| 20  | Repo Patcher                                  | Prototype    | Reliability   | 6-stage state machine                       |
+| 21  | Good Agents                                   | Prototype    | Governance    | Plan-Verify-Execute                         |
+| 22  | an AI autonomous agent company Fireside       | Conference   | Architecture  | 8x cost reduction                           |
+| 23  | Why 95% Fail                                  | Conference   | Traps         | Four failure traps                          |
+| 24  | Production Agents Summit                      | Conference   | Context       | 40% context ceiling                         |
+| 25  | Research Methodology                          | Methodology  | Process       | 35 parallel agents                          |
 
 ---
 

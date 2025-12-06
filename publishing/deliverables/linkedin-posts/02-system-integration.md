@@ -40,8 +40,8 @@ What integration challenges have you faced deploying AI agents?
 **Key Data Points Used**:
 
 - 92% system integration challenges (Theme_Frequency_Analysis)
-- 40-50% deployment time on integration (David/Qurrent)
-- 25-tool MCP limit / 30% accuracy drop (CC/Vivgrid)
+- 40-50% deployment time on integration (the practitioner/an AI agent orchestration company)
+- 25-tool MCP limit / 30% accuracy drop (CC/an AI infrastructure company)
 
 **Engagement Prompt**: Experience-based question about integration challenges
 **Hashtags**: 5 relevant hashtags including topic-specific #SystemIntegration

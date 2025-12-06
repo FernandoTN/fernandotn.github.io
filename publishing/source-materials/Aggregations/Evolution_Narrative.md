@@ -42,28 +42,28 @@ We believed the agent framework landscape was fragmented, with tools either abst
 
 ### Phase 1: Early Interviews (First 5-6 interviews, Oct 14-29)
 
-**Key Sources**: David (Qurrent - Oct 14), Tushar (CodeForge - Oct 29), Tian (Okta), Saurav (RunLLM), Mrinal (Autonomy)
+**Key Sources**: the practitioner (an AI agent orchestration company - Oct 14), a developer (an AI coding company - Oct 29), an engineering leader at a major identity company, a practitioner at an AI observability company, a founder at an AI infrastructure company
 
 #### What We Learned Initially
 
-The very first interview with David (Qurrent) immediately challenged our technical-first framing:
+The very first interview with an enterprise AI deployment expert immediately challenged our technical-first framing:
 
 > "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
 
-This was shocking. We expected technical barriers to be the primary failure mode, but David's data from 20+ paying customers showed **90% of pilots fail to convert to production** not because of technology, but because of unclear business value.
+This was shocking. We expected technical barriers to be the primary failure mode, but the practitioner's data from 20+ paying customers showed **90% of pilots fail to convert to production** not because of technology, but because of unclear business value.
 
-**System integration validated but reframed**: David confirmed our hypothesis about integration complexity, but with specific quantification: **40-50% of deployment time** is spent on system integration—not prompt engineering or AI work. The challenge wasn't abstract; it was heterogeneous stacks (SAP, Salesforce, core banking) that never talked to each other.
+**System integration validated but reframed**: the practitioner confirmed our hypothesis about integration complexity, but with specific quantification: **40-50% of deployment time** is spent on system integration—not prompt engineering or AI work. The challenge wasn't abstract; it was heterogeneous stacks (SAP, Salesforce, core banking) that never talked to each other.
 
-**MCP skepticism emerged early**: Contrary to industry positioning, David stated MCP was "not an industry standard" and platforms were "still experimenting" with it. This early signal would intensify throughout the research.
+**MCP skepticism emerged early**: Contrary to industry positioning, the practitioner stated MCP was "not an industry standard" and platforms were "still experimenting" with it. This early signal would intensify throughout the research.
 
-**Model capability surprise**: David asserted that "the intelligence is really smart enough"—GPT-4 level models were already sufficient for enterprise deployment. The bottleneck was integration, not AI capability. This contradicted our Hypothesis 4 about model improvements being the primary need.
+**Model capability surprise**: the practitioner asserted that "the intelligence is really smart enough"—GPT-4 level models were already sufficient for enterprise deployment. The bottleneck was integration, not AI capability. This contradicted our Hypothesis 4 about model improvements being the primary need.
 
 #### Early Surprises
 
 1. **Business case > Technical capability**: The primary failure mode was economic and organizational, not technological
 2. **Integration dominates effort allocation**: Nearly half of deployment time is integration work, not AI engineering
 3. **Service model shift**: Outcome-based pricing replacing seat-based SaaS, fundamentally changing business models
-4. **Coding agents as exception**: Tushar (CodeForge) identified only "two killer apps: search and coding agents"—suggesting limited production success beyond these domains
+4. **Coding agents as exception**: a developer at an AI coding company identified only "two killer apps: search and coding agents"—suggesting limited production success beyond these domains
 
 #### Questions That Emerged
 
@@ -76,13 +76,13 @@ This was shocking. We expected technical barriers to be the primary failure mode
 
 ### Phase 2: Conference Insights (Oct-Nov)
 
-**Key Events**: Alibaba Qwen (Oct 7), Production Agents Summit (Snowflake - Oct 10), Manus Fireside (Sept 25), Project Nanda, Why 95% Fail (Nov 3)
+**Key Events**: Alibaba Qwen (Oct 7), Production Agents Summit (Snowflake - Oct 10), an AI autonomous agent company Fireside (Sept 25), Project Nanda, Why 95% Fail (Nov 3)
 
 #### Alibaba Qwen Conference: Infrastructure Economics Revelation
 
 **Key shift**: Inference cost declining 10x year-over-year emerged as a primary adoption driver, not just model capability improvements.
 
-**Critical insight**: Many agent startups charge $20-30/month while consuming $5+ in token costs per task—**economically unsustainable** at scale. This reinforced David's business case concerns with concrete economic data.
+**Critical insight**: Many agent startups charge $20-30/month while consuming $5+ in token costs per task—**economically unsustainable** at scale. This reinforced the practitioner's business case concerns with concrete economic data.
 
 **Open source strategy**: Vertical domain customization through fine-tuning open models became clear as competitive moat, not general-purpose frontier models.
 
@@ -96,7 +96,7 @@ This was shocking. We expected technical barriers to be the primary failure mode
 
 **Tension identified**: Open standards versus vertical integration advantages—companies benefit from custom integration as a moat while advocating for standards.
 
-#### Manus Fireside: Framework Contribution Revelation
+#### an AI autonomous agent company Fireside: Framework Contribution Revelation
 
 **Major pivot**:
 
@@ -140,7 +140,7 @@ This fundamentally challenged the "larger context windows solve problems" narrat
 
 #### Shopping Agent: Framework Bloat Reality
 
-**Validation**: Initially built with LangGraph, forced to switch to LangChain mid-development due to "extensive bloat and complexity."
+**Validation**: Initially built with LangGraph, forced to switch to a popular AI agent framework mid-development due to "extensive bloat and complexity."
 
 **Key learning**: Interview findings about framework abandonment weren't just opinion—we experienced it firsthand under deadline pressure.
 
@@ -176,17 +176,17 @@ All three prototypes demonstrated: **Integration is harder than core AI function
 - Shopping Agent: Multi-platform connectors > agent reasoning
 - Repo Patcher: GitHub/CI/CD integration > code generation
 
-This empirically validated David's 40-50% integration time allocation from Phase 1.
+This empirically validated the practitioner's 40-50% integration time allocation from Phase 1.
 
 ---
 
 ### Phase 4: Later Interviews (Nov - Remaining interviews)
 
-**Key Sources**: CC (Vivgrid), Sahil (Clientell), Mehak (Sybill), Cynthia (Wise Agents), Abhishek (Apna), Roblox, VCatTheory
+**Key Sources**: a practitioner at an AI infrastructure company, a practitioner at a CRM AI company, an AI lead at a sales intelligence company, Cynthia (Wise Agents), an engineering leader at a workforce platform, Roblox, a VC investor
 
 #### Deepening Patterns
 
-**MCP scalability limits quantified**: CC (Vivgrid - Nov 11) provided the number we'd been seeking:
+**MCP scalability limits quantified**: CC (an AI infrastructure company - Nov 11) provided the number we'd been seeking:
 
 > "When you have more than 25 MCP tools, accuracy will drop to 30%."
 
@@ -194,18 +194,18 @@ This precise threshold validated early skepticism with production data.
 
 **Framework abandonment pattern**: Cynthia (Wise Agents - Nov 19) confirmed:
 
-> "80-90% abandon LangChain for production"
+> "80-90% abandon a popular AI agent framework for production"
 
-Sahil (Clientell) added: **3-4x faster** with custom framework on OpenAI SDK.
+a practitioner at a CRM AI company added: **3-4x faster** with custom framework on OpenAI SDK.
 
-**Memory architecture distinction**: Saurav (RunLLM - Nov 11) revealed dual memory types:
+**Memory architecture distinction**: a practitioner (an AI observability company - Nov 11) revealed dual memory types:
 
 - **User memory** (preferences, interactions)
 - **Agent memory** (tool selection, problem-solving patterns)
 
 Most vendors conflate these—a conceptual clarity missing from market.
 
-**Component-level evaluation**: Mehak (Sybill - Nov 3):
+**Component-level evaluation**: the AI lead (an AI sales intelligence company - Nov 3):
 
 > "Almost never evaluate end-to-end because it is pointless... we built it blind after step one."
 
@@ -215,20 +215,20 @@ First-step retrieval accuracy is deterministic and improvable; end-to-end evalua
 
 **MCP as solution vs. problem**:
 
-- **Advocates** (Tian/Okta, AGUI protocol): MCP as foundational standard, enterprise identity extensions
-- **Critics** (CC, Saurav, Tushar): Context bloat, decision paralysis, "confuses the agent more than helping"
+- **Advocates** (the engineering leader/a major enterprise identity company, AGUI protocol): MCP as foundational standard, enterprise identity extensions
+- **Critics** (CC, a practitioner, a developer): Context bloat, decision paralysis, "confuses the agent more than helping"
 - **Resolution**: Works for simple consumer apps (<10 tools) but fails at enterprise scale (25+ tools)
 
 **Framework valuations vs. abandonment**:
 
-- LangChain achieves $1.3B valuation with massive developer adoption
+- a popular AI agent framework achieves $1.3B valuation with massive developer adoption
 - Yet 80-90% abandon for production due to bloat and performance (3-4x slower)
 - **Nuance**: Value captured in prototyping phase; production requirements force custom solutions
 
 **Model capability "good enough" vs. "needs improvement"**:
 
-- **Sufficient camp** (David, Mrinal): GPT-4 already transformative
-- **Insufficient camp** (Harvey, Tushar): Success bars outside LLM range for many tasks
+- **Sufficient camp** (the practitioner, the founder): GPT-4 already transformative
+- **Insufficient camp** (Harvey, a developer): Success bars outside LLM range for many tasks
 - **Resolution**: Models sufficient for narrow/generation tasks (coding), insufficient for open-ended analysis and 100% accuracy requirements
 
 #### Final Clarity
@@ -253,7 +253,7 @@ By the end of research, several insights crystallized:
 | **Model Capabilities**                    | Primary bottleneck; need better models               | Models contribute only 30-40% vs. initial 70% belief; GPT-4 level is "good enough" for many use cases; framework/architecture is 60-70% of success                                                   | **DIMINISHED** - From central concern to "necessary but insufficient"              |
 | **Enterprise Blockers**                   | Secondary concern after technical challenges         | Near-universal concern (81% of sources); business case/ROI is primary failure mode before technical issues; security/identity/governance are not afterthoughts                                       | **GREW** - From secondary to co-equal or primary concern                           |
 | **Framework Ecosystem**                   | Needs consolidation; best practices will emerge      | Framework abandonment is pattern, not exception (80-90%); custom solutions 3-4x faster; frameworks serve prototyping but create production bloat                                                     | **STABLE but REFRAMED** - Fragmentation confirmed, but abandonment not anticipated |
-| **Business Case & ROI** _(emergent)_      | Not in initial framework                             | Primary failure mode (David, Oct 14); perfect 5.0 relevance score; economic sustainability challenge ($20-30/mo vs. $5+ token cost)                                                                  | **EMERGED** - Completely new theme, highest importance                             |
+| **Business Case & ROI** _(emergent)_      | Not in initial framework                             | Primary failure mode (the practitioner, Oct 14); perfect 5.0 relevance score; economic sustainability challenge ($20-30/mo vs. $5+ token cost)                                                       | **EMERGED** - Completely new theme, highest importance                             |
 | **Evaluation Methodology** _(emergent)_   | Not explicitly framed                                | Unsolved infrastructure problem; no industry consensus; 7 YC companies building tools with zero adoption; component-level testing outperforms end-to-end                                             | **EMERGED** - Critical gap identified                                              |
 | **Dual Memory Architecture** _(emergent)_ | Not anticipated                                      | User memory vs. agent memory are distinct problems; most vendors conflate them                                                                                                                       | **EMERGED** - Conceptual clarity missing from market                               |
 | **Handoff Rate Metric** _(emergent)_      | Not in initial metrics                               | The right success metric (Why 95% Fail); measures actual automation value vs. intermediate technical metrics                                                                                         | **EMERGED** - North star metric identified                                         |
@@ -264,7 +264,7 @@ By the end of research, several insights crystallized:
 
 ### Pivot 1: Business Economics Before Technical Excellence (Week 1, Oct 14)
 
-**Trigger**: David (Qurrent) interview
+**Trigger**: an enterprise AI deployment expert interview
 
 **Original belief**: Technical challenges (integration, context, reliability) were the primary blockers to production deployment.
 
@@ -272,9 +272,9 @@ By the end of research, several insights crystallized:
 
 **Impact**: Reframed research lens from "how to make agents work technically" to "how to make agents economically viable and organizationally deployable."
 
-### Pivot 2: Framework Architecture > Model Intelligence (Week 6, Manus Fireside)
+### Pivot 2: Framework Architecture > Model Intelligence (Week 6, an AI autonomous agent company Fireside)
 
-**Trigger**: Manus Co-Founder statement
+**Trigger**: an AI autonomous agent company Co-Founder statement
 
 **Original belief**: Model capability contributes 70%+ to agent success; improvements in frontier models are the path forward.
 
@@ -284,7 +284,7 @@ By the end of research, several insights crystallized:
 
 ### Pivot 3: MCP Promise vs. Reality Gap (Weeks 2-8, Multiple Sources)
 
-**Trigger**: Progressive skepticism from David (Oct 14) → CC (Nov 11) → Saurav (Nov 11) → Cynthia (Nov 19)
+**Trigger**: Progressive skepticism from the practitioner (Oct 14) → CC (Nov 11) → a practitioner (Nov 11) → Cynthia (Nov 19)
 
 **Original belief**: MCP would solve integration challenges as "USB for data agents."
 
@@ -295,7 +295,7 @@ By the end of research, several insights crystallized:
 - Specificity gap (too many operations without use-case context)
 - Early ecosystem with deployment challenges
 
-**Impact**: Recognized that custom integration layers are competitive moats, not temporary gaps waiting for standards. MCP may evolve into enterprise standard (Okta extensions), but 12-18 month maturation period required.
+**Impact**: Recognized that custom integration layers are competitive moats, not temporary gaps waiting for standards. MCP may evolve into enterprise standard (a major enterprise identity company extensions), but 12-18 month maturation period required.
 
 ### Pivot 4: Context Engineering > Context Window Size (Week 5, Production Agents Summit)
 
@@ -307,9 +307,9 @@ By the end of research, several insights crystallized:
 
 **Impact**: Changed prototype design patterns from relying on large windows to implementing aggressive context compression and curation strategies.
 
-### Pivot 5: Component-Level > End-to-End Evaluation (Week 7, Sybill Interview)
+### Pivot 5: Component-Level > End-to-End Evaluation (Week 7, an AI sales intelligence company Interview)
 
-**Trigger**: Mehak (Sybill) "build blind after step one" philosophy
+**Trigger**: an AI lead at a sales intelligence company "build blind after step one" philosophy
 
 **Original belief**: End-to-end evaluation of agent workflows is the gold standard for quality assessment.
 
@@ -319,7 +319,7 @@ By the end of research, several insights crystallized:
 
 ### Pivot 6: Coding Agents Are Exceptional (Weeks 1-4, Multiple Sources)
 
-**Trigger**: Tushar (CodeForge) "only two killer apps" + Tian (Okta) cost analysis
+**Trigger**: a developer at an AI coding company "only two killer apps" + an engineering leader at a major identity company cost analysis
 
 **Original belief**: Success patterns from coding agents (Cursor, Devin, Windsurf) would transfer to other domains.
 
@@ -345,7 +345,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 **Evidence against**:
 
 - 40% utilization rule (Production Agents Summit)
-- Context bloat causing 70% accuracy drop with >25 MCP tools (CC/Vivgrid)
+- Context bloat causing 70% accuracy drop with >25 MCP tools (CC/an AI infrastructure company)
 - Agents "take a left turn" after several iterations from context accumulation (multiple sources)
 
 **Conclusion**: Context window size is not the constraint; compression and curation are architectural necessities.
@@ -356,9 +356,9 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Evidence against**:
 
-- 25-tool scalability limit with 30% accuracy beyond threshold (CC/Vivgrid)
-- "Way too many operations specified, no specificity" (Saurav/RunLLM)
-- "Confuses the agent more than helping" (Tushar/CodeForge)
+- 25-tool scalability limit with 30% accuracy beyond threshold (CC/an AI infrastructure company)
+- "Way too many operations specified, no specificity" (a practitioner/an AI observability company)
+- "Confuses the agent more than helping" (a developer/an AI coding company)
 - Shopping Agent prototype mocked MCP rather than using it
 
 **Conclusion**: MCP has promise for simple consumer apps but faces critical limitations at enterprise scale. Custom integration remains necessary and is treated as competitive moat.
@@ -369,8 +369,8 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Evidence against**:
 
-- "Intelligence is really smart enough" (David/Qurrent, Oct 14)
-- Models contribute only 30-40%, not 70% (Manus, multiple sources)
+- "Intelligence is really smart enough" (the practitioner/an AI agent orchestration company, Oct 14)
+- Models contribute only 30-40%, not 70% (an AI autonomous agent company, multiple sources)
 - GPT-4 level is "good enough" for enterprise use cases
 - Bottleneck is integration (92% of sources) and evaluation (emergent theme), not capability
 
@@ -382,9 +382,9 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Evidence against**:
 
-- 80-90% abandon LangChain for production (Cynthia/Wise Agents)
-- Custom frameworks 3-4x faster than LangChain (Sahil/Clientell)
-- Shopping Agent forced mid-development switch from LangGraph to LangChain
+- 80-90% abandon a popular AI agent framework for production (Cynthia/Wise Agents)
+- Custom frameworks 3-4x faster than a popular AI agent framework (a practitioner/a CRM AI company)
+- Shopping Agent forced mid-development switch from LangGraph to a popular AI agent framework
 - Teams prefer building intuition in-house over framework abstractions
 
 **Conclusion**: Framework abandonment is the pattern, not consolidation. Production requirements (performance, control, specificity) diverge from prototyping needs that frameworks serve well.
@@ -400,7 +400,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 **Supporting evidence**:
 
 - 92% of sources cited integration challenges (highest frequency)
-- 40-50% of deployment time is integration work (David/Qurrent)
+- 40-50% of deployment time is integration work (the practitioner/an AI agent orchestration company)
 - SAP, Salesforce, core banking systems "never talked to each other"
 - All three prototypes found integration harder than AI functionality
 
@@ -412,8 +412,8 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Supporting evidence**:
 
-- 70% reliability creates demo-able but production-failing systems (Mrinal/Autonomy)
-- 90% pilot failure rate (David/Qurrent)
+- 70% reliability creates demo-able but production-failing systems (the founder/an AI infrastructure company)
+- 90% pilot failure rate (the practitioner/an AI agent orchestration company)
 - "30 years of deterministic conditioning" creates expectation mismatch
 - Scientific method (controlled iteration, error categorization, regression testing) required
 
@@ -427,7 +427,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 - 81% of sources referenced enterprise blockers
 - PII leakage prevention has no reliable solution
-- Agent identity as "another SSO moment" (Tian/Okta)
+- Agent identity as "another SSO moment" (the engineering leader/a major enterprise identity company)
 - CISO/CIO gatekeeping requires enterprise-grade standards from architecture start
 
 **Refinement**: Not secondary to technical challenges but co-equal or primary concern. Business case failure (ROI, pricing model confusion) emerged as even earlier blocker than security.
@@ -439,8 +439,8 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 **Supporting evidence**:
 
 - 69% of sources addressed context challenges
-- 60M data points → 20 relevant points compression challenge (Mehak/Sybill)
-- Real-time pruning needed for 30-40 minute voice conversations (Abhishek/Apna)
+- 60M data points → 20 relevant points compression challenge (the AI lead/an AI sales intelligence company)
+- Real-time pruning needed for 30-40 minute voice conversations (an engineering leader/a workforce platform)
 - Cross-session memory persistence "largely unsolved" (multiple sources)
 
 **Refinement**: Not model limitation waiting for larger windows, but architectural imperative requiring purpose-built hierarchical memory systems, strategic pruning, and dual memory architecture (user vs. agent).
@@ -455,7 +455,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Research was framed around technical challenges (integration, context, reliability). Business economics wasn't explicitly scoped.
 
-**Evidence**: David (Oct 14) identified as primary blocker; Alibaba revealed $20-30/mo pricing vs. $5+ token cost unsustainability; CrewAI required $2M+ savings guarantees; Tian showed 3-5x cost disadvantage for analysis tasks.
+**Evidence**: the practitioner (Oct 14) identified as primary blocker; Alibaba revealed $20-30/mo pricing vs. $5+ token cost unsustainability; a multi-agent framework company required $2M+ savings guarantees; the engineering leader showed 3-5x cost disadvantage for analysis tasks.
 
 **Significance**: Purely technical research misses the primary failure mode. Economic viability and value proposition precede technical capability.
 
@@ -475,7 +475,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Memory systems were framed monolithically as "cross-session persistence" without stakeholder distinction.
 
-**Evidence**: Saurav (RunLLM) identified dual types; most vendors conflate them; different governance requirements (PII for user memory, performance optimization for agent memory).
+**Evidence**: a practitioner at an AI observability company identified dual types; most vendors conflate them; different governance requirements (PII for user memory, performance optimization for agent memory).
 
 **Significance**: Memory solutions failing because they're solving for one type while customers need the other. Architectural clarity creates market opportunity.
 
@@ -485,7 +485,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Industry narrative emphasizes model capability improvements; valuations follow frontier model releases.
 
-**Evidence**: Manus fireside explicit statement; Mehak (Sybill) on generation being foundation model territory; multiple sources on integration dominating effort.
+**Evidence**: an AI autonomous agent company fireside explicit statement; an AI lead at a sales intelligence company on generation being foundation model territory; multiple sources on integration dominating effort.
 
 **Significance**: Competitive moats come from framework engineering, not model access. As models commoditize, surrounding infrastructure becomes differentiation.
 
@@ -495,7 +495,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Software testing wisdom emphasizes end-to-end integration testing as gold standard.
 
-**Evidence**: Mehak (Sybill) "build blind after step one"; Sahil (Clientell) step-by-step workflow assessment; Production Agents Summit manual document-by-document refinement.
+**Evidence**: an AI lead at a sales intelligence company "build blind after step one"; a practitioner at a CRM AI company step-by-step workflow assessment; Production Agents Summit manual document-by-document refinement.
 
 **Significance**: Evaluation strategy should focus on deterministic steps with trust in foundation models for generation. Addresses compounding uncertainty problem.
 
@@ -505,7 +505,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Assumed success patterns from high-profile coding agents (Cursor, Devin) would generalize.
 
-**Evidence**: Tushar "only two killer apps"; Tian 3x productivity for coding vs. 3-5x cost disadvantage for generic tasks; generation vs. analysis asymmetry.
+**Evidence**: a developer "only two killer apps"; the engineering leader 3x productivity for coding vs. 3-5x cost disadvantage for generic tasks; generation vs. analysis asymmetry.
 
 **Significance**: Use case selection must explicitly map to generation vs. analysis requirements. Most enterprise knowledge work is analysis-heavy and remains uneconomical.
 
@@ -515,7 +515,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Assumed evaluation tools would quickly mature to serve obvious need.
 
-**Evidence**: Stephen (GMI) YC mafia non-adoption; Harvey's "best eval is human looks at end result"; Roblox requires custom eval scorecards; Manus abandons industry benchmarks.
+**Evidence**: Stephen (GMI) YC mafia non-adoption; Harvey's "best eval is human looks at end result"; Roblox requires custom eval scorecards; an AI autonomous agent company abandons industry benchmarks.
 
 **Significance**: Current approaches may be solving wrong problem (intermediate metrics vs. final outcomes). Market opportunity exists for outcome-focused evaluation, but product-market fit remains elusive.
 
@@ -525,7 +525,7 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Why unexpected**: Industry narrative emphasizes frontier model capabilities; assumption was bigger models = better results.
 
-**Evidence**: VCatTheory describing architecture agent fine-tuned on design patterns + language-specific agents; economic imperative at billion-token scale; post-training for API independence.
+**Evidence**: a VC investor describing architecture agent fine-tuned on design patterns + language-specific agents; economic imperative at billion-token scale; post-training for API independence.
 
 **Significance**: Long-term trajectory may favor owning model training infrastructure over API dependencies. Architectural shift from "one big model" to "constellation of small experts."
 
@@ -554,15 +554,15 @@ Other domains requiring deep analysis remain 3-5x more expensive than human labo
 
 **Show progression through timeline**:
 
-- Phase 1: Business case revelation (David, Week 1)
-- Phase 2: Framework contribution inversion (Manus, Week 6)
+- Phase 1: Business case revelation (the practitioner, Week 1)
+- Phase 2: Framework contribution inversion (an AI autonomous agent company, Week 6)
 - Phase 3: Prototype validation of interview findings
 - Phase 4: Pattern deepening and quantification (25-tool MCP limit, 80-90% framework abandonment)
 
 **Highlight convergence**:
 
 - Demo-to-production gap (70% demo threshold, 90% pilot failure, 95% project failure)
-- Framework abandonment (80-90% LangChain, Shopping Agent switch, 3-4x performance gap)
+- Framework abandonment (80-90% a popular AI agent framework, Shopping Agent switch, 3-4x performance gap)
 - MCP limitations (multiple skeptics → quantified 25-tool threshold → prototype mocking)
 
 **Address contradictions**:

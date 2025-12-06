@@ -19,7 +19,7 @@ Ninety-five percent of agentic AI projects fail. That stark statistic headlined 
 
 ## The Discovery
 
-The conference assembled an unusual cross-section of the AI agent ecosystem: Cece, co-founder and CEO of Visigrate, whose infrastructure powers production agent deployments; Dirson from True AI, fresh from YC S25; Summer, a staff software engineer at Harvey building legal AI; and Rish, a growth strategist who has watched countless agent projects succeed and fail.
+The conference assembled an unusual cross-section of the AI agent ecosystem: Cece, co-founder and CEO of an AI infrastructure company, whose infrastructure powers production agent deployments; Dirson from True AI, fresh from YC S25; Summer, a staff software engineer at Harvey building legal AI; and Rish, a growth strategist who has watched countless agent projects succeed and fail.
 
 What made this conversation different from typical AI conference content was the hard-won pragmatism. These were not researchers discussing theoretical capabilities or vendors pitching solutions. These were practitioners who had shipped production agents, watched projects fail, and distilled patterns from both outcomes.
 
@@ -36,7 +36,7 @@ The conference crystallized a taxonomy of failure patterns that trap most agent 
 The first trap is the most common: building a chatbot that only answers but never acts.
 
 > "Over the past year, everyone feels the write chat box on top of the internal knowledge base which is that your tablets are very smart, know everything. But there is a problem. The chatbot only answers but never asks. It doesn't create pages, it doesn't update every salesforce hotspot. It doesn't send emails, invoices. It's just talks. So what happens your employees still to handle last mile they have to open Jira CP4 and to actual result is simple high post, no delivery, just a smart eq."
-> — Cece, Co-founder and CEO of Visigrate
+> — Cece, Co-founder and CEO of an AI infrastructure company
 
 The pattern is familiar: you build a RAG system that ingests your knowledge base, add a chat interface, and declare victory. But it only talks. The "last mile" - actually taking action in the systems where work gets done - remains manual. Employees still open Jira, navigate Salesforce, and compose emails themselves. The agent provides information but not execution. The result: high expectations, no delivery.
 
@@ -55,7 +55,7 @@ The problem emerges when you try to move beyond the demo. The simplistic logic c
 Model Context Protocol (MCP) was supposed to solve the integration problem - a standardized way for agents to connect to tools and data sources. But the reality has proven more complex.
 
 > "MC just creates new problems. Too much context cost, the accuracy drops a lot and the round trips a lot goes up. And with a lot of tokens our cost goes up. So the real question for agent users is not how do I build the agent quickly? I think the the real question we should care about is how. How do I iterate my agent faster? That's the problem MC connected tools but it doesn't help you narrower improve or evolve and agents over time."
-> — Cece, Co-founder and CEO of Visigrate
+> — Cece, Co-founder and CEO of an AI infrastructure company
 
 MCP connects tools, but it does not help you iterate or evolve agents over time. The protocol introduces excessive context that degrades accuracy and drives up token costs. Our research found that when agents have access to more than 25 MCP tools, accuracy drops to around 30%.
 
@@ -66,7 +66,7 @@ The deeper issue: MCP solves the wrong problem. Teams do not struggle to connect
 The fourth trap is the most insidious because it does not manifest immediately. As models update - from GPT-4 to GPT-4.1 to GPT-5 - agents break in unexpected ways.
 
 > "You have to decouple all AI stuff from your current apps. That's very important because those alarms grow fast. We see a lot of AI agents change that model from GPT4.1 to GPT500. We got the AI agent accuracy drugs a lot. Yeah. Because we have to react a lot of things... Every time you improve how to review all your client code and release a new iOS app that's not good because the maintenance cost is very high."
-> — Cece, Co-founder and CEO of Visigrate
+> — Cece, Co-founder and CEO of an AI infrastructure company
 
 When AI logic is tightly coupled with application code, every model update requires reviewing and potentially rewriting client applications. The maintenance burden compounds over time.
 
@@ -77,7 +77,7 @@ The solution: decouple AI components from application logic. Treat the AI layer 
 Perhaps the most important insight from the conference was a simple reframing of how to measure agent success.
 
 > "The question is no longer is the agent small the real question is does it actually reduce the handoff to humans we call this handoff rate. Of the percentage of tasks that it passes back to human and in most companies this number is still very high. So instead of chasing models or new frameworks we could measure outcomes if you have if your kind of grid head drops still have your AI isn't transforming your business."
-> — Cece, Co-founder and CEO of Visigrate
+> — Cece, Co-founder and CEO of an AI infrastructure company
 
 Handoff rate - the percentage of tasks that get passed back to humans - cuts through the noise of agent evaluation. It does not matter how sophisticated your model is, how elegant your framework is, or how impressive your demo looks. What matters is whether the agent actually completes tasks or punts them back to people.
 
@@ -115,7 +115,7 @@ Start with honest assessment: what accuracy does your use case require? What can
 The conference also enumerated enterprise blockers that many agent projects underestimate:
 
 > "For enterprise I think there are three important things. First is you have to make authentication carefully because AI agents may be present, someone may be praising users, maybe just virtual employees. They have their own identity that the tools can access every system. But they have to follow the rules of the express authentication system... Second is the agent. I mean like two weeks ago us is one. Right. Most of systems have set services down. But if your agent is down, people will find oh so much because users they use the agents in their work... The third is when our agents access the sensitive data. We have to build a failure inside our customers internal network. Especially like for PII information and the financial aid."
-> — Cece, Co-founder and CEO of Visigrate
+> — Cece, Co-founder and CEO of an AI infrastructure company
 
 **Authentication and Identity**: AI agents operate as "virtual employees" accessing systems with their own identities. They must follow enterprise authentication rules, and the identity management alone can take months.
 

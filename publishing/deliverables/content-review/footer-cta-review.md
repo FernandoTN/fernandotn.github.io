@@ -33,7 +33,7 @@
 **Has CTA:** Yes - "_Have thoughts on AI agent deployment? Connect with me on [LinkedIn](https://www.linkedin.com/in/fernandotn/) or [email me](mailto:fertorresnavarrete@gmail.com)._"
 **Footer consistent:** Yes
 
-### Sample 4: 2025-12-crewai-interview.mdx
+### Sample 4: 2025-12-practitioner-interview-4.mdx
 
 **Has author info:** Yes - "Fernando Torres" in frontmatter, contact links in footer
 **Has research link:** Yes - "_This post is part of my research series on AI Agent deployment, based on 36 expert interviews, 5 industry conferences, and 3 functional prototypes. [Read the full research overview](/blog/ai-agents-research)._"
@@ -55,10 +55,10 @@
 | --- | ----------------------------------------- | ----------- | ------------- | ------------- | -------- | ----------------- |
 | 1   | 2025-12-40-percent-context-rule.mdx       | Yes         | Yes           | No            | Yes      | Yes               |
 | 2   | 2025-12-ai-agents-research-overview.mdx   | Yes         | Yes           | No            | Yes      | Yes               |
-| 3   | 2025-12-autonomy-interview.mdx            | Yes         | Yes           | No            | Yes      | Yes               |
+| 3   | 2025-12-practitioner-interview-2.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 4   | 2025-12-coding-agent-exception.mdx        | Yes         | Yes           | No            | Yes      | Yes               |
 | 5   | 2025-12-component-evaluation.mdx          | Yes         | Yes           | No            | Yes      | Yes               |
-| 6   | 2025-12-crewai-interview.mdx              | Yes         | Yes           | No            | Yes      | Yes               |
+| 6   | 2025-12-practitioner-interview-4.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 7   | 2025-12-demo-production-chasm.mdx         | Yes         | Yes           | No            | Yes      | Yes               |
 | 8   | 2025-12-dual-memory-architecture.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 9   | 2025-12-enterprise-business-case.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
@@ -66,16 +66,16 @@
 | 11  | 2025-12-framework-abandonment.mdx         | Yes         | Yes           | No            | Yes      | Yes               |
 | 12  | 2025-12-good-agents.mdx                   | Yes         | Yes           | No            | Yes      | Yes               |
 | 13  | 2025-12-handoff-rate-metric.mdx           | Yes         | Yes           | No            | Yes      | Yes               |
-| 14  | 2025-12-manus-fireside.mdx                | Yes         | Yes           | No            | Yes      | Yes               |
+| 14  | 2025-12-autonomous-agent-fireside.mdx     | Yes         | Yes           | No            | Yes      | Yes               |
 | 15  | 2025-12-mcp-tool-cliff.mdx                | Yes         | Yes           | No            | Yes      | Yes               |
 | 16  | 2025-12-model-myth.mdx                    | Yes         | Yes           | No            | Yes      | Yes               |
-| 17  | 2025-12-okta-interview.mdx                | Yes         | Yes           | No            | Yes      | Yes               |
+| 17  | 2025-12-practitioner-interview-3.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 18  | 2025-12-production-summit.mdx             | Yes         | Yes           | No            | Yes      | Yes               |
-| 19  | 2025-12-qurrent-interview.mdx             | Yes         | Yes           | No            | Yes      | Yes               |
+| 19  | 2025-12-practitioner-interview-1.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 20  | 2025-12-repo-patcher.mdx                  | Yes         | Yes\*         | No            | Yes      | Yes\*             |
 | 21  | 2025-12-research-methodology.mdx          | Yes\*\*     | No\*\*\*      | No            | No\*\*\* | No                |
 | 22  | 2025-12-shopping-agent.mdx                | Yes         | Yes           | No            | Yes      | Yes               |
-| 23  | 2025-12-sybill-interview.mdx              | Yes         | Yes           | No            | Yes      | Yes               |
+| 23  | 2025-12-practitioner-interview-5.mdx      | Yes         | Yes           | No            | Yes      | Yes               |
 | 24  | 2025-12-system-integration-92-percent.mdx | Yes         | Yes           | No            | Yes      | Yes               |
 | 25  | 2025-12-why-95-fail.mdx                   | Yes         | Yes           | No            | Yes      | Yes               |
 
@@ -132,14 +132,14 @@ _This methodology documentation supports the GSBGEN 390 research project on AI a
 
 Missing: Research series link, LinkedIn/email CTAs
 
-### 3. 2025-12-qurrent-interview.mdx
+### 3. 2025-12-practitioner-interview-1.mdx
 
 Has additional note after standard footer:
 
 ```markdown
 ---
 
-_Note: Interview conducted with David at Qurrent - used with permission pending_
+_Note: Interview conducted with the practitioner at an AI agent orchestration company - used with permission pending_
 ```
 
 (This is additive, not replacing the standard footer)
@@ -170,7 +170,7 @@ Consider adding **Related Posts** section to improve cross-linking within the se
 **Related Posts:**
 
 - [The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent](/blog/2025-12-40-percent-context-rule)
-- [The Framework Paradox: Why 80-90% of Teams Abandon LangChain](/blog/2025-12-framework-abandonment)
+- [The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework](/blog/2025-12-framework-abandonment)
 ```
 
 This would increase discoverability and engagement within the series.

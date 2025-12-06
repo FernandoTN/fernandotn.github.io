@@ -52,7 +52,7 @@ Third, no quantified metrics exist for multimodal outputs. Video evaluation for 
 
 Current evaluation tools optimize for metrics that don't correlate with business value. Academic benchmarks measure prompt quality, retrieval relevance, and token efficiency. But enterprises need to know: did the agent complete the task without human intervention?
 
-This disconnect explains why Manus abandoned industry benchmarks entirely—standard metrics weren't "even close to real user's requirements." They had to build custom evaluation from real-world usage data, a path that doesn't scale across the ecosystem.
+This disconnect explains why an AI autonomous agent company abandoned industry benchmarks entirely—standard metrics weren't "even close to real user's requirements." They had to build custom evaluation from real-world usage data, a path that doesn't scale across the ecosystem.
 
 ### Outcome vs Process Metrics: The Fundamental Misunderstanding
 
@@ -62,10 +62,10 @@ The core problem with current evaluation tools is a measurement mismatch. They m
 
 **Outcome Metrics**: Business value comes from final results—were meetings scheduled? Was the task completed? Did the customer issue get resolved without escalation?
 
-Yujian Tan, an investor and AI practitioner, captured this precisely:
+a practitioner, an investor and AI practitioner, captured this precisely:
 
 > "Agent evals are very hard to measure because what you want to evaluate is actually a final outcome... Your eval for that agent's success is not 'did it do it for $5 or $6? Did it write the correct email?' Your eval for that success is, did I get 10 meetings with these people?"
-> — Yujian Tan
+> — a practitioner
 
 An SDR agent that writes grammatically perfect emails using minimal tokens but books zero meetings is a failure. An agent that writes mediocre emails but books ten meetings is a success. Current evaluation tools cannot distinguish between these scenarios because they measure the wrong layer.
 
@@ -74,7 +74,7 @@ An SDR agent that writes grammatically perfect emails using minimal tokens but b
 The "Why 95% Fail" conference introduced a metric that cuts through the confusion: handoff rate. This measures the percentage of tasks an agent passes back to humans rather than completing autonomously.
 
 > "The question is no longer is the agent smart the real question is does it actually reduce the handoff to humans we call this handoff rate. Of the percentage of tasks that it passes back to human and in most companies this number is still very high."
-> — Cece, Co-founder & CEO of Visigrate, "Why 95% Fail" conference
+> — Cece, Co-founder & CEO of an AI infrastructure company, "Why 95% Fail" conference
 
 Handoff rate directly measures automation value. If you deploy an agent and your team still handles 80% of tasks manually, the agent hasn't transformed your business—regardless of its benchmark scores. This single metric provides more signal than elaborate evaluation frameworks measuring intermediate steps.
 
@@ -84,10 +84,10 @@ Most companies deploying agents still have "very high" handoff rates. They've in
 
 Beyond outcome focus, successful teams have discovered that component-level evaluation dramatically outperforms end-to-end testing for probabilistic systems.
 
-Mehak from Sybill, a sales AI company, articulated this counterintuitive approach:
+the AI lead from an AI sales intelligence company, a sales AI company, articulated this counterintuitive approach:
 
 > "Almost never do we evaluate something end to end because it is pointless. So if you can evaluate a system at a time, and that is how you grow better... we built it blind after step one... the only thing that we continuously tested for is that it gets the first step right. The first step typically ends up being retrieval."
-> — Mehak, Sybill
+> — the AI lead, an AI sales intelligence company
 
 Why does this work? The first step—typically retrieval—is deterministic and improvable. If retrieval returns the wrong data, everything downstream fails predictably. But if retrieval is accurate, the foundation model's generation capabilities are "good enough" for most downstream tasks.
 
@@ -125,7 +125,7 @@ This acknowledges LLM-as-judge limitations while extracting value where confiden
 
 Evaluation cannot be a quarterly audit. Successful teams integrate evaluation into continuous integration pipelines, treating evals as regression tests. Every model update, prompt change, or architecture modification triggers evaluation suites.
 
-This prevents the "doom loop" described by Mrinal Wadhwa at Autonomy: fixing one scenario while breaking three others. Continuous evaluation maintains baselines while enabling iteration.
+This prevents the "doom loop" described by a founder at an AI infrastructure company at an AI infrastructure company: fixing one scenario while breaking three others. Continuous evaluation maintains baselines while enabling iteration.
 
 **Expect Human-in-Loop Indefinitely**
 

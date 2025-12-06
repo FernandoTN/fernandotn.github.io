@@ -23,14 +23,14 @@ Context management is an architectural challenge, not a model limitation. The fi
 ### The 40% Utilization Rule
 
 > "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes. This is true for an agent you develop for your software. It's also true for things like cursor."
-> -- Speaker B (Rel), Production Agents Summit
+> -- a conference speaker, Production Agents Summit
 
 This creates a hard ceiling on agentic complexity that is unrelated to model improvements. Even with million-token windows, the practical limit remains 40% of capacity. Why? Models appear to lose focus when processing bloated contexts. Relevant information gets diluted by irrelevant tokens. The attention mechanism struggles to identify what matters when everything competes for attention.
 
 The problem compounds with tool definitions. When agents integrate with external systems through protocols like MCP (Model Context Protocol), each tool definition consumes context. Conversation history consumes more. Both accumulate over agent lifecycles.
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
-> -- CC Fan (Vivgrid)
+> -- a practitioner at an AI infrastructure company
 
 The MCP accuracy cliff illustrates the broader context utilization problem. Tool definitions alone can push agents past the 40% threshold before any actual work begins. This is why enterprise deployments struggle with agents that work perfectly in demos with 5 tools but fail spectacularly when connected to 30 production systems.
 
@@ -61,9 +61,9 @@ The parallel execution model also provides natural isolation. If one sub-agent f
 ### Dual Memory Architecture
 
 > "Memory as Two Distinct Problems: user memory (preferences, past interactions) versus memory for improving agent performance (which tools work best, problem-solving patterns). Most vendors conflate these."
-> -- Saurav (RunLLM)
+> -- a practitioner at an AI observability company
 
-The dual memory insight from RunLLM reframes how we should architect agent memory. User memory and agent memory are architecturally distinct problems that require different solutions.
+The dual memory insight from an AI observability company reframes how we should architect agent memory. User memory and agent memory are architecturally distinct problems that require different solutions.
 
 User memory encompasses preferences, interaction history, cross-session persistence, and PII governance requirements. It answers questions like: What does this user prefer? What have they done before? What should we remember across sessions?
 
@@ -76,9 +76,9 @@ This distinction matters for enterprise deployments. User memory requires encryp
 ### The Scale Challenge
 
 > "For any specific company you would typically have like 60 million data points. For any specific deal you would have at least like 500, 600k data points. And using all of this you're supposed to... a lot of the AI and the agents that we use are in service of figuring out how to make these 600k data points go to like the 20 data points that are actually relevant to answering that question."
-> -- Mehak (Sybill)
+> -- an AI lead at a sales intelligence company
 
-Sybill's compression challenge illustrates why context windows are the wrong abstraction. Enterprise data scales to millions of data points per company, hundreds of thousands per deal. The goal is reducing 600,000 data points to the 20 that actually matter for a given question. This is not a context window problem. It is a retrieval and relevance problem. First-step retrieval quality determines downstream success. As Mehak noted in our conversation, they "built it blind after step one" because getting retrieval right cascades through everything else.
+an AI sales intelligence company's compression challenge illustrates why context windows are the wrong abstraction. Enterprise data scales to millions of data points per company, hundreds of thousands per deal. The goal is reducing 600,000 data points to the 20 that actually matter for a given question. This is not a context window problem. It is a retrieval and relevance problem. First-step retrieval quality determines downstream success. As the AI lead noted in our conversation, they "built it blind after step one" because getting retrieval right cascades through everything else.
 
 ## Why This Matters
 
@@ -86,7 +86,7 @@ Sybill's compression challenge illustrates why context windows are the wrong abs
 
 **Architectural imperative**: Production systems require purpose-built solutions. This includes hierarchical memory systems that separate concerns, strategic context pruning that discards irrelevant history, external state management that moves data outside the context window, and first-step retrieval optimization that ensures the right information enters the context at the right time.
 
-**Competitive moat opportunity**: Context engineering is defensible. Companies like Sybill position their proprietary context management as moats, not the models they use. The ability to reduce 60 million data points to 20 relevant ones is not something competitors can replicate by switching to a larger model. This architectural advantage compounds over time as the system learns which data matters for which questions.
+**Competitive moat opportunity**: Context engineering is defensible. Companies like an AI sales intelligence company position their proprietary context management as moats, not the models they use. The ability to reduce 60 million data points to 20 relevant ones is not something competitors can replicate by switching to a larger model. This architectural advantage compounds over time as the system learns which data matters for which questions.
 
 **Unsolved frontier**: Cross-session memory persistence remains the largest unsolved problem. Current solutions suffer from static staleness (memory not updating), multi-modal limitations (text-only memory in a multi-modal world), and PII leakage risks (agents accidentally revealing one user's data to another). The dual memory architecture provides a framework, but production-ready implementations remain scarce.
 

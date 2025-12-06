@@ -56,60 +56,60 @@ Fernando
 
 ## Personalization Notes
 
-| Interviewee     | Company             | Key Topic                                                                           | Specific Thanks                                                                  | Post Featured In                                                                  | Attribution Status           |
-| --------------- | ------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------------------------- |
-| David           | Qurrent             | ROI challenges, system integration, 90% pilot failure rate                          | Enterprise deployment perspective, business case failure as primary failure mode | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | Pending                      |
-| Mrinal Wadhwa   | Autonomy            | Probabilistic vs deterministic systems, demo-production gap, doom loop              | Framework for understanding expectation mismatch with AI agents                  | Autonomy's Take: Managing Expectations with Probabilistic Systems                 | Pending                      |
-| Tian Lan        | Okta                | Agent identity, MCP extensions, pricing confusion, CISO/CIO as gatekeepers          | Enterprise security perspective, 300+ customer call insights                     | How Okta is Solving AI Agent Identity: The Next SSO Moment                        | Pending                      |
-| Joao            | CrewAI              | Enterprise topology complexity, multi-agent orchestration, labor law considerations | Fortune 500 deployment challenges, operational knowledge as moat                 | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat                  | Pending                      |
-| Mehak           | Sybill              | Component-level evaluation, context as competitive moat, graph-based architecture   | First-step evaluation philosophy, data architecture insights                     | Sybill's Approach: Building AI Sales Agents That Actually Work                    | Pending                      |
-| CC Fan          | Vivgrid             | MCP scalability limits (25-tool threshold), PII detection, dynamic tool loading     | Quantified MCP limitations, infrastructure perspective                           | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Abhishek Shukla | Apna                | Voice AI challenges, enterprise trust deficit, production-scale infrastructure gap  | Real-time memory management, multi-modal challenges                              | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Sahil Dhaka     | Clientell           | Custom framework development, visual data structures, evaluation impossibility      | LangChain critique, user articulation gap                                        | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Saurav          | RunLLM              | MCP specificity problem, dual memory architecture, observability gaps               | Tool calling challenges, time-travel debugging concept                           | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Stephen Li      | GMI                 | Evaluation infrastructure gap, LLM-as-judge limitations, power as bottleneck        | YC ecosystem perspective, infrastructure economics                               | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Tushar Mathur   | CodeForge           | Coding agents as exceptional use case, harness obsolescence, generation vs analysis | Type 1/Type 2 memory framework, MCP tool calling paradox                         | Referenced in thematic posts                                                      | Not required (thematic only) |
-| Yujian Tan      | Community Organizer | Workflow vs agent distinction, framework production readiness gap                   | Outcome-based evaluation methodology, trust barriers                             | Referenced in thematic posts                                                      | Not required (thematic only) |
+| Interviewee                                       | Company                             | Key Topic                                                                           | Specific Thanks                                                                  | Post Featured In                                                                                            | Attribution Status           |
+| ------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| the practitioner                                  | an AI agent orchestration company   | ROI challenges, system integration, 90% pilot failure rate                          | Enterprise deployment perspective, business case failure as primary failure mode | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | Pending                      |
+| a founder at an AI infrastructure company         | an AI infrastructure company        | Probabilistic vs deterministic systems, demo-production gap, doom loop              | Framework for understanding expectation mismatch with AI agents                  | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems                       | Pending                      |
+| an engineering leader at a major identity company | a major enterprise identity company | Agent identity, MCP extensions, pricing confusion, CISO/CIO as gatekeepers          | Enterprise security perspective, 300+ customer call insights                     | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment                   | Pending                      |
+| the co-founder                                    | a multi-agent framework company     | Enterprise topology complexity, multi-agent orchestration, labor law considerations | Fortune 500 deployment challenges, operational knowledge as moat                 | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat                   | Pending                      |
+| the AI lead                                       | an AI sales intelligence company    | Component-level evaluation, context as competitive moat, graph-based architecture   | First-step evaluation philosophy, data architecture insights                     | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work                    | Pending                      |
+| CC Fan                                            | an AI infrastructure company        | MCP scalability limits (25-tool threshold), PII detection, dynamic tool loading     | Quantified MCP limitations, infrastructure perspective                           | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| an engineering leader Shukla                      | a workforce platform                | Voice AI challenges, enterprise trust deficit, production-scale infrastructure gap  | Real-time memory management, multi-modal challenges                              | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| a practitioner Dhaka                              | a CRM AI company                    | Custom framework development, visual data structures, evaluation impossibility      | a popular AI agent framework critique, user articulation gap                     | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| a practitioner                                    | an AI observability company         | MCP specificity problem, dual memory architecture, observability gaps               | Tool calling challenges, time-travel debugging concept                           | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| Stephen Li                                        | GMI                                 | Evaluation infrastructure gap, LLM-as-judge limitations, power as bottleneck        | YC ecosystem perspective, infrastructure economics                               | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| a developer Mathur                                | an AI coding company                | Coding agents as exceptional use case, harness obsolescence, generation vs analysis | Type 1/Type 2 memory framework, MCP tool calling paradox                         | Referenced in thematic posts                                                                                | Not required (thematic only) |
+| a practitioner                                    | Community Organizer                 | Workflow vs agent distinction, framework production readiness gap                   | Outcome-based evaluation methodology, trust barriers                             | Referenced in thematic posts                                                                                | Not required (thematic only) |
 
 ---
 
 ## Tracking: Featured Interview Posts (Require Attribution Permission)
 
-### Publication 14: Inside Qurrent
+### Publication 14: Inside an AI agent orchestration company
 
-- [ ] Permission requested to David
+- [ ] Permission requested to the practitioner
 - [ ] Response received
 - [ ] Attribution confirmed/modified
 - [ ] Thank you email sent
 - [ ] LinkedIn message sent
 
-### Publication 15: Autonomy's Take
+### Publication 15: an AI infrastructure company's Take
 
-- [ ] Permission requested to Mrinal Wadhwa
+- [ ] Permission requested to a founder at an AI infrastructure company
 - [ ] Response received
 - [ ] Attribution confirmed/modified
 - [ ] Thank you email sent
 - [ ] LinkedIn message sent
 
-### Publication 16: How Okta is Solving AI Agent Identity
+### Publication 16: How a major enterprise identity company is Solving AI Agent Identity
 
-- [ ] Permission requested to Tian Lan
+- [ ] Permission requested to an engineering leader at a major identity company
 - [ ] Response received
 - [ ] Attribution confirmed/modified
 - [ ] Thank you email sent
 - [ ] LinkedIn message sent
 
-### Publication 17: CrewAI's Lesson
+### Publication 17: a multi-agent framework company's Lesson
 
-- [ ] Permission requested to Joao
+- [ ] Permission requested to the co-founder
 - [ ] Response received
 - [ ] Attribution confirmed/modified
 - [ ] Thank you email sent
 - [ ] LinkedIn message sent
 
-### Publication 18: Sybill's Approach
+### Publication 18: an AI sales intelligence company's Approach
 
-- [ ] Permission requested to Mehak
+- [ ] Permission requested to the AI lead
 - [ ] Response received
 - [ ] Attribution confirmed/modified
 - [ ] Thank you email sent
@@ -121,39 +121,39 @@ Fernando
 
 ### Sent
 
-- [ ] CC Fan (Vivgrid) - MCP limitations, infrastructure
-- [ ] Abhishek Shukla (Apna) - Voice AI, enterprise trust
-- [ ] Sahil Dhaka (Clientell) - Framework critique, custom development
-- [ ] Saurav (RunLLM) - Tool calling, observability
+- [ ] a practitioner at an AI infrastructure company - MCP limitations, infrastructure
+- [ ] an engineering leader at a workforce platform - Voice AI, enterprise trust
+- [ ] a practitioner Dhaka (a CRM AI company) - Framework critique, custom development
+- [ ] a practitioner at an AI observability company - Tool calling, observability
 - [ ] Stephen Li (GMI) - Evaluation, infrastructure economics
-- [ ] Tushar Mathur (CodeForge) - Coding agents, harness obsolescence
-- [ ] Yujian Tan - Workflow vs agent distinction
+- [ ] a developer Mathur (an AI coding company) - Coding agents, harness obsolescence
+- [ ] a practitioner - Workflow vs agent distinction
 
 ### Response Received
 
-- [ ] CC Fan (Vivgrid)
-- [ ] Abhishek Shukla (Apna)
-- [ ] Sahil Dhaka (Clientell)
-- [ ] Saurav (RunLLM)
+- [ ] a practitioner at an AI infrastructure company
+- [ ] an engineering leader at a workforce platform
+- [ ] a practitioner Dhaka (a CRM AI company)
+- [ ] a practitioner at an AI observability company
 - [ ] Stephen Li (GMI)
-- [ ] Tushar Mathur (CodeForge)
-- [ ] Yujian Tan
+- [ ] a developer Mathur (an AI coding company)
+- [ ] a practitioner
 
 ---
 
 ## Personalized Email Drafts
 
-### Draft 1: David (Qurrent)
+### Draft 1: an enterprise AI deployment expert
 
 **Subject:** Thank you - AI Agents Research Published
 
-Dear David,
+Dear the practitioner,
 
 I wanted to reach out to thank you for your time and insights during our AI Agents research project at Stanford GSB.
 
 Your perspectives on enterprise AI agent deployment challenges - particularly the insight that business case failure is the primary failure mode rather than technical limitations - were invaluable and fundamentally reframed our research direction.
 
-We've now published our research as a series of blog posts. Your insights are featured prominently in "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production."
+We've now published our research as a series of blog posts. Your insights are featured prominently in "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production."
 
 Key findings that your input helped surface:
 
@@ -169,17 +169,17 @@ Stanford GSB MSx '26
 
 ---
 
-### Draft 2: Mrinal Wadhwa (Autonomy)
+### Draft 2: a founder at an AI infrastructure company
 
 **Subject:** Thank you - AI Agents Research Published
 
-Dear Mrinal,
+Dear the founder,
 
 I wanted to reach out to thank you for your time and insights during our AI Agents research project at Stanford GSB.
 
 Your framework for understanding the probabilistic vs deterministic systems gap - and the concept of the "doom loop" that teams fall into when productionizing agents - became one of the anchor concepts in our research findings.
 
-We've now published our research as a series of blog posts. Your insights are featured in "Autonomy's Take: Managing Expectations with Probabilistic Systems."
+We've now published our research as a series of blog posts. Your insights are featured in "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems."
 
 Key findings that your input helped surface:
 
@@ -195,17 +195,17 @@ Stanford GSB MSx '26
 
 ---
 
-### Draft 3: Tian Lan (Okta)
+### Draft 3: an engineering leader at a major identity company
 
 **Subject:** Thank you - AI Agents Research Published
 
-Dear Tian,
+Dear the engineering leader,
 
 I wanted to reach out to thank you for your time and insights during our AI Agents research project at Stanford GSB.
 
 Your perspectives on enterprise identity challenges for AI agents - and the insight that CISOs/CIOs serve as gatekeepers blocking adoption - provided crucial context for understanding enterprise blockers beyond technical limitations.
 
-We've now published our research as a series of blog posts. Your insights are featured in "How Okta is Solving AI Agent Identity: The Next SSO Moment."
+We've now published our research as a series of blog posts. Your insights are featured in "How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment."
 
 Key findings that your input helped surface:
 
@@ -221,17 +221,17 @@ Stanford GSB MSx '26
 
 ---
 
-### Draft 4: Joao (CrewAI)
+### Draft 4: a co-founder at a multi-agent framework company
 
 **Subject:** Thank you - AI Agents Research Published
 
-Dear Joao,
+Dear the co-founder,
 
 I wanted to reach out to thank you for your time and insights during our AI Agents research project at Stanford GSB.
 
 Your insight that enterprise topology complexity creates defensible competitive advantage - rather than being merely an obstacle - fundamentally shifted how we framed the integration challenge in our research.
 
-We've now published our research as a series of blog posts. Your insights are featured in "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat."
+We've now published our research as a series of blog posts. Your insights are featured in "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat."
 
 Key findings that your input helped surface:
 
@@ -247,17 +247,17 @@ Stanford GSB MSx '26
 
 ---
 
-### Draft 5: Mehak (Sybill)
+### Draft 5: an AI lead at a sales intelligence company
 
 **Subject:** Thank you - AI Agents Research Published
 
-Dear Mehak,
+Dear the AI lead,
 
 I wanted to reach out to thank you for your time and insights during our AI Agents research project at Stanford GSB.
 
 Your "build blind after step one" evaluation philosophy - focusing on component-level testing of retrieval rather than end-to-end evaluation - was a counterintuitive insight that challenged conventional testing wisdom and resonated strongly with our findings.
 
-We've now published our research as a series of blog posts. Your insights are featured in "Sybill's Approach: Building AI Sales Agents That Actually Work."
+We've now published our research as a series of blog posts. Your insights are featured in "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work."
 
 Key findings that your input helped surface:
 
@@ -297,20 +297,20 @@ Stanford GSB MSx '26
 
 ## Key Topics by Interviewee (Quick Reference)
 
-| Interviewee        | Primary Topics                             | Key Quote/Insight                                         |
-| ------------------ | ------------------------------------------ | --------------------------------------------------------- |
-| David (Qurrent)    | ROI, system integration, pilot failure     | "90% of pilots never convert to production"               |
-| Mrinal (Autonomy)  | Probabilistic systems, demo-production gap | "70% works for demos, creates false expectations"         |
-| Tian (Okta)        | Identity, security, pricing                | "3-5x cost disadvantage for generic tasks vs offshore"    |
-| Joao (CrewAI)      | Enterprise complexity, labor laws          | "Enterprise topology is your moat"                        |
-| Mehak (Sybill)     | Context management, evaluation             | "Build blind after step one"                              |
-| CC Fan (Vivgrid)   | MCP limits, infrastructure                 | "25+ tools drops accuracy to 30%"                         |
-| Abhishek (Apna)    | Voice AI, trust deficit                    | "No production-scale agentic infrastructure out of box"   |
-| Sahil (Clientell)  | Custom frameworks, user expectations       | "LangChain is 3-4x slower than custom"                    |
-| Saurav (RunLLM)    | Tool calling, observability                | "User memory vs agent memory are different problems"      |
-| Stephen (GMI)      | Evaluation gap, infrastructure             | "YC mafia not even using their own cohorts' eval tools"   |
-| Tushar (CodeForge) | Coding agents, harness obsolescence        | "Only two killer apps: search and coding agents"          |
-| Yujian Tan         | Agent definition, frameworks               | "Most aren't building agents, they're building workflows" |
+| Interviewee                                       | Primary Topics                             | Key Quote/Insight                                         |
+| ------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------- |
+| an enterprise AI deployment expert                | ROI, system integration, pilot failure     | "90% of pilots never convert to production"               |
+| a founder at an AI infrastructure company         | Probabilistic systems, demo-production gap | "70% works for demos, creates false expectations"         |
+| an engineering leader at a major identity company | Identity, security, pricing                | "3-5x cost disadvantage for generic tasks vs offshore"    |
+| a co-founder at a multi-agent framework company   | Enterprise complexity, labor laws          | "Enterprise topology is your moat"                        |
+| an AI lead at a sales intelligence company        | Context management, evaluation             | "Build blind after step one"                              |
+| a practitioner at an AI infrastructure company    | MCP limits, infrastructure                 | "25+ tools drops accuracy to 30%"                         |
+| an engineering leader at a workforce platform     | Voice AI, trust deficit                    | "No production-scale agentic infrastructure out of box"   |
+| a practitioner at a CRM AI company                | Custom frameworks, user expectations       | "a popular AI agent framework is 3-4x slower than custom" |
+| a practitioner at an AI observability company     | Tool calling, observability                | "User memory vs agent memory are different problems"      |
+| Stephen (GMI)                                     | Evaluation gap, infrastructure             | "YC mafia not even using their own cohorts' eval tools"   |
+| a developer at an AI coding company               | Coding agents, harness obsolescence        | "Only two killer apps: search and coding agents"          |
+| a practitioner                                    | Agent definition, frameworks               | "Most aren't building agents, they're building workflows" |
 
 ---
 
@@ -318,15 +318,15 @@ Stanford GSB MSx '26
 
 ### High Priority (Featured Interview Posts)
 
-1. **David (Qurrent)** - Send permission request immediately
-2. **Mrinal Wadhwa (Autonomy)** - Send permission request immediately
-3. **Tian Lan (Okta)** - Send permission request immediately
-4. **Joao (CrewAI)** - Send permission request immediately
-5. **Mehak (Sybill)** - Send permission request immediately
+1. **an enterprise AI deployment expert** - Send permission request immediately
+2. **a founder at an AI infrastructure company** - Send permission request immediately
+3. **an engineering leader at a major identity company** - Send permission request immediately
+4. **a co-founder at a multi-agent framework company** - Send permission request immediately
+5. **an AI lead at a sales intelligence company** - Send permission request immediately
 
 ### Medium Priority (Post-Publication Thanks)
 
-- CC Fan, Abhishek, Sahil, Saurav, Stephen, Tushar, Yujian
+- CC Fan, an engineering leader, a practitioner, a practitioner, Stephen, a developer, Yujian
 - Send after featured interview permissions are confirmed
 
 ### Timing
@@ -341,7 +341,7 @@ Stanford GSB MSx '26
 
 - All featured interview posts (14-18) require explicit permission before publication with named attribution
 - If permission is not received, posts should use anonymized attribution per the alternatives in attribution_requests.md
-- Conference quotes (Manus Fireside, Production Agents Summit, Why 95% Fail) are public and do not require permission
+- Conference quotes (an AI autonomous agent company Fireside, Production Agents Summit, Why 95% Fail) are public and do not require permission
 - Prototype insights (Shopping Agent, Repo Patcher, Good Agents) are internal and do not require external permission
 
 ---

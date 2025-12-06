@@ -54,14 +54,14 @@ cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-en
 cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-coding-agent-exception.mdx [target]/
 ```
 
-| #   | File                                        | Title                                                                           |
-| --- | ------------------------------------------- | ------------------------------------------------------------------------------- |
-| 2   | `2025-12-system-integration-92-percent.mdx` | The 92% Problem: Why System Integration Breaks AI Agent Deployments             |
-| 3   | `2025-12-40-percent-context-rule.mdx`       | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent               |
-| 4   | `2025-12-framework-abandonment.mdx`         | The Framework Paradox: Why 80-90% of Teams Abandon LangChain for Production     |
-| 5   | `2025-12-demo-production-chasm.mdx`         | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations          |
-| 6   | `2025-12-enterprise-business-case.mdx`      | Why 90% of AI Agent Pilots Fail Before Hitting Technical Limits                 |
-| 7   | `2025-12-coding-agent-exception.mdx`        | The Coding Agent Exception: Why AI Works for Code but Struggles Everywhere Else |
+| #   | File                                        | Title                                                                                          |
+| --- | ------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| 2   | `2025-12-system-integration-92-percent.mdx` | The 92% Problem: Why System Integration Breaks AI Agent Deployments                            |
+| 3   | `2025-12-40-percent-context-rule.mdx`       | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent                              |
+| 4   | `2025-12-framework-abandonment.mdx`         | The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework for Production |
+| 5   | `2025-12-demo-production-chasm.mdx`         | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations                         |
+| 6   | `2025-12-enterprise-business-case.mdx`      | Why 90% of AI Agent Pilots Fail Before Hitting Technical Limits                                |
+| 7   | `2025-12-coding-agent-exception.mdx`        | The Coding Agent Exception: Why AI Works for Code but Struggles Everywhere Else                |
 
 ---
 
@@ -96,20 +96,20 @@ Insights from interviews with industry practitioners.
 
 ```bash
 # Copy all Practitioner Perspectives
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-autonomy-interview.mdx [target]/
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-qurrent-interview.mdx [target]/
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-okta-interview.mdx [target]/
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-crewai-interview.mdx [target]/
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-sybill-interview.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-practitioner-interview-2.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-practitioner-interview-1.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-practitioner-interview-3.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-practitioner-interview-4.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-practitioner-interview-5.mdx [target]/
 ```
 
-| #   | File                             | Title                                                                             |
-| --- | -------------------------------- | --------------------------------------------------------------------------------- |
-| 14  | `2025-12-autonomy-interview.mdx` | Autonomy's Take: Managing Expectations with Probabilistic Systems                 |
-| 15  | `2025-12-qurrent-interview.mdx`  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production |
-| 16  | `2025-12-okta-interview.mdx`     | How Okta is Solving AI Agent Identity: The Next SSO Moment                        |
-| 17  | `2025-12-crewai-interview.mdx`   | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat                  |
-| 18  | `2025-12-sybill-interview.mdx`   | Sybill's Approach: Building AI Sales Agents That Actually Work                    |
+| #   | File                                   | Title                                                                                                       |
+| --- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 14  | `2025-12-practitioner-interview-2.mdx` | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems                       |
+| 15  | `2025-12-practitioner-interview-1.mdx` | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production |
+| 16  | `2025-12-practitioner-interview-3.mdx` | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment                   |
+| 17  | `2025-12-practitioner-interview-4.mdx` | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat                   |
+| 18  | `2025-12-practitioner-interview-5.mdx` | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work                    |
 
 ---
 
@@ -138,16 +138,16 @@ Key learnings from AI agent conferences and events.
 
 ```bash
 # Copy all Conference Insights
-cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-manus-fireside.mdx [target]/
+cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-autonomous-agent-fireside.mdx [target]/
 cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-why-95-fail.mdx [target]/
 cp /Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-production-summit.mdx [target]/
 ```
 
-| #   | File                            | Title                                                                                           |
-| --- | ------------------------------- | ----------------------------------------------------------------------------------------------- |
-| 22  | `2025-12-manus-fireside.mdx`    | Manus Fireside: The 30-40% Model Revelation That Changed Everything                             |
-| 23  | `2025-12-why-95-fail.mdx`       | Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About |
-| 24  | `2025-12-production-summit.mdx` | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                   |
+| #   | File                                    | Title                                                                                           |
+| --- | --------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 22  | `2025-12-autonomous-agent-fireside.mdx` | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything    |
+| 23  | `2025-12-why-95-fail.mdx`               | Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About |
+| 24  | `2025-12-production-summit.mdx`         | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                   |
 
 ---
 

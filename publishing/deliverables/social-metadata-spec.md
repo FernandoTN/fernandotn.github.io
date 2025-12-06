@@ -204,15 +204,15 @@ All 25 blog posts have been verified to contain the required metadata fields.
 | 11  | 2025-12-mcp-tool-cliff                | Yes       | Yes         | Yes       |
 | 12  | 2025-12-component-evaluation          | Yes       | Yes         | Yes       |
 | 13  | 2025-12-evaluation-gap                | Yes       | Yes         | Yes       |
-| 14  | 2025-12-qurrent-interview             | Yes       | Yes         | Yes       |
-| 15  | 2025-12-autonomy-interview            | Yes       | Yes         | Yes       |
-| 16  | 2025-12-okta-interview                | Yes       | Yes         | Yes       |
-| 17  | 2025-12-crewai-interview              | Yes       | Yes         | Yes       |
-| 18  | 2025-12-sybill-interview              | Yes       | Yes         | Yes       |
+| 14  | 2025-12-practitioner-interview-1      | Yes       | Yes         | Yes       |
+| 15  | 2025-12-practitioner-interview-2      | Yes       | Yes         | Yes       |
+| 16  | 2025-12-practitioner-interview-3      | Yes       | Yes         | Yes       |
+| 17  | 2025-12-practitioner-interview-4      | Yes       | Yes         | Yes       |
+| 18  | 2025-12-practitioner-interview-5      | Yes       | Yes         | Yes       |
 | 19  | 2025-12-shopping-agent                | Yes       | Yes         | Yes       |
 | 20  | 2025-12-repo-patcher                  | Yes       | Yes         | Yes       |
 | 21  | 2025-12-good-agents                   | Yes       | Yes         | Yes       |
-| 22  | 2025-12-manus-fireside                | Yes       | Yes         | Yes       |
+| 22  | 2025-12-autonomous-agent-fireside     | Yes       | Yes         | Yes       |
 | 23  | 2025-12-why-95-fail                   | Yes       | Yes         | Yes       |
 | 24  | 2025-12-production-summit             | Yes       | Yes         | Yes       |
 | 25  | 2025-12-research-methodology          | Yes       | Yes         | Yes       |
@@ -221,33 +221,33 @@ All 25 blog posts have been verified to contain the required metadata fields.
 
 ## Image Paths Reference
 
-| Post                          | Image Path                                      |
-| ----------------------------- | ----------------------------------------------- |
-| ai-agents-research-overview   | /images/blog/ai-agents-research-cover.png       |
-| system-integration-92-percent | /images/blog/system-integration-92-percent.png  |
-| 40-percent-context-rule       | /images/blog/context-management-cover.png       |
-| framework-abandonment         | /images/blog/framework-abandonment-cover.png    |
-| demo-production-chasm         | /images/blog/demo-production-chasm-cover.png    |
-| enterprise-business-case      | /images/blog/enterprise-blockers-cover.png      |
-| coding-agent-exception        | /images/blog/coding-agent-exception-cover.png   |
-| model-myth                    | /images/blog/model-myth-cover.png               |
-| handoff-rate-metric           | /images/blog/handoff-rate-metric.png            |
-| dual-memory-architecture      | /images/blog/dual-memory-architecture.png       |
-| mcp-tool-cliff                | /images/blog/mcp-tool-cliff.png                 |
-| component-evaluation          | /images/blog/component-evaluation-cover.png     |
-| evaluation-gap                | /images/blog/evaluation-gap-cover.png           |
-| qurrent-interview             | /images/blog/qurrent-interview.png              |
-| autonomy-interview            | /images/blog/autonomy-probabilistic-systems.png |
-| okta-interview                | /images/blog/okta-interview.png                 |
-| crewai-interview              | /images/blog/crewai-interview.png               |
-| sybill-interview              | /images/blog/sybill-interview-cover.png         |
-| shopping-agent                | /images/blog/shopping-agent-cover.png           |
-| repo-patcher                  | /images/blog/repo-patcher-cover.png             |
-| good-agents                   | /images/blog/good-agents.png                    |
-| manus-fireside                | /images/blog/manus-fireside.png                 |
-| why-95-fail                   | /images/blog/why-95-fail.png                    |
-| production-summit             | /images/blog/production-summit.png              |
-| research-methodology          | /images/research-methodology-cover.png          |
+| Post                          | Image Path                                                      |
+| ----------------------------- | --------------------------------------------------------------- |
+| ai-agents-research-overview   | /images/blog/ai-agents-research-cover.png                       |
+| system-integration-92-percent | /images/blog/system-integration-92-percent.png                  |
+| 40-percent-context-rule       | /images/blog/context-management-cover.png                       |
+| framework-abandonment         | /images/blog/framework-abandonment-cover.png                    |
+| demo-production-chasm         | /images/blog/demo-production-chasm-cover.png                    |
+| enterprise-business-case      | /images/blog/enterprise-blockers-cover.png                      |
+| coding-agent-exception        | /images/blog/coding-agent-exception-cover.png                   |
+| model-myth                    | /images/blog/model-myth-cover.png                               |
+| handoff-rate-metric           | /images/blog/handoff-rate-metric.png                            |
+| dual-memory-architecture      | /images/blog/dual-memory-architecture.png                       |
+| mcp-tool-cliff                | /images/blog/mcp-tool-cliff.png                                 |
+| component-evaluation          | /images/blog/component-evaluation-cover.png                     |
+| evaluation-gap                | /images/blog/evaluation-gap-cover.png                           |
+| practitioner-interview-1      | /images/blog/practitioner-interview-1.png                       |
+| practitioner-interview-2      | /images/blog/practitioner-interview-2-probabilistic-systems.png |
+| practitioner-interview-3      | /images/blog/practitioner-interview-3.png                       |
+| practitioner-interview-4      | /images/blog/practitioner-interview-4.png                       |
+| practitioner-interview-5      | /images/blog/practitioner-interview-5-cover.png                 |
+| shopping-agent                | /images/blog/shopping-agent-cover.png                           |
+| repo-patcher                  | /images/blog/repo-patcher-cover.png                             |
+| good-agents                   | /images/blog/good-agents.png                                    |
+| autonomous-agent-fireside     | /images/blog/autonomous-agent-fireside.png                      |
+| why-95-fail                   | /images/blog/why-95-fail.png                                    |
+| production-summit             | /images/blog/production-summit.png                              |
+| research-methodology          | /images/research-methodology-cover.png                          |
 
 ---
 

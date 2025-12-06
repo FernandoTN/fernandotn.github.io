@@ -63,7 +63,7 @@ The specPublishing.txt defines the following deliverables and requirements:
 | **Emergent Insights (6)**             | Met     | Posts 8-13 covering novel findings                                                 |
 | **Practitioner Perspectives (5)**     | Met     | Posts 14-18 covering interview highlights                                          |
 | **Prototype Learnings (3)**           | Met     | Posts 19-21 (Shopping Agent, Repo Patcher, Good Agents)                            |
-| **Conference Insights (3)**           | Met     | Posts 22-24 (Manus, Why 95% Fail, Production Summit)                               |
+| **Conference Insights (3)**           | Met     | Posts 22-24 (an AI autonomous agent company, Why 95% Fail, Production Summit)      |
 | **Methodology (1)**                   | Met     | `2025-12-research-methodology.mdx`                                                 |
 | **MDX Template Structure**            | Met     | Sample verified: frontmatter, sections, quotes, footer present                     |
 | **LinkedIn Template Structure**       | Met     | Sample verified: hook, bullets, CTA, hashtags present                              |
@@ -86,14 +86,14 @@ The specPublishing.txt defines the following deliverables and requirements:
 
 ### Category 2: Theme Deep Dives (6/6)
 
-| #   | Required Title                                | Delivered File                              | Status |
-| --- | --------------------------------------------- | ------------------------------------------- | ------ |
-| 2   | System Integration                            | `2025-12-system-integration-92-percent.mdx` | Met    |
-| 3   | Context Management (40% Rule)                 | `2025-12-40-percent-context-rule.mdx`       | Met    |
-| 4   | Framework Ecosystem (LangChain)               | `2025-12-framework-abandonment.mdx`         | Met    |
-| 5   | Probabilistic Systems (Demo-Production Chasm) | `2025-12-demo-production-chasm.mdx`         | Met    |
-| 6   | Enterprise Blockers                           | `2025-12-enterprise-business-case.mdx`      | Met    |
-| 7   | Model Capabilities (Coding Agent Exception)   | `2025-12-coding-agent-exception.mdx`        | Met    |
+| #   | Required Title                                     | Delivered File                              | Status |
+| --- | -------------------------------------------------- | ------------------------------------------- | ------ |
+| 2   | System Integration                                 | `2025-12-system-integration-92-percent.mdx` | Met    |
+| 3   | Context Management (40% Rule)                      | `2025-12-40-percent-context-rule.mdx`       | Met    |
+| 4   | Framework Ecosystem (a popular AI agent framework) | `2025-12-framework-abandonment.mdx`         | Met    |
+| 5   | Probabilistic Systems (Demo-Production Chasm)      | `2025-12-demo-production-chasm.mdx`         | Met    |
+| 6   | Enterprise Blockers                                | `2025-12-enterprise-business-case.mdx`      | Met    |
+| 7   | Model Capabilities (Coding Agent Exception)        | `2025-12-coding-agent-exception.mdx`        | Met    |
 
 ### Category 3: Emergent Insights (6/6)
 
@@ -108,13 +108,13 @@ The specPublishing.txt defines the following deliverables and requirements:
 
 ### Category 4: Practitioner Perspectives (5/5)
 
-| #   | Required Title                        | Delivered File                   | Status |
-| --- | ------------------------------------- | -------------------------------- | ------ |
-| 14  | Inside Qurrent                        | `2025-12-qurrent-interview.mdx`  | Met    |
-| 15  | Autonomy's Take                       | `2025-12-autonomy-interview.mdx` | Met    |
-| 16  | How Okta is Solving AI Agent Identity | `2025-12-okta-interview.mdx`     | Met    |
-| 17  | CrewAI's Lesson                       | `2025-12-crewai-interview.mdx`   | Met    |
-| 18  | Sybill's Approach                     | `2025-12-sybill-interview.mdx`   | Met    |
+| #   | Required Title                                                       | Delivered File                         | Status |
+| --- | -------------------------------------------------------------------- | -------------------------------------- | ------ |
+| 14  | Inside an AI agent orchestration company                             | `2025-12-practitioner-interview-1.mdx` | Met    |
+| 15  | an AI infrastructure company's Take                                  | `2025-12-practitioner-interview-2.mdx` | Met    |
+| 16  | How a major enterprise identity company is Solving AI Agent Identity | `2025-12-practitioner-interview-3.mdx` | Met    |
+| 17  | a multi-agent framework company's Lesson                             | `2025-12-practitioner-interview-4.mdx` | Met    |
+| 18  | an AI sales intelligence company's Approach                          | `2025-12-practitioner-interview-5.mdx` | Met    |
 
 ### Category 5: Prototype Learnings (3/3)
 
@@ -126,11 +126,11 @@ The specPublishing.txt defines the following deliverables and requirements:
 
 ### Category 6: Conference Insights (3/3)
 
-| #   | Required Title           | Delivered File                  | Status |
-| --- | ------------------------ | ------------------------------- | ------ |
-| 22  | Manus Fireside           | `2025-12-manus-fireside.mdx`    | Met    |
-| 23  | Why 95% Fail             | `2025-12-why-95-fail.mdx`       | Met    |
-| 24  | Production Agents Summit | `2025-12-production-summit.mdx` | Met    |
+| #   | Required Title                          | Delivered File                          | Status |
+| --- | --------------------------------------- | --------------------------------------- | ------ |
+| 22  | an AI autonomous agent company Fireside | `2025-12-autonomous-agent-fireside.mdx` | Met    |
+| 23  | Why 95% Fail                            | `2025-12-why-95-fail.mdx`               | Met    |
+| 24  | Production Agents Summit                | `2025-12-production-summit.mdx`         | Met    |
 
 ### Category 7: Methodology (1/1)
 
@@ -193,7 +193,7 @@ The following deliverables were created beyond the original spec requirements:
 **Per validation-quotes.md findings**:
 
 - 3 quotes identified as paraphrased rather than verbatim
-- 1 attribution error (LangChain quote attributed to Cynthia but spoken by Fernando)
+- 1 attribution error (a popular AI agent framework quote attributed to Cynthia but spoken by Fernando)
 
 **Impact**: Minor - does not affect overall content quality
 **Recommendation**: Review and correct as noted in validation-quotes.md

@@ -89,8 +89,8 @@ Complete guide to AI agent production deployment. 25 articles covering system in
 
 ```
 A comprehensive research series exploring what really blocks AI agents from production deployment.
-Based on 36 expert interviews with practitioners at companies like Okta, CrewAI, Qurrent, Autonomy,
-and Sybill, plus insights from 5 industry conferences and hands-on experience building 3 functional prototypes.
+Based on 36 expert interviews with practitioners at companies like a major enterprise identity company, a multi-agent framework company, an AI agent orchestration company, an AI infrastructure company,
+and an AI sales intelligence company, plus insights from 5 industry conferences and hands-on experience building 3 functional prototypes.
 ```
 
 **Key Statistics Badge Row:**
@@ -129,14 +129,14 @@ and Sybill, plus insights from 5 industry conferences and hands-on experience bu
 **Section Header:** Theme Deep Dives
 **Description:** In-depth explorations of the six core research themes.
 
-| #   | Title                                                                       | URL Slug                         | Key Stat             | Est. Read Time |
-| --- | --------------------------------------------------------------------------- | -------------------------------- | -------------------- | -------------- |
-| 2   | Why 92% of AI Agent Deployments Struggle with System Integration            | system-integration-92-percent    | 92% cite integration | 9 min          |
-| 3   | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent           | 40-percent-context-rule          | 40% utilization      | 8 min          |
-| 4   | 80-90% of Teams Abandon LangChain for Production - Here's Why               | langchain-abandonment-pattern    | 80-90% abandon       | 9 min          |
-| 5   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations      | demo-production-chasm            | 70% demo accuracy    | 10 min         |
-| 6   | Enterprise AI Agents: When Business Case Failure Precedes Technical Failure | enterprise-business-case-failure | 90% pilot failure    | 9 min          |
-| 7   | Why Coding Agents Are the Exception, Not the Rule                           | coding-agents-exception          | Exception case       | 8 min          |
+| #   | Title                                                                            | URL Slug                         | Key Stat             | Est. Read Time |
+| --- | -------------------------------------------------------------------------------- | -------------------------------- | -------------------- | -------------- |
+| 2   | Why 92% of AI Agent Deployments Struggle with System Integration                 | system-integration-92-percent    | 92% cite integration | 9 min          |
+| 3   | The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent                | 40-percent-context-rule          | 40% utilization      | 8 min          |
+| 4   | 80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why | langchain-abandonment-pattern    | 80-90% abandon       | 9 min          |
+| 5   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations           | demo-production-chasm            | 70% demo accuracy    | 10 min         |
+| 6   | Enterprise AI Agents: When Business Case Failure Precedes Technical Failure      | enterprise-business-case-failure | 90% pilot failure    | 9 min          |
+| 7   | Why Coding Agents Are the Exception, Not the Rule                                | coding-agents-exception          | Exception case       | 8 min          |
 
 **Card Design:**
 
@@ -173,13 +173,13 @@ and Sybill, plus insights from 5 industry conferences and hands-on experience bu
 **Section Header:** Practitioner Perspectives
 **Description:** First-hand insights from AI practitioners building agents at leading companies.
 
-| #   | Title                                                                             | URL Slug                        | Company  | Est. Read Time |
-| --- | --------------------------------------------------------------------------------- | ------------------------------- | -------- | -------------- |
-| 14  | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | inside-qurrent-pilot-conversion | Qurrent  | 9 min          |
-| 15  | Autonomy's Take: Managing Expectations with Probabilistic Systems                 | autonomy-probabilistic-systems  | Autonomy | 8 min          |
-| 16  | How Okta is Solving AI Agent Identity: The Next SSO Moment                        | okta-ai-agent-identity          | Okta     | 8 min          |
-| 17  | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat                  | crewai-enterprise-topology      | CrewAI   | 8 min          |
-| 18  | Sybill's Approach: Building AI Sales Agents That Actually Work                    | sybill-ai-sales-agents          | Sybill   | 8 min          |
+| #   | Title                                                                                                       | URL Slug                                       | Company                             | Est. Read Time |
+| --- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ----------------------------------- | -------------- |
+| 14  | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production | practitioner-interview-1-pilot-conversion      | an AI agent orchestration company   | 9 min          |
+| 15  | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems                       | practitioner-interview-2-probabilistic-systems | an AI infrastructure company        | 8 min          |
+| 16  | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment                   | practitioner-interview-3-ai-agent-identity     | a major enterprise identity company | 8 min          |
+| 17  | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat                   | practitioner-interview-4-enterprise-topology   | a multi-agent framework company     | 8 min          |
+| 18  | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work                    | practitioner-interview-5-ai-sales-agents       | an AI sales intelligence company    | 8 min          |
 
 **Card Design:**
 
@@ -215,11 +215,11 @@ and Sybill, plus insights from 5 industry conferences and hands-on experience bu
 **Section Header:** Conference Insights
 **Description:** Key takeaways from major industry conferences on AI agents.
 
-| #   | Title                                                                                           | URL Slug                            | Conference               | Est. Read Time |
-| --- | ----------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------ | -------------- |
-| 22  | Manus Fireside: The 30-40% Model Revelation That Changed Everything                             | manus-fireside-model-revelation     | Manus Fireside           | 8 min          |
-| 23  | Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About | 95-percent-agentic-ai-failure       | Why 95% Fail Conference  | 9 min          |
-| 24  | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                   | production-agents-summit-40-percent | Production Agents Summit | 9 min          |
+| #   | Title                                                                                           | URL Slug                                   | Conference                              | Est. Read Time |
+| --- | ----------------------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------- | -------------- |
+| 22  | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything    | autonomous-agent-fireside-model-revelation | an AI autonomous agent company Fireside | 8 min          |
+| 23  | Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About | 95-percent-agentic-ai-failure              | Why 95% Fail Conference                 | 9 min          |
+| 24  | Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths                   | production-agents-summit-40-percent        | Production Agents Summit                | 9 min          |
 
 **Card Design:**
 
@@ -336,7 +336,7 @@ Stay updated on AI agents research. Subscribe to get new articles delivered to y
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "80-90% of Teams Abandon LangChain for Production - Here's Why",
+        "name": "80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why",
         "url": "https://fernandotorres.io/blog/langchain-abandonment-pattern"
       },
       {
@@ -396,32 +396,32 @@ Stay updated on AI agents research. Subscribe to get new articles delivered to y
       {
         "@type": "ListItem",
         "position": 14,
-        "name": "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert",
-        "url": "https://fernandotorres.io/blog/inside-qurrent-pilot-conversion"
+        "name": "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert",
+        "url": "https://fernandotorres.io/blog/practitioner-interview-1-pilot-conversion"
       },
       {
         "@type": "ListItem",
         "position": 15,
-        "name": "Autonomy's Take: Managing Expectations with Probabilistic Systems",
-        "url": "https://fernandotorres.io/blog/autonomy-probabilistic-systems"
+        "name": "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems",
+        "url": "https://fernandotorres.io/blog/practitioner-interview-2-probabilistic-systems"
       },
       {
         "@type": "ListItem",
         "position": 16,
-        "name": "How Okta is Solving AI Agent Identity",
-        "url": "https://fernandotorres.io/blog/okta-ai-agent-identity"
+        "name": "How a major enterprise identity company is Solving AI Agent Identity",
+        "url": "https://fernandotorres.io/blog/practitioner-interview-3-ai-agent-identity"
       },
       {
         "@type": "ListItem",
         "position": 17,
-        "name": "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat",
-        "url": "https://fernandotorres.io/blog/crewai-enterprise-topology"
+        "name": "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat",
+        "url": "https://fernandotorres.io/blog/practitioner-interview-4-enterprise-topology"
       },
       {
         "@type": "ListItem",
         "position": 18,
-        "name": "Sybill's Approach: Building AI Sales Agents That Actually Work",
-        "url": "https://fernandotorres.io/blog/sybill-ai-sales-agents"
+        "name": "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work",
+        "url": "https://fernandotorres.io/blog/practitioner-interview-5-ai-sales-agents"
       },
       {
         "@type": "ListItem",
@@ -444,8 +444,8 @@ Stay updated on AI agents research. Subscribe to get new articles delivered to y
       {
         "@type": "ListItem",
         "position": 22,
-        "name": "Manus Fireside: The 30-40% Model Revelation That Changed Everything",
-        "url": "https://fernandotorres.io/blog/manus-fireside-model-revelation"
+        "name": "an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything",
+        "url": "https://fernandotorres.io/blog/autonomous-agent-fireside-model-revelation"
       },
       {
         "@type": "ListItem",

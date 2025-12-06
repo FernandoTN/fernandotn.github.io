@@ -8,11 +8,11 @@ After interviewing 36 experts building production AI agents, we uncovered a find
 
 The model is not your bottleneck.
 
-According to the Manus co-founder: "The model only contributes 30-40% of the whole thing. The framework, the whole system you build upon the model is much more important."
+According to the an AI autonomous agent company co-founder: "The model only contributes 30-40% of the whole thing. The framework, the whole system you build upon the model is much more important."
 
 Here's what the research shows:
 
-- Model only contributes 30-40% to agent success (Manus Fireside)
+- Model only contributes 30-40% to agent success (an AI autonomous agent company Fireside)
 - Framework and architecture account for 60-70% of outcomes
 - 40-50% of deployment time is spent on system integration
 - Waiting for better models won't fix bad architecture

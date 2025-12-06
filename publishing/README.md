@@ -185,11 +185,11 @@ Once content is in `/deliverables/`:
 
 ### 4. Practitioner Perspectives (5 posts)
 
-- Qurrent
-- Autonomy
-- Okta
-- CrewAI
-- Sybill
+- an AI agent orchestration company
+- an AI infrastructure company
+- a major enterprise identity company
+- a multi-agent framework company
+- an AI sales intelligence company
 - **Note:** Requires attribution permission
 
 ### 5. Prototype Learnings (3 posts)
@@ -200,7 +200,7 @@ Once content is in `/deliverables/`:
 
 ### 6. Conference Insights (3 posts)
 
-- Manus Fireside
+- an AI autonomous agent company Fireside
 - Why 95% Fail
 - Production Agents Summit
 
@@ -230,15 +230,15 @@ Once content is in `/deliverables/`:
 
 Use these accurately in publications:
 
-| Statistic                     | Value                   | Source                   |
-| ----------------------------- | ----------------------- | ------------------------ |
-| System integration challenges | 92% (24/26 sources)     | Theme_Frequency_Analysis |
-| Pilot failure rate            | 90%                     | David (Qurrent)          |
-| Framework abandonment         | 80-90%                  | Cynthia (WiseAgents)     |
-| Integration time              | 40-50% of deployment    | David (Qurrent)          |
-| Model contribution            | 30-40%                  | Manus Fireside           |
-| Context utilization rule      | 40% max                 | Production Agents Summit |
-| MCP tool accuracy cliff       | 25 tools → 30% accuracy | CC (Vivgrid)             |
+| Statistic                     | Value                   | Source                                  |
+| ----------------------------- | ----------------------- | --------------------------------------- |
+| System integration challenges | 92% (24/26 sources)     | Theme_Frequency_Analysis                |
+| Pilot failure rate            | 90%                     | an enterprise AI deployment expert      |
+| Framework abandonment         | 80-90%                  | a consulting firm practitioner          |
+| Integration time              | 40-50% of deployment    | an enterprise AI deployment expert      |
+| Model contribution            | 30-40%                  | an AI autonomous agent company Fireside |
+| Context utilization rule      | 40% max                 | Production Agents Summit                |
+| MCP tool accuracy cliff       | 25 tools → 30% accuracy | CC (an AI infrastructure company)       |
 
 ## Contact
 

@@ -30,15 +30,15 @@ The Evolution Narrative (`/Users/fernandotn/Downloads/390/Aggregations/Evolution
 The publication directly addresses Emergent Insight 4 from the Evolution Narrative. Key alignments:
 
 - **Core finding matches exactly:** "Models contribute 30-40%, while framework and architecture contribute 60-70%" - directly from Evolution Narrative
-- **Key quote from Manus preserved:** "Model only contributes 30 or 40% of the whole thing"
-- **Supporting evidence from David (Qurrent):** "The intelligence is really smart enough" and "40-50% of deployment time on integration"
-- **Multi-model orchestration pattern covered:** Manus's approach of using Gemini for search, GPT-4 for code, Claude for structured output
+- **Key quote from an AI autonomous agent company preserved:** "Model only contributes 30 or 40% of the whole thing"
+- **Supporting evidence from an enterprise AI deployment expert:** "The intelligence is really smart enough" and "40-50% of deployment time on integration"
+- **Multi-model orchestration pattern covered:** an AI autonomous agent company's approach of using Gemini for search, GPT-4 for code, Claude for structured output
 - **8x cost reduction through architecture:** Referenced from Evolution Narrative
 
 **Evidence citations verified:**
 
-- Manus Fireside source (Pivot 2 in Evolution Narrative)
-- David/Qurrent interview (Phase 1)
+- an AI autonomous agent company Fireside source (Pivot 2 in Evolution Narrative)
+- the practitioner/an AI agent orchestration company interview (Phase 1)
 - Prototype validation from Shopping Agent, Repo Patcher, Good Agents
 
 **Status:** ALIGNED
@@ -56,16 +56,16 @@ The publication directly addresses Emergent Insight 4 from the Evolution Narrati
 The publication directly addresses Emergent Insight 3 from the Evolution Narrative. Key alignments:
 
 - **Core distinction preserved:** User memory (preferences, interactions) vs. agent memory (tool selection, problem-solving patterns)
-- **Key quote from Saurav (RunLLM):** "Memory as Two Distinct Problems" - matches Evolution Narrative exactly
+- **Key quote from a practitioner at an AI observability company:** "Memory as Two Distinct Problems" - matches Evolution Narrative exactly
 - **Governance conflict addressed:** PII concerns for user memory vs. engineering accessibility for agent memory
 - **Update cycle differences:** Real-time for user memory, batch for agent memory
 - **Vendor conflation critique:** Letta, MEM0, Cogni referenced as unified solutions that fail both use cases
 
 **Additional supporting evidence:**
 
-- CC (Vivgrid) quote on enterprise memory failures and PII concerns
-- Abhishek (Apna) on voice conversation memory challenges
-- Mehak (Sybill) on first-step retrieval philosophy
+- a practitioner at an AI infrastructure company quote on enterprise memory failures and PII concerns
+- an engineering leader at a workforce platform on voice conversation memory challenges
+- an AI lead at a sales intelligence company on first-step retrieval philosophy
 - 40% context utilization rule referenced
 
 **Status:** ALIGNED
@@ -82,16 +82,16 @@ The publication directly addresses Emergent Insight 3 from the Evolution Narrati
 
 This publication addresses **Pivot 3** from the Evolution Narrative rather than one of the 8 Emergent Insights. However, it provides crucial coverage of findings that emerged during research:
 
-- **25-tool threshold quantified:** "When MCP amount exceeds 25, LLM accuracy drops to 30%" - CC/Vivgrid
+- **25-tool threshold quantified:** "When MCP amount exceeds 25, LLM accuracy drops to 30%" - CC/an AI infrastructure company
 - **Context bloat problem:** Tool definition verbosity consuming context window tokens
 - **Decision paralysis:** More tools degrading decision quality
 - **Specificity gap:** Generic MCP servers expose too many operations without domain context
 
 **Key sources verified:**
 
-- CC Fan (Vivgrid) - primary quantification source
-- Tushar (CodeForge) - "confuses the agent more than helping"
-- Saurav (RunLLM) - "way too many operations specified"
+- a practitioner at an AI infrastructure company - primary quantification source
+- a developer at an AI coding company - "confuses the agent more than helping"
+- a practitioner at an AI observability company - "way too many operations specified"
 - Why 95% Fail conference - "MCP creates new problems"
 
 **Note:** While highly valuable content, this publication covers a Key Pivot rather than an Emergent Insight. The Evolution Narrative classifies MCP limitations under "Pivot 3: MCP Promise vs. Reality Gap" and "Invalidated Hypothesis 2: MCP Will Solve Enterprise Integration."
@@ -112,7 +112,7 @@ The publication directly addresses Emergent Insight 2 from the Evolution Narrati
 
 - **Core metric defined:** "Percentage of tasks passed back to humans" - matches Evolution Narrative exactly
 - **Source attribution correct:** "Why 95% Fail" conference (Nov 3) as primary source
-- **Cece/Visigrate quote preserved:** "The question is no longer is the agent smart. The real question is does it actually reduce the handoff to humans"
+- **Cece/an AI infrastructure company quote preserved:** "The question is no longer is the agent smart. The real question is does it actually reduce the handoff to humans"
 - **Meta-metric framing:** Handoff rate as the metric that reveals whether accuracy, latency, and cost are delivering value
 - **Business value alignment:** Measures actual automation value vs. intermediate technical metrics
 
@@ -136,15 +136,15 @@ The publication directly addresses Emergent Insight 2 from the Evolution Narrati
 
 The publication directly addresses Emergent Insight 5 from the Evolution Narrative. Key alignments:
 
-- **Core insight preserved:** "Almost never evaluate end-to-end because it is pointless" - Mehak/Sybill
+- **Core insight preserved:** "Almost never evaluate end-to-end because it is pointless" - the AI lead/an AI sales intelligence company
 - **First-step retrieval philosophy:** "Built it blind after step one"
 - **Compounding uncertainty explained:** Mathematical illustration of 90% accuracy per step yielding ~59% end-to-end
-- **Sybill's early LLM experience:** Pre-ChatGPT deployment providing operational wisdom
+- **an AI sales intelligence company's early LLM experience:** Pre-ChatGPT deployment providing operational wisdom
 - **Generation commoditization insight:** "The final generation is not where our strength is going to lie"
 
 **LLM-as-judge limitations:**
 
-- "Shouldn't use LLM to judge something which as a human, you find extremely hard to judge" - Mehak/Sybill
+- "Shouldn't use LLM to judge something which as a human, you find extremely hard to judge" - the AI lead/an AI sales intelligence company
 
 **Status:** ALIGNED
 
@@ -164,11 +164,11 @@ The publication directly addresses Emergent Insight 7 from the Evolution Narrati
 - **Confidence crisis:** Founders don't trust eval results
 - **LLM-as-judge limitations:** Minimal capability gap between evaluator and evaluated
 - **Academic-industrial disconnect:** Benchmarks don't correlate with business value
-- **Manus abandoning benchmarks:** Standard metrics "not even close to real user's requirements"
+- **an AI autonomous agent company abandoning benchmarks:** Standard metrics "not even close to real user's requirements"
 
 **Outcome vs. Process metrics distinction:**
 
-- Yujian Tan quote on SDR agent: "Your eval for that success is, did I get 10 meetings with these people?"
+- a practitioner quote on SDR agent: "Your eval for that success is, did I get 10 meetings with these people?"
 - Handoff rate as outcome-focused alternative
 
 **Market opportunity framing:**
@@ -209,7 +209,7 @@ The publication directly addresses Emergent Insight 7 from the Evolution Narrati
 
 3. **Small Model Constellations (Emergent 8)**
    - Not covered in any publication
-   - Source: VCatTheory interview describing 8B parameter specialized models with 100x speed improvement
+   - Source: a VC investor interview describing 8B parameter specialized models with 100x speed improvement
    - Evolution Narrative identifies this as significant architectural alternative
 
 ### Additional Coverage Note
@@ -224,7 +224,7 @@ The publication directly addresses Emergent Insight 7 from the Evolution Narrati
 
 1. **Consider adding Publication on Small Model Constellations (Emergent 8)**
    - This emergent theme is completely uncovered
-   - Source material: VCatTheory interview on 8B parameter specialized models
+   - Source material: a VC investor interview on 8B parameter specialized models
    - Key data: 100x speed improvement, post-training for API independence
    - Significant strategic implication: "Long-term trajectory may favor owning model training infrastructure over API dependencies"
 

@@ -14,21 +14,21 @@ This document tracks permission requests for practitioners whose quotes and insi
 
 ## Permission Status Tracker
 
-| #   | Practitioner  | Company  | Target Publication                            | Status      | Date Requested | Response Date |
-| --- | ------------- | -------- | --------------------------------------------- | ----------- | -------------- | ------------- |
-| 1   | David         | Qurrent  | Pub 14: Inside Qurrent                        | **PENDING** | —              | —             |
-| 2   | Mrinal Wadhwa | Autonomy | Pub 15: Autonomy's Take                       | **PENDING** | —              | —             |
-| 3   | Tian Lan      | Okta     | Pub 16: How Okta is Solving AI Agent Identity | **PENDING** | —              | —             |
-| 4   | Joao          | CrewAI   | Pub 17: CrewAI's Lesson                       | **PENDING** | —              | —             |
-| 5   | Mehak         | Sybill   | Pub 18: Sybill's Approach                     | **PENDING** | —              | —             |
+| #   | Practitioner                                      | Company                             | Target Publication                                                           | Status      | Date Requested | Response Date |
+| --- | ------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------- | ----------- | -------------- | ------------- |
+| 1   | the practitioner                                  | an AI agent orchestration company   | Pub 14: Inside an AI agent orchestration company                             | **PENDING** | —              | —             |
+| 2   | a founder at an AI infrastructure company         | an AI infrastructure company        | Pub 15: an AI infrastructure company's Take                                  | **PENDING** | —              | —             |
+| 3   | an engineering leader at a major identity company | a major enterprise identity company | Pub 16: How a major enterprise identity company is Solving AI Agent Identity | **PENDING** | —              | —             |
+| 4   | the co-founder                                    | a multi-agent framework company     | Pub 17: a multi-agent framework company's Lesson                             | **PENDING** | —              | —             |
+| 5   | the AI lead                                       | an AI sales intelligence company    | Pub 18: an AI sales intelligence company's Approach                          | **PENDING** | —              | —             |
 
 ---
 
 ## Quotes Planned for Use
 
-### 1. David (Qurrent) - Publication 14
+### 1. an enterprise AI deployment expert - Publication 14
 
-**Publication Title**: "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production"
+**Publication Title**: "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production"
 
 **Quotes to be attributed**:
 
@@ -42,9 +42,9 @@ This document tracks permission requests for practitioners whose quotes and insi
 
 ---
 
-### 2. Mrinal Wadhwa (Autonomy) - Publication 15
+### 2. a founder at an AI infrastructure company - Publication 15
 
-**Publication Title**: "Autonomy's Take: Managing Expectations with Probabilistic Systems"
+**Publication Title**: "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems"
 
 **Quotes to be attributed**:
 
@@ -58,25 +58,25 @@ This document tracks permission requests for practitioners whose quotes and insi
 
 ---
 
-### 3. Tian Lan (Okta) - Publication 16
+### 3. an engineering leader at a major identity company - Publication 16
 
-**Publication Title**: "How Okta is Solving AI Agent Identity: The Next SSO Moment"
+**Publication Title**: "How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment"
 
 **Quotes to be attributed**:
 
-> "All of these pricing like changes or type of pricing schemes is confusing to large enterprises. What we were told is they don't know how many tokens they're going to use for cross app access... Those are things that is confusing internally to us, to Okta, but also confusing to enterprise because they're not used to that. They can't model their usage, they can't model their outcome."
+> "All of these pricing like changes or type of pricing schemes is confusing to large enterprises. What we were told is they don't know how many tokens they're going to use for cross app access... Those are things that is confusing internally to us, to a major enterprise identity company, but also confusing to enterprise because they're not used to that. They can't model their usage, they can't model their outcome."
 
 > "Our team in India as a target of 50 integrations they can build with the Windserve... We're 3X... So it's not like we're cutting off or laying off anybody. We're just saying well now we can do 150 integrations."
 
-> "MCP just merged the Okta Cross app access extension to be the repo to be in the GitHub... It should be launched around Thanksgiving time I assume. I expect azurebit to make a pretty big deal of extensions and we're the first one on identity security on that."
+> "MCP just merged the a major enterprise identity company Cross app access extension to be the repo to be in the GitHub... It should be launched around Thanksgiving time I assume. I expect azurebit to make a pretty big deal of extensions and we're the first one on identity security on that."
 
 > "If you look at the voice conversation, especially, there are there is nothing out of the box that I can quickly integrate and get started with... the amount of capabilities or abilities an agent need to reach a call center represented in Manila or in India or in like Brazil are way more right now three to five times more cost than hiring a human like customer service representative."
 
 ---
 
-### 4. Joao (CrewAI) - Publication 17
+### 4. a co-founder at a multi-agent framework company - Publication 17
 
-**Publication Title**: "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat"
+**Publication Title**: "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat"
 
 **Quotes to be attributed**:
 
@@ -86,9 +86,9 @@ This document tracks permission requests for practitioners whose quotes and insi
 
 ---
 
-### 5. Mehak (Sybill) - Publication 18
+### 5. an AI lead at a sales intelligence company - Publication 18
 
-**Publication Title**: "Sybill's Approach: Building AI Sales Agents That Actually Work"
+**Publication Title**: "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work"
 
 **Quotes to be attributed**:
 
@@ -155,13 +155,13 @@ LinkedIn: linkedin.com/in/fernandotn/
 
 Until permission is received, use these alternatives in draft posts:
 
-| Practitioner      | Anonymized Version                                                            |
-| ----------------- | ----------------------------------------------------------------------------- |
-| David (Qurrent)   | "an enterprise AI deployment expert at a leading agent orchestration company" |
-| Mrinal (Autonomy) | "a founder building identity and access management for AI systems"            |
-| Tian (Okta)       | "an engineering leader at a major enterprise identity company"                |
-| Joao (CrewAI)     | "a co-founder at a popular multi-agent orchestration framework"               |
-| Mehak (Sybill)    | "an AI lead at a vertical AI sales intelligence company"                      |
+| Practitioner                                      | Anonymized Version                                                            |
+| ------------------------------------------------- | ----------------------------------------------------------------------------- |
+| an enterprise AI deployment expert                | "an enterprise AI deployment expert at a leading agent orchestration company" |
+| a founder at an AI infrastructure company         | "a founder building identity and access management for AI systems"            |
+| an engineering leader at a major identity company | "an engineering leader at a major enterprise identity company"                |
+| a co-founder at a multi-agent framework company   | "a co-founder at a popular multi-agent orchestration framework"               |
+| an AI lead at a sales intelligence company        | "an AI lead at a vertical AI sales intelligence company"                      |
 
 ---
 
@@ -180,7 +180,7 @@ Until permission is received, use these alternatives in draft posts:
 - Publications 14-18 (Practitioner Perspectives) should NOT be published with named attribution until permission is confirmed
 - Drafts can be prepared using named attribution for efficiency, but must be converted to anonymized versions before publication if permission is not received
 - Per specPublishing.txt Section 9: "Practitioner perspective posts (14-18) require explicit permission"
-- Conference quotes (Manus, Production Agents Summit, Why 95% Fail) are public and do not require additional permission
+- Conference quotes (an AI autonomous agent company, Production Agents Summit, Why 95% Fail) are public and do not require additional permission
 
 ---
 

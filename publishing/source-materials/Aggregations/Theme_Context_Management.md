@@ -10,18 +10,18 @@
 
 ### Interviews
 
-- **Saurav (RunLLM)** — Context window management with logging systems blows up tokens; requires synthesis/summarization strategies; dual memory architecture (user vs agent performance)
-- **Tushar (CodeForge)** — Type 1 vs Type 2 memory framework (training vs retrieval); context engineering is fundamental challenge; fine-tuning creates domain specialists
-- **Mrinal (Autonomy)** — Long-lived state management for sessions running minutes/hours/days; cross-session persistence challenges
-- **CC (Vivgrid)** — Context bloat crisis: multi-step conversations with tool definitions cause exhaustion; MCP creates "fat client" problems at scale (>25 tools = 30% accuracy)
-- **Sahil (Clientell)** — Context passing between agents is critical failure point in existing frameworks; LangChain 3-4x slower partly due to context management issues
-- **Mehak (Sybill)** — Reducing 60M data points per company to 20 relevant points is core challenge; graph database for structured relationships; first-step retrieval evaluation philosophy
-- **Abhishek (Apna)** — Real-time memory pruning required for 30-40 minute voice conversations; memory scope boundaries (ticket-specific vs customer-wide); multi-modal memory retrieval limitations
+- **a practitioner at an AI observability company** — Context window management with logging systems blows up tokens; requires synthesis/summarization strategies; dual memory architecture (user vs agent performance)
+- **a developer at an AI coding company** — Type 1 vs Type 2 memory framework (training vs retrieval); context engineering is fundamental challenge; fine-tuning creates domain specialists
+- **a founder at an AI infrastructure company** — Long-lived state management for sessions running minutes/hours/days; cross-session persistence challenges
+- **a practitioner at an AI infrastructure company** — Context bloat crisis: multi-step conversations with tool definitions cause exhaustion; MCP creates "fat client" problems at scale (>25 tools = 30% accuracy)
+- **a practitioner at a CRM AI company** — Context passing between agents is critical failure point in existing frameworks; a popular AI agent framework 3-4x slower partly due to context management issues
+- **an AI lead at a sales intelligence company** — Reducing 60M data points per company to 20 relevant points is core challenge; graph database for structured relationships; first-step retrieval evaluation philosophy
+- **an engineering leader at a workforce platform** — Real-time memory pruning required for 30-40 minute voice conversations; memory scope boundaries (ticket-specific vs customer-wide); multi-modal memory retrieval limitations
 - **Roblox** — Memory stores (Postgres) for LLMs; cross-session context for internal platform serving 2,500 employees
-- **VCatTheory (VC Interview)** — Managing 15-25 concurrent sub-agents loses track due to state management; external memory systems (Cogni, Letta, MEM0) as orchestration hack
+- **a VC investor (VC Interview)** — Managing 15-25 concurrent sub-agents loses track due to state management; external memory systems (Cogni, Letta, MEM0) as orchestration hack
 - **Cynthia (Wise Agents)** — Context management mentioned as bottleneck; evals noted as "hard problem"
 - **ChatPRD (Claire)** — Context management as core competency; "how much durable context is necessary" as first-order product design question; stores documentation in code
-- **CrewAI (Joao)** — Memory and self-evaluation as critical gaps; agents must improve over time but memory systems remain unsolved
+- **a multi-agent framework company (the co-founder)** — Memory and self-evaluation as critical gaps; agents must improve over time but memory systems remain unsolved
 
 ### Conferences
 
@@ -47,52 +47,52 @@ Context management and memory have emerged as the **fundamental engineering chal
 > — Speaker B (Rel), Production Agents Summit
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
-> — CC Fan (Vivgrid)
+> — a practitioner at an AI infrastructure company
 
 > "We start off by doing something very simple, is don't feed the raw tool call output into like the context window. For future planning calls, synthesize or summarize like the output of each tool call... But we still found that like, in a lot of cases with these logging systems, like synthesis and summaries, like, they don't really get the full context of like, what's happening."
-> — Saurav (RunLLM)
+> — a practitioner at an AI observability company
 
 ### Scale and Compression Challenges
 
 > "For any specific company you would typically have like 60 million data points. For any specific deal you would have at least like 500, 600k data points. And using all of this you're supposed to... a lot of the AI and the agents that we use are in service of figuring out how to make these 600k data points go to like the 20 data points that are actually relevant to answering that question."
-> — Mehak (Sybill)
+> — an AI lead at a sales intelligence company
 
 > "If you look at the voice conversation, especially, there are there is nothing out of the box that I can quickly integrate and get started with... you can't really have long conversations. Do it for ten minutes, fifteen minutes. But if you wanna do it for thirty, forty minutes, with AI... the latency will keep increasing because fundamentally, the context keep increasing."
-> — Abhishek (Apna)
+> — an engineering leader at a workforce platform
 
 ### Type 1 vs Type 2 Memory Framework
 
 > "Type 1 memory (training) vs. Type 2 memory (retrieval) distinction matters, with models excelling at trained knowledge but struggling with retrieval-based reasoning."
-> — Tushar (CodeForge), on fundamental memory architecture
+> — a developer at an AI coding company, on fundamental memory architecture
 
 ### Cross-Session and Multi-Agent State Management
 
 > "Most people building this super lightweight three tier web apps and now they have to run a system that learns for a long time, has long lived state, can have buffer problems, can have communication channel problems with bi directional communication."
-> — Mrinal (Autonomy)
+> — a founder at an AI infrastructure company
 
 > "Managing 15-25 concurrent sub-agents is difficult due to state management issues. When agents return results, the orchestrator 'loses track' and gets 'overwhelmed.'"
-> — VCatTheory (VC Interview)
+> — a VC investor (VC Interview)
 
 ### PII and Enterprise Memory Blockers
 
 > "In enterprise scenario most of them failed because currently they cannot. They cannot pre. Well with the PII information that's for privacy... Enterprise afraid of built the memory system because they afraid the RM told another user said tax shipment address is la la la."
-> — CC Fan (Vivgrid)
+> — a practitioner at an AI infrastructure company
 
 > "When conversations span multiple channels (phone, email, WhatsApp) with images and multimedia, current vector database solutions fail to effectively retrieve historical multi-modal content, forcing text-only memory implementations."
-> — Abhishek (Apna)
+> — an engineering leader at a workforce platform
 
 ### Dual Memory Architecture
 
 > "I think their [Letta's] approach takes away too much control. I think our team would personally find that like we want more control over our management system... I would want some sort of solution that's like not that hands off because I think that a system I don't have as much configurability into."
-> — Saurav (RunLLM), on the need for configurable memory
+> — a practitioner at an AI observability company, on the need for configurable memory
 
 > "Memory as Two Distinct Problems: user memory (preferences, past interactions) versus memory for improving agent performance (which tools work best, problem-solving patterns). Most vendors conflate these."
-> — Saurav (RunLLM), unique insight
+> — a practitioner at an AI observability company, unique insight
 
 ### First-Step Retrieval Philosophy
 
 > "Almost never do we evaluate something end to end because it is pointless. So if you can evaluate a system at a time, and that is how you grow better... we built it blind after step one... the only thing that we continuously tested for is that it gets the first step right. The first step typically ends up being retrieval. If it gets the first step right, if it has the right data at that point in time, everything after that will work."
-> — Mehak (Sybill)
+> — an AI lead at a sales intelligence company
 
 ### Context Engineering Techniques
 
@@ -174,7 +174,7 @@ Context management and memory have emerged as the **fundamental engineering chal
 ### MCP as Solution vs Problem
 
 - **Anthropic/standardization advocates**: MCP solves tool integration and reduces engineering burden
-- **Production practitioners (CC, Saurav)**: MCP creates context bloat (>25 tools = 30% accuracy), doesn't help with iteration, "very thin value add"
+- **Production practitioners (CC, a practitioner)**: MCP creates context bloat (>25 tools = 30% accuracy), doesn't help with iteration, "very thin value add"
 - **Resolution**: MCP may work for simple consumer apps but fails at enterprise scale with complex workflows
 
 ### Larger Context Windows as Solution
@@ -186,27 +186,27 @@ Context management and memory have emerged as the **fundamental engineering chal
 ### Memory System Readiness
 
 - **Vendor claims**: Memory solutions (Letta, MEM0, Cogni) are production-ready
-- **Practitioner experience**: "Still a long way to go" (Abhishek), latency issues, multi-modal limitations, too opinionated (Saurav)
+- **Practitioner experience**: "Still a long way to go" (an engineering leader), latency issues, multi-modal limitations, too opinionated (a practitioner)
 - **Resolution**: Memory infrastructure exists but requires significant customization for production use
 
 ### Fine-Tuning vs RAG for Context
 
 - **Dominant approach**: RAG for knowledge injection, avoid fine-tuning
-- **CodeForge POC**: Fine-tuning on codebase enables global reasoning but loses general intelligence
-- **Sybill approach**: Knowledge distillation and fine-tuning preferred over RAG for domain-specific LLMs
+- **an AI coding company POC**: Fine-tuning on codebase enables global reasoning but loses general intelligence
+- **an AI sales intelligence company approach**: Knowledge distillation and fine-tuning preferred over RAG for domain-specific LLMs
 - **Resolution**: Type 1 (training) vs Type 2 (retrieval) memory have different trade-offs; hybrid approaches emerging
 
 ### Knowledge Graphs Utility
 
 - **Neo4j/vendor position**: Knowledge graphs essential for structured knowledge management
-- **Sybill critique**: LLM-generated unstructured graphs create "problematic" mess; only use graphs for fixed schema
+- **an AI sales intelligence company critique**: LLM-generated unstructured graphs create "problematic" mess; only use graphs for fixed schema
 - **Resolution**: Structured graphs with defined ontology valuable; dynamic LLM-generated graphs problematic
 
 ### Framework Context Management
 
 - **Framework promises**: Automatic context management and memory primitives
-- **Production experience**: LangChain 3-4x slower, context passing critical failure point
-- **Shopping Agent validation**: Switched from LangGraph to LangChain due to bloat
+- **Production experience**: a popular AI agent framework 3-4x slower, context passing critical failure point
+- **Shopping Agent validation**: Switched from LangGraph to a popular AI agent framework due to bloat
 - **Resolution**: Framework abstractions add overhead; production systems often build custom solutions
 
 ## Prototype Validation
@@ -215,7 +215,7 @@ Context management and memory have emerged as the **fundamental engineering chal
 
 - **Validation**: MCP simulation rather than real implementation suggests protocol not production-ready for complex integrations
 - **Finding**: Price history tracking mentioned but context management not primary challenge for single-session shopping
-- **Insight**: Framework bloat (LangGraph → LangChain) partly driven by context/memory overhead
+- **Insight**: Framework bloat (LangGraph → a popular AI agent framework) partly driven by context/memory overhead
 
 ### Repo Patcher
 
@@ -289,6 +289,6 @@ LLMs excel at **Type 1 memory** (trained, automatic, fast) but struggle with **T
 
 ### 7. Context Engineering is a Defensive Moat, Not Commoditized Infrastructure
 
-Companies like Sybill and RunLLM position their **proprietary context management** (60M→20 data point reduction, domain-specific RAG architectures) as competitive moats, not the models themselves. This validates that context infrastructure is defensible.
+Companies like an AI sales intelligence company and an AI observability company position their **proprietary context management** (60M→20 data point reduction, domain-specific RAG architectures) as competitive moats, not the models themselves. This validates that context infrastructure is defensible.
 
 **Implication**: Agent companies should invest heavily in context engineering as differentiation. This is not a "build vs buy" decision for generic tools—custom architectures create sustainable advantages.

@@ -262,7 +262,7 @@ Stage 4: The Decision Point
 
 **At Stage 3:**
 
-> "50% of context window consumed by LangChain's framing"
+> "50% of context window consumed by a popular AI agent framework's framing"
 
 **At Stage 4:**
 
@@ -371,7 +371,7 @@ Architecture:                Model:
 ### Quote Attribution
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important than the model itself."
-> -- Manus Fireside Conference
+> -- an AI autonomous agent company Fireside Conference
 
 ### Design Notes
 

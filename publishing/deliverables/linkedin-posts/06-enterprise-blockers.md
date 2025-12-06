@@ -16,9 +16,9 @@ Economics before engineering. This is the order that matters.
 
 Here's what our research uncovered:
 
-- 90% of pilots fail due to undefined ROI, not technical issues (David, Qurrent)
-- Pricing confusion reigns: token-based vs seat-based vs outcome-based (Tian, Okta)
-- Willingness to pay is $400-750/month, but sustainable pricing is $20/month (Abhishek, Apna)
+- 90% of pilots fail due to undefined ROI, not technical issues (the practitioner, an AI agent orchestration company)
+- Pricing confusion reigns: token-based vs seat-based vs outcome-based (the engineering leader, a major enterprise identity company)
+- Willingness to pay is $400-750/month, but sustainable pricing is $20/month (an engineering leader, a workforce platform)
 - CISOs and CIOs are the real gatekeepers, not engineering teams
 
 The pattern is clear: teams that nail the commercial case first have a dramatically higher success rate.

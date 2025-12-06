@@ -20,7 +20,7 @@ The result was Repo Patcher, a multi-language coding agent that automatically fi
 The reliability problem for AI agents is well-documented. During my research, I encountered the same pattern across dozens of conversations:
 
 > "Most people building technology over the last 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
-> — Mrinal Wadhwa, Autonomy
+> — a founder, an AI infrastructure company
 
 This fundamental mismatch between deterministic expectations and probabilistic reality creates what practitioners call the "demo-to-production gap." A 70% success rate is impressive in a demo—the presenter knows they got lucky on that particular run. But at production scale, that same 70% reliability means systematic failure.
 
@@ -58,7 +58,7 @@ INGEST -> PLAN -> PATCH -> TEST -> REPAIR -> PR
 ### Why State Machines Work for Probabilistic Systems
 
 > "That's where the skill problem really starts to kind of hurt is because most people aren't used to how to make that better. They kind of go into this like doom loop almost... They'll go, oh, I see, okay, this scenario didn't work. I'll go change the prompt and the instructions and the data or whatever to make this scenario work. But then they go, oh, but the other one stopped working and they're now in this continuous loop."
-> — Mrinal Wadhwa, Autonomy
+> — a founder, an AI infrastructure company
 
 The doom loop exists because unconstrained agents have too many degrees of freedom. Each fix can affect any part of the system. State machines address this by:
 
@@ -71,7 +71,7 @@ The doom loop exists because unconstrained agents have too many degrees of freed
 **Supporting controlled iteration**: You can improve each stage independently. Better prompts for planning do not affect patching behavior. This enables the scientific approach multiple interviewees recommended:
 
 > "I will set up some controls, I'll set up an iterative process. I look at my data, do error analysis, figure out what are the category of errors... make sure that there's a set of tests that are evals that makes sure that I don't regress as I try to progress."
-> — Mrinal Wadhwa, Autonomy
+> — a founder, an AI infrastructure company
 
 ## Risk-Based HITL Escalation
 
@@ -88,7 +88,7 @@ The risk assessment system scores every change before application:
 This pattern—automatic for low-risk, human review for high-risk—balances automation velocity with governance requirements. It directly addresses the enterprise trust barrier I heard about repeatedly:
 
 > "It's hard to really put agents in production because you have to be able to trust the LLM to make decisions on your behalf. And that is more of a people and processes kind of issue, not just technology."
-> — Yujian Tan, AI Practitioner
+> — a practitioner, AI Practitioner
 
 Rather than attempting full autonomy (which creates trust barriers), intelligent triage lets the agent handle routine cases while humans focus on genuinely complex decisions. This "augmented automation" model may be more pragmatic than the "autonomous agent" framing that dominates current discourse.
 
@@ -108,7 +108,7 @@ This defense-in-depth approach ensures that even if risk assessment fails, criti
 Production agents must be economically viable. Interview subjects repeatedly cited cost as a blocker, with some noting that current agents cost more than offshore labor for equivalent tasks.
 
 > "Model only contributes 30-40% of the whole thing. The framework, the whole system you build upon the model is much more important."
-> — Manus Co-Founder
+> — an AI autonomous agent company Co-Founder
 
 Repo Patcher targets less than $0.25 per fix through explicit cost management architecture:
 
@@ -126,7 +126,7 @@ By keeping context lean at each stage, we simultaneously improve reliability and
 ## Observability: The Non-Negotiable Requirement
 
 > "I think a lot of companies that are doing agents, there's not like a standardized way of logging what are the exact actions and being able to do like really detailed debugging and maybe even like time traveling of why did the agent take this action at this moment in time?"
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 Building Repo Patcher validated this observation completely. Debugging probabilistic multi-step systems requires comprehensive tracing infrastructure that cannot be retrofitted—it must be architectural from the start.
 
@@ -148,7 +148,7 @@ The Repo Patcher prototype validates several core findings from my research:
 
 **HITL is not failure**: Intelligent escalation patterns enable production deployment by addressing trust barriers. The goal is not full autonomy; it is appropriate automation with governance.
 
-**Framework minimalism works**: Despite interview subjects reporting extensive framework bloat with LangChain and similar tools, Repo Patcher achieves production readiness with minimal dependencies (OpenAI API + OpenTelemetry). This suggests that avoiding heavyweight frameworks may be viable—even preferable—for production systems with clear requirements.
+**Framework minimalism works**: Despite interview subjects reporting extensive framework bloat with a popular AI agent framework and similar tools, Repo Patcher achieves production readiness with minimal dependencies (OpenAI API + OpenTelemetry). This suggests that avoiding heavyweight frameworks may be viable—even preferable—for production systems with clear requirements.
 
 **Cost is manageable with architecture**: The "agents are too expensive" narrative partially dissolves when explicit cost optimization is designed in from the start. Less than $0.25 per fix is achievable with proper caching and model selection.
 

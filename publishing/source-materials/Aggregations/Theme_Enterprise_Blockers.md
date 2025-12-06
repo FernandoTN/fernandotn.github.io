@@ -10,23 +10,23 @@
 
 ### Interviews (17 sources)
 
-- **David (Qurrent)** - 90% pilot failure rate; business case/ROI as #1 blocker before technical issues; single-digit enterprise adoption across industry
-- **Saurav (RunLLM)** - Audit/debugging requirements for enterprise SRE use cases; observability gaps prevent production deployment
-- **Tushar (CodeForge)** - Token-based pricing failure for agentic sequences; exponential cost growth preventing scale
-- **Tian (Okta)** - CISO/CIO as gatekeepers; pricing model confusion; 3-5x cost disadvantage for generic tasks; security/visibility requirements
-- **Mrinal (Autonomy)** - Expectation management crisis; stakeholder education on non-deterministic behavior as biggest blocker
-- **CC (Vivgrid)** - PII detection as enterprise blocker; memory systems fail due to unsolved data leakage problems
-- **Sahil (Clientell)** - Authentication and security complexity prevents out-of-box evaluation; legacy platform data scarcity
-- **Mehak (Sybill)** - Not explicitly discussed but MCP dismissed as "thin value add" for enterprise depth requirements
-- **Abhishek (Apna)** - Trust deficit in regulated industries (BFSI, healthcare); data residency concerns; CIO resistance to cloud-based LLMs
+- **an enterprise AI deployment expert** - 90% pilot failure rate; business case/ROI as #1 blocker before technical issues; single-digit enterprise adoption across industry
+- **a practitioner at an AI observability company** - Audit/debugging requirements for enterprise SRE use cases; observability gaps prevent production deployment
+- **a developer at an AI coding company** - Token-based pricing failure for agentic sequences; exponential cost growth preventing scale
+- **an engineering leader at a major identity company** - CISO/CIO as gatekeepers; pricing model confusion; 3-5x cost disadvantage for generic tasks; security/visibility requirements
+- **a founder at an AI infrastructure company** - Expectation management crisis; stakeholder education on non-deterministic behavior as biggest blocker
+- **a practitioner at an AI infrastructure company** - PII detection as enterprise blocker; memory systems fail due to unsolved data leakage problems
+- **a practitioner at a CRM AI company** - Authentication and security complexity prevents out-of-box evaluation; legacy platform data scarcity
+- **an AI lead at a sales intelligence company** - Not explicitly discussed but MCP dismissed as "thin value add" for enterprise depth requirements
+- **an engineering leader at a workforce platform** - Trust deficit in regulated industries (BFSI, healthcare); data residency concerns; CIO resistance to cloud-based LLMs
 - **Stephen (GMI)** - Human-in-loop persistence expected; eval challenges remain unsolved at infrastructure layer
-- **Yujian Tan** - Trust barriers requiring organizations to accept LLM autonomous decisions; organizational vs technical challenge
-- **Cynthia (WiseAgents)** - Human touch requirement at seed stage; SME speed advantage (4-6 weeks vs 6 months enterprise)
+- **a practitioner** - Trust barriers requiring organizations to accept LLM autonomous decisions; organizational vs technical challenge
+- **a consulting firm practitioner** - Human touch requirement at seed stage; SME speed advantage (4-6 weeks vs 6 months enterprise)
 - **ChatPRD (Claire)** - Not primary focus but acknowledges workflow transformation challenges
-- **CrewAI (Joao)** - Labor laws as location selection criterion; legislation gaps; compliance across countries; 95% POC failure rate
+- **a multi-agent framework company (the co-founder)** - Labor laws as location selection criterion; legislation gaps; compliance across countries; 95% POC failure rate
 - **Roblox** - Authentication/identity for agents; geo-distributed reliability; data privacy/sovereignty; audit compliance requirements
-- **VCatTheory (VC Investor)** - Organizational change management as core challenge; forcing people to change workflows harder than technical implementation
-- **Abhishek (Apna)** - Production-scale infrastructure gap; willingness to pay significantly more ($400-750/month vs $20/month) shows pricing power potential
+- **a VC investor (VC Investor)** - Organizational change management as core challenge; forcing people to change workflows harder than technical implementation
+- **an engineering leader at a workforce platform** - Production-scale infrastructure gap; willingness to pay significantly more ($400-750/month vs $20/month) shows pricing power potential
 
 ### Conferences (5 sources)
 
@@ -34,7 +34,7 @@
 - **Why 95% Fail** - Authentication/identity management; geo-distributed reliability; data privacy/sovereignty; three enterprise blockers trinity
 - **Alibaba Qwen** - On-premise deployment for compliance; safety considerations; cultural/linguistic inclusivity gaps
 - **Project Nanda** - 95% POC-to-production failure; cost at scale; identity and authentication as foundational requirements
-- **Manus Fireside** - Enterprise timing strategy; stability vs iteration speed mismatch; liability and security concerns
+- **an AI autonomous agent company Fireside** - Enterprise timing strategy; stability vs iteration speed mismatch; liability and security concerns
 
 ### Prototypes (2 sources)
 
@@ -50,48 +50,48 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 ### Trust and Identity Management
 
 > "There is a lot of resistance in sharing data with the agentic systems, whether it's on their premise, out of premise... there is a lot of trust deficit in terms of sharing, especially with especially with out of the box models. Like OpenAI, Claude."
-> — Abhishek Shukla (Apna), describing enterprise adoption blockers in regulated industries
+> — an engineering leader at a workforce platform, describing enterprise adoption blockers in regulated industries
 
-> "MCP just merged the Okta Cross app access extension to be the repo to be in the GitHub... It should be launched around Thanksgiving time I assume. I expect azurebit to make a pretty big deal of extensions and we're the first one on identity security on that."
-> — Tian Lan (Okta), discussing work with Anthropic to establish enterprise identity standards
+> "MCP just merged the a major enterprise identity company Cross app access extension to be the repo to be in the GitHub... It should be launched around Thanksgiving time I assume. I expect azurebit to make a pretty big deal of extensions and we're the first one on identity security on that."
+> — an engineering leader at a major identity company, discussing work with Anthropic to establish enterprise identity standards
 
 > "For enterprise I think there are three important things. First is you have to make authentication carefully because AI agents may be present, someone may be praising users, maybe just virtual employees. They have their own identity that the tools can access every system."
-> — Speaker A (Cece, Visigrate), on enterprise authentication requirements
+> — Speaker A (Cece, an AI infrastructure company), on enterprise authentication requirements
 
 ### Pricing and Economic Viability
 
-> "All of these pricing like changes or type of pricing schemes is confusing to large enterprises. What we were told is they don't know how many tokens they're going to use for cross app access... Those are things that is confusing internally to us, to Okta, but also confusing to enterprise because they're not used to that. They can't model their usage, they can't model their outcome."
-> — Tian Lan (Okta), explaining how diverse pricing models block enterprise adoption
+> "All of these pricing like changes or type of pricing schemes is confusing to large enterprises. What we were told is they don't know how many tokens they're going to use for cross app access... Those are things that is confusing internally to us, to a major enterprise identity company, but also confusing to enterprise because they're not used to that. They can't model their usage, they can't model their outcome."
+> — an engineering leader at a major identity company, explaining how diverse pricing models block enterprise adoption
 
 > "One question is whether these revenues are sustainable. Right. The 6 months retention, 12 months retention is yet to approve... For a startup you want to survive, right? But you also want to have this good retention and an array to show to your investors and then you really need to optimize your inferencing cost."
 > — Nanjo (Qualcomm Ventures), highlighting revenue sustainability challenge for agent startups
 
 > "If you look at the voice conversation, especially, there are there is nothing out of the box that I can quickly integrate and get started with... the amount of capabilities or abilities an agent need to reach a call center represented in Manila or in India or in like, like Brazil are way more right now three to five times more cost than hiring a human like customer service representative."
-> — Tian Lan (Okta), quantifying cost disadvantage for generic agent tasks
+> — an engineering leader at a major identity company, quantifying cost disadvantage for generic agent tasks
 
 ### Organizational Change Management
 
 > "Most people that have built and deployed technology over the last, say, 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
-> — Mrinal Wadhwa (Autonomy), explaining fundamental friction point for agent adoption
+> — a founder at an AI infrastructure company, explaining fundamental friction point for agent adoption
 
 > "The harder thing internally is not the technical component. It's forcing people to change... I don't want you logging into CRM anymore, I don't want you updating Notion by hand... People must learn to prompt systems repeatedly rather than point-and-click."
-> — VC Investor (VCatTheory), on organizational transformation challenges
+> — VC Investor (a VC investor), on organizational transformation challenges
 
 > "90% of all the pilots just doesn't work or stop just stop at the pilot's base and never convert into production. So there is friction. And enterprise adoption is in low single digit across the industry."
-> — David (Qurrent), describing current state of enterprise adoption based on McKinsey/Bain research
+> — an enterprise AI deployment expert, describing current state of enterprise adoption based on McKinsey/Bain research
 
 ### Regulatory and Compliance Gaps
 
 > "There are literally companies that are coming to us and they're like, we're loving what we're doing, we'll try to do more and we're going to choose one of our locations to really double down on agents... we're going to do Canada first... I was like, no, let's do South Korea because we're opening an office there... they're like, no, Canada the easier labor laws."
-> — Joao (CrewAI), describing labor displacement discussions with Global 100 companies
+> — a co-founder at a multi-agent framework company, describing labor displacement discussions with Global 100 companies
 
 > "In enterprise scenario most of them failed because currently they cannot. They cannot pre. Well with the PII information that's for privacy... Enterprise afraid of built the memory system because they afraid the RM told another user said tax shipment address is la la la."
-> — CC Fan (Vivgrid), on why enterprise memory systems fail due to PII concerns
+> — a practitioner at an AI infrastructure company, on why enterprise memory systems fail due to PII concerns
 
 ### Human-in-the-Loop Requirements
 
 > "It's hard to really put agents in production because you have to be able to trust the LLM to make decisions on your behalf. And that is more of a people and processes kind of issue [not just technology]."
-> — Yujian Tan, on the trust barrier
+> — a practitioner, on the trust barrier
 
 > "Risk assessment system scores changes before application (low/medium/high risk classification). Automated escalation workflows route high-risk changes to human approval."
 > — Repo Patcher prototype, demonstrating architectural HITL approach
@@ -102,7 +102,7 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 ### Security and Data Governance
 
 > "The third is when our agents access the sensitive data. We have to build a failure inside our customers internal network. Especially like for PII information and the financial aid."
-> — Speaker A (Cece, Visigrate), on data sovereignty requirements
+> — Speaker A (Cece, an AI infrastructure company), on data sovereignty requirements
 
 > "OAuth 2.0 authentication with Role-Based Access Control (RBAC). PII redaction and AES-256 encryption for sensitive data. Private data search capabilities with security controls."
 > — Good Agents prototype, demonstrating security-by-design architecture
@@ -116,7 +116,7 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 
 - Agent identity as distinct from user identity (virtual employees)
 - Cross-app access requiring new authentication frameworks
-- MCP extension for enterprise identity (Okta/Anthropic collaboration)
+- MCP extension for enterprise identity (a major enterprise identity company/Anthropic collaboration)
 - Role-based access control for agent actions
 - Cryptographic identities for agent verification
 - SSO-equivalent moment needed for agents
@@ -206,12 +206,12 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 
 ### Tension: Cost as Blocker vs Cost Optimization Achievability
 
-- **Contradiction**: Some sources cite inference costs as fundamental economic blocker (Tian: 3-5x more expensive than human labor), while others demonstrate costs can be optimized to viable levels (Manus: 8x cost reduction in 6 months; Repo Patcher: <$0.25 per fix target)
+- **Contradiction**: Some sources cite inference costs as fundamental economic blocker (the engineering leader: 3-5x more expensive than human labor), while others demonstrate costs can be optimized to viable levels (an AI autonomous agent company: 8x cost reduction in 6 months; Repo Patcher: <$0.25 per fix target)
 - **Resolution**: Cost is blocker for generic use cases at current architectures, but achievable for specific domains with optimization. Problem is architecture-solvable but not universally solved.
 
 ### Tension: Enterprise Readiness vs Enterprise Avoidance
 
-- **Contradiction**: Some companies (CrewAI, Qurrent) aggressively pursue enterprise with production deployments, while others (Manus, ChatPRD) deliberately avoid enterprise during rapid iteration
+- **Contradiction**: Some companies (a multi-agent framework company, an AI agent orchestration company) aggressively pursue enterprise with production deployments, while others (an AI autonomous agent company, ChatPRD) deliberately avoid enterprise during rapid iteration
 - **Resolution**: Different strategies for different stages. Enterprise-first requires product stability and slow iteration; prosumer-first enables rapid experimentation then enterprise scale. Both valid depending on maturity.
 
 ### Tension: HITL as Limitation vs HITL as Solution
@@ -226,7 +226,7 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 
 ### Tension: Model Capability Sufficiency
 
-- **Contradiction**: David (Qurrent) asserts models are "good enough" and bottleneck is deployment/expectation management, while others emphasize model limitations prevent enterprise adoption
+- **Contradiction**: an enterprise AI deployment expert asserts models are "good enough" and bottleneck is deployment/expectation management, while others emphasize model limitations prevent enterprise adoption
 - **Resolution**: Models sufficient for well-scoped use cases (coding agents, customer service with narrow domains) but insufficient for general-purpose enterprise automation. Deployment practitioners see capability sufficiency; ML researchers see limitations.
 
 ### Nuance: Bottom-Up vs Top-Down Adoption Patterns
@@ -300,7 +300,7 @@ Enterprise AI agent adoption faces a multi-layered governance crisis where techn
 
 ### 1. Enterprise Adoption is Governance-Constrained, Not Technology-Constrained
 
-The 90-95% pilot failure rate is driven by organizational, regulatory, and economic blockers rather than model capability limitations. Technical feasibility exists (demonstrated by Qurrent's 25 production deployments, CrewAI's Global 100 customers), but governance frameworks lag behind. Recommendation: Focus research on governance patterns that enable production deployment, not just model performance improvements.
+The 90-95% pilot failure rate is driven by organizational, regulatory, and economic blockers rather than model capability limitations. Technical feasibility exists (demonstrated by an AI agent orchestration company's 25 production deployments, a multi-agent framework company's Global 100 customers), but governance frameworks lag behind. Recommendation: Focus research on governance patterns that enable production deployment, not just model performance improvements.
 
 ### 2. HITL Must Be Architectural, Not Procedural
 
@@ -312,7 +312,7 @@ Multiple competing pricing schemes (seat-based, token-based, outcome-based) crea
 
 ### 4. Identity and Authentication Require New Standards
 
-Agent identity as distinct from user identity (virtual employees needing system access) lacks established protocols. Okta's MCP Cross App Access extension represents first industry movement toward standards. Recommendation: Monitor emergence of "SSO moment" for agents; this infrastructure layer blocks ecosystem-wide adoption until resolved.
+Agent identity as distinct from user identity (virtual employees needing system access) lacks established protocols. a major enterprise identity company's MCP Cross App Access extension represents first industry movement toward standards. Recommendation: Monitor emergence of "SSO moment" for agents; this infrastructure layer blocks ecosystem-wide adoption until resolved.
 
 ### 5. Trust Deficits in Regulated Industries Demand On-Premise Solutions
 

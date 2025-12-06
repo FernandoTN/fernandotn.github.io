@@ -66,7 +66,7 @@ A critical discovery: while industry narratives emphasize standardization for se
 
 ### Key Pattern 2: Agent Frameworks deliver limited value beyond prototyping
 
-### Agent Frameworks including widely used popular open-source libraries achieve billion-dollar valuations through initial developer adoption, yet we see majority of production teams abandon them due to bloat, performance overhead (3-4x slower), and loss of control. A leader from an agent framework company reported: "Every company we've talked to started with LangChain as a framework to build AI agents. But once they start going into production, they realize it's full of bloat. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
+### Agent Frameworks including widely used popular open-source libraries achieve billion-dollar valuations through initial developer adoption, yet we see majority of production teams abandon them due to bloat, performance overhead (3-4x slower), and loss of control. A leader from an agent framework company reported: "Every company we've talked to started with a popular AI agent framework as a framework to build AI agents. But once they start going into production, they realize it's full of bloat. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
 
 Our Shopping Agent prototype provided firsthand validation. Initially implemented with a graph-based framework, we were forced to switch to a popular open-source framework mid-development due to extensive bloat and complexity. Under time pressure, framework abstractions became intolerable, which is exactly the pattern reported in interviews.
 

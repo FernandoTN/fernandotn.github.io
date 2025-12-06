@@ -16,9 +16,9 @@ This research began with a straightforward hypothesis: AI agent deployment chall
 
 What I found inverted that assumption entirely.
 
-Over ten weeks of systematic investigation as part of Stanford GSB's GSBGEN 390 Individual Research project, I conducted 36 expert interviews with practitioners actively deploying agentic workflows across the industry. These included enterprise AI platform providers like Qurrent and Autonomy, coding agent developers at CodeForge, identity and security experts from Okta, vertical SaaS companies including Sybill, Clientell, and Apna, framework companies like CrewAI and WiseAgents, infrastructure providers such as Vivgrid, and researchers from foundation model companies.
+Over ten weeks of systematic investigation as part of Stanford GSB's GSBGEN 390 Individual Research project, I conducted 36 expert interviews with practitioners actively deploying agentic workflows across the industry. These included enterprise AI platform providers like an AI agent orchestration company and an AI infrastructure company, coding agent developers at an AI coding company, identity and security experts from a major enterprise identity company, vertical SaaS companies including an AI sales intelligence company, a CRM AI company, and a workforce platform, framework companies like a multi-agent framework company and a consulting firm, infrastructure providers such as an AI infrastructure company, and researchers from foundation model companies.
 
-I supplemented these interviews with observations from five industry conferences held between September and November 2024: the Alibaba Qwen Conference, Production Agents Summit at Snowflake, Manus Fireside, Project Nanda, and a provocatively titled event called "Why 95% of Agentic AI Projects Fail." Finally, I built three functional prototypes with my hands on the keyboard: a Shopping Agent for e-commerce automation, Repo Patcher with state machine architecture for code fixing, and Good Agents for multi-agent orchestration.
+I supplemented these interviews with observations from five industry conferences held between September and November 2024: the Alibaba Qwen Conference, Production Agents Summit at Snowflake, an AI autonomous agent company Fireside, Project Nanda, and a provocatively titled event called "Why 95% of Agentic AI Projects Fail." Finally, I built three functional prototypes with my hands on the keyboard: a Shopping Agent for e-commerce automation, Repo Patcher with state machine architecture for code fixing, and Good Agents for multi-agent orchestration.
 
 The patterns that emerged from triangulating these sources fundamentally changed how I understand AI agent deployment.
 
@@ -27,7 +27,7 @@ The patterns that emerged from triangulating these sources fundamentally changed
 Going into this research, I expected to hear that model capabilities were the primary bottleneck. The prevailing narrative suggested that if we could just make models smarter, more reliable, and more capable, production deployments would follow. I was wrong.
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important, you know, than the model itself."
-> — Manus Co-Founder, Manus Fireside
+> — an AI autonomous agent company Co-Founder, an AI autonomous agent company Fireside
 
 This revelation from one of the most successful AI agent companies in production fundamentally reoriented my research. The model is not the differentiator. Framework architecture, orchestration design, and system integration are what determine whether an agent succeeds or fails in production environments. The 60-70% that actually matters includes context engineering, integration layers, evaluation infrastructure, and the orchestration logic that coordinates model calls.
 
@@ -40,25 +40,25 @@ This inversion carries profound implications for competitive strategy. Moats wil
 The most counterintuitive finding from this research emerged in my very first interview. I had prepared a comprehensive list of technical questions about prompt engineering, context management, and model capabilities. Within the first ten minutes, the conversation took an unexpected turn that reshaped my entire research framework.
 
 > "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
-> — David, Qurrent
+> — the practitioner, an AI agent orchestration company
 
 This was not an outlier perspective. The same practitioner revealed that 90% of all enterprise AI agent pilots never convert to production. They stall, not because the technology fails, but because no one defined success criteria that mattered to the business. Pilots proliferate because demos are impressive and stakeholders get excited. But when procurement asks for projected ROI or when executives need to justify ongoing infrastructure costs, the conversation collapses.
 
 The pricing model confusion compounds this problem. Today, AI agent vendors offer seat-based pricing, token-based pricing, outcome-based pricing, and hybrid models, with no industry convergence in sight. Enterprises find themselves unable to model their usage or predict their costs. As one practitioner explained, they cannot calculate how many tokens a workflow will consume because agent behavior varies based on inputs, context, and the unpredictable nature of multi-step reasoning.
 
 > "All of these pricing changes or type of pricing schemes is confusing to large enterprises. They don't know how many tokens they're going to use. They can't model their usage, they can't model their outcome."
-> — Tian Lan, Okta
+> — an engineering leader at a major identity company, a major enterprise identity company
 
 Our theme frequency analysis confirmed this finding was not isolated. Business Case and ROI emerged as a top emergent theme with a perfect 5.0 relevance score across five sources. Enterprise Blockers and Governance appeared in 81% of all sources analyzed. The pattern was clear: before technical viability even becomes relevant, economic viability and organizational readiness must be established. The companies succeeding in production are those that defined their success metrics and ROI calculations before writing their first line of agent code.
 
 ## Key Finding 3: The Framework Abandonment Pattern
 
-Perhaps no finding better captures the gap between industry narrative and production reality than the framework abandonment pattern. LangChain has achieved unicorn status with a billion-dollar valuation and massive developer adoption. It has become synonymous with AI agent development for many practitioners entering the space. Yet our research uncovered a striking counter-narrative from those actually shipping agents to production.
+Perhaps no finding better captures the gap between industry narrative and production reality than the framework abandonment pattern. a popular AI agent framework has achieved unicorn status with a billion-dollar valuation and massive developer adoption. It has become synonymous with AI agent development for many practitioners entering the space. Yet our research uncovered a striking counter-narrative from those actually shipping agents to production.
 
-> "Every company we've talked to started with LangChain as a framework to build AI agents. But once they start going into customers and into production, they realize it's full of bloat. Like, it has a lot of unnecessary things. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
-> — Cynthia, WiseAgents
+> "Every company we've talked to started with a popular AI agent framework as a framework to build AI agents. But once they start going into customers and into production, they realize it's full of bloat. Like, it has a lot of unnecessary things. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
+> — Cynthia, a consulting firm
 
-The 80-90% abandonment rate is not about ideology or preferences. It reflects hard performance realities. Teams building custom frameworks report achieving 3-4x faster performance than LangChain implementations, according to Sahil from Clientell. The abstractions that accelerate prototyping become obstacles when latency, cost, and control matter at production scale.
+The 80-90% abandonment rate is not about ideology or preferences. It reflects hard performance realities. Teams building custom frameworks report achieving 3-4x faster performance than a popular AI agent framework implementations, according to a practitioner from a CRM AI company. The abstractions that accelerate prototyping become obstacles when latency, cost, and control matter at production scale.
 
 Our own prototype work validated this pattern firsthand. When building the Shopping Agent for e-commerce automation, we were forced to switch from LangGraph mid-development due to what our team documented as extensive bloat and complexity. The framework that promised to accelerate development instead became the primary source of friction. We experienced exactly what interview subjects had described.
 
@@ -68,15 +68,15 @@ This finding has important implications for the framework ecosystem. Unlike fron
 
 Before diving into implications, here is a summary of the critical data points from this research:
 
-| Finding                       | Statistic                  | Source                   |
-| ----------------------------- | -------------------------- | ------------------------ |
-| System integration challenges | 92% of sources             | Theme Frequency Analysis |
-| Pilot failure rate            | 90% never reach production | David (Qurrent)          |
-| Framework abandonment         | 80-90% leave LangChain     | Cynthia (WiseAgents)     |
-| Integration time allocation   | 40-50% of deployment       | David (Qurrent)          |
-| Model contribution to success | 30-40%                     | Manus Fireside           |
-| Context utilization rule      | 40% max recommended        | Production Agents Summit |
-| MCP tool accuracy cliff       | 25 tools then 30% accuracy | CC (Vivgrid)             |
+| Finding                       | Statistic                                 | Source                                         |
+| ----------------------------- | ----------------------------------------- | ---------------------------------------------- |
+| System integration challenges | 92% of sources                            | Theme Frequency Analysis                       |
+| Pilot failure rate            | 90% never reach production                | an enterprise AI deployment expert             |
+| Framework abandonment         | 80-90% leave a popular AI agent framework | a consulting firm practitioner                 |
+| Integration time allocation   | 40-50% of deployment                      | an enterprise AI deployment expert             |
+| Model contribution to success | 30-40%                                    | an AI autonomous agent company Fireside        |
+| Context utilization rule      | 40% max recommended                       | Production Agents Summit                       |
+| MCP tool accuracy cliff       | 25 tools then 30% accuracy                | a practitioner at an AI infrastructure company |
 
 These numbers recurred across interviews, conferences, and our own prototype work, suggesting they represent durable patterns rather than isolated experiences.
 
@@ -123,7 +123,7 @@ The series will also feature **practitioner perspectives** from named sources wh
 Beyond the three headline findings, our research uncovered a pervasive challenge that underlies many deployment failures: the mismatch between deterministic expectations and probabilistic reality.
 
 > "Most people that have built and deployed technology over the last, say, 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
-> — Mrinal Wadhwa, Autonomy
+> — a founder at an AI infrastructure company, an AI infrastructure company
 
 This conditioning creates what one practitioner called "the doom loop"—teams fix one failure scenario, only to find that their fix breaks previously working cases. Without systematic evaluation infrastructure and an understanding of probabilistic behavior, teams spiral into endless prompt tweaking rather than architectural improvements.
 
@@ -131,7 +131,7 @@ The 70% demo reliability threshold is particularly insidious. A demo that works 
 
 The research also revealed a surprising constraint on context window usage. Despite vendors racing to expand context windows to hundreds of thousands of tokens, the Production Agents Summit revealed that practical utilization should stay below 40%. Beyond this threshold, quality degrades regardless of total window size. The answer to context challenges is not larger windows but better context engineering: compression, summarization, just-in-time retrieval, and architectural patterns that keep active context focused and relevant.
 
-Finally, MCP (Model Context Protocol), often positioned as the solution to integration challenges, carries its own limitations. When tools exceed 25 integrations, accuracy drops to 30% according to practitioner experience at Vivgrid. The protocol that promises universal connectivity becomes a source of confusion for agents navigating too many options.
+Finally, MCP (Model Context Protocol), often positioned as the solution to integration challenges, carries its own limitations. When tools exceed 25 integrations, accuracy drops to 30% according to practitioner experience at an AI infrastructure company. The protocol that promises universal connectivity becomes a source of confusion for agents navigating too many options.
 
 ## The Bottom Line
 
@@ -141,7 +141,7 @@ After 36 interviews, 5 conferences, and 3 prototypes, the pattern is unmistakabl
 
 **Research Context**
 
-_This research was conducted as part of Stanford GSB GSBGEN 390 Individual Research during Autumn 2025. The study comprises 36 expert interviews with practitioners across enterprise AI platforms, coding agents, vertical SaaS, framework companies, and infrastructure providers; 5 industry conferences including the Production Agents Summit and Manus Fireside; and 3 functional prototypes built to validate interview findings. All statistics and quotes are traceable to source extractions._
+_This research was conducted as part of Stanford GSB GSBGEN 390 Individual Research during Autumn 2025. The study comprises 36 expert interviews with practitioners across enterprise AI platforms, coding agents, vertical SaaS, framework companies, and infrastructure providers; 5 industry conferences including the Production Agents Summit and an AI autonomous agent company Fireside; and 3 functional prototypes built to validate interview findings. All statistics and quotes are traceable to source extractions._
 
 ---
 

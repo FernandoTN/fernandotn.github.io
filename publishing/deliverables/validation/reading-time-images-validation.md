@@ -22,15 +22,15 @@
 | 2025-12-handoff-rate-metric.mdx           | ~1,680     | 7-8 min                         | VALID  |
 | 2025-12-component-evaluation.mdx          | ~1,720     | 7-9 min                         | VALID  |
 | 2025-12-evaluation-gap.mdx                | ~2,400     | 10-12 min                       | VALID  |
-| 2025-12-autonomy-interview.mdx            | ~2,180     | 9-11 min                        | VALID  |
-| 2025-12-qurrent-interview.mdx             | ~2,050     | 8-10 min                        | VALID  |
-| 2025-12-okta-interview.mdx                | ~2,000     | 8-10 min                        | VALID  |
-| 2025-12-crewai-interview.mdx              | ~2,050     | 8-10 min                        | VALID  |
-| 2025-12-sybill-interview.mdx              | ~1,720     | 7-9 min                         | VALID  |
+| 2025-12-practitioner-interview-2.mdx      | ~2,180     | 9-11 min                        | VALID  |
+| 2025-12-practitioner-interview-1.mdx      | ~2,050     | 8-10 min                        | VALID  |
+| 2025-12-practitioner-interview-3.mdx      | ~2,000     | 8-10 min                        | VALID  |
+| 2025-12-practitioner-interview-4.mdx      | ~2,050     | 8-10 min                        | VALID  |
+| 2025-12-practitioner-interview-5.mdx      | ~1,720     | 7-9 min                         | VALID  |
 | 2025-12-shopping-agent.mdx                | ~2,150     | 9-11 min                        | VALID  |
 | 2025-12-repo-patcher.mdx                  | ~2,400     | 10-12 min                       | VALID  |
 | 2025-12-good-agents.mdx                   | ~2,150     | 9-11 min                        | VALID  |
-| 2025-12-manus-fireside.mdx                | ~1,750     | 7-9 min                         | VALID  |
+| 2025-12-autonomous-agent-fireside.mdx     | ~1,750     | 7-9 min                         | VALID  |
 | 2025-12-why-95-fail.mdx                   | ~2,150     | 9-11 min                        | VALID  |
 | 2025-12-production-summit.mdx             | ~2,200     | 9-11 min                        | VALID  |
 | 2025-12-research-methodology.mdx          | ~1,850     | 7-9 min                         | VALID  |
@@ -46,33 +46,33 @@
 
 ## Image Path Validation
 
-| File                                      | Image Path                                      | Path Format | Status       |
-| ----------------------------------------- | ----------------------------------------------- | ----------- | ------------ |
-| 2025-12-ai-agents-research-overview.mdx   | /images/blog/ai-agents-research-cover.png       | VALID       | OK           |
-| 2025-12-system-integration-92-percent.mdx | /images/blog/system-integration-92-percent.png  | VALID       | OK           |
-| 2025-12-40-percent-context-rule.mdx       | /images/blog/context-management-cover.png       | VALID       | INCONSISTENT |
-| 2025-12-framework-abandonment.mdx         | /images/blog/framework-abandonment-cover.png    | VALID       | OK           |
-| 2025-12-demo-production-chasm.mdx         | /images/blog/demo-production-chasm-cover.png    | VALID       | OK           |
-| 2025-12-enterprise-business-case.mdx      | /images/blog/enterprise-blockers-cover.png      | VALID       | INCONSISTENT |
-| 2025-12-coding-agent-exception.mdx        | /images/blog/coding-agent-exception-cover.png   | VALID       | OK           |
-| 2025-12-model-myth.mdx                    | /images/blog/model-myth-cover.png               | VALID       | OK           |
-| 2025-12-dual-memory-architecture.mdx      | /images/blog/dual-memory-architecture.png       | VALID       | INCONSISTENT |
-| 2025-12-mcp-tool-cliff.mdx                | /images/blog/mcp-tool-cliff.png                 | VALID       | INCONSISTENT |
-| 2025-12-handoff-rate-metric.mdx           | /images/blog/handoff-rate-metric.png            | VALID       | INCONSISTENT |
-| 2025-12-component-evaluation.mdx          | /images/blog/component-evaluation-cover.png     | VALID       | OK           |
-| 2025-12-evaluation-gap.mdx                | /images/blog/evaluation-gap-cover.png           | VALID       | OK           |
-| 2025-12-autonomy-interview.mdx            | /images/blog/autonomy-probabilistic-systems.png | VALID       | INCONSISTENT |
-| 2025-12-qurrent-interview.mdx             | /images/blog/qurrent-interview.png              | VALID       | INCONSISTENT |
-| 2025-12-okta-interview.mdx                | /images/blog/okta-interview.png                 | VALID       | INCONSISTENT |
-| 2025-12-crewai-interview.mdx              | /images/blog/crewai-interview.png               | VALID       | INCONSISTENT |
-| 2025-12-sybill-interview.mdx              | /images/blog/sybill-interview-cover.png         | VALID       | INCONSISTENT |
-| 2025-12-shopping-agent.mdx                | /images/blog/shopping-agent-cover.png           | VALID       | OK           |
-| 2025-12-repo-patcher.mdx                  | /images/blog/repo-patcher-cover.png             | VALID       | OK           |
-| 2025-12-good-agents.mdx                   | /images/blog/good-agents.png                    | VALID       | INCONSISTENT |
-| 2025-12-manus-fireside.mdx                | /images/blog/manus-fireside.png                 | VALID       | INCONSISTENT |
-| 2025-12-why-95-fail.mdx                   | /images/blog/why-95-fail.png                    | VALID       | INCONSISTENT |
-| 2025-12-production-summit.mdx             | /images/blog/production-summit.png              | VALID       | INCONSISTENT |
-| 2025-12-research-methodology.mdx          | /images/research-methodology-cover.png          | VALID       | INCONSISTENT |
+| File                                      | Image Path                                                      | Path Format | Status       |
+| ----------------------------------------- | --------------------------------------------------------------- | ----------- | ------------ |
+| 2025-12-ai-agents-research-overview.mdx   | /images/blog/ai-agents-research-cover.png                       | VALID       | OK           |
+| 2025-12-system-integration-92-percent.mdx | /images/blog/system-integration-92-percent.png                  | VALID       | OK           |
+| 2025-12-40-percent-context-rule.mdx       | /images/blog/context-management-cover.png                       | VALID       | INCONSISTENT |
+| 2025-12-framework-abandonment.mdx         | /images/blog/framework-abandonment-cover.png                    | VALID       | OK           |
+| 2025-12-demo-production-chasm.mdx         | /images/blog/demo-production-chasm-cover.png                    | VALID       | OK           |
+| 2025-12-enterprise-business-case.mdx      | /images/blog/enterprise-blockers-cover.png                      | VALID       | INCONSISTENT |
+| 2025-12-coding-agent-exception.mdx        | /images/blog/coding-agent-exception-cover.png                   | VALID       | OK           |
+| 2025-12-model-myth.mdx                    | /images/blog/model-myth-cover.png                               | VALID       | OK           |
+| 2025-12-dual-memory-architecture.mdx      | /images/blog/dual-memory-architecture.png                       | VALID       | INCONSISTENT |
+| 2025-12-mcp-tool-cliff.mdx                | /images/blog/mcp-tool-cliff.png                                 | VALID       | INCONSISTENT |
+| 2025-12-handoff-rate-metric.mdx           | /images/blog/handoff-rate-metric.png                            | VALID       | INCONSISTENT |
+| 2025-12-component-evaluation.mdx          | /images/blog/component-evaluation-cover.png                     | VALID       | OK           |
+| 2025-12-evaluation-gap.mdx                | /images/blog/evaluation-gap-cover.png                           | VALID       | OK           |
+| 2025-12-practitioner-interview-2.mdx      | /images/blog/practitioner-interview-2-probabilistic-systems.png | VALID       | INCONSISTENT |
+| 2025-12-practitioner-interview-1.mdx      | /images/blog/practitioner-interview-1.png                       | VALID       | INCONSISTENT |
+| 2025-12-practitioner-interview-3.mdx      | /images/blog/practitioner-interview-3.png                       | VALID       | INCONSISTENT |
+| 2025-12-practitioner-interview-4.mdx      | /images/blog/practitioner-interview-4.png                       | VALID       | INCONSISTENT |
+| 2025-12-practitioner-interview-5.mdx      | /images/blog/practitioner-interview-5-cover.png                 | VALID       | INCONSISTENT |
+| 2025-12-shopping-agent.mdx                | /images/blog/shopping-agent-cover.png                           | VALID       | OK           |
+| 2025-12-repo-patcher.mdx                  | /images/blog/repo-patcher-cover.png                             | VALID       | OK           |
+| 2025-12-good-agents.mdx                   | /images/blog/good-agents.png                                    | VALID       | INCONSISTENT |
+| 2025-12-autonomous-agent-fireside.mdx     | /images/blog/autonomous-agent-fireside.png                      | VALID       | INCONSISTENT |
+| 2025-12-why-95-fail.mdx                   | /images/blog/why-95-fail.png                                    | VALID       | INCONSISTENT |
+| 2025-12-production-summit.mdx             | /images/blog/production-summit.png                              | VALID       | INCONSISTENT |
+| 2025-12-research-methodology.mdx          | /images/research-methodology-cover.png                          | VALID       | INCONSISTENT |
 
 ### Image Path Issues
 
@@ -108,33 +108,33 @@ The following files do not follow the recommended pattern `/images/blog/[slug]-c
    - Current: `/images/blog/handoff-rate-metric.png`
    - Suggested: `/images/blog/handoff-rate-metric-cover.png`
 
-6. **2025-12-autonomy-interview.mdx**
-   - Current: `/images/blog/autonomy-probabilistic-systems.png`
-   - Suggested: `/images/blog/autonomy-interview-cover.png`
+6. **2025-12-practitioner-interview-2.mdx**
+   - Current: `/images/blog/practitioner-interview-2-probabilistic-systems.png`
+   - Suggested: `/images/blog/practitioner-interview-2-cover.png`
 
-7. **2025-12-qurrent-interview.mdx**
-   - Current: `/images/blog/qurrent-interview.png`
-   - Suggested: `/images/blog/qurrent-interview-cover.png`
+7. **2025-12-practitioner-interview-1.mdx**
+   - Current: `/images/blog/practitioner-interview-1.png`
+   - Suggested: `/images/blog/practitioner-interview-1-cover.png`
 
-8. **2025-12-okta-interview.mdx**
-   - Current: `/images/blog/okta-interview.png`
-   - Suggested: `/images/blog/okta-interview-cover.png`
+8. **2025-12-practitioner-interview-3.mdx**
+   - Current: `/images/blog/practitioner-interview-3.png`
+   - Suggested: `/images/blog/practitioner-interview-3-cover.png`
 
-9. **2025-12-crewai-interview.mdx**
-   - Current: `/images/blog/crewai-interview.png`
-   - Suggested: `/images/blog/crewai-interview-cover.png`
+9. **2025-12-practitioner-interview-4.mdx**
+   - Current: `/images/blog/practitioner-interview-4.png`
+   - Suggested: `/images/blog/practitioner-interview-4-cover.png`
 
-10. **2025-12-sybill-interview.mdx**
-    - Current: `/images/blog/sybill-interview-cover.png`
-    - Suggested: `/images/blog/sybill-interview-cover.png` (OK - matches pattern)
+10. **2025-12-practitioner-interview-5.mdx**
+    - Current: `/images/blog/practitioner-interview-5-cover.png`
+    - Suggested: `/images/blog/practitioner-interview-5-cover.png` (OK - matches pattern)
 
 11. **2025-12-good-agents.mdx**
     - Current: `/images/blog/good-agents.png`
     - Suggested: `/images/blog/good-agents-cover.png`
 
-12. **2025-12-manus-fireside.mdx**
-    - Current: `/images/blog/manus-fireside.png`
-    - Suggested: `/images/blog/manus-fireside-cover.png`
+12. **2025-12-autonomous-agent-fireside.mdx**
+    - Current: `/images/blog/autonomous-agent-fireside.png`
+    - Suggested: `/images/blog/autonomous-agent-fireside-cover.png`
 
 13. **2025-12-why-95-fail.mdx**
     - Current: `/images/blog/why-95-fail.png`
@@ -159,11 +159,11 @@ The following files do not follow the recommended pattern `/images/blog/[slug]-c
    - dual-memory-architecture.png
    - mcp-tool-cliff.png
    - handoff-rate-metric.png
-   - qurrent-interview.png
-   - okta-interview.png
-   - crewai-interview.png
+   - practitioner-interview-1.png
+   - practitioner-interview-3.png
+   - practitioner-interview-4.png
    - good-agents.png
-   - manus-fireside.png
+   - autonomous-agent-fireside.png
    - why-95-fail.png
    - production-summit.png
 
@@ -175,7 +175,7 @@ The following files do not follow the recommended pattern `/images/blog/[slug]-c
    - /images/research-methodology-cover.png -> /images/blog/research-methodology-cover.png
 
 5. **1 file has descriptive name:**
-   - autonomy-probabilistic-systems.png -> autonomy-interview-cover.png
+   - practitioner-interview-2-probabilistic-systems.png -> practitioner-interview-2-cover.png
 
 ---
 

@@ -7,12 +7,12 @@
 
 ## Potential Issues Found
 
-| File                            | Issue Type                    | Details                                                                                                              | Severity |
-| ------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| `infographic-metrics-spec.md`   | Confidential Source Reference | Footer mentions "1 confidential" source in breakdown (17 interviews + 5 conferences + 3 prototypes + 1 confidential) | LOW      |
-| `2025-12-qurrent-interview.mdx` | Permission Pending            | Note at bottom: "Interview conducted with David at Qurrent - used with permission pending"                           | MEDIUM   |
-| Multiple interview posts        | Attribution Pending           | LinkedIn posts 14, 16, 17, 18 note "Ensure attribution permission from [name] before publishing"                     | MEDIUM   |
-| All blog posts                  | Author Contact Info           | Author email (fertorresnavarrete@gmail.com) exposed in CTA - INTENTIONAL, author's own contact                       | OK       |
+| File                                   | Issue Type                    | Details                                                                                                                         | Severity |
+| -------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| `infographic-metrics-spec.md`          | Confidential Source Reference | Footer mentions "1 confidential" source in breakdown (17 interviews + 5 conferences + 3 prototypes + 1 confidential)            | LOW      |
+| `2025-12-practitioner-interview-1.mdx` | Permission Pending            | Note at bottom: "Interview conducted with the practitioner at an AI agent orchestration company - used with permission pending" | MEDIUM   |
+| Multiple interview posts               | Attribution Pending           | LinkedIn posts 14, 16, 17, 18 note "Ensure attribution permission from [name] before publishing"                                | MEDIUM   |
+| All blog posts                         | Author Contact Info           | Author email (fertorresnavarrete@gmail.com) exposed in CTA - INTENTIONAL, author's own contact                                  | OK       |
 
 ## Detailed Analysis
 
@@ -42,25 +42,25 @@ All email addresses found belong to the **author** (Fernando Torres) and are int
 
 ### Interview Attribution Status
 
-| Interview      | Subject       | Company  | Permission Status                                   |
-| -------------- | ------------- | -------- | --------------------------------------------------- |
-| Publication 14 | David         | Qurrent  | **PENDING** - explicit note in file                 |
-| Publication 15 | Mrinal Wadhwa | Autonomy | Named with title (Founder/CEO)                      |
-| Publication 16 | Tian Lan      | Okta     | **PENDING** - LinkedIn post notes permission needed |
-| Publication 17 | Joao          | CrewAI   | **PENDING** - LinkedIn post notes permission needed |
-| Publication 18 | Mehak         | Sybill   | **PENDING** - LinkedIn post notes permission needed |
+| Interview      | Subject                                           | Company                             | Permission Status                                   |
+| -------------- | ------------------------------------------------- | ----------------------------------- | --------------------------------------------------- |
+| Publication 14 | the practitioner                                  | an AI agent orchestration company   | **PENDING** - explicit note in file                 |
+| Publication 15 | a founder at an AI infrastructure company         | an AI infrastructure company        | Named with title (Founder/CEO)                      |
+| Publication 16 | an engineering leader at a major identity company | a major enterprise identity company | **PENDING** - LinkedIn post notes permission needed |
+| Publication 17 | the co-founder                                    | a multi-agent framework company     | **PENDING** - LinkedIn post notes permission needed |
+| Publication 18 | the AI lead                                       | an AI sales intelligence company    | **PENDING** - LinkedIn post notes permission needed |
 
 ### Other Named Individuals in Content
 
-- CC Fan (Vivgrid) - Quoted with company attribution
-- Cece (Visigrate) - Quoted with company attribution
-- Cynthia (WiseAgents/Wise Agents) - Referenced for framework statistics
+- a practitioner at an AI infrastructure company - Quoted with company attribution
+- a practitioner at an AI infrastructure company - Quoted with company attribution
+- Cynthia (a consulting firm/Wise Agents) - Referenced for framework statistics
 - Stephen Li (GMI) - Quoted for YC evaluation tool insights
-- Tushar (CodeForge) - Quoted for coding agent insights
-- Abhishek (Apna) - Quoted for pricing insights
-- Yujian Tan - Referenced as AI practitioner/investor
-- Saurav (RunLLM) - Referenced for memory architecture
-- Manus Co-Founder - Referenced without personal name (appropriate)
+- a developer at an AI coding company - Quoted for coding agent insights
+- an engineering leader at a workforce platform - Quoted for pricing insights
+- a practitioner - Referenced as AI practitioner/investor
+- a practitioner at an AI observability company - Referenced for memory architecture
+- an AI autonomous agent company Co-Founder - Referenced without personal name (appropriate)
 
 ## Privacy Compliance
 
@@ -82,11 +82,11 @@ All email addresses found belong to the **author** (Fernando Torres) and are int
 ### Medium Risk - Action Required
 
 - **5 interview publications require permission verification before publishing**:
-  1. Qurrent interview (David)
-  2. Okta interview (Tian Lan)
-  3. CrewAI interview (Joao)
-  4. Sybill interview (Mehak)
-  5. Component evaluation (Mehak/Sybill attribution)
+  1. an AI agent orchestration company interview (the practitioner)
+  2. a major enterprise identity company interview (an engineering leader at a major identity company)
+  3. a multi-agent framework company interview (the co-founder)
+  4. an AI sales intelligence company interview (the AI lead)
+  5. Component evaluation (the AI lead/an AI sales intelligence company attribution)
 
 ### High Risk
 
@@ -99,10 +99,10 @@ All email addresses found belong to the **author** (Fernando Torres) and are int
 The content passes most privacy requirements, but the following actions are required before publication:
 
 1. **Obtain explicit permission** from the following interview subjects before publishing their respective posts:
-   - David (Qurrent) - Publication 14
-   - Tian Lan (Okta) - Publication 16
-   - Joao (CrewAI) - Publication 17
-   - Mehak (Sybill) - Publications 12 and 18
+   - an enterprise AI deployment expert - Publication 14
+   - an engineering leader at a major identity company - Publication 16
+   - a co-founder at a multi-agent framework company - Publication 17
+   - an AI lead at a sales intelligence company - Publications 12 and 18
 
 2. **Verify** that all named individuals have consented to:
    - Being quoted by name

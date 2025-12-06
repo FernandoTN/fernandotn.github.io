@@ -22,15 +22,15 @@
 | 2025-12-handoff-rate-metric.mdx           | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-component-evaluation.mdx          | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-evaluation-gap.mdx                | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-autonomy-interview.mdx            | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-qurrent-interview.mdx             | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-okta-interview.mdx                | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-crewai-interview.mdx              | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-sybill-interview.mdx              | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-practitioner-interview-2.mdx      | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-practitioner-interview-1.mdx      | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-practitioner-interview-3.mdx      | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-practitioner-interview-4.mdx      | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-practitioner-interview-5.mdx      | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-shopping-agent.mdx                | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-repo-patcher.mdx                  | /blog/ai-agents-research-overview | VALID - Matches anchor post filename |
 | 2025-12-good-agents.mdx                   | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
-| 2025-12-manus-fireside.mdx                | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
+| 2025-12-autonomous-agent-fireside.mdx     | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-why-95-fail.mdx                   | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-production-summit.mdx             | /blog/ai-agents-research          | BROKEN - Target path mismatch        |
 | 2025-12-research-methodology.mdx          | (no internal links)               | N/A                                  |
@@ -82,28 +82,28 @@ The current blog post series has minimal cross-linking beyond the footer referen
 
 ### High-Value Cross-Link Opportunities
 
-| From Post                                 | Should Link To                      | Reason                                        |
-| ----------------------------------------- | ----------------------------------- | --------------------------------------------- |
-| 2025-12-system-integration-92-percent.mdx | /blog/mcp-tool-cliff                | Both discuss MCP integration challenges       |
-| 2025-12-mcp-tool-cliff.mdx                | /blog/system-integration-92-percent | Both discuss MCP integration challenges       |
-| 2025-12-40-percent-context-rule.mdx       | /blog/dual-memory-architecture      | Both discuss context/memory management        |
-| 2025-12-dual-memory-architecture.mdx      | /blog/40-percent-context-rule       | Both discuss context/memory management        |
-| 2025-12-framework-abandonment.mdx         | /blog/shopping-agent                | Shopping agent validates framework issues     |
-| 2025-12-shopping-agent.mdx                | /blog/framework-abandonment         | Framework abandonment theme validated         |
-| 2025-12-demo-production-chasm.mdx         | /blog/autonomy-interview            | Autonomy discusses probabilistic expectations |
-| 2025-12-autonomy-interview.mdx            | /blog/demo-production-chasm         | Same topic from different angle               |
-| 2025-12-enterprise-business-case.mdx      | /blog/qurrent-interview             | Qurrent discusses ROI challenges              |
-| 2025-12-qurrent-interview.mdx             | /blog/enterprise-business-case      | Same ROI topic                                |
-| 2025-12-model-myth.mdx                    | /blog/manus-fireside                | Manus is source of 30-40% finding             |
-| 2025-12-manus-fireside.mdx                | /blog/model-myth                    | Both discuss model contribution               |
-| 2025-12-handoff-rate-metric.mdx           | /blog/why-95-fail                   | Conference introduced handoff rate            |
-| 2025-12-why-95-fail.mdx                   | /blog/handoff-rate-metric           | Deep dive on metric introduced                |
-| 2025-12-component-evaluation.mdx          | /blog/sybill-interview              | Sybill is source of evaluation insight        |
-| 2025-12-sybill-interview.mdx              | /blog/component-evaluation          | Evaluation approach detailed                  |
-| 2025-12-evaluation-gap.mdx                | /blog/component-evaluation          | Related evaluation themes                     |
-| 2025-12-repo-patcher.mdx                  | /blog/demo-production-chasm         | State machines address reliability            |
-| 2025-12-good-agents.mdx                   | /blog/repo-patcher                  | Both discuss architectural governance         |
-| 2025-12-production-summit.mdx             | /blog/40-percent-context-rule       | Summit is source of 40% rule                  |
+| From Post                                 | Should Link To                      | Reason                                                            |
+| ----------------------------------------- | ----------------------------------- | ----------------------------------------------------------------- |
+| 2025-12-system-integration-92-percent.mdx | /blog/mcp-tool-cliff                | Both discuss MCP integration challenges                           |
+| 2025-12-mcp-tool-cliff.mdx                | /blog/system-integration-92-percent | Both discuss MCP integration challenges                           |
+| 2025-12-40-percent-context-rule.mdx       | /blog/dual-memory-architecture      | Both discuss context/memory management                            |
+| 2025-12-dual-memory-architecture.mdx      | /blog/40-percent-context-rule       | Both discuss context/memory management                            |
+| 2025-12-framework-abandonment.mdx         | /blog/shopping-agent                | Shopping agent validates framework issues                         |
+| 2025-12-shopping-agent.mdx                | /blog/framework-abandonment         | Framework abandonment theme validated                             |
+| 2025-12-demo-production-chasm.mdx         | /blog/practitioner-interview-2      | an AI infrastructure company discusses probabilistic expectations |
+| 2025-12-practitioner-interview-2.mdx      | /blog/demo-production-chasm         | Same topic from different angle                                   |
+| 2025-12-enterprise-business-case.mdx      | /blog/practitioner-interview-1      | an AI agent orchestration company discusses ROI challenges        |
+| 2025-12-practitioner-interview-1.mdx      | /blog/enterprise-business-case      | Same ROI topic                                                    |
+| 2025-12-model-myth.mdx                    | /blog/autonomous-agent-fireside     | an AI autonomous agent company is source of 30-40% finding        |
+| 2025-12-autonomous-agent-fireside.mdx     | /blog/model-myth                    | Both discuss model contribution                                   |
+| 2025-12-handoff-rate-metric.mdx           | /blog/why-95-fail                   | Conference introduced handoff rate                                |
+| 2025-12-why-95-fail.mdx                   | /blog/handoff-rate-metric           | Deep dive on metric introduced                                    |
+| 2025-12-component-evaluation.mdx          | /blog/practitioner-interview-5      | an AI sales intelligence company is source of evaluation insight  |
+| 2025-12-practitioner-interview-5.mdx      | /blog/component-evaluation          | Evaluation approach detailed                                      |
+| 2025-12-evaluation-gap.mdx                | /blog/component-evaluation          | Related evaluation themes                                         |
+| 2025-12-repo-patcher.mdx                  | /blog/demo-production-chasm         | State machines address reliability                                |
+| 2025-12-good-agents.mdx                   | /blog/repo-patcher                  | Both discuss architectural governance                             |
+| 2025-12-production-summit.mdx             | /blog/40-percent-context-rule       | Summit is source of 40% rule                                      |
 
 ---
 
@@ -157,15 +157,15 @@ To:
 | 2025-12-handoff-rate-metric.mdx           | /blog/handoff-rate-metric           |
 | 2025-12-component-evaluation.mdx          | /blog/component-evaluation          |
 | 2025-12-evaluation-gap.mdx                | /blog/evaluation-gap                |
-| 2025-12-autonomy-interview.mdx            | /blog/autonomy-interview            |
-| 2025-12-qurrent-interview.mdx             | /blog/qurrent-interview             |
-| 2025-12-okta-interview.mdx                | /blog/okta-interview                |
-| 2025-12-crewai-interview.mdx              | /blog/crewai-interview              |
-| 2025-12-sybill-interview.mdx              | /blog/sybill-interview              |
+| 2025-12-practitioner-interview-2.mdx      | /blog/practitioner-interview-2      |
+| 2025-12-practitioner-interview-1.mdx      | /blog/practitioner-interview-1      |
+| 2025-12-practitioner-interview-3.mdx      | /blog/practitioner-interview-3      |
+| 2025-12-practitioner-interview-4.mdx      | /blog/practitioner-interview-4      |
+| 2025-12-practitioner-interview-5.mdx      | /blog/practitioner-interview-5      |
 | 2025-12-shopping-agent.mdx                | /blog/shopping-agent                |
 | 2025-12-repo-patcher.mdx                  | /blog/repo-patcher                  |
 | 2025-12-good-agents.mdx                   | /blog/good-agents                   |
-| 2025-12-manus-fireside.mdx                | /blog/manus-fireside                |
+| 2025-12-autonomous-agent-fireside.mdx     | /blog/autonomous-agent-fireside     |
 | 2025-12-why-95-fail.mdx                   | /blog/why-95-fail                   |
 | 2025-12-production-summit.mdx             | /blog/production-summit             |
 | 2025-12-research-methodology.mdx          | /blog/research-methodology          |

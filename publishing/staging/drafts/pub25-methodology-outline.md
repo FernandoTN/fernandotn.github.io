@@ -73,13 +73,13 @@
 
 ### 2.2 Batch Execution Pattern
 
-| Batch | Sources Processed                                                                 |
-| ----- | --------------------------------------------------------------------------------- |
-| 1     | David (Qurrent), Mrinal (Autonomy), Stephen (GMI), Sahil (Clientell), Yujian Tan  |
-| 2     | Tian (Okta), Tushar (CodeForge), Mehak (Sybill), Abhishek (Apna), Saurav (RunLLM) |
-| 3     | CC (Vivgrid), Cynthia (WiseAgents), ChatPRD, CrewAI, Roblox                       |
-| 4     | Zeena, VCatTheory, Project Nanda, Alibaba Qwen, Manus Fireside                    |
-| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents |
+| Batch | Sources Processed                                                                                                                                                                                                                |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | an enterprise AI deployment expert, a founder at an AI infrastructure company, Stephen (GMI), a practitioner at a CRM AI company, a practitioner                                                                                 |
+| 2     | an engineering leader at a major identity company, a developer at an AI coding company, an AI lead at a sales intelligence company, an engineering leader at a workforce platform, a practitioner at an AI observability company |
+| 3     | a practitioner at an AI infrastructure company, a consulting firm practitioner, ChatPRD, a multi-agent framework company, Roblox                                                                                                 |
+| 4     | Zeena, a VC investor, Project Nanda, Alibaba Qwen, an AI autonomous agent company Fireside                                                                                                                                       |
+| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents                                                                                                                                                |
 
 ### 2.3 Why Parallel Processing Mattered
 
@@ -185,7 +185,7 @@ For each of the 6 core themes, a sub-agent created consolidation document contai
 ### 4.4 Prototype Validation
 
 - All three prototypes validated interview findings empirically
-- Shopping Agent: Framework bloat experienced firsthand (LangGraph to LangChain switch)
+- Shopping Agent: Framework bloat experienced firsthand (LangGraph to a popular AI agent framework switch)
 - Repo Patcher: Integration harder than AI functionality (GitHub/CI/CD)
 - Good Agents: MCP challenges confirmed (mocked rather than implemented)
 
@@ -265,7 +265,7 @@ For each of the 6 core themes, a sub-agent created consolidation document contai
 
 2. **Methodology Validation**: "This finding emerged not from any single interview, but from the quantitative pattern analysis across all 26 sources - validating the value of systematic, template-driven extraction over intuitive synthesis."
 
-3. **Business Case Emergence**: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations." - David (Qurrent), first interview
+3. **Business Case Emergence**: "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations." - an enterprise AI deployment expert, first interview
 
 ---
 

@@ -19,7 +19,7 @@ Here's what the data reveals:
 
 - 30-40% model contribution vs 60-70% framework/architecture importance
 - 90% of pilots fail due to undefined ROI—not technical limitations
-- 80-90% of production teams abandon LangChain for custom solutions
+- 80-90% of production teams abandon a popular AI agent framework for custom solutions
 - 40-50% of deployment time is spent on integration work, not AI development
 
 The companies succeeding with AI agents aren't chasing better models.

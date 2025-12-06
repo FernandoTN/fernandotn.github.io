@@ -52,7 +52,7 @@ For each of the 44 sources, a dedicated sub-agent performed the following:
 3. Probabilistic Systems and Reliability (testing, evals, demo-to-production gap)
 4. Model Capabilities and Limitations (what LLMs can and cannot do)
 5. Enterprise Blockers and Governance (security, identity, compliance, pricing)
-6. Framework and Tooling Ecosystem (LangChain, observability, infrastructure)
+6. Framework and Tooling Ecosystem (a popular AI agent framework, observability, infrastructure)
 
 **Identified emergent themes.** Beyond the predefined categories, each sub-agent flagged themes that appeared important but did not fit existing categories. This is how we discovered concepts like "handoff rate as success metric" and "dual memory architecture" that became central to our findings.
 
@@ -60,13 +60,13 @@ For each of the 44 sources, a dedicated sub-agent performed the following:
 
 Processing 44 sources sequentially would have taken days. Instead, we spawned sub-agents in batches of 5, enabling parallel execution while maintaining system stability.
 
-| Batch | Sources Processed                                                                 |
-| ----- | --------------------------------------------------------------------------------- |
-| 1     | David (Qurrent), Mrinal (Autonomy), Stephen (GMI), Sahil (Clientell), Yujian Tan  |
-| 2     | Tian (Okta), Tushar (CodeForge), Mehak (Sybill), Abhishek (Apna), Saurav (RunLLM) |
-| 3     | CC (Vivgrid), Cynthia (WiseAgents), ChatPRD, CrewAI, Roblox                       |
-| 4     | Zeena, VCatTheory, Project Nanda, Alibaba Qwen, Manus Fireside                    |
-| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents |
+| Batch | Sources Processed                                                                                                                                                                                                                |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | an enterprise AI deployment expert, a founder at an AI infrastructure company, Stephen (GMI), a practitioner at a CRM AI company, a practitioner                                                                                 |
+| 2     | an engineering leader at a major identity company, a developer at an AI coding company, an AI lead at a sales intelligence company, an engineering leader at a workforce platform, a practitioner at an AI observability company |
+| 3     | a practitioner at an AI infrastructure company, a consulting firm practitioner, ChatPRD, a multi-agent framework company, Roblox                                                                                                 |
+| 4     | Zeena, a VC investor, Project Nanda, Alibaba Qwen, an AI autonomous agent company Fireside                                                                                                                                       |
+| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents                                                                                                                                                |
 
 Each batch completed its extractions independently. Quality standards were enforced uniformly: minimum 5 key concepts, 3-5 critical quotes with context, all applicable theme tags, relevance score with justification, and explicit documentation of any contradictions.
 

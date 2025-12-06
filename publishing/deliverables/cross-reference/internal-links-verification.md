@@ -47,15 +47,15 @@ The cross-linking report identified internal links across all 25 blog posts in t
 | 2025-12-handoff-rate-metric.mdx           | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-component-evaluation.mdx          | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-evaluation-gap.mdx                | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-autonomy-interview.mdx            | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-qurrent-interview.mdx             | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-okta-interview.mdx                | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-crewai-interview.mdx              | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-sybill-interview.mdx              | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-practitioner-interview-2.mdx      | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-practitioner-interview-1.mdx      | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-practitioner-interview-3.mdx      | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-practitioner-interview-4.mdx      | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-practitioner-interview-5.mdx      | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-shopping-agent.mdx                | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-repo-patcher.mdx                  | `/blog/ai-agents-research-overview` | `/blog/ai-agents-research-overview` | VALID     |
 | 2025-12-good-agents.mdx                   | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
-| 2025-12-manus-fireside.mdx                | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
+| 2025-12-autonomous-agent-fireside.mdx     | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-why-95-fail.mdx                   | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-production-summit.mdx             | `/blog/ai-agents-research`          | `/blog/ai-agents-research-overview` | NEEDS FIX |
 | 2025-12-research-methodology.mdx          | (no internal links)                 | N/A                                 | NO LINK   |
@@ -133,14 +133,14 @@ To fix all broken links, replace the following text in each affected file:
 11. 2025-12-handoff-rate-metric.mdx (line 113)
 12. 2025-12-component-evaluation.mdx (line 113)
 13. 2025-12-evaluation-gap.mdx (line 179)
-14. 2025-12-autonomy-interview.mdx (line 140)
-15. 2025-12-qurrent-interview.mdx (line 129)
-16. 2025-12-okta-interview.mdx (line 132)
-17. 2025-12-crewai-interview.mdx (line 135)
-18. 2025-12-sybill-interview.mdx (line 114)
+14. 2025-12-practitioner-interview-2.mdx (line 140)
+15. 2025-12-practitioner-interview-1.mdx (line 129)
+16. 2025-12-practitioner-interview-3.mdx (line 132)
+17. 2025-12-practitioner-interview-4.mdx (line 135)
+18. 2025-12-practitioner-interview-5.mdx (line 114)
 19. 2025-12-shopping-agent.mdx (line 135)
 20. 2025-12-good-agents.mdx (line 155)
-21. 2025-12-manus-fireside.mdx (line 113)
+21. 2025-12-autonomous-agent-fireside.mdx (line 113)
 22. 2025-12-why-95-fail.mdx (line 141)
 23. 2025-12-production-summit.mdx (line 151)
 

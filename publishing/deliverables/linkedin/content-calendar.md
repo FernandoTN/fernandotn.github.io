@@ -20,10 +20,10 @@
 
 ### Week 2 (Framework & Production) - Dec 16-20
 
-| Date   | Day | Post | Title                                                                  | Theme                 |
-| ------ | --- | ---- | ---------------------------------------------------------------------- | --------------------- |
-| Dec 17 | Tue | 04   | 80-90% of Teams Abandon LangChain for Production - Here's Why          | Framework Ecosystem   |
-| Dec 19 | Thu | 05   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations | Probabilistic Systems |
+| Date   | Day | Post | Title                                                                            | Theme                 |
+| ------ | --- | ---- | -------------------------------------------------------------------------------- | --------------------- |
+| Dec 17 | Tue | 04   | 80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why | Framework Ecosystem   |
+| Dec 19 | Thu | 05   | The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations           | Probabilistic Systems |
 
 ### Week 3 (Enterprise & Model Reality) - Dec 23-27
 
@@ -50,18 +50,18 @@
 
 ### Week 6 (Practitioner Perspectives Part 1) - Jan 13-17
 
-| Date   | Day | Post | Title                                                               | Theme                |
-| ------ | --- | ---- | ------------------------------------------------------------------- | -------------------- |
-| Jan 14 | Tue | 14   | Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert | Interview - Qurrent  |
-| Jan 16 | Thu | 15   | Autonomy's Take: Managing Expectations with Probabilistic Systems   | Interview - Autonomy |
+| Date   | Day | Post | Title                                                                                         | Theme                                         |
+| ------ | --- | ---- | --------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Jan 14 | Tue | 14   | Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert | Interview - an AI agent orchestration company |
+| Jan 16 | Thu | 15   | an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems         | Interview - an AI infrastructure company      |
 
 ### Week 7 (Practitioner Perspectives Part 2) - Jan 20-24
 
-| Date   | Day | Post | Title                                                            | Theme              |
-| ------ | --- | ---- | ---------------------------------------------------------------- | ------------------ |
-| Jan 20 | Mon | 16   | How Okta is Solving AI Agent Identity: The Next SSO Moment       | Interview - Okta   |
-| Jan 22 | Wed | 17   | CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat | Interview - CrewAI |
-| Jan 24 | Fri | 18   | Sybill's Approach: Building AI Sales Agents That Actually Work   | Interview - Sybill |
+| Date   | Day | Post | Title                                                                                     | Theme                                           |
+| ------ | --- | ---- | ----------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Jan 20 | Mon | 16   | How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment | Interview - a major enterprise identity company |
+| Jan 22 | Wed | 17   | a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat | Interview - a multi-agent framework company     |
+| Jan 24 | Fri | 18   | an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work  | Interview - an AI sales intelligence company    |
 
 ### Week 8 (Prototypes & Hands-On) - Jan 27-31
 
@@ -72,11 +72,11 @@
 
 ### Week 9 (Multi-Agent & Conferences) - Feb 3-7
 
-| Date  | Day | Post | Title                                                                       | Theme                     |
-| ----- | --- | ---- | --------------------------------------------------------------------------- | ------------------------- |
-| Feb 3 | Mon | 21   | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration | Prototype - Good Agents   |
-| Feb 5 | Wed | 22   | Manus Fireside: The 30-40% Model Revelation That Changed Everything         | Conference - Manus        |
-| Feb 7 | Fri | 23   | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways               | Conference - Why 95% Fail |
+| Date  | Day | Post | Title                                                                                        | Theme                                       |
+| ----- | --- | ---- | -------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Feb 3 | Mon | 21   | Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration                  | Prototype - Good Agents                     |
+| Feb 5 | Wed | 22   | an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything | Conference - an AI autonomous agent company |
+| Feb 7 | Fri | 23   | Why 95% of Agentic AI Projects Fail: Key Conference Takeaways                                | Conference - Why 95% Fail                   |
 
 ### Week 10 (Methodology & Wrap-up) - Feb 10-14
 
@@ -92,17 +92,17 @@
 ### Permission Required (Posts 14-18)
 
 - **Posts 14-18**: Practitioner interview posts require attribution permissions before publishing
-  - Post 14: David/Qurrent permission needed
-  - Post 15: Mrinal/Autonomy permission needed
-  - Post 16: Tian Lan/Okta permission needed
-  - Post 17: Joao/CrewAI permission needed
-  - Post 18: Mehak/Sybill permission needed
+  - Post 14: the practitioner/an AI agent orchestration company permission needed
+  - Post 15: the founder/an AI infrastructure company permission needed
+  - Post 16: an engineering leader at a major identity company/a major enterprise identity company permission needed
+  - Post 17: the co-founder/a multi-agent framework company permission needed
+  - Post 18: the AI lead/an AI sales intelligence company permission needed
 
 ### Narrative Arc Dependencies
 
 - **Post 01 (Anchor)**: Sets up the 30-40% model vs 60-70% architecture thesis
-- **Post 08 (Model Myth)**: Reinforces anchor thesis with Manus quote
-- **Post 22 (Manus Fireside)**: Full deep-dive on the 30-40% revelation
+- **Post 08 (Model Myth)**: Reinforces anchor thesis with an AI autonomous agent company quote
+- **Post 22 (an AI autonomous agent company Fireside)**: Full deep-dive on the 30-40% revelation
 - **Post 03 (40% Context Rule)**: Introduced early, reinforced in Post 24 (Production Summit)
 - **Post 09 (Handoff Rate)**: Key metric introduced, reinforced in Post 23 (Why 95% Fail)
 - **Post 11 (MCP Tool Cliff)**: Technical finding, referenced in Post 23
@@ -110,7 +110,7 @@
 ### Cross-Reference Opportunities
 
 - Post 03 (Context) <-> Post 24 (Production Summit): Same 40% rule
-- Post 08 (Model Myth) <-> Post 22 (Manus Fireside): Same core insight
+- Post 08 (Model Myth) <-> Post 22 (an AI autonomous agent company Fireside): Same core insight
 - Post 09 (Handoff Rate) <-> Post 23 (Why 95% Fail): Metric reinforcement
 - Post 11 (MCP) <-> Post 23 (Why 95% Fail): Trap #3 connection
 

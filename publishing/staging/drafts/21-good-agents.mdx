@@ -17,7 +17,7 @@ During our research, we interviewed 36 experts and heard the same concern repeat
 
 Building multi-agent systems revealed a fundamental tension at the heart of AI agent deployment. Traditional software follows deterministic paths: input A produces output B, reliably and repeatedly. But agents operate probabilistically, making decisions that can vary across identical inputs. This creates unique governance challenges—how do you maintain control over systems that don't behave the same way twice?
 
-Our interviews surfaced this problem repeatedly. Mrinal Wadhwa at Autonomy described the core issue:
+Our interviews surfaced this problem repeatedly. a founder at an AI infrastructure company at an AI infrastructure company described the core issue:
 
 > "Most people that have built and deployed technology over the last, say, 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
 
@@ -52,7 +52,7 @@ Our prototype used MCP servers for search, cart, and offers capabilities—testi
 
 Model Context Protocol provides a standardized way to expose tools to agents, theoretically solving the fragmentation problem where every integration requires custom code. In practice, we encountered significant integration complexity despite the standardization promise.
 
-The most significant finding aligned with what CC Fan at Vivgrid told us about the 25-tool accuracy cliff:
+The most significant finding aligned with what CC Fan at an AI infrastructure company told us about the 25-tool accuracy cliff:
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
 
@@ -63,7 +63,7 @@ Key challenges encountered:
 - **Accuracy Degradation**: Consistent with interview findings, tool selection accuracy degraded as we added more MCP operations. We had to carefully curate the tool surface area exposed to the agent.
 
 > "There was a lot of talk around MCP kind of solving for everybody. We quickly learned that it didn't work out of the box for us... the MCPs that either companies are putting up themselves or frankly at the time there was a lot of like open source third party MCP servers... they had way too many operations specified. There is no specificity."
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 This finding validates concerns raised across our 36 interviews: MCP provides structure but not simplicity. The protocol standardizes the interface without reducing the integration work required to make tools useful for specific use cases.
 
@@ -101,7 +101,7 @@ Key security components:
 - **AES-256 Encryption**: Protection for data at rest, ensuring agent memory and session data remain secure
 
 > "There is a lot of resistance in sharing data with the agentic systems, whether it's on their premise, out of premise... there is a lot of trust deficit in terms of sharing, especially with out of the box models."
-> — Abhishek Shukla, Apna
+> — an engineering leader Shukla, a workforce platform
 
 The "verify" step in Plan-Verify-Execute integrates with these security controls. Verification includes authorization checks—ensuring the planned actions are permitted for the current user's role before execution begins. This prevents the common failure mode where agents execute actions and only later discover permission violations.
 
@@ -117,7 +117,7 @@ Our Good Agents prototype implemented a comprehensive monitoring infrastructure:
 - **Prometheus and Grafana**: Metrics and dashboards for operational monitoring
 
 > "I think a lot of companies that are doing agents, there's not like a standardized way of logging what are the exact actions and being able to do like really detailed debugging and maybe even like time traveling of like, why did the agent take this action at this moment in time?"
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 This observability stack addresses the debugging challenge unique to probabilistic systems. When an agent fails, engineers need to understand not just what happened, but what context the agent had when making each decision. The goal is "time travel" debugging—reconstructing the exact state the agent was in when it made a particular choice.
 
@@ -131,11 +131,11 @@ Traditional agent architectures assume success and handle failures reactively. T
 
 The Plan-Verify-Execute pattern inverts this model. By validating before executing, we catch failures in the planning stage when they're cheap to address. The verification phase provides a natural checkpoint for human oversight—users can review plans before execution without interrupting every action.
 
-Interview after interview confirmed that the bottleneck isn't model capability—current models are "good enough" for many use cases. David at Qurrent stated explicitly:
+Interview after interview confirmed that the bottleneck isn't model capability—current models are "good enough" for many use cases. the practitioner at an AI agent orchestration company stated explicitly:
 
 > "The intelligence is really smart enough right. So so it doesn't doesn't need the model to be much better to make this work in enterprise. So the real sticking point is system integration which has to do with all this you know system that doesn't have never talked to each other."
 
-The real challenges are architectural: managing non-deterministic behavior, building user trust, ensuring security, and providing observability for debugging. This aligns with what the Manus co-founder revealed:
+The real challenges are architectural: managing non-deterministic behavior, building user trust, ensuring security, and providing observability for debugging. This aligns with what the an AI autonomous agent company co-founder revealed:
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important, you know, than the model itself."
 

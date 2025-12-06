@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "title": "The Framework Paradox: Why 80-90% of Teams Abandon LangChain for Production",
+      "title": "The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework for Production",
       "filename": "2025-12-framework-abandonment.mdx",
       "status": "ready",
       "type": "theme",
@@ -122,48 +122,48 @@
     },
     {
       "id": 14,
-      "title": "Autonomy's Take: Managing Expectations with Probabilistic Systems",
-      "filename": "2025-12-autonomy-interview.mdx",
+      "title": "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems",
+      "filename": "2025-12-practitioner-interview-2.mdx",
       "status": "ready",
       "type": "interview",
       "wordCount": 2400,
-      "linkedInPost": "15-autonomy-interview.md"
+      "linkedInPost": "15-practitioner-interview-2.md"
     },
     {
       "id": 15,
-      "title": "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production",
-      "filename": "2025-12-qurrent-interview.mdx",
+      "title": "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production",
+      "filename": "2025-12-practitioner-interview-1.mdx",
       "status": "ready",
       "type": "interview",
       "wordCount": 2400,
-      "linkedInPost": "14-qurrent-interview.md"
+      "linkedInPost": "14-practitioner-interview-1.md"
     },
     {
       "id": 16,
-      "title": "How Okta is Solving AI Agent Identity: The Next SSO Moment",
-      "filename": "2025-12-okta-interview.mdx",
+      "title": "How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment",
+      "filename": "2025-12-practitioner-interview-3.mdx",
       "status": "ready",
       "type": "interview",
       "wordCount": 2400,
-      "linkedInPost": "16-okta-interview.md"
+      "linkedInPost": "16-practitioner-interview-3.md"
     },
     {
       "id": 17,
-      "title": "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat",
-      "filename": "2025-12-crewai-interview.mdx",
+      "title": "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat",
+      "filename": "2025-12-practitioner-interview-4.mdx",
       "status": "ready",
       "type": "interview",
       "wordCount": 2400,
-      "linkedInPost": "17-crewai-interview.md"
+      "linkedInPost": "17-practitioner-interview-4.md"
     },
     {
       "id": 18,
-      "title": "Sybill's Approach: Building AI Sales Agents That Actually Work",
-      "filename": "2025-12-sybill-interview.mdx",
+      "title": "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work",
+      "filename": "2025-12-practitioner-interview-5.mdx",
       "status": "ready",
       "type": "interview",
       "wordCount": 2000,
-      "linkedInPost": "18-sybill-interview.md"
+      "linkedInPost": "18-practitioner-interview-5.md"
     },
     {
       "id": 19,
@@ -194,12 +194,12 @@
     },
     {
       "id": 22,
-      "title": "Manus Fireside: The 30-40% Model Revelation That Changed Everything",
-      "filename": "2025-12-manus-fireside.mdx",
+      "title": "an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything",
+      "filename": "2025-12-autonomous-agent-fireside.mdx",
       "status": "ready",
       "type": "conference",
       "wordCount": 2000,
-      "linkedInPost": "22-manus-fireside.md"
+      "linkedInPost": "22-autonomous-agent-fireside.md"
     },
     {
       "id": 23,

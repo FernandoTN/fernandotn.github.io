@@ -41,7 +41,7 @@ How are you currently testing your AI agent systems?
 **Hook**: Testing strategy challenge - "fundamentally wrong"
 **Key Data Points Used**:
 
-- "Pointless" end-to-end evaluation (Mehak/Sybill)
+- "Pointless" end-to-end evaluation (the AI lead/an AI sales intelligence company)
 - 5-step pipeline math: 90%^5 = 59% end-to-end accuracy
 - Retrieval-first evaluation philosophy
 - LLM-as-judge limitations
@@ -57,4 +57,4 @@ How are you currently testing your AI agent systems?
 - Post timing recommendation: 9-11am PST on Tuesday-Thursday
 - Consider adding cover image from blog post for higher engagement
 - Respond to comments within first 60 minutes for algorithm boost
-- Source attribution: Mehak at Sybill (with permission as per Publication 12 guidelines)
+- Source attribution: the AI lead at an AI sales intelligence company (with permission as per Publication 12 guidelines)

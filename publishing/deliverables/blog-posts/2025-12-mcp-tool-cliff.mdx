@@ -14,7 +14,7 @@ MCP was supposed to be the USB for AI agents. Anthropic's Model Context Protocol
 
 During a research project spanning 36 expert interviews, 5 industry conferences, and 3 functional prototypes, a consistent pattern emerged. While MCP received enthusiastic coverage in developer communities and tech publications, practitioners building production AI agents told a starkly different story. The disconnect between marketing narratives and deployment reality became impossible to ignore.
 
-CC Fan, CEO and Co-founder of Vivgrid, provided the most quantified articulation of the problem. Vivgrid builds enterprise agent infrastructure and has extensive experience deploying agents at scale. When asked about MCP's viability for enterprise scenarios, the response was unambiguous: the protocol breaks down at precisely the scale where enterprises need it most.
+CC Fan, CEO and Co-founder of an AI infrastructure company, provided the most quantified articulation of the problem. an AI infrastructure company builds enterprise agent infrastructure and has extensive experience deploying agents at scale. When asked about MCP's viability for enterprise scenarios, the response was unambiguous: the protocol breaks down at precisely the scale where enterprises need it most.
 
 This finding did not emerge in isolation. Across multiple interviews and conferences, practitioners expressed skepticism about MCP's production readiness. The pattern was clear: MCP works adequately for simple applications with a handful of tools, but the promise of universal integration collides with harsh reality once tool counts approach enterprise requirements.
 
@@ -25,7 +25,7 @@ The core finding is both specific and alarming: MCP accuracy degrades catastroph
 ### The 25-Tool Threshold
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
-> — CC Fan, CEO/Co-founder, Vivgrid
+> — CC Fan, CEO/Co-founder, an AI infrastructure company
 
 Consider what 30 percent accuracy means in practice. For every ten tool selections your agent attempts, seven will be incorrect. In an enterprise context where an agent needs to coordinate between Salesforce, SAP, a ticketing system, email, calendar, document management, and a dozen internal APIs, this accuracy rate renders the system unusable. The agent becomes more likely to make mistakes than to complete tasks correctly.
 
@@ -40,21 +40,21 @@ The accuracy cliff does not emerge from a single cause. It results from compound
 The Production Agents Summit articulated a critical constraint that illuminates why this matters:
 
 > "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes. This is true for an agent you develop for your software. It's also true for things like cursor."
-> — Speaker B (Rel), Production Agents Summit
+> — a conference speaker, Production Agents Summit
 
 With verbose tool definitions consuming substantial context, multi-step agent conversations quickly violate this 40 percent rule. Each turn accumulates more context, each tool call adds output, and the agent's reasoning quality degrades as the window fills.
 
 **Decision Paralysis from Tool Abundance**: More tools do not simply add context overhead; they fundamentally degrade decision quality. When an agent must choose among 40 possible actions, the probability of selecting the optimal tool decreases while the probability of hallucinating incorrect tool calls increases. CC Fan drew an illuminating historical parallel:
 
 > "We have to put all of our business logics into the client code. So client will be very, very complicated... Compared this concept like 20 years ago in the Windows time desktop application we always discussed should we build a fat application or thin application."
-> — CC Fan, Vivgrid
+> — CC Fan, an AI infrastructure company
 
 MCP creates what CC Fan calls a "fat client" architecture, where the agent must internalize and reason about all possible operations. This mirrors the fat client versus thin client debates from the Windows desktop era, except now the complexity is measured in LLM decision quality rather than application performance. The industry learned two decades ago that pushing too much logic to clients creates unmaintainable systems. MCP risks repeating that architectural mistake.
 
 **The Specificity Gap**: Beyond technical limitations, MCP suffers from a fundamental design tension. Generic MCP servers expose many operations without encoding domain-specific knowledge about when each operation matters.
 
 > "There was a lot of talk around MCP kind of solving for everybody. We quickly learned that it didn't work out of the box for us... the MCPs that either companies are putting up themselves or frankly at the time there was a lot of like open source third party MCP servers... they had way too much like way too many operations specified. There is no specificity."
-> — Saurav, RunLLM
+> — a practitioner, an AI observability company
 
 A generic Salesforce MCP server might expose hundreds of operations. But for a specific workflow like updating lead status after qualification, only a handful of those operations are relevant. The agent must reason through the entire operation space to select the correct subset, wasting both tokens and decision capacity. This specificity gap means that even well-implemented MCP servers often hinder rather than help agent performance.
 
@@ -65,10 +65,10 @@ The skepticism about MCP's production viability extended beyond individual inter
 > "MCP just creates new problems. Too much context cost, the accuracy drops a lot and the round trips a lot goes up. And with a lot of tokens our cost goes up."
 > — Speaker at Why 95% Fail Conference
 
-Tushar from CodeForge offered a practitioner perspective on how MCP affects agent behavior:
+a developer from an AI coding company offered a practitioner perspective on how MCP affects agent behavior:
 
 > "MCP's sort of abstracted out that whole idea of tool calling... And it works, but it doesn't work that well. In fact, it sort of confuses the agent a lot of times than really helping."
-> — Tushar, CodeForge
+> — a developer, an AI coding company
 
 The convergence across these sources reveals a significant gap between MCP's marketing position and its production reality. While MCP may represent important progress toward standardization, current implementations fall short of enterprise requirements.
 
@@ -81,7 +81,7 @@ Successful production teams have developed several strategies to work within MCP
 Rather than exposing all tools simultaneously, advanced teams use small language models (SLMs) to pre-filter which tools should be loaded for each task. CC Fan described the approach:
 
 > "I think about 50. Okay, 50 is okay. And you have to record the user usage and the all the usage logs because you have to fine tune by RM returns the two call response..."
-> — CC Fan, Vivgrid
+> — CC Fan, an AI infrastructure company
 
 The process involves fine-tuning a small model with approximately 50 examples to learn which tool subsets are relevant for different task types. Before invoking the main LLM, this routing model selects a limited tool palette. This approach keeps active tool count below the accuracy threshold while maintaining access to a broader tool ecosystem.
 
@@ -111,11 +111,11 @@ The MCP accuracy cliff carries implications that extend beyond technical archite
 
 **For Enterprises Evaluating Agent Solutions**: Treat vendor claims about MCP integration with appropriate skepticism. Ask specific questions about tool count limits and accuracy benchmarks. If a vendor cannot articulate how their system maintains performance beyond 25 tools, their enterprise offering may not be as mature as marketing suggests.
 
-**For the Ecosystem**: Integration remains the primary enterprise blocker for AI agents. David from Qurrent noted that 40 to 50 percent of deployment time goes to system integration rather than AI work. MCP was supposed to reduce this friction. Instead, current limitations mean enterprises must still invest heavily in custom integration layers.
+**For the Ecosystem**: Integration remains the primary enterprise blocker for AI agents. the practitioner from an AI agent orchestration company noted that 40 to 50 percent of deployment time goes to system integration rather than AI work. MCP was supposed to reduce this friction. Instead, current limitations mean enterprises must still invest heavily in custom integration layers.
 
-**For Investment Theses**: Favor companies that treat integration complexity as a competitive moat rather than expecting standardization to solve the problem. As Joao from CrewAI observed, enterprise topology complexity creates defensibility that cannot be solved by throwing money at the problem. The 25-tool cliff reinforces this view: standardization alone will not bridge the gap between agent capability and enterprise requirements.
+**For Investment Theses**: Favor companies that treat integration complexity as a competitive moat rather than expecting standardization to solve the problem. As the co-founder from a multi-agent framework company observed, enterprise topology complexity creates defensibility that cannot be solved by throwing money at the problem. The 25-tool cliff reinforces this view: standardization alone will not bridge the gap between agent capability and enterprise requirements.
 
-Standards mature through production feedback, not vendor announcements. MCP will likely improve, and extensions like Okta's Cross App Access work suggest the ecosystem is evolving toward enterprise requirements. But current adoption should account for an 18-24 month maturation timeline before MCP can reliably support enterprise-scale deployments.
+Standards mature through production feedback, not vendor announcements. MCP will likely improve, and extensions like a major enterprise identity company's Cross App Access work suggest the ecosystem is evolving toward enterprise requirements. But current adoption should account for an 18-24 month maturation timeline before MCP can reliably support enterprise-scale deployments.
 
 ## What You Can Do
 

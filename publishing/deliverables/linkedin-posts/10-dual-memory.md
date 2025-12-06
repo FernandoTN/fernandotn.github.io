@@ -44,8 +44,8 @@ How do you handle memory architecture in your AI systems? Have you separated use
 **Hook**: Conflation pattern interrupt - solving two problems as one
 **Key Data Points Used**:
 
-- User vs Agent memory distinction (Saurav/RunLLM)
-- PII governance challenges (CC/Vivgrid)
+- User vs Agent memory distinction (a practitioner/an AI observability company)
+- PII governance challenges (CC/an AI infrastructure company)
 - 40% context utilization rule (Production Agents Summit)
 
 **Engagement Prompt**: Experience-based question about memory architecture approaches

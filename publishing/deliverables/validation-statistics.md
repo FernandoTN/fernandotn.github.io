@@ -55,11 +55,11 @@
 
 ### 3. framework-abandonment.mdx
 
-| Statistic Used                         | Reference Value | Blog Value  | Match |
-| -------------------------------------- | --------------- | ----------- | ----- |
-| Framework abandonment rate             | 80-90%          | 80-90%      | YES   |
-| Model contribution                     | 30-40%          | 30-40%      | YES   |
-| Performance gain (custom vs LangChain) | 3-4x faster     | 3-4x faster | YES   |
+| Statistic Used                                            | Reference Value | Blog Value  | Match |
+| --------------------------------------------------------- | --------------- | ----------- | ----- |
+| Framework abandonment rate                                | 80-90%          | 80-90%      | YES   |
+| Model contribution                                        | 30-40%          | 30-40%      | YES   |
+| Performance gain (custom vs a popular AI agent framework) | 3-4x faster     | 3-4x faster | YES   |
 
 **Result:** 3/3 statistics accurate
 
@@ -110,12 +110,12 @@
 
 All key statistics in the sampled blog posts match the reference values from ProcessRecap.md exactly:
 
-1. **30-40% model contribution** - Consistently cited across all relevant posts with attribution to Manus Fireside
-2. **40-50% deployment time on integration** - Accurately quoted with David (Qurrent) attribution
+1. **30-40% model contribution** - Consistently cited across all relevant posts with attribution to an AI autonomous agent company Fireside
+2. **40-50% deployment time on integration** - Accurately quoted with an enterprise AI deployment expert attribution
 3. **80-90% framework abandonment rate** - Correctly cited with Cynthia (Wise Agents) attribution
 4. **90% enterprise pilot failure rate** - Accurately referenced with proper source
 5. **40% context window utilization rule** - Correctly cited from Production Agents Summit
-6. **25-tool MCP accuracy threshold** - Accurately described with CC Fan (Vivgrid) attribution
+6. **25-tool MCP accuracy threshold** - Accurately described with a practitioner at an AI infrastructure company attribution
 7. **92% system integration mentions** - Correctly derived from theme frequency analysis (24/26 sources)
 
 ### Attribution Quality

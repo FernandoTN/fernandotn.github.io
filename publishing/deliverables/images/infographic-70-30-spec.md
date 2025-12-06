@@ -75,7 +75,7 @@ A vertical stacked block visualization that shows:
 - Clear visual hierarchy (foundation larger than top)
 - Subtle architectural/engineering visual cues (blueprint lines, grid pattern)
 
-### Quote Callout (from Manus Fireside Conference)
+### Quote Callout (from an AI autonomous agent company Fireside Conference)
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important than the model itself."
 

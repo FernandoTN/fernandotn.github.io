@@ -1,8 +1,15 @@
 ---
 title: 'Building a Shopping Agent: Framework Bloat in Action'
-summary: 'When we built an AI shopping assistant under deadline pressure, our framework choice became a liability. This is the story of switching from LangGraph to LangChain mid-development and what it taught us about framework selection for production agents.'
+summary: 'When we built an AI shopping assistant under deadline pressure, our framework choice became a liability. This is the story of switching from LangGraph to a popular AI agent framework mid-development and what it taught us about framework selection for production agents.'
 publishedAt: '2025-12-19'
-tags: ['AI Agents', 'LangGraph', 'LangChain', 'Prototyping', 'E-commerce']
+tags:
+  [
+    'AI Agents',
+    'LangGraph',
+    'a popular AI agent framework',
+    'Prototyping',
+    'E-commerce',
+  ]
 featured: false
 author: 'Fernando Torres'
 image: '/images/blog/shopping-agent-cover.png'
@@ -18,7 +25,7 @@ During SF Tech Week 2024, we set out to build a shopping agent that could search
 
 We chose LangGraph for several reasonable-sounding reasons. The framework offered explicit state management through its graph-based architecture, which seemed perfect for tracking shopping cart state, user preferences, and multi-step purchase flows. Its documented patterns for complex agent workflows aligned with our multi-platform coordination requirements. The growing ecosystem and community support promised solutions to common problems.
 
-Our research had already revealed concerning patterns about framework adoption and abandonment. Multiple interview subjects had described starting with LangChain-family tools and eventually building custom solutions. We acknowledged this pattern but believed our use case was different. We were building a prototype, not a production system. Surely the framework overhead that plagued production deployments would not affect a demonstration project. We would learn otherwise.
+Our research had already revealed concerning patterns about framework adoption and abandonment. Multiple interview subjects had described starting with a popular AI agent framework-family tools and eventually building custom solutions. We acknowledged this pattern but believed our use case was different. We were building a prototype, not a production system. Surely the framework overhead that plagued production deployments would not affect a demonstration project. We would learn otherwise.
 
 ## What We Found
 
@@ -36,7 +43,7 @@ But as we began implementing the actual logic, something became clear: we were s
 
 Each customization required understanding multiple layers of framework internals. Simple changes, like modifying how the agent handled out-of-stock products, required tracing through abstraction layers to find the right intervention point. Error messages pointed to framework code rather than our application logic, making debugging a process of elimination rather than direct investigation.
 
-> "During development, we initially implemented the agent using LangGraph but switched to LangChain due to extensive bloat and complexity."
+> "During development, we initially implemented the agent using LangGraph but switched to a popular AI agent framework due to extensive bloat and complexity."
 > -- Shopping Agent Development Documentation
 
 The breaking point came when we realized we were spending approximately 40% of our development time on framework-related issues rather than building features. This wasn't about LangGraph being inherently flawed. It was about the mismatch between framework complexity and project timeline. SF Tech Week gave us a hard deadline. We did not have time to become LangGraph experts. We needed to ship a working prototype.
@@ -47,12 +54,12 @@ The timeline pressure from SF Tech Week amplified these friction points. When yo
 
 The decision to switch frameworks mid-project was painful. We lost approximately two days of development time to refactoring. But the alternative, continuing to fight abstractions while deadline pressure mounted, was worse. The switch validated a core research finding: framework choices that seem neutral during initial development become consequential as requirements become specific.
 
-LangChain's simpler chain-based abstractions let us move faster. We traded some architectural elegance for development velocity. The resulting code was not as pure from a graph-theory perspective, but it worked. What became easier after the switch was exactly what we needed: straightforward tool calling, simpler state management, and more transparent debugging.
+a popular AI agent framework's simpler chain-based abstractions let us move faster. We traded some architectural elegance for development velocity. The resulting code was not as pure from a graph-theory perspective, but it worked. What became easier after the switch was exactly what we needed: straightforward tool calling, simpler state management, and more transparent debugging.
 
 The experience matched what our interview subjects had described:
 
-> "Every company we've talked to, they stop. They started with LangChain as a framework to build AI agents. But once they start going into customers and into production, they realize, like, oh, no. It's full of bloat. Like, it has a lot of unnecessary things. They end up ditching the solution, and they build their own. This has been, like, 80, 90% of the clients we've talked to."
-> -- Cynthia, WiseAgents
+> "Every company we've talked to, they stop. They started with a popular AI agent framework as a framework to build AI agents. But once they start going into customers and into production, they realize, like, oh, no. It's full of bloat. Like, it has a lot of unnecessary things. They end up ditching the solution, and they build their own. This has been, like, 80, 90% of the clients we've talked to."
+> -- Cynthia, a consulting firm
 
 ### The Multi-Platform Integration Reality
 
@@ -63,7 +70,7 @@ This polyglot reality forced us into a multi-language architecture combining Pyt
 We mocked the Model Context Protocol rather than implementing full MCP integration. This decision reflected what we had heard from practitioners about MCP's current maturity level:
 
 > "There was a lot of talk around MCP kind of solving for everybody. We quickly learned that it didn't work out of the box for us. The MCP ecosystem was very immature at the time."
-> -- Saurav, RunLLM
+> -- a practitioner, an AI observability company
 
 Mocking MCP allowed us to explore the protocol's interaction patterns without blocking on ecosystem immaturity. This turned out to be a pattern we saw repeatedly in production systems: abstract the interface, implement concrete integrations, and wait for standards to mature rather than betting on early adoption.
 
@@ -71,15 +78,15 @@ Mocking MCP allowed us to explore the protocol's interaction patterns without bl
 
 Our experience was not unique. It precisely matched the 80-90% framework abandonment pattern we documented across interview subjects.
 
-> "I think they're really bad. My opinion. But there's a couple, some very obvious gaps there between context management and all of that. They're very generic solutions. So what we have done is built our own framework on top of the OpenAI SDK. And we are like, three to four times faster than LangChain."
-> -- Sahil, Clientell
+> "I think they're really bad. My opinion. But there's a couple, some very obvious gaps there between context management and all of that. They're very generic solutions. So what we have done is built our own framework on top of the OpenAI SDK. And we are like, three to four times faster than a popular AI agent framework."
+> -- a practitioner, a CRM AI company
 
-The three to four times performance difference that Sahil measured aligns with what we observed qualitatively. Framework overhead accumulates across every interaction, every state transition, every tool call. For a shopping agent processing search queries, comparisons, and checkout flows, this overhead translates directly to latency and cost.
+The three to four times performance difference that a practitioner measured aligns with what we observed qualitatively. Framework overhead accumulates across every interaction, every state transition, every tool call. For a shopping agent processing search queries, comparisons, and checkout flows, this overhead translates directly to latency and cost.
 
-The Manus fireside conference provided quantitative framing for these observations:
+The an AI autonomous agent company fireside conference provided quantitative framing for these observations:
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important, you know, than the model itself."
-> -- Manus Fireside Conference
+> -- an AI autonomous agent company Fireside Conference
 
 If models contribute only 30-40% to agent success, then framework and architecture choices determine the remaining 60-70%. Our shopping agent experience illustrated this ratio concretely. The LLM capabilities, choosing products, understanding queries, generating recommendations, worked comparably regardless of framework. The orchestration architecture, managing state, handling failures, coordinating tools, determined whether the overall system functioned acceptably.
 
@@ -88,7 +95,7 @@ If models contribute only 30-40% to agent success, then framework and architectu
 The shopping agent validated findings about system integration consuming substantial deployment effort. Multiple interview subjects had described integration work dominating their timelines:
 
 > "40-50% of deployment time is spent on integration, not AI work."
-> -- David, Qurrent
+> -- the practitioner, an AI agent orchestration company
 
 Our experience confirmed this ratio. The multi-platform connector development, API authentication, response parsing, and error handling consumed more engineering time than the core agent logic. The integration complexity was not incidental to the project. It was the project.
 
@@ -108,7 +115,7 @@ The shopping agent's five-phase development roadmap also illustrates the gap bet
 
 Based on our shopping agent experience and broader research findings, here are actionable recommendations for teams building AI agents:
 
-- **Start with throwaway prototypes**: Use frameworks like LangGraph or LangChain for rapid concept validation, but plan to rebuild for production. The hours saved during prototyping are worth the clarity about what custom development will require.
+- **Start with throwaway prototypes**: Use frameworks like LangGraph or a popular AI agent framework for rapid concept validation, but plan to rebuild for production. The hours saved during prototyping are worth the clarity about what custom development will require.
 
 - **Set a framework fight budget**: If you are spending more than 25-30% of development time on framework issues, consider switching early rather than late. Sunk cost fallacy does not ship products.
 
@@ -122,7 +129,7 @@ Based on our shopping agent experience and broader research findings, here are a
 
 ## The Bottom Line
 
-The shopping agent taught us that framework choice is a bet on your constraints. Under unlimited time, LangGraph's abstractions might have paid off. Under SF Tech Week's deadline, they were a liability. The real lesson is not that LangChain beats LangGraph, but that pragmatism beats ideology when you need to ship.
+The shopping agent taught us that framework choice is a bet on your constraints. Under unlimited time, LangGraph's abstractions might have paid off. Under SF Tech Week's deadline, they were a liability. The real lesson is not that a popular AI agent framework beats LangGraph, but that pragmatism beats ideology when you need to ship.
 
 Framework bloat is not theoretical skepticism from production veterans. It is a lived experience that emerges predictably when abstractions optimized for demos encounter requirements specific to real systems. The 80-90% framework abandonment rate reflects genuine structural mismatches, not developer fickleness or framework quality deficits.
 

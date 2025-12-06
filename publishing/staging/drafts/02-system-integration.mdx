@@ -26,14 +26,14 @@ This is the story of why the hardest part of building AI agents has nothing to d
 The conventional wisdom about AI agent development focuses on the intelligence layer: training, prompting, and fine-tuning. But practitioners tell a different story.
 
 > "A lot of the time, so a lot of people think oh AI has to be like 7, 80%, 90% is about prompt engineering and about training the AI workforce, actual coding, about where to call API to get intelligence. So that's only around 40% of the work. 40 to 50% of the world, max. The rest of the time I spent on system integration."
-> -- David (Qurrent)
+> -- an enterprise AI deployment expert
 
 This revelation reshapes how we should think about AI agent projects. If integration consumes half of deployment effort, then the most important decisions are not about which model to use or how to structure prompts. They are about how to connect disparate systems that were never designed to work together.
 
 The challenge runs deeper than many anticipate. Enterprise environments are not clean, unified platforms. They are decades of accumulated technology decisions, acquisitions, and workarounds layered on top of each other.
 
 > "The intelligence is really smart enough right. So so it doesn't doesn't need the model to be much better to make this work in enterprise. So the real sticking point is system integration which has to do with all this you know system that doesn't have never talked to each other. SAP and Salesforce has never talked to each other."
-> -- David (Qurrent)
+> -- an enterprise AI deployment expert
 
 This is the heterogeneous stack problem. Large enterprises do not operate on unified platforms. They run on SAP for ERP, Salesforce for CRM, custom core banking systems, legacy ticketing platforms, and acquired company tech stacks that have never been properly integrated. AI agents must navigate all of these simultaneously.
 
@@ -44,7 +44,7 @@ The result is that teams building production AI agents spend more time on connec
 When Anthropic introduced the Model Context Protocol (MCP), many hoped it would solve the integration challenge. MCP promised to be the "USB for AI agents": a standardized way for agents to connect to any data source or tool. The reality has proven more complicated.
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
-> -- CC Fan (Vivgrid)
+> -- a practitioner at an AI infrastructure company
 
 This 25-tool threshold represents a critical limit that is rarely discussed. As agents gain access to more capabilities through MCP, their ability to use any of those capabilities correctly degrades rapidly. At 30% accuracy, the agent becomes effectively unusable for any production workload.
 
@@ -58,29 +58,29 @@ Conference speakers at the "Why 95% Fail" event echoed these concerns:
 MCP also suffers from a specificity problem. Generic MCP servers expose too many operations without use-case context. They provide the grammar of integration without the intelligence of knowing which operations matter when.
 
 > "There was a lot of talk around MCP kind of solving for everybody. We quickly learned that it didn't work out of the box for us. A, there were just deployment challenges. Like the MCP ecosystem was very immature at the time. And then also the MCPs that either companies are putting up themselves or frankly at the time there was a lot of like open source third party MCP servers... they had way too much like way too many operations specified. There is no specificity."
-> -- Saurav (RunLLM)
+> -- a practitioner at an AI observability company
 
-This does not mean MCP will not eventually succeed. Enterprise-grade extensions are emerging, including Okta's Cross App Access extension for identity management. But the current state requires custom wrappers around MCP servers for any serious deployment. Teams should plan for a 12-18 month maturation period before relying on MCP for production critical paths.
+This does not mean MCP will not eventually succeed. Enterprise-grade extensions are emerging, including a major enterprise identity company's Cross App Access extension for identity management. But the current state requires custom wrappers around MCP servers for any serious deployment. Teams should plan for a 12-18 month maturation period before relying on MCP for production critical paths.
 
 ## Custom Integration as Competitive Moat
 
 If standardized protocols struggle with enterprise complexity, what works? Our research reveals a counterintuitive answer: the most successful agent deployments treat integration difficulty as a feature, not a bug.
 
-Consider the perspective from CrewAI, working with Fortune 500 clients:
+Consider the perspective from a multi-agent framework company, working with Fortune 500 clients:
 
 > "The hardest part of agent deployment isn't the AI itself but navigating 40-country presence, 100,000+ employees, multiple acquired companies with different tech stacks (HubSpot vs. Salesforce), and varied legislation. This operational knowledge creates defensibility that can't be solved by throwing money at the problem."
-> -- Joao (CrewAI)
+> -- a co-founder at a multi-agent framework company
 
 This framing inverts the common narrative. Integration complexity is not a problem to be solved by better standards. It is an opportunity to build competitive advantage. Companies that develop deep expertise in navigating specific enterprise topologies create moats that generic platforms cannot cross.
 
-The numbers make this clear. Consider the multi-dimensional complexity CrewAI navigates: forty countries with different labor laws, over one hundred thousand employees, multiple acquired companies running different CRM systems, and varied legislative requirements. Each variable multiplies the integration challenge. A competitor would need to rebuild this institutional knowledge from scratch.
+The numbers make this clear. Consider the multi-dimensional complexity a multi-agent framework company navigates: forty countries with different labor laws, over one hundred thousand employees, multiple acquired companies running different CRM systems, and varied legislative requirements. Each variable multiplies the integration challenge. A competitor would need to rebuild this institutional knowledge from scratch.
 
-The pattern extends to technical frameworks. Our research found that 80-90% of production teams abandon generic frameworks like LangChain in favor of custom solutions. The teams that succeed build proprietary integration layers that encode domain-specific knowledge about which operations matter, which edge cases exist, and how to handle the exceptions that generic tools miss.
+The pattern extends to technical frameworks. Our research found that 80-90% of production teams abandon generic frameworks like a popular AI agent framework in favor of custom solutions. The teams that succeed build proprietary integration layers that encode domain-specific knowledge about which operations matter, which edge cases exist, and how to handle the exceptions that generic tools miss.
 
-> "I think they're really bad. My opinion. But there's a couple, some very obvious gaps there between context management and all of that. They're very generic solutions. So what we have done is built our own framework on top of the Open SDK. And we are like, three to four times faster than LangChain."
-> -- Sahil (Clientell)
+> "I think they're really bad. My opinion. But there's a couple, some very obvious gaps there between context management and all of that. They're very generic solutions. So what we have done is built our own framework on top of the Open SDK. And we are like, three to four times faster than a popular AI agent framework."
+> -- a practitioner at a CRM AI company
 
-Custom frameworks deliver measurable performance advantages. Clientell reported building their own framework on top of foundation model SDKs that runs 3-4x faster than LangChain equivalents. When every API call costs money and latency impacts user experience, these differences compound into significant competitive edges.
+Custom frameworks deliver measurable performance advantages. a CRM AI company reported building their own framework on top of foundation model SDKs that runs 3-4x faster than a popular AI agent framework equivalents. When every API call costs money and latency impacts user experience, these differences compound into significant competitive edges.
 
 The lesson here is strategic, not just technical. Investment in deep integration expertise creates lasting value. Horizontal integration platforms face commoditization risk as protocols mature. But vertical-specific integration knowledge, the understanding of exactly how SAP talks to Salesforce in the pharmaceutical industry or how core banking systems integrate with CRM in financial services, creates barriers that cannot be replicated with better technology alone.
 
@@ -98,7 +98,7 @@ Across all three prototypes, a consistent pattern emerged: integration proved ha
 
 The dominance of integration challenges reshapes how we should evaluate AI agent opportunities. The implications ripple across technology strategy, hiring decisions, competitive positioning, and investment theses.
 
-First, it explains the 90% pilot failure rate that David (Qurrent) reported. Pilots typically demonstrate agent intelligence in controlled environments with clean data and pre-configured integrations. Production deployments must work across messy, heterogeneous enterprise systems. This gap is not about AI capability but about integration readiness. When ninety percent of pilots fail to reach production, integration is almost always the reason.
+First, it explains the 90% pilot failure rate that an enterprise AI deployment expert reported. Pilots typically demonstrate agent intelligence in controlled environments with clean data and pre-configured integrations. Production deployments must work across messy, heterogeneous enterprise systems. This gap is not about AI capability but about integration readiness. When ninety percent of pilots fail to reach production, integration is almost always the reason.
 
 Second, it suggests that the most valuable AI agent companies may look more like integration consultancies than technology vendors. The ability to navigate specific enterprise topologies, understand legacy system quirks, and build reliable connectors may matter more than model selection or prompt engineering sophistication. Traditional software metrics like lines of code or model parameters miss the point entirely.
 

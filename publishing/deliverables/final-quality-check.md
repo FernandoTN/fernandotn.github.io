@@ -71,11 +71,11 @@
 
 ### High Priority (Should Fix Before Deployment)
 
-| #   | Issue                           | File(s)                                                     | Action Required                                                                                   |
-| --- | ------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 3   | Interview permissions pending   | 5 interview posts (Qurrent, Okta, CrewAI, Sybill, Autonomy) | Obtain explicit permission from interview subjects                                                |
-| 4   | Attribution error               | `2025-12-ai-agents-research-overview.mdx`                   | Fix framework abandonment quote attribution (currently attributed to Cynthia, spoken by Fernando) |
-| 5   | Anchor post below target length | `2025-12-ai-agents-research-overview.mdx`                   | Expand from 1,847 to 2,500+ words                                                                 |
+| #   | Issue                           | File(s)                                                                                                                                                                                     | Action Required                                                                                   |
+| --- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 3   | Interview permissions pending   | 5 interview posts (an AI agent orchestration company, a major enterprise identity company, a multi-agent framework company, an AI sales intelligence company, an AI infrastructure company) | Obtain explicit permission from interview subjects                                                |
+| 4   | Attribution error               | `2025-12-ai-agents-research-overview.mdx`                                                                                                                                                   | Fix framework abandonment quote attribution (currently attributed to Cynthia, spoken by Fernando) |
+| 5   | Anchor post below target length | `2025-12-ai-agents-research-overview.mdx`                                                                                                                                                   | Expand from 1,847 to 2,500+ words                                                                 |
 
 ### Medium Priority (Recommended Improvements)
 
@@ -141,7 +141,7 @@
    - Verify the anchor post slug matches the link target
 
 3. **Verify interview permissions**
-   - Contact David (Qurrent), Mrinal (Autonomy), Tian (Okta), Joao (CrewAI), Mehak (Sybill)
+   - Contact an enterprise AI deployment expert, a founder at an AI infrastructure company, an engineering leader at a major identity company, a co-founder at a multi-agent framework company, an AI lead at a sales intelligence company
    - Hold these 5 posts until permissions confirmed
 
 ### Before Week 1 Launch

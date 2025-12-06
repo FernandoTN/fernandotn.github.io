@@ -66,7 +66,7 @@
     },
     {
       "id": 4,
-      "title": "80-90% of Teams Abandon LangChain for Production - Here's Why",
+      "title": "80-90% of Teams Abandon a popular AI agent framework for Production - Here's Why",
       "category": "theme-deep-dive",
       "status": "not_started",
       "draft_date": null,
@@ -75,7 +75,12 @@
       "linkedin_posted": null,
       "url_slug": "langchain-abandonment-pattern",
       "featured": false,
-      "tags": ["AI Agents", "LangChain", "Frameworks", "Production"],
+      "tags": [
+        "AI Agents",
+        "a popular AI agent framework",
+        "Frameworks",
+        "Production"
+      ],
       "estimated_length": "2000-2400 words",
       "source_files": ["Aggregations/Theme_Framework_Tooling.md"]
     },
@@ -171,7 +176,7 @@
       "tags": ["AI Agents", "Memory", "Architecture", "RAG"],
       "estimated_length": "1600-2000 words",
       "source_files": [
-        "Extractions/Interviews/Saurav_RunLLM_extraction.md",
+        "Extractions/Interviews/a practitioner_an AI observability company_extraction.md",
         "Aggregations/Theme_Context_Management.md"
       ]
     },
@@ -189,7 +194,7 @@
       "tags": ["AI Agents", "MCP", "Integration", "Tools"],
       "estimated_length": "1800-2200 words",
       "source_files": [
-        "Extractions/Interviews/CC_Vivgrid_extraction.md",
+        "Extractions/Interviews/CC_an AI infrastructure company_extraction.md",
         "Aggregations/Theme_System_Integration.md"
       ]
     },
@@ -207,7 +212,7 @@
       "tags": ["AI Agents", "Evaluation", "Testing", "QA"],
       "estimated_length": "1600-2000 words",
       "source_files": [
-        "Extractions/Interviews/Mehak_Sybill_extraction.md",
+        "Extractions/Interviews/the AI lead_an AI sales intelligence company_extraction.md",
         "Aggregations/Evolution_Narrative.md"
       ]
     },
@@ -231,82 +236,116 @@
     },
     {
       "id": 14,
-      "title": "Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production",
+      "title": "Inside an AI agent orchestration company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production",
       "category": "practitioner-perspective",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "inside-qurrent-pilot-conversion",
+      "url_slug": "practitioner-interview-1-pilot-conversion",
       "featured": false,
-      "tags": ["AI Agents", "Enterprise", "Qurrent", "Case Study"],
+      "tags": [
+        "AI Agents",
+        "Enterprise",
+        "an AI agent orchestration company",
+        "Case Study"
+      ],
       "estimated_length": "1800-2200 words",
-      "source_files": ["Extractions/Interviews/David_Qurrent_extraction.md"],
+      "source_files": [
+        "Extractions/Interviews/the practitioner_an AI agent orchestration company_extraction.md"
+      ],
       "requires_permission": true
     },
     {
       "id": 15,
-      "title": "Autonomy's Take: Managing Expectations with Probabilistic Systems",
+      "title": "an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems",
       "category": "practitioner-perspective",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "autonomy-probabilistic-systems",
+      "url_slug": "practitioner-interview-2-probabilistic-systems",
       "featured": false,
-      "tags": ["AI Agents", "Autonomy", "Reliability", "Expectations"],
+      "tags": [
+        "AI Agents",
+        "an AI infrastructure company",
+        "Reliability",
+        "Expectations"
+      ],
       "estimated_length": "1600-2000 words",
-      "source_files": ["Extractions/Interviews/Mrinal_Autonomy_extraction.md"],
+      "source_files": [
+        "Extractions/Interviews/the founder_an AI infrastructure company_extraction.md"
+      ],
       "requires_permission": true
     },
     {
       "id": 16,
-      "title": "How Okta is Solving AI Agent Identity: The Next SSO Moment",
+      "title": "How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment",
       "category": "practitioner-perspective",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "okta-ai-agent-identity",
+      "url_slug": "practitioner-interview-3-ai-agent-identity",
       "featured": false,
-      "tags": ["AI Agents", "Okta", "Identity", "Security", "Enterprise"],
+      "tags": [
+        "AI Agents",
+        "a major enterprise identity company",
+        "Identity",
+        "Security",
+        "Enterprise"
+      ],
       "estimated_length": "1800-2200 words",
       "source_files": ["Extractions/Interviews/Anon.md"],
       "requires_permission": true
     },
     {
       "id": 17,
-      "title": "CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat",
+      "title": "a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat",
       "category": "practitioner-perspective",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "crewai-enterprise-topology",
+      "url_slug": "practitioner-interview-4-enterprise-topology",
       "featured": false,
-      "tags": ["AI Agents", "CrewAI", "Enterprise", "Integration"],
+      "tags": [
+        "AI Agents",
+        "a multi-agent framework company",
+        "Enterprise",
+        "Integration"
+      ],
       "estimated_length": "1600-2000 words",
-      "source_files": ["Extractions/Interviews/CrewAI_extraction.md"],
+      "source_files": [
+        "Extractions/Interviews/a multi-agent framework company_extraction.md"
+      ],
       "requires_permission": true
     },
     {
       "id": 18,
-      "title": "Sybill's Approach: Building AI Sales Agents That Actually Work",
+      "title": "an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work",
       "category": "practitioner-perspective",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "sybill-ai-sales-agents",
+      "url_slug": "practitioner-interview-5-ai-sales-agents",
       "featured": false,
-      "tags": ["AI Agents", "Sybill", "Sales", "Vertical AI"],
+      "tags": [
+        "AI Agents",
+        "an AI sales intelligence company",
+        "Sales",
+        "Vertical AI"
+      ],
       "estimated_length": "1600-2000 words",
-      "source_files": ["Extractions/Interviews/Mehak_Sybill_extraction.md"],
+      "source_files": [
+        "Extractions/Interviews/the AI lead_an AI sales intelligence company_extraction.md"
+      ],
       "requires_permission": true
     },
     {
@@ -320,7 +359,12 @@
       "linkedin_posted": null,
       "url_slug": "shopping-agent-framework-bloat",
       "featured": false,
-      "tags": ["AI Agents", "LangGraph", "LangChain", "Prototyping"],
+      "tags": [
+        "AI Agents",
+        "LangGraph",
+        "a popular AI agent framework",
+        "Prototyping"
+      ],
       "estimated_length": "2000-2400 words",
       "source_files": ["Extractions/Prototypes/Shopping_Agent_extraction.md"],
       "github_repo": "https://github.com/FernandoTN/Shopping_Agent"
@@ -359,19 +403,24 @@
     },
     {
       "id": 22,
-      "title": "Manus Fireside: The 30-40% Model Revelation That Changed Everything",
+      "title": "an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything",
       "category": "conference-insight",
       "status": "not_started",
       "draft_date": null,
       "review_date": null,
       "publish_date": null,
       "linkedin_posted": null,
-      "url_slug": "manus-fireside-model-revelation",
+      "url_slug": "autonomous-agent-fireside-model-revelation",
       "featured": false,
-      "tags": ["AI Agents", "Manus", "Conference", "Models"],
+      "tags": [
+        "AI Agents",
+        "an AI autonomous agent company",
+        "Conference",
+        "Models"
+      ],
       "estimated_length": "1600-2000 words",
       "source_files": [
-        "Extractions/Conferences/Manus_Fireside_extraction.md",
+        "Extractions/Conferences/an AI autonomous agent company_Fireside_extraction.md",
         "Aggregations/Evolution_Narrative.md"
       ]
     },

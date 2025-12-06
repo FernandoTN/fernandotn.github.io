@@ -53,13 +53,13 @@ For each source (interview, conference, or prototype), a dedicated sub-agent:
 
 Sub-agents were spawned in **batches of 5** for parallel processing:
 
-| Batch | Sources Processed                                                                 |
-| ----- | --------------------------------------------------------------------------------- |
-| 1     | David (Qurrent), Mrinal (Autonomy), Stephen (GMI), Sahil (Clientell), Yujian Tan  |
-| 2     | Tian (Okta), Tushar (CodeForge), Mehak (Sybill), Abhishek (Apna), Saurav (RunLLM) |
-| 3     | CC (Vivgrid), Cynthia (WiseAgents), ChatPRD, CrewAI, Roblox                       |
-| 4     | Zeena, VCatTheory, Project Nanda, Alibaba Qwen, Manus Fireside                    |
-| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents |
+| Batch | Sources Processed                                                                                                                                                                                                                |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | an enterprise AI deployment expert, a founder at an AI infrastructure company, Stephen (GMI), a practitioner at a CRM AI company, a practitioner                                                                                 |
+| 2     | an engineering leader at a major identity company, a developer at an AI coding company, an AI lead at a sales intelligence company, an engineering leader at a workforce platform, a practitioner at an AI observability company |
+| 3     | a practitioner at an AI infrastructure company, a consulting firm practitioner, ChatPRD, a multi-agent framework company, Roblox                                                                                                 |
+| 4     | Zeena, a VC investor, Project Nanda, Alibaba Qwen, an AI autonomous agent company Fireside                                                                                                                                       |
+| 5     | Production Agents Summit, Why 95% Fail, Shopping Agent, Repo Patcher, Good Agents                                                                                                                                                |
 
 ### Outputs
 
@@ -139,7 +139,7 @@ Theme: [Theme Name]
 3. `Theme_Probabilistic_Systems.md` — Evals, testing, demo vs production gap
 4. `Theme_Model_Capabilities.md` — Coding agents, generation vs analysis
 5. `Theme_Enterprise_Blockers.md` — Security, identity, pricing, HITL
-6. `Theme_Framework_Tooling.md` — LangChain, framework bloat, observability
+6. `Theme_Framework_Tooling.md` — a popular AI agent framework, framework bloat, observability
 
 ### Step 2.3: Evolution Narrative
 
@@ -336,28 +336,28 @@ Themes that were NOT in the initial hypothesis but emerged through extraction:
 /390/
 ├── Extractions/
 │   ├── Interviews/
-│   │   ├── David_Qurrent_extraction.md
-│   │   ├── Mrinal_Autonomy_extraction.md
+│   │   ├── the practitioner_an AI agent orchestration company_extraction.md
+│   │   ├── the founder_an AI infrastructure company_extraction.md
 │   │   ├── Stephen_GMI_extraction.md
-│   │   ├── Sahil_Clientell_extraction.md
+│   │   ├── a practitioner_a CRM AI company_extraction.md
 │   │   ├── Yujian_Tan_extraction.md
-│   │   ├── Tian_Okta_extraction.md
-│   │   ├── Tushar_CodeForge_extraction.md
-│   │   ├── Mehak_Sybill_extraction.md
-│   │   ├── Abhishek_Apna_extraction.md
-│   │   ├── Saurav_RunLLM_extraction.md
-│   │   ├── CC_Vivgrid_extraction.md
-│   │   ├── Cynthia_WiseAgents_extraction.md
+│   │   ├── the engineering leader_a major enterprise identity company_extraction.md
+│   │   ├── a developer_an AI coding company_extraction.md
+│   │   ├── the AI lead_an AI sales intelligence company_extraction.md
+│   │   ├── an engineering leader_a workforce platform_extraction.md
+│   │   ├── a practitioner_an AI observability company_extraction.md
+│   │   ├── CC_an AI infrastructure company_extraction.md
+│   │   ├── Cynthia_a consulting firm_extraction.md
 │   │   ├── ChatPRD_extraction.md
-│   │   ├── CrewAI_extraction.md
+│   │   ├── a multi-agent framework company_extraction.md
 │   │   ├── Roblox_extraction.md
 │   │   ├── Zeena_extraction.md
-│   │   ├── VCatTheory_extraction.md
+│   │   ├── a VC investor_extraction.md
 │   │   └── Confidential_Summary_extraction.md
 │   ├── Conferences/
 │   │   ├── Alibaba_Qwen_extraction.md
 │   │   ├── Project_Nanda_extraction.md
-│   │   ├── Manus_Fireside_extraction.md
+│   │   ├── an AI autonomous agent company_Fireside_extraction.md
 │   │   ├── Production_Agents_Summit_extraction.md
 │   │   └── Why_95_Percent_Fail_extraction.md
 │   └── Prototypes/

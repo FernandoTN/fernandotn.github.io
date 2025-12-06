@@ -23,15 +23,15 @@ Target: 2-3 punchy sentences that grab attention
 
 [OUTLINE - 2-3 sentences]
 
-- Open with the striking 90% pilot failure statistic (David/Qurrent)
+- Open with the striking 90% pilot failure statistic (the practitioner/an AI agent orchestration company)
 - Contrast: Demos impress, pilots proliferate, but production conversion hovers around 10%
 - Tease the counterintuitive finding: The bottleneck is not AI intelligence
 - Pattern interrupt: What if the problem was never about making models smarter?
 
 Key statistics to incorporate:
 
-- 90% of enterprise AI agent pilots never convert to production (David/Qurrent)
-- Demos work 70% of the time, which is enough to impress but systematically fails in production (Mrinal/Autonomy)
+- 90% of enterprise AI agent pilots never convert to production (the practitioner/an AI agent orchestration company)
+- Demos work 70% of the time, which is enough to impress but systematically fails in production (the founder/an AI infrastructure company)
 
 {/_ SECTION 2: RESEARCH METHODOLOGY
 36 interviews, 5 conferences, 3 prototypes
@@ -45,18 +45,18 @@ Target: 150-200 words establishing credibility
 ### Research Scope
 
 - **36 Expert Interviews**: Practitioners actively deploying agentic workflows
-  - Enterprise AI platform providers (Qurrent, Autonomy, RunLLM)
-  - Coding agent developers (CodeForge)
-  - Identity and security experts (Okta team member)
-  - Vertical SaaS companies (Sybill, Clientell, Apna)
-  - Framework companies (CrewAI, Wise Agents)
-  - Infrastructure providers (Vivgrid)
+  - Enterprise AI platform providers (an AI agent orchestration company, an AI infrastructure company, an AI observability company)
+  - Coding agent developers (an AI coding company)
+  - Identity and security experts (a major enterprise identity company team member)
+  - Vertical SaaS companies (an AI sales intelligence company, a CRM AI company, a workforce platform)
+  - Framework companies (a multi-agent framework company, Wise Agents)
+  - Infrastructure providers (an AI infrastructure company)
   - Foundation model companies (Anthropic)
 
 - **5 Industry Conferences**: Leading AI agent events (Sept-Nov 2024)
   - Alibaba Qwen Conference
   - Production Agents Summit at Snowflake
-  - Manus Fireside
+  - an AI autonomous agent company Fireside
   - Project Nanda
   - "Why 95% of Agentic AI Projects Fail"
 
@@ -80,7 +80,7 @@ Target: 300-400 words with supporting quotes
 Going into this research, I expected to hear that model capabilities were the primary bottleneck. The prevailing narrative suggested that if we could just make models smarter, more reliable, and more capable, production deployments would follow. I was wrong.
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important, you know, than the model itself."
-> — Manus Co-Founder, Manus Fireside
+> — an AI autonomous agent company Co-Founder, an AI autonomous agent company Fireside
 
 This revelation from one of the most successful AI agent companies in production fundamentally reoriented my research. The model is not the differentiator. Framework architecture, orchestration design, and system integration are what determine whether an agent succeeds or fails in production environments. The 60-70% that actually matters includes context engineering, integration layers, evaluation infrastructure, and the orchestration logic that coordinates model calls.
 
@@ -98,14 +98,14 @@ Target: 300-400 words with supporting quotes
 The most counterintuitive finding from this research emerged in my very first interview. I had prepared a comprehensive list of technical questions about prompt engineering, context management, and model capabilities. Within the first ten minutes, the conversation took an unexpected turn that reshaped my entire research framework.
 
 > "Most AI agent deployments fail due to undefined ROI calculations and lack of commercial mindset, not technical limitations."
-> — David, Qurrent
+> — the practitioner, an AI agent orchestration company
 
 This was not an outlier perspective. The same practitioner revealed that 90% of all enterprise AI agent pilots never convert to production. They stall, not because the technology fails, but because no one defined success criteria that mattered to the business. Pilots proliferate because demos are impressive and stakeholders get excited. But when procurement asks for projected ROI or when executives need to justify ongoing infrastructure costs, the conversation collapses.
 
 The pricing model confusion compounds this problem. Today, AI agent vendors offer seat-based pricing, token-based pricing, outcome-based pricing, and hybrid models, with no industry convergence in sight. Enterprises find themselves unable to model their usage or predict their costs. As one practitioner explained, they cannot calculate how many tokens a workflow will consume because agent behavior varies based on inputs, context, and the unpredictable nature of multi-step reasoning.
 
 > "All of these pricing changes or type of pricing schemes is confusing to large enterprises. They don't know how many tokens they're going to use. They can't model their usage, they can't model their outcome."
-> — Tian Lan, Okta
+> — an engineering leader at a major identity company, a major enterprise identity company
 
 Our theme frequency analysis confirmed this finding was not isolated. Business Case and ROI emerged as a top emergent theme with a perfect 5.0 relevance score across five sources. Enterprise Blockers and Governance appeared in 81% of all sources analyzed. The pattern was clear: before technical viability even becomes relevant, economic viability and organizational readiness must be established. The companies succeeding in production are those that defined their success metrics and ROI calculations before writing their first line of agent code.
 
@@ -116,12 +116,12 @@ Target: 300-400 words with supporting quotes
 
 ## Key Finding 3: The Framework Abandonment Pattern
 
-Perhaps no finding better captures the gap between industry narrative and production reality than the framework abandonment pattern. LangChain has achieved unicorn status with a billion-dollar valuation and massive developer adoption. It has become synonymous with AI agent development for many practitioners entering the space. Yet our research uncovered a striking counter-narrative from those actually shipping agents to production.
+Perhaps no finding better captures the gap between industry narrative and production reality than the framework abandonment pattern. a popular AI agent framework has achieved unicorn status with a billion-dollar valuation and massive developer adoption. It has become synonymous with AI agent development for many practitioners entering the space. Yet our research uncovered a striking counter-narrative from those actually shipping agents to production.
 
-> "Every company we've talked to started with LangChain as a framework to build AI agents. But once they start going into customers and into production, they realize it's full of bloat. Like, it has a lot of unnecessary things. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
+> "Every company we've talked to started with a popular AI agent framework as a framework to build AI agents. But once they start going into customers and into production, they realize it's full of bloat. Like, it has a lot of unnecessary things. They end up ditching that solution, and they build their own. This has been like 80, 90% of the clients we've talked to."
 > — Cynthia, Wise Agents
 
-The 80-90% abandonment rate is not about ideology or preferences. It reflects hard performance realities. Teams building custom frameworks report achieving 3-4x faster performance than LangChain implementations, according to Sahil from Clientell. The abstractions that accelerate prototyping become obstacles when latency, cost, and control matter at production scale.
+The 80-90% abandonment rate is not about ideology or preferences. It reflects hard performance realities. Teams building custom frameworks report achieving 3-4x faster performance than a popular AI agent framework implementations, according to a practitioner from a CRM AI company. The abstractions that accelerate prototyping become obstacles when latency, cost, and control matter at production scale.
 
 Our own prototype work validated this pattern firsthand. When building the Shopping Agent for e-commerce automation, we were forced to switch from LangGraph mid-development due to what our team documented as extensive bloat and complexity. The framework that promised to accelerate development instead became the primary source of friction. We experienced exactly what interview subjects had described.
 
@@ -173,7 +173,7 @@ After 36 interviews, 5 conferences, and 3 prototypes, the pattern is unmistakabl
 
 **Research Context**
 
-_This research was conducted as part of Stanford GSB GSBGEN 390 Individual Research during Autumn 2025. The study comprises 36 expert interviews with practitioners across enterprise AI platforms, coding agents, vertical SaaS, framework companies, and infrastructure providers; 5 industry conferences including the Production Agents Summit and Manus Fireside; and 3 functional prototypes built to validate interview findings. All statistics and quotes are traceable to source extractions._
+_This research was conducted as part of Stanford GSB GSBGEN 390 Individual Research during Autumn 2025. The study comprises 36 expert interviews with practitioners across enterprise AI platforms, coding agents, vertical SaaS, framework companies, and infrastructure providers; 5 industry conferences including the Production Agents Summit and an AI autonomous agent company Fireside; and 3 functional prototypes built to validate interview findings. All statistics and quotes are traceable to source extractions._
 
 ---
 

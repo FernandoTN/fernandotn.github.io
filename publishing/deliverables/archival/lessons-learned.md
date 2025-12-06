@@ -118,7 +118,7 @@
 
 ### 3. Interview Permission Verification
 
-**Issue:** 5 practitioner interview posts (Qurrent, Autonomy, Okta, CrewAI, Sybill) require explicit publication permission that was not pre-arranged
+**Issue:** 5 practitioner interview posts (an AI agent orchestration company, an AI infrastructure company, a major enterprise identity company, a multi-agent framework company, an AI sales intelligence company) require explicit publication permission that was not pre-arranged
 
 **Resolution:**
 

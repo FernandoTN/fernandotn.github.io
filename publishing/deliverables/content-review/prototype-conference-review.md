@@ -15,21 +15,21 @@ This document reviews the alignment between prototype publications (19-21) and c
 
 #### Key Points Alignment Check
 
-| Extraction Key Concept                                                       | Blog Post Coverage                                                                    | Status |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------ |
-| Framework Bloat and Complexity (LangGraph to LangChain switch)               | Extensively covered - central theme of the post with detailed narrative of the switch | OK     |
-| Framework Switching as Validation                                            | Explicitly states "validated interview findings about framework overhead"             | OK     |
-| Multi-Platform Tool Integration (Violet, eBay, Shopify, BigCommerce, Firmly) | All five platforms mentioned in the post                                              | OK     |
-| Tiered Fallback Strategies (API-first, deeplink, headless)                   | Three-tier approach detailed with explanation of graceful degradation                 | OK     |
-| Polyglot Architecture (Python + Node.js)                                     | Mentioned as "polyglot reality" and multi-language requirement                        | OK     |
-| Gap Between Abstraction and Control                                          | Discussed as mismatch between framework promises and production realities             | OK     |
-| MCP Protocol Simulation                                                      | Covered - mocking MCP rather than full implementation, cites Saurav/RunLLM quote      | OK     |
+| Extraction Key Concept                                                            | Blog Post Coverage                                                                                            | Status |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------ |
+| Framework Bloat and Complexity (LangGraph to a popular AI agent framework switch) | Extensively covered - central theme of the post with detailed narrative of the switch                         | OK     |
+| Framework Switching as Validation                                                 | Explicitly states "validated interview findings about framework overhead"                                     | OK     |
+| Multi-Platform Tool Integration (Violet, eBay, Shopify, BigCommerce, Firmly)      | All five platforms mentioned in the post                                                                      | OK     |
+| Tiered Fallback Strategies (API-first, deeplink, headless)                        | Three-tier approach detailed with explanation of graceful degradation                                         | OK     |
+| Polyglot Architecture (Python + Node.js)                                          | Mentioned as "polyglot reality" and multi-language requirement                                                | OK     |
+| Gap Between Abstraction and Control                                               | Discussed as mismatch between framework promises and production realities                                     | OK     |
+| MCP Protocol Simulation                                                           | Covered - mocking MCP rather than full implementation, cites a practitioner/an AI observability company quote | OK     |
 
 #### Critical Quotes Verification
 
-- "During development, we initially implemented the agent using LangGraph but switched to LangChain due to extensive bloat and complexity." - **Present in blog post**
-- 80-90% framework abandonment quote from WiseAgents interview - **Present in blog post**
-- MCP maturity quote from Saurav/RunLLM - **Present in blog post**
+- "During development, we initially implemented the agent using LangGraph but switched to a popular AI agent framework due to extensive bloat and complexity." - **Present in blog post**
+- 80-90% framework abandonment quote from a consulting firm interview - **Present in blog post**
+- MCP maturity quote from a practitioner/an AI observability company - **Present in blog post**
 
 #### Additional Content in Blog Post
 
@@ -61,10 +61,10 @@ This document reviews the alignment between prototype publications (19-21) and c
 
 #### Critical Quotes Verification
 
-- Mrinal Wadhwa (Autonomy) quote on probabilistic systems expectations - **Present in blog post**
-- Mrinal Wadhwa quote on doom loop and controlled iteration - **Present in blog post**
-- Manus Co-Founder 30-40% model contribution quote - **Present in blog post**
-- Saurav/RunLLM quote on logging and time-travel debugging - **Present in blog post**
+- a founder at an AI infrastructure company quote on probabilistic systems expectations - **Present in blog post**
+- a founder at an AI infrastructure company quote on doom loop and controlled iteration - **Present in blog post**
+- an AI autonomous agent company Co-Founder 30-40% model contribution quote - **Present in blog post**
+- a practitioner/an AI observability company quote on logging and time-travel debugging - **Present in blog post**
 - 40% context rule from Production Agents Summit - **Present in blog post**
 
 #### Extraction Unique Insights Covered
@@ -98,10 +98,10 @@ This document reviews the alignment between prototype publications (19-21) and c
 #### Critical Quotes Verification
 
 - Tyler/CopilotKit quote on agents as software - **Present in blog post**
-- Saurav/RunLLM quote on MCP specificity issues - **Present in blog post**
+- a practitioner/an AI observability company quote on MCP specificity issues - **Present in blog post**
 - Tyler quote on agents changing UX - **Present in blog post**
-- Saurav quote on standardized logging - **Present in blog post**
-- Abhishek Shukla/Apna quote on trust deficit - **Present in blog post**
+- a practitioner quote on standardized logging - **Present in blog post**
+- an engineering leader Shukla/a workforce platform quote on trust deficit - **Present in blog post**
 
 #### Minor Gap Identified
 
@@ -113,22 +113,22 @@ The extraction mentions LiteLLM for multi-provider abstraction, which is not exp
 
 ## Conference Publications (22-24)
 
-### Publication 22: Manus Fireside: The 30-40% Model Revelation That Changed Everything
+### Publication 22: an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything
 
-**Source:** Manus_Fireside_extraction.md
-**File:** `/Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-manus-fireside.mdx`
+**Source:** an AI autonomous agent company_Fireside_extraction.md
+**File:** `/Users/fernandotn/Downloads/390/publishing/deliverables/blog-posts/2025-12-autonomous-agent-fireside.mdx`
 
 #### Key Points Alignment Check
 
-| Extraction Key Concept                                                         | Blog Post Coverage                                | Status |
-| ------------------------------------------------------------------------------ | ------------------------------------------------- | ------ |
-| Model Contribution Paradox (30-40% model, 60-70% framework)                    | Central thesis of the entire blog post            | OK     |
-| Multi-Model Orchestration (Gemini for search, GPT-4 for code, Claude for HTML) | Dedicated section with all three models/use cases | OK     |
-| Cost Optimization Through Architecture (8x cost reduction, 4x speed)           | Dedicated section with specific metrics           | OK     |
-| AI-Native Development Workflow (inverted PM-Designer-Engineer flow)            | Covered in workflow inversion section             | OK     |
-| Action Engine vs Answer Engine Positioning                                     | Mentioned in context of Manus differentiation     | OK     |
-| AI-Generated Codebase Transformation (20% to 80%)                              | Covered with specific percentages                 | OK     |
-| Wide Research Capability (500+ concurrent tasks)                               | Mentioned in context optimization section         | OK     |
+| Extraction Key Concept                                                         | Blog Post Coverage                                                     | Status |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | ------ |
+| Model Contribution Paradox (30-40% model, 60-70% framework)                    | Central thesis of the entire blog post                                 | OK     |
+| Multi-Model Orchestration (Gemini for search, GPT-4 for code, Claude for HTML) | Dedicated section with all three models/use cases                      | OK     |
+| Cost Optimization Through Architecture (8x cost reduction, 4x speed)           | Dedicated section with specific metrics                                | OK     |
+| AI-Native Development Workflow (inverted PM-Designer-Engineer flow)            | Covered in workflow inversion section                                  | OK     |
+| Action Engine vs Answer Engine Positioning                                     | Mentioned in context of an AI autonomous agent company differentiation | OK     |
+| AI-Generated Codebase Transformation (20% to 80%)                              | Covered with specific percentages                                      | OK     |
+| Wide Research Capability (500+ concurrent tasks)                               | Mentioned in context optimization section                              | OK     |
 
 #### Critical Quotes Verification
 
@@ -167,7 +167,7 @@ The extraction mentions LiteLLM for multi-provider abstraction, which is not exp
 
 #### Critical Quotes Verification
 
-- Cece/Visigrate RAG chatbot trap quote - **Present in blog post**
+- Cece/an AI infrastructure company RAG chatbot trap quote - **Present in blog post**
 - Cece MCP context bloat quote - **Present in blog post**
 - Cece handoff rate definition quote - **Present in blog post**
 - Cece AI decoupling quote - **Present in blog post**
@@ -239,11 +239,11 @@ The extraction mentions the AGUI Protocol for agent-user interoperability in det
 
 ### Conference Publications
 
-| Publication           | Source Extraction                      | Alignment | Status     |
-| --------------------- | -------------------------------------- | --------- | ---------- |
-| 22: Manus Fireside    | Manus_Fireside_extraction.md           | Full      | CONSISTENT |
-| 23: Why 95% Fail      | Why_95_Percent_Fail_extraction.md      | Full      | CONSISTENT |
-| 24: Production Summit | Production_Agents_Summit_extraction.md | Near-Full | CONSISTENT |
+| Publication                                 | Source Extraction                                     | Alignment | Status     |
+| ------------------------------------------- | ----------------------------------------------------- | --------- | ---------- |
+| 22: an AI autonomous agent company Fireside | an AI autonomous agent company_Fireside_extraction.md | Full      | CONSISTENT |
+| 23: Why 95% Fail                            | Why_95_Percent_Fail_extraction.md                     | Full      | CONSISTENT |
+| 24: Production Summit                       | Production_Agents_Summit_extraction.md                | Near-Full | CONSISTENT |
 
 **Conference Alignment Score: 3/3**
 

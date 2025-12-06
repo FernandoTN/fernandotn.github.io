@@ -10,36 +10,36 @@
 
 ### Interviews (18)
 
-| File                               | Source               |
-| ---------------------------------- | -------------------- |
-| Abhishek_Apna_extraction.md        | Abhishek - Apna      |
-| CC_Vivgrid_extraction.md           | CC - Vivgrid         |
-| ChatPRD_extraction.md              | ChatPRD              |
-| Confidential_Summary_extraction.md | Confidential Summary |
-| CrewAI_extraction.md               | CrewAI               |
-| Cynthia_WiseAgents_extraction.md   | Cynthia - WiseAgents |
-| David_Qurrent_extraction.md        | David - Qurrent      |
-| Mehak_Sybill_extraction.md         | Mehak - Sybill       |
-| Mrinal_Autonomy_extraction.md      | Mrinal - Autonomy    |
-| Roblox_extraction.md               | Roblox               |
-| Sahil_Clientell_extraction.md      | Sahil - Clientell    |
-| Saurav_RunLLM_extraction.md        | Saurav - RunLLM      |
-| Stephen_GMI_extraction.md          | Stephen - GMI        |
-| Tian_Okta_extraction.md            | Tian - Okta          |
-| Tushar_CodeForge_extraction.md     | Tushar - CodeForge   |
-| VCatTheory_extraction.md           | VC at Theory         |
-| Yujian_Tan_extraction.md           | Yujian Tan           |
-| Zeena_extraction.md                | Zeena                |
+| File                                                                     | Source                                                       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| an engineering leader_a workforce platform_extraction.md                 | an engineering leader - a workforce platform                 |
+| CC_an AI infrastructure company_extraction.md                            | CC - an AI infrastructure company                            |
+| ChatPRD_extraction.md                                                    | ChatPRD                                                      |
+| Confidential_Summary_extraction.md                                       | Confidential Summary                                         |
+| a multi-agent framework company_extraction.md                            | a multi-agent framework company                              |
+| Cynthia_a consulting firm_extraction.md                                  | Cynthia - a consulting firm                                  |
+| the practitioner_an AI agent orchestration company_extraction.md         | the practitioner - an AI agent orchestration company         |
+| the AI lead_an AI sales intelligence company_extraction.md               | the AI lead - an AI sales intelligence company               |
+| the founder_an AI infrastructure company_extraction.md                   | the founder - an AI infrastructure company                   |
+| Roblox_extraction.md                                                     | Roblox                                                       |
+| a practitioner_a CRM AI company_extraction.md                            | a practitioner - a CRM AI company                            |
+| a practitioner_an AI observability company_extraction.md                 | a practitioner - an AI observability company                 |
+| Stephen_GMI_extraction.md                                                | Stephen - GMI                                                |
+| the engineering leader_a major enterprise identity company_extraction.md | the engineering leader - a major enterprise identity company |
+| a developer_an AI coding company_extraction.md                           | a developer - an AI coding company                           |
+| a VC investor_extraction.md                                              | VC at Theory                                                 |
+| Yujian_Tan_extraction.md                                                 | a practitioner                                               |
+| Zeena_extraction.md                                                      | Zeena                                                        |
 
 ### Conferences (5)
 
-| File                                   | Source                   |
-| -------------------------------------- | ------------------------ |
-| Alibaba_Qwen_extraction.md             | Alibaba Qwen Conference  |
-| Manus_Fireside_extraction.md           | Manus Fireside Chat      |
-| Production_Agents_Summit_extraction.md | Production Agents Summit |
-| Project_Nanda_extraction.md            | Project Nanda            |
-| Why_95_Percent_Fail_extraction.md      | Why 95% Fail Conference  |
+| File                                                  | Source                                       |
+| ----------------------------------------------------- | -------------------------------------------- |
+| Alibaba_Qwen_extraction.md                            | Alibaba Qwen Conference                      |
+| an AI autonomous agent company_Fireside_extraction.md | an AI autonomous agent company Fireside Chat |
+| Production_Agents_Summit_extraction.md                | Production Agents Summit                     |
+| Project_Nanda_extraction.md                           | Project Nanda                                |
+| Why_95_Percent_Fail_extraction.md                     | Why 95% Fail Conference                      |
 
 ### Prototypes (3)
 

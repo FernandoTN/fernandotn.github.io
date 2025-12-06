@@ -22,33 +22,33 @@ Based on original research specification (README.md, spec.txt):
 
 ## Mapping Matrix
 
-| Pub # | Publication Title                           | RQ1 | RQ2 | RQ3 | RQ4 | Primary Focus |
-| ----- | ------------------------------------------- | --- | --- | --- | --- | ------------- |
-| 1     | Anchor - AI Agents Research Overview        | X   | X   | X   | X   | Overview      |
-| 2     | System Integration (92% struggle)           |     | X   |     |     | RQ2           |
-| 3     | Context Management (40% rule)               | X   |     |     |     | RQ1           |
-| 4     | Framework Abandonment (80-90% LangChain)    | X   | X   |     |     | RQ1/RQ2       |
-| 5     | Demo-Production Chasm (70% accuracy)        | X   |     | X   | X   | RQ1           |
-| 6     | Enterprise Blockers (ROI failure)           |     |     | X   | X   | RQ4           |
-| 7     | Coding Agent Exception                      | X   |     |     | X   | RQ1           |
-| 8     | Model Myth (30-40% contribution)            | X   | X   |     |     | RQ1           |
-| 9     | Handoff Rate Metric                         |     |     |     | X   | RQ4           |
-| 10    | Dual Memory Architecture                    | X   |     |     |     | RQ1           |
-| 11    | MCP 25-Tool Cliff                           |     | X   |     |     | RQ2           |
-| 12    | Component-Level Evaluation                  | X   |     | X   | X   | RQ3           |
-| 13    | Evaluation Gap Market                       |     |     | X   | X   | RQ4           |
-| 14    | Qurrent Interview (90% pilot failure)       |     | X   | X   | X   | RQ4           |
-| 15    | Autonomy Interview (probabilistic)          | X   |     | X   |     | RQ1/RQ3       |
-| 16    | Okta Interview (identity)                   |     | X   | X   |     | RQ2/RQ3       |
-| 17    | CrewAI Interview (topology)                 |     | X   |     | X   | RQ2           |
-| 18    | Sybill Interview (vertical AI)              | X   |     | X   | X   | RQ1/RQ4       |
-| 19    | Shopping Agent Prototype                    | X   | X   |     |     | RQ1/RQ2       |
-| 20    | Repo Patcher Prototype (state machines)     | X   |     | X   | X   | RQ3           |
-| 21    | Good Agents Prototype (Plan-Verify-Execute) | X   | X   | X   |     | RQ3           |
-| 22    | Manus Fireside Conference                   | X   | X   |     | X   | RQ1           |
-| 23    | Why 95% Fail Conference                     |     | X   | X   | X   | RQ4           |
-| 24    | Production Agents Summit                    | X   |     | X   |     | RQ1/RQ3       |
-| 25    | Research Methodology                        | X   | X   | X   | X   | Overview      |
+| Pub # | Publication Title                                               | RQ1 | RQ2 | RQ3 | RQ4 | Primary Focus |
+| ----- | --------------------------------------------------------------- | --- | --- | --- | --- | ------------- |
+| 1     | Anchor - AI Agents Research Overview                            | X   | X   | X   | X   | Overview      |
+| 2     | System Integration (92% struggle)                               |     | X   |     |     | RQ2           |
+| 3     | Context Management (40% rule)                                   | X   |     |     |     | RQ1           |
+| 4     | Framework Abandonment (80-90% a popular AI agent framework)     | X   | X   |     |     | RQ1/RQ2       |
+| 5     | Demo-Production Chasm (70% accuracy)                            | X   |     | X   | X   | RQ1           |
+| 6     | Enterprise Blockers (ROI failure)                               |     |     | X   | X   | RQ4           |
+| 7     | Coding Agent Exception                                          | X   |     |     | X   | RQ1           |
+| 8     | Model Myth (30-40% contribution)                                | X   | X   |     |     | RQ1           |
+| 9     | Handoff Rate Metric                                             |     |     |     | X   | RQ4           |
+| 10    | Dual Memory Architecture                                        | X   |     |     |     | RQ1           |
+| 11    | MCP 25-Tool Cliff                                               |     | X   |     |     | RQ2           |
+| 12    | Component-Level Evaluation                                      | X   |     | X   | X   | RQ3           |
+| 13    | Evaluation Gap Market                                           |     |     | X   | X   | RQ4           |
+| 14    | an AI agent orchestration company Interview (90% pilot failure) |     | X   | X   | X   | RQ4           |
+| 15    | an AI infrastructure company Interview (probabilistic)          | X   |     | X   |     | RQ1/RQ3       |
+| 16    | a major enterprise identity company Interview (identity)        |     | X   | X   |     | RQ2/RQ3       |
+| 17    | a multi-agent framework company Interview (topology)            |     | X   |     | X   | RQ2           |
+| 18    | an AI sales intelligence company Interview (vertical AI)        | X   |     | X   | X   | RQ1/RQ4       |
+| 19    | Shopping Agent Prototype                                        | X   | X   |     |     | RQ1/RQ2       |
+| 20    | Repo Patcher Prototype (state machines)                         | X   |     | X   | X   | RQ3           |
+| 21    | Good Agents Prototype (Plan-Verify-Execute)                     | X   | X   | X   |     | RQ3           |
+| 22    | an AI autonomous agent company Fireside Conference              | X   | X   |     | X   | RQ1           |
+| 23    | Why 95% Fail Conference                                         |     | X   | X   | X   | RQ4           |
+| 24    | Production Agents Summit                                        | X   |     | X   |     | RQ1/RQ3       |
+| 25    | Research Methodology                                            | X   | X   | X   | X   | Overview      |
 
 ---
 
@@ -58,86 +58,86 @@ Based on original research specification (README.md, spec.txt):
 
 **Publications:** 17 of 25 (68%)
 
-| Pub # | Title                      | Key RQ1 Content                                                  |
-| ----- | -------------------------- | ---------------------------------------------------------------- |
-| 1     | Anchor                     | 30-40% model contribution, multi-step reliability findings       |
-| 3     | Context Management         | 40% context utilization rule, memory architecture                |
-| 4     | Framework Abandonment      | Framework capabilities vs custom solutions, 3-4x performance gap |
-| 5     | Demo-Production Chasm      | 70% demo accuracy, doom loop in multi-step reliability           |
-| 7     | Coding Agent Exception     | Generation vs analysis capability asymmetry, 3x productivity     |
-| 8     | Model Myth                 | Model contributes 30-40%, framework 60-70% of success            |
-| 10    | Dual Memory Architecture   | User memory vs agent memory distinction                          |
-| 12    | Component-Level Evaluation | First-step retrieval importance, 59% pipeline accuracy           |
-| 15    | Autonomy Interview         | Probabilistic system constraints, deterministic conditioning     |
-| 18    | Sybill Interview           | Vertical AI capabilities, data moat for reliability              |
-| 19    | Shopping Agent             | Framework capabilities tested hands-on                           |
-| 20    | Repo Patcher               | Multi-step reliability patterns, state machine approach          |
-| 21    | Good Agents                | Plan-Verify-Execute pattern for reliability                      |
-| 22    | Manus Fireside             | Multi-model orchestration, model selection strategies            |
-| 24    | Production Agents Summit   | Context engineering, sub-agent patterns                          |
-| 25    | Research Methodology       | Prototype validation of capabilities                             |
+| Pub # | Title                                      | Key RQ1 Content                                                  |
+| ----- | ------------------------------------------ | ---------------------------------------------------------------- |
+| 1     | Anchor                                     | 30-40% model contribution, multi-step reliability findings       |
+| 3     | Context Management                         | 40% context utilization rule, memory architecture                |
+| 4     | Framework Abandonment                      | Framework capabilities vs custom solutions, 3-4x performance gap |
+| 5     | Demo-Production Chasm                      | 70% demo accuracy, doom loop in multi-step reliability           |
+| 7     | Coding Agent Exception                     | Generation vs analysis capability asymmetry, 3x productivity     |
+| 8     | Model Myth                                 | Model contributes 30-40%, framework 60-70% of success            |
+| 10    | Dual Memory Architecture                   | User memory vs agent memory distinction                          |
+| 12    | Component-Level Evaluation                 | First-step retrieval importance, 59% pipeline accuracy           |
+| 15    | an AI infrastructure company Interview     | Probabilistic system constraints, deterministic conditioning     |
+| 18    | an AI sales intelligence company Interview | Vertical AI capabilities, data moat for reliability              |
+| 19    | Shopping Agent                             | Framework capabilities tested hands-on                           |
+| 20    | Repo Patcher                               | Multi-step reliability patterns, state machine approach          |
+| 21    | Good Agents                                | Plan-Verify-Execute pattern for reliability                      |
+| 22    | an AI autonomous agent company Fireside    | Multi-model orchestration, model selection strategies            |
+| 24    | Production Agents Summit                   | Context engineering, sub-agent patterns                          |
+| 25    | Research Methodology                       | Prototype validation of capabilities                             |
 
 ### RQ2: Integration Layers
 
 **Publications:** 13 of 25 (52%)
 
-| Pub # | Title                 | Key RQ2 Content                                                        |
-| ----- | --------------------- | ---------------------------------------------------------------------- |
-| 1     | Anchor                | 92% integration challenges, 40-50% deployment time                     |
-| 2     | System Integration    | MCP limitations, heterogeneous tech stacks, custom integration as moat |
-| 4     | Framework Abandonment | LangChain abandonment, framework bloat in integration                  |
-| 8     | Model Myth            | Framework/system architecture importance                               |
-| 11    | MCP 25-Tool Cliff     | 30% accuracy beyond 25 tools, context bloat                            |
-| 14    | Qurrent Interview     | SAP, Salesforce integration challenges                                 |
-| 16    | Okta Interview        | MCP extensions, agent identity for integration                         |
-| 17    | CrewAI Interview      | 40-country enterprise topology complexity                              |
-| 19    | Shopping Agent        | MCP mocking, framework integration testing                             |
-| 21    | Good Agents           | MCP integration challenges, SSE streaming                              |
-| 22    | Manus Fireside        | Multi-agent orchestration protocols                                    |
-| 23    | Why 95% Fail          | MCP context bloat trap, tool definition overhead                       |
-| 25    | Research Methodology  | Integration layer validation through prototypes                        |
+| Pub # | Title                                         | Key RQ2 Content                                                          |
+| ----- | --------------------------------------------- | ------------------------------------------------------------------------ |
+| 1     | Anchor                                        | 92% integration challenges, 40-50% deployment time                       |
+| 2     | System Integration                            | MCP limitations, heterogeneous tech stacks, custom integration as moat   |
+| 4     | Framework Abandonment                         | a popular AI agent framework abandonment, framework bloat in integration |
+| 8     | Model Myth                                    | Framework/system architecture importance                                 |
+| 11    | MCP 25-Tool Cliff                             | 30% accuracy beyond 25 tools, context bloat                              |
+| 14    | an AI agent orchestration company Interview   | SAP, Salesforce integration challenges                                   |
+| 16    | a major enterprise identity company Interview | MCP extensions, agent identity for integration                           |
+| 17    | a multi-agent framework company Interview     | 40-country enterprise topology complexity                                |
+| 19    | Shopping Agent                                | MCP mocking, framework integration testing                               |
+| 21    | Good Agents                                   | MCP integration challenges, SSE streaming                                |
+| 22    | an AI autonomous agent company Fireside       | Multi-agent orchestration protocols                                      |
+| 23    | Why 95% Fail                                  | MCP context bloat trap, tool definition overhead                         |
+| 25    | Research Methodology                          | Integration layer validation through prototypes                          |
 
 ### RQ3: Governance Patterns
 
 **Publications:** 14 of 25 (56%)
 
-| Pub # | Title                      | Key RQ3 Content                                    |
-| ----- | -------------------------- | -------------------------------------------------- |
-| 1     | Anchor                     | HITL requirements, enterprise governance reality   |
-| 5     | Demo-Production Chasm      | Stakeholder expectation management                 |
-| 6     | Enterprise Blockers        | CISO/CIO gatekeepers, audit requirements, security |
-| 12    | Component-Level Evaluation | Testing governance, deterministic validation       |
-| 13    | Evaluation Gap             | Process vs outcome governance                      |
-| 14    | Qurrent Interview          | Enterprise governance patterns in production       |
-| 15    | Autonomy Interview         | Scientific methodology for governance              |
-| 16    | Okta Interview             | Agent identity, authentication, SSO patterns       |
-| 18    | Sybill Interview           | PII governance, enterprise sales compliance        |
-| 20    | Repo Patcher               | HITL escalation, risk-based governance             |
-| 21    | Good Agents                | OAuth/RBAC security, governed automation           |
-| 23    | Why 95% Fail               | Governance traps to avoid                          |
-| 24    | Production Agents Summit   | Enterprise security, observability requirements    |
-| 25    | Research Methodology       | Governance validation through prototypes           |
+| Pub # | Title                                         | Key RQ3 Content                                    |
+| ----- | --------------------------------------------- | -------------------------------------------------- |
+| 1     | Anchor                                        | HITL requirements, enterprise governance reality   |
+| 5     | Demo-Production Chasm                         | Stakeholder expectation management                 |
+| 6     | Enterprise Blockers                           | CISO/CIO gatekeepers, audit requirements, security |
+| 12    | Component-Level Evaluation                    | Testing governance, deterministic validation       |
+| 13    | Evaluation Gap                                | Process vs outcome governance                      |
+| 14    | an AI agent orchestration company Interview   | Enterprise governance patterns in production       |
+| 15    | an AI infrastructure company Interview        | Scientific methodology for governance              |
+| 16    | a major enterprise identity company Interview | Agent identity, authentication, SSO patterns       |
+| 18    | an AI sales intelligence company Interview    | PII governance, enterprise sales compliance        |
+| 20    | Repo Patcher                                  | HITL escalation, risk-based governance             |
+| 21    | Good Agents                                   | OAuth/RBAC security, governed automation           |
+| 23    | Why 95% Fail                                  | Governance traps to avoid                          |
+| 24    | Production Agents Summit                      | Enterprise security, observability requirements    |
+| 25    | Research Methodology                          | Governance validation through prototypes           |
 
 ### RQ4: Business Value Metrics
 
 **Publications:** 14 of 25 (56%)
 
-| Pub # | Title                      | Key RQ4 Content                                               |
-| ----- | -------------------------- | ------------------------------------------------------------- |
-| 1     | Anchor                     | 90% pilot failure, ROI as primary failure mode                |
-| 5     | Demo-Production Chasm      | Demo vs production success gap                                |
-| 6     | Enterprise Blockers        | $400-750 willingness to pay, ROI undefined, pricing confusion |
-| 7     | Coding Agent Exception     | 3x productivity for coding agents                             |
-| 9     | Handoff Rate Metric        | North star metric, human task reduction                       |
-| 12    | Component-Level Evaluation | 59% accuracy, testable metrics                                |
-| 13    | Evaluation Gap             | $10B+ market opportunity, zero adoption on 7 YC tools         |
-| 14    | Qurrent Interview          | 90% pilot failure from undefined ROI                          |
-| 17    | CrewAI Interview           | $2M single use case savings, $100M target                     |
-| 18    | Sybill Interview           | Revenue operations ROI                                        |
-| 20    | Repo Patcher               | $0.25 per fix cost target                                     |
-| 22    | Manus Fireside             | 8x cost reduction strategies                                  |
-| 23    | Why 95% Fail               | Four traps taxonomy, handoff rate focus                       |
-| 25    | Research Methodology       | Quantitative analysis approach                                |
+| Pub # | Title                                       | Key RQ4 Content                                               |
+| ----- | ------------------------------------------- | ------------------------------------------------------------- |
+| 1     | Anchor                                      | 90% pilot failure, ROI as primary failure mode                |
+| 5     | Demo-Production Chasm                       | Demo vs production success gap                                |
+| 6     | Enterprise Blockers                         | $400-750 willingness to pay, ROI undefined, pricing confusion |
+| 7     | Coding Agent Exception                      | 3x productivity for coding agents                             |
+| 9     | Handoff Rate Metric                         | North star metric, human task reduction                       |
+| 12    | Component-Level Evaluation                  | 59% accuracy, testable metrics                                |
+| 13    | Evaluation Gap                              | $10B+ market opportunity, zero adoption on 7 YC tools         |
+| 14    | an AI agent orchestration company Interview | 90% pilot failure from undefined ROI                          |
+| 17    | a multi-agent framework company Interview   | $2M single use case savings, $100M target                     |
+| 18    | an AI sales intelligence company Interview  | Revenue operations ROI                                        |
+| 20    | Repo Patcher                                | $0.25 per fix cost target                                     |
+| 22    | an AI autonomous agent company Fireside     | 8x cost reduction strategies                                  |
+| 23    | Why 95% Fail                                | Four traps taxonomy, handoff rate focus                       |
+| 25    | Research Methodology                        | Quantitative analysis approach                                |
 
 ---
 
@@ -214,11 +214,11 @@ All four research questions are substantially covered:
 
 **For RQ1 readers**: Start with Anchor (1) -> Model Myth (8) -> Context Management (3) -> Coding Agent Exception (7) -> Repo Patcher (20)
 
-**For RQ2 readers**: Start with Anchor (1) -> System Integration (2) -> MCP 25-Tool Cliff (11) -> Okta Interview (16) -> Good Agents (21)
+**For RQ2 readers**: Start with Anchor (1) -> System Integration (2) -> MCP 25-Tool Cliff (11) -> a major enterprise identity company Interview (16) -> Good Agents (21)
 
-**For RQ3 readers**: Start with Anchor (1) -> Enterprise Blockers (6) -> Repo Patcher (20) -> Good Agents (21) -> Okta Interview (16)
+**For RQ3 readers**: Start with Anchor (1) -> Enterprise Blockers (6) -> Repo Patcher (20) -> Good Agents (21) -> a major enterprise identity company Interview (16)
 
-**For RQ4 readers**: Start with Anchor (1) -> Enterprise Blockers (6) -> Handoff Rate Metric (9) -> Qurrent Interview (14) -> Why 95% Fail (23)
+**For RQ4 readers**: Start with Anchor (1) -> Enterprise Blockers (6) -> Handoff Rate Metric (9) -> an AI agent orchestration company Interview (14) -> Why 95% Fail (23)
 
 ### Suggested Enhancements
 
@@ -260,13 +260,13 @@ All four research questions are substantially covered:
 
 ### Category 4: Practitioner Perspectives
 
-| #   | Title              | RQ1 | RQ2 | RQ3 | RQ4 | Notes                                                               |
-| --- | ------------------ | --- | --- | --- | --- | ------------------------------------------------------------------- |
-| 14  | Qurrent Interview  |     | X   | X   | X   | Integration challenges (RQ2), governance (RQ3), ROI failure (RQ4)   |
-| 15  | Autonomy Interview | X   |     | X   |     | Probabilistic constraints (RQ1), scientific governance (RQ3)        |
-| 16  | Okta Interview     |     | X   | X   |     | Identity integration (RQ2), authentication governance (RQ3)         |
-| 17  | CrewAI Interview   |     | X   |     | X   | Enterprise topology (RQ2), $2M savings (RQ4)                        |
-| 18  | Sybill Interview   | X   |     | X   | X   | Vertical capabilities (RQ1), PII governance (RQ3), RevOps ROI (RQ4) |
+| #   | Title                                         | RQ1 | RQ2 | RQ3 | RQ4 | Notes                                                               |
+| --- | --------------------------------------------- | --- | --- | --- | --- | ------------------------------------------------------------------- |
+| 14  | an AI agent orchestration company Interview   |     | X   | X   | X   | Integration challenges (RQ2), governance (RQ3), ROI failure (RQ4)   |
+| 15  | an AI infrastructure company Interview        | X   |     | X   |     | Probabilistic constraints (RQ1), scientific governance (RQ3)        |
+| 16  | a major enterprise identity company Interview |     | X   | X   |     | Identity integration (RQ2), authentication governance (RQ3)         |
+| 17  | a multi-agent framework company Interview     |     | X   |     | X   | Enterprise topology (RQ2), $2M savings (RQ4)                        |
+| 18  | an AI sales intelligence company Interview    | X   |     | X   | X   | Vertical capabilities (RQ1), PII governance (RQ3), RevOps ROI (RQ4) |
 
 ### Category 5: Prototype Learnings
 
@@ -278,11 +278,11 @@ All four research questions are substantially covered:
 
 ### Category 6: Conference Insights
 
-| #   | Title                    | RQ1 | RQ2 | RQ3 | RQ4 | Notes                                                       |
-| --- | ------------------------ | --- | --- | --- | --- | ----------------------------------------------------------- |
-| 22  | Manus Fireside           | X   | X   |     | X   | Model selection (RQ1), orchestration (RQ2), 8x cost (RQ4)   |
-| 23  | Why 95% Fail             |     | X   | X   | X   | MCP traps (RQ2), governance traps (RQ3), handoff rate (RQ4) |
-| 24  | Production Agents Summit | X   |     | X   |     | Context engineering (RQ1), enterprise security (RQ3)        |
+| #   | Title                                   | RQ1 | RQ2 | RQ3 | RQ4 | Notes                                                       |
+| --- | --------------------------------------- | --- | --- | --- | --- | ----------------------------------------------------------- |
+| 22  | an AI autonomous agent company Fireside | X   | X   |     | X   | Model selection (RQ1), orchestration (RQ2), 8x cost (RQ4)   |
+| 23  | Why 95% Fail                            |     | X   | X   | X   | MCP traps (RQ2), governance traps (RQ3), handoff rate (RQ4) |
+| 24  | Production Agents Summit                | X   |     | X   |     | Context engineering (RQ1), enterprise security (RQ3)        |
 
 ### Category 7: Methodology
 

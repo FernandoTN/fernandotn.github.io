@@ -23,10 +23,10 @@
 | ----------------------------------------- | ------------ | ---------------- |
 | 2025-12-40-percent-context-rule.mdx       | 13,082 bytes | 2025-12-03 20:57 |
 | 2025-12-ai-agents-research-overview.mdx   | 10,137 bytes | 2025-12-03 20:43 |
-| 2025-12-autonomy-interview.mdx            | 14,916 bytes | 2025-12-03 21:52 |
+| 2025-12-practitioner-interview-2.mdx      | 14,916 bytes | 2025-12-03 21:52 |
 | 2025-12-coding-agent-exception.mdx        | 14,388 bytes | 2025-12-03 21:15 |
 | 2025-12-component-evaluation.mdx          | 12,417 bytes | 2025-12-03 21:45 |
-| 2025-12-crewai-interview.mdx              | 14,961 bytes | 2025-12-03 22:00 |
+| 2025-12-practitioner-interview-4.mdx      | 14,961 bytes | 2025-12-03 22:00 |
 | 2025-12-demo-production-chasm.mdx         | 18,118 bytes | 2025-12-03 21:07 |
 | 2025-12-dual-memory-architecture.mdx      | 18,294 bytes | 2025-12-03 21:41 |
 | 2025-12-enterprise-business-case.mdx      | 14,278 bytes | 2025-12-03 21:12 |
@@ -34,50 +34,50 @@
 | 2025-12-framework-abandonment.mdx         | 15,947 bytes | 2025-12-03 21:03 |
 | 2025-12-good-agents.mdx                   | 16,003 bytes | 2025-12-03 22:23 |
 | 2025-12-handoff-rate-metric.mdx           | 11,630 bytes | 2025-12-03 21:42 |
-| 2025-12-manus-fireside.mdx                | 12,304 bytes | 2025-12-03 22:29 |
+| 2025-12-autonomous-agent-fireside.mdx     | 12,304 bytes | 2025-12-03 22:29 |
 | 2025-12-mcp-tool-cliff.mdx                | 15,644 bytes | 2025-12-03 21:42 |
 | 2025-12-model-myth.mdx                    | 14,160 bytes | 2025-12-03 21:24 |
-| 2025-12-okta-interview.mdx                | 14,417 bytes | 2025-12-03 21:58 |
+| 2025-12-practitioner-interview-3.mdx      | 14,417 bytes | 2025-12-03 21:58 |
 | 2025-12-production-summit.mdx             | 14,527 bytes | 2025-12-03 22:39 |
-| 2025-12-qurrent-interview.mdx             | 15,281 bytes | 2025-12-03 21:53 |
+| 2025-12-practitioner-interview-1.mdx      | 15,281 bytes | 2025-12-03 21:53 |
 | 2025-12-repo-patcher.mdx                  | 17,003 bytes | 2025-12-03 22:18 |
 | 2025-12-research-methodology.mdx          | 13,827 bytes | 2025-12-03 22:42 |
 | 2025-12-shopping-agent.mdx                | 15,733 bytes | 2025-12-03 22:09 |
-| 2025-12-sybill-interview.mdx              | 11,694 bytes | 2025-12-03 22:03 |
+| 2025-12-practitioner-interview-5.mdx      | 11,694 bytes | 2025-12-03 22:03 |
 | 2025-12-system-integration-92-percent.mdx | 11,890 bytes | 2025-12-03 20:53 |
 | 2025-12-why-95-fail.mdx                   | 13,759 bytes | 2025-12-03 22:32 |
 | README.md                                 | 5,488 bytes  | 2025-12-03 22:51 |
 
 ### LinkedIn Posts (26 files)
 
-| Filename                     | Size        | Last Modified    |
-| ---------------------------- | ----------- | ---------------- |
-| 01-anchor-post.md            | 1,235 bytes | 2025-12-03 20:42 |
-| 02-system-integration.md     | 1,849 bytes | 2025-12-03 20:50 |
-| 03-context-management.md     | 1,181 bytes | 2025-12-03 20:55 |
-| 04-framework-abandonment.md  | 1,211 bytes | 2025-12-03 21:02 |
-| 05-demo-production-chasm.md  | 1,349 bytes | 2025-12-03 21:07 |
-| 06-enterprise-blockers.md    | 1,360 bytes | 2025-12-03 21:12 |
-| 07-coding-agent-exception.md | 1,430 bytes | 2025-12-03 21:20 |
-| 08-model-myth.md             | 1,246 bytes | 2025-12-03 21:20 |
-| 09-handoff-rate.md           | 2,203 bytes | 2025-12-03 21:43 |
-| 10-dual-memory.md            | 2,280 bytes | 2025-12-03 21:41 |
-| 11-mcp-tool-cliff.md         | 2,200 bytes | 2025-12-03 21:44 |
-| 12-component-evaluation.md   | 2,284 bytes | 2025-12-03 21:44 |
-| 13-evaluation-gap.md         | 2,431 bytes | 2025-12-03 21:44 |
-| 14-qurrent-interview.md      | 2,521 bytes | 2025-12-03 21:52 |
-| 15-autonomy-interview.md     | 1,669 bytes | 2025-12-03 21:52 |
-| 16-okta-interview.md         | 2,854 bytes | 2025-12-03 21:55 |
-| 17-crewai-interview.md       | 3,029 bytes | 2025-12-03 22:00 |
-| 18-sybill-interview.md       | 3,053 bytes | 2025-12-03 22:05 |
-| 19-shopping-agent.md         | 2,779 bytes | 2025-12-03 22:05 |
-| 20-repo-patcher.md           | 2,847 bytes | 2025-12-03 22:12 |
-| 21-good-agents.md            | 3,243 bytes | 2025-12-03 22:21 |
-| 22-manus-fireside.md         | 2,447 bytes | 2025-12-03 22:27 |
-| 23-why-95-fail.md            | 2,645 bytes | 2025-12-03 22:35 |
-| 24-production-summit.md      | 3,017 bytes | 2025-12-03 22:36 |
-| 25-research-methodology.md   | 2,817 bytes | 2025-12-03 22:41 |
-| README.md                    | 4,582 bytes | 2025-12-03 22:50 |
+| Filename                        | Size        | Last Modified    |
+| ------------------------------- | ----------- | ---------------- |
+| 01-anchor-post.md               | 1,235 bytes | 2025-12-03 20:42 |
+| 02-system-integration.md        | 1,849 bytes | 2025-12-03 20:50 |
+| 03-context-management.md        | 1,181 bytes | 2025-12-03 20:55 |
+| 04-framework-abandonment.md     | 1,211 bytes | 2025-12-03 21:02 |
+| 05-demo-production-chasm.md     | 1,349 bytes | 2025-12-03 21:07 |
+| 06-enterprise-blockers.md       | 1,360 bytes | 2025-12-03 21:12 |
+| 07-coding-agent-exception.md    | 1,430 bytes | 2025-12-03 21:20 |
+| 08-model-myth.md                | 1,246 bytes | 2025-12-03 21:20 |
+| 09-handoff-rate.md              | 2,203 bytes | 2025-12-03 21:43 |
+| 10-dual-memory.md               | 2,280 bytes | 2025-12-03 21:41 |
+| 11-mcp-tool-cliff.md            | 2,200 bytes | 2025-12-03 21:44 |
+| 12-component-evaluation.md      | 2,284 bytes | 2025-12-03 21:44 |
+| 13-evaluation-gap.md            | 2,431 bytes | 2025-12-03 21:44 |
+| 14-practitioner-interview-1.md  | 2,521 bytes | 2025-12-03 21:52 |
+| 15-practitioner-interview-2.md  | 1,669 bytes | 2025-12-03 21:52 |
+| 16-practitioner-interview-3.md  | 2,854 bytes | 2025-12-03 21:55 |
+| 17-practitioner-interview-4.md  | 3,029 bytes | 2025-12-03 22:00 |
+| 18-practitioner-interview-5.md  | 3,053 bytes | 2025-12-03 22:05 |
+| 19-shopping-agent.md            | 2,779 bytes | 2025-12-03 22:05 |
+| 20-repo-patcher.md              | 2,847 bytes | 2025-12-03 22:12 |
+| 21-good-agents.md               | 3,243 bytes | 2025-12-03 22:21 |
+| 22-autonomous-agent-fireside.md | 2,447 bytes | 2025-12-03 22:27 |
+| 23-why-95-fail.md               | 2,645 bytes | 2025-12-03 22:35 |
+| 24-production-summit.md         | 3,017 bytes | 2025-12-03 22:36 |
+| 25-research-methodology.md      | 2,817 bytes | 2025-12-03 22:41 |
+| README.md                       | 4,582 bytes | 2025-12-03 22:50 |
 
 ### Image Specs (6 files)
 

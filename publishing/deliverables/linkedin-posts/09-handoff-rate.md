@@ -40,7 +40,7 @@ What metrics do you use to measure AI agent success?
 **Key Data Points Used**:
 
 - 95% accuracy benchmark (from blog post)
-- 90% pilot failure rate (David/Qurrent via research)
+- 90% pilot failure rate (the practitioner/an AI agent orchestration company via research)
 - Handoff rate concept (Why 95% Fail Conference)
 
 **Engagement Prompt**: Direct question about metrics for AI agent measurement
@@ -54,4 +54,4 @@ What metrics do you use to measure AI agent success?
 - Post timing recommendation: 9-11am PST on Tuesday-Thursday
 - Consider adding cover image from blog post for higher engagement
 - Respond to comments within first 60 minutes for algorithm boost
-- Key quote attribution: Cece, Co-founder & CEO of Visigrate (Why 95% Fail Conference)
+- Key quote attribution: Cece, Co-founder & CEO of an AI infrastructure company (Why 95% Fail Conference)

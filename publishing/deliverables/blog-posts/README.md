@@ -14,14 +14,14 @@
 
 ### Theme Deep Dives (2-7)
 
-| #   | Title                                                                                                                 | Tags                                                                      | Word Count   |
-| --- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------ |
-| 2   | [The 92% Problem: Why System Integration Breaks AI Agent Deployments](2025-12-system-integration-92-percent.mdx)      | AI Agents, Enterprise AI, System Integration, MCP, Production Deployment  | ~2,200 words |
-| 3   | [The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent](2025-12-40-percent-context-rule.mdx)              | AI Agents, Context Windows, Memory, RAG                                   | ~2,100 words |
-| 4   | [The Framework Paradox: Why 80-90% of Teams Abandon LangChain for Production](2025-12-framework-abandonment.mdx)      | AI Agents, LangChain, Frameworks, Production AI, Developer Tools          | ~2,400 words |
-| 5   | [The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations](2025-12-demo-production-chasm.mdx)           | AI Agents, Reliability, Evaluation, Production                            | ~2,500 words |
-| 6   | [Why 90% of AI Agent Pilots Fail Before Hitting Technical Limits](2025-12-enterprise-business-case.mdx)               | AI Agents, Enterprise AI, ROI, Trust, Governance                          | ~2,200 words |
-| 7   | [The Coding Agent Exception: Why AI Works for Code but Struggles Everywhere Else](2025-12-coding-agent-exception.mdx) | AI Agents, Coding Agents, Model Capabilities, Enterprise AI, Productivity | ~2,400 words |
+| #   | Title                                                                                                                               | Tags                                                                                | Word Count   |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------ |
+| 2   | [The 92% Problem: Why System Integration Breaks AI Agent Deployments](2025-12-system-integration-92-percent.mdx)                    | AI Agents, Enterprise AI, System Integration, MCP, Production Deployment            | ~2,200 words |
+| 3   | [The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent](2025-12-40-percent-context-rule.mdx)                            | AI Agents, Context Windows, Memory, RAG                                             | ~2,100 words |
+| 4   | [The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework for Production](2025-12-framework-abandonment.mdx) | AI Agents, a popular AI agent framework, Frameworks, Production AI, Developer Tools | ~2,400 words |
+| 5   | [The Demo-Production Chasm: Why 70% Accuracy Creates False Expectations](2025-12-demo-production-chasm.mdx)                         | AI Agents, Reliability, Evaluation, Production                                      | ~2,500 words |
+| 6   | [Why 90% of AI Agent Pilots Fail Before Hitting Technical Limits](2025-12-enterprise-business-case.mdx)                             | AI Agents, Enterprise AI, ROI, Trust, Governance                                    | ~2,200 words |
+| 7   | [The Coding Agent Exception: Why AI Works for Code but Struggles Everywhere Else](2025-12-coding-agent-exception.mdx)               | AI Agents, Coding Agents, Model Capabilities, Enterprise AI, Productivity           | ~2,400 words |
 
 ### Emergent Insights (8-13)
 
@@ -36,29 +36,29 @@
 
 ### Practitioner Perspectives (14-18)
 
-| #   | Title                                                                                                              | Tags                                                                  | Word Count   |
-| --- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | ------------ |
-| 14  | [Autonomy's Take: Managing Expectations with Probabilistic Systems](2025-12-autonomy-interview.mdx)                | AI Agents, Autonomy, Reliability, Expectations, Probabilistic Systems | ~2,200 words |
-| 15  | [Inside Qurrent: Why 90% of Enterprise AI Agent Pilots Never Convert to Production](2025-12-qurrent-interview.mdx) | AI Agents, Enterprise, Qurrent, Case Study, ROI                       | ~2,300 words |
-| 16  | [How Okta is Solving AI Agent Identity: The Next SSO Moment](2025-12-okta-interview.mdx)                           | AI Agents, Okta, Identity, Security, Enterprise                       | ~2,200 words |
-| 17  | [CrewAI's Lesson: Why Enterprise Topology Complexity Is Your Moat](2025-12-crewai-interview.mdx)                   | AI Agents, CrewAI, Enterprise, Integration, Multi-Agent               | ~2,300 words |
-| 18  | [Sybill's Approach: Building AI Sales Agents That Actually Work](2025-12-sybill-interview.mdx)                     | AI Agents, Sybill, Sales, Vertical AI, Evaluation                     | ~2,000 words |
+| #   | Title                                                                                                                                               | Tags                                                                                      | Word Count   |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------ |
+| 14  | [an AI infrastructure company's Take: Managing Expectations with Probabilistic Systems](2025-12-practitioner-interview-2.mdx)                       | AI Agents, an AI infrastructure company, Reliability, Expectations, Probabilistic Systems | ~2,200 words |
+| 15  | [Inside an AI Agent Orchestration Company: Why 90% of Enterprise AI Agent Pilots Never Convert to Production](2025-12-practitioner-interview-1.mdx) | AI Agents, Enterprise, an AI agent orchestration company, Case Study, ROI                 | ~2,300 words |
+| 16  | [How a major enterprise identity company is Solving AI Agent Identity: The Next SSO Moment](2025-12-practitioner-interview-3.mdx)                   | AI Agents, a major enterprise identity company, Identity, Security, Enterprise            | ~2,200 words |
+| 17  | [a multi-agent framework company's Lesson: Why Enterprise Topology Complexity Is Your Moat](2025-12-practitioner-interview-4.mdx)                   | AI Agents, a multi-agent framework company, Enterprise, Integration, Multi-Agent          | ~2,300 words |
+| 18  | [an AI sales intelligence company's Approach: Building AI Sales Agents That Actually Work](2025-12-practitioner-interview-5.mdx)                    | AI Agents, an AI sales intelligence company, Sales, Vertical AI, Evaluation               | ~2,000 words |
 
 ### Prototype Learnings (19-21)
 
-| #   | Title                                                                                                  | Tags                                                            | Word Count   |
-| --- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- | ------------ |
-| 19  | [Building a Shopping Agent: Framework Bloat in Action](2025-12-shopping-agent.mdx)                     | AI Agents, LangGraph, LangChain, Prototyping, E-commerce        | ~2,400 words |
-| 20  | [Repo Patcher: Using State Machines to Make AI Agents Reliable](2025-12-repo-patcher.mdx)              | AI Agents, State Machines, Reliability, Code Agents, Production | ~2,500 words |
-| 21  | [Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration](2025-12-good-agents.mdx) | AI Agents, Multi-Agent, Orchestration, Trust                    | ~2,200 words |
+| #   | Title                                                                                                  | Tags                                                                        | Word Count   |
+| --- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- | ------------ |
+| 19  | [Building a Shopping Agent: Framework Bloat in Action](2025-12-shopping-agent.mdx)                     | AI Agents, LangGraph, a popular AI agent framework, Prototyping, E-commerce | ~2,400 words |
+| 20  | [Repo Patcher: Using State Machines to Make AI Agents Reliable](2025-12-repo-patcher.mdx)              | AI Agents, State Machines, Reliability, Code Agents, Production             | ~2,500 words |
+| 21  | [Good Agents: Implementing Plan-Verify-Execute for Multi-Agent Orchestration](2025-12-good-agents.mdx) | AI Agents, Multi-Agent, Orchestration, Trust                                | ~2,200 words |
 
 ### Conference Insights (22-24)
 
-| #   | Title                                                                                                                      | Tags                                                                  | Word Count   |
-| --- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------ |
-| 22  | [Manus Fireside: The 30-40% Model Revelation That Changed Everything](2025-12-manus-fireside.mdx)                          | AI Agents, Manus, Conference, Models, Architecture                    | ~2,000 words |
-| 23  | [Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About](2025-12-why-95-fail.mdx) | AI Agents, Conference, Failure Patterns, Best Practices, Handoff Rate | ~2,300 words |
-| 24  | [Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths](2025-12-production-summit.mdx)             | AI Agents, Snowflake, Conference, Production, Context Management      | ~2,400 words |
+| #   | Title                                                                                                                           | Tags                                                                        | Word Count   |
+| --- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------ |
+| 22  | [Autonomous Agent Company Fireside: The 30-40% Model Revelation That Changed Everything](2025-12-autonomous-agent-fireside.mdx) | AI Agents, an AI autonomous agent company, Conference, Models, Architecture | ~2,000 words |
+| 23  | [Why 95% of Agentic AI Projects Fail: Key Takeaways from the Conference Everyone's Talking About](2025-12-why-95-fail.mdx)      | AI Agents, Conference, Failure Patterns, Best Practices, Handoff Rate       | ~2,300 words |
+| 24  | [Production Agents Summit: The 40% Context Rule and Other Uncomfortable Truths](2025-12-production-summit.mdx)                  | AI Agents, Snowflake, Conference, Production, Context Management            | ~2,400 words |
 
 ### Methodology (25)
 

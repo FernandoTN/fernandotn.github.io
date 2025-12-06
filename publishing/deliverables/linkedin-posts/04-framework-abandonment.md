@@ -2,7 +2,7 @@
 
 ---
 
-LangChain raised $25M. 80-90% of production teams abandon it. What's going on?
+a popular AI agent framework raised $25M. 80-90% of production teams abandon it. What's going on?
 
 After interviewing 36 experts building production AI agents, we uncovered a pattern no one talks about:
 
@@ -12,8 +12,8 @@ The same tools that help you demo in a week can slow you down 3-4x when you need
 
 Here's what we discovered:
 
-- 80-90% of teams abandon frameworks like LangChain for production deployments
-- Custom frameworks run 3-4x faster than LangChain equivalents
+- 80-90% of teams abandon frameworks like a popular AI agent framework for production deployments
+- Custom frameworks run 3-4x faster than a popular AI agent framework equivalents
 - We switched frameworks mid-prototype under deadline pressure (and we're not alone)
 - Models contribute only 30-40% to agent success - the framework matters more
 
@@ -23,7 +23,7 @@ Full breakdown: [LINK]
 
 Have you switched frameworks mid-project? What did you learn?
 
-#AIAgents #LangChain #Frameworks #LLMs #ProductionAI
+#AIAgents #a popular AI agent framework #Frameworks #LLMs #ProductionAI
 
 ---
 

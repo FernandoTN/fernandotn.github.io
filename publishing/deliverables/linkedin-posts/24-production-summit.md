@@ -41,8 +41,8 @@ What production truths have surprised you most when deploying AI agents?
 **Hook**: Pattern interrupt challenging conventional wisdom about agent failures
 **Key Quote Used**:
 
-- "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes" (Speaker B/Rel, Autonomy)
-- "Controlled iteration is what separates successful autonomous products from failed experiments and demoware" (Speaker B/Rel, Autonomy)
+- "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes" (Speaker B/Rel, an AI infrastructure company)
+- "Controlled iteration is what separates successful autonomous products from failed experiments and demoware" (Speaker B/Rel, an AI infrastructure company)
 
 **Key Data Points Used**:
 

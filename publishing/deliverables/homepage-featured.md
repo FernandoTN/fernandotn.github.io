@@ -29,10 +29,10 @@
 
 ### Week 3-4: Rotate to Practitioner Perspectives
 
-- **Hero:** Manus Fireside: The 30-40% Model Revelation That Changed Everything
+- **Hero:** an AI autonomous agent company Fireside: The 30-40% Model Revelation That Changed Everything
 - **Grid:**
   - The 40% Rule: Why Larger Context Windows Won't Save Your AI Agent
-  - The Framework Paradox: Why 80-90% of Teams Abandon LangChain for Production
+  - The Framework Paradox: Why 80-90% of Teams Abandon a popular AI agent framework for Production
   - Handoff Rate: The North Star Metric for AI Agent Success
   - The 30-40% Model Myth: Why Framework Architecture Matters More Than Model Capability
 - **Rationale:** Shift focus to actionable insights and technical patterns for practitioners actively building
@@ -41,7 +41,7 @@
 
 - **Hero:** Research Overview (return to anchor)
 - **Grid:**
-  - Interview posts (Qurrent, Autonomy, Okta, CrewAI)
+  - Interview posts (an AI agent orchestration company, an AI infrastructure company, a major enterprise identity company, a multi-agent framework company)
   - Prototype posts (Shopping Agent, Repo Patcher, Good Agents)
 - **Rationale:** Surface depth content for engaged readers who have consumed headline findings
 

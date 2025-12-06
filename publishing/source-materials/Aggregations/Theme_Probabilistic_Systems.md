@@ -10,24 +10,24 @@
 
 ### Interviews
 
-- **David (Qurrent)** — Continuous maintenance post-deployment; model upgrades change behavior requiring prompt re-tuning; 90% pilot failure rate
-- **Saurav (RunLLM)** — Observability and debugging gaps; no standardized logging for agent actions; time-travel through execution states needed
-- **Tushar (CodeForge)** — Harness obsolescence; generation vs analysis asymmetry; coding agents succeed where others fail
-- **Tian (Okta)** — Concerns about agent controllability and vulnerability vs humans; 3x productivity gains in coding only
-- **Mrinal (Autonomy)** — Demo-to-production gap at 70% reliability threshold; doom loop of ad-hoc fixes; scientific method for probabilistic systems
-- **CC (Vivgrid)** — MCP accuracy drops to 30% with >25 tools; context bloat causing production failures
-- **Sahil (Clientell)** — Step-by-step workflow evaluation vs end-to-end; multi-stage LLM judges; evaluation impossibility for complex systems
-- **Mehak (Sybill)** — Component-level vs end-to-end testing; first-step evaluation philosophy; "build blind after step one"
-- **Abhishek (Apna)** — Non-deterministic workflow integration challenges; hallucination prevention through multi-agent approaches
+- **an enterprise AI deployment expert** — Continuous maintenance post-deployment; model upgrades change behavior requiring prompt re-tuning; 90% pilot failure rate
+- **a practitioner at an AI observability company** — Observability and debugging gaps; no standardized logging for agent actions; time-travel through execution states needed
+- **a developer at an AI coding company** — Harness obsolescence; generation vs analysis asymmetry; coding agents succeed where others fail
+- **an engineering leader at a major identity company** — Concerns about agent controllability and vulnerability vs humans; 3x productivity gains in coding only
+- **a founder at an AI infrastructure company** — Demo-to-production gap at 70% reliability threshold; doom loop of ad-hoc fixes; scientific method for probabilistic systems
+- **a practitioner at an AI infrastructure company** — MCP accuracy drops to 30% with >25 tools; context bloat causing production failures
+- **a practitioner at a CRM AI company** — Step-by-step workflow evaluation vs end-to-end; multi-stage LLM judges; evaluation impossibility for complex systems
+- **an AI lead at a sales intelligence company** — Component-level vs end-to-end testing; first-step evaluation philosophy; "build blind after step one"
+- **an engineering leader at a workforce platform** — Non-deterministic workflow integration challenges; hallucination prevention through multi-agent approaches
 - **Stephen (GMI)** — Eval tool market failure (7 YC companies, no adoption); LLM-as-judge limitations; 3-4 year delay to revenue
-- **Yujian Tan** — Trust and governance barriers; measurement mismatch in current evaluation tools
+- **a practitioner** — Trust and governance barriers; measurement mismatch in current evaluation tools
 - **Roblox** — Eval scorecards required from vendors; manual evaluation of ~1000 data points before scaling; model agreement thresholds
-- **VCatTheory** — Agent brittleness across adjacent use cases; 5-degree variance breaks AI-generated code
-- **CrewAI** — Balancing probabilistic value with enterprise trustworthiness; guardrails vs value tension
+- **a VC investor** — Agent brittleness across adjacent use cases; 5-degree variance breaks AI-generated code
+- **a multi-agent framework company** — Balancing probabilistic value with enterprise trustworthiness; guardrails vs value tension
 
 ### Conferences
 
-- **Manus Fireside** — Internal evaluation evolution beyond industry benchmarks; hallucination reduction strategies
+- **an AI autonomous agent company Fireside** — Internal evaluation evolution beyond industry benchmarks; hallucination reduction strategies
 - **Production Agents Summit** — Controlled iteration through evals; 40% context window rule; success rate thresholds vs binary pass/fail
 - **Why 95% Fail** — Handoff rate as success metric; ReAct pattern for last mile completion; test-evaluate-iterate loop
 - **Alibaba Qwen** — Agent-native model development focused on multi-step reasoning; reinforcement learning for action-react processes
@@ -47,21 +47,21 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 ### Demo vs Production Gap
 
 > "Me demoing, I know that I just got lucky. Maybe 1 in 70 out of 100 runs of this demo, I will get lucky so I can run it, right? And when it fails, I will chuckle and go, whatever. So you can get away with it. If it works 70% of the time, you can demo it. Now, the other person on the other end, they are not used to that probabilistic nature. So they assume, oh my God, this works, I'm going to ship it."
-> — Mrinal Wadhwa (Autonomy), describing the 70% demo threshold and expectation mismatch
+> — a founder at an AI infrastructure company, describing the 70% demo threshold and expectation mismatch
 
 > "90% of all the pilots just doesn't work or stop just stop at the pilot's base and never convert into production. So there is friction. And enterprise adoption is in low single digit across the industry."
-> — David (Qurrent), citing McKinsey/Bain research on pilot failure rates
+> — an enterprise AI deployment expert, citing McKinsey/Bain research on pilot failure rates
 
 > "The biggest challenge for us is if you have an initial prompt and a set of use cases and you want to get that to work as quickly as possible... that 5 degree variance breaks the AI generated code. It's not robust."
-> — VCatTheory VC, explaining brittleness in production agent systems
+> — a VC investor VC, explaining brittleness in production agent systems
 
 > "When you have more than 20 MCP like 30 40, the agent totally cannot work. We were tested and some posts on Internet test that if your MCP amount exceeds 25, your LM accuracy will drop to 30%. So that's totally cannot use in production for enterprise usage."
-> — CC Fan (Vivgrid), quantifying MCP scalability limits
+> — a practitioner at an AI infrastructure company, quantifying MCP scalability limits
 
 ### The Doom Loop Problem
 
 > "That's where the skill problem really starts to kind of hurt is because most people aren't used to how to make that better. They kind of go into this like doom loop almost... They'll go, oh, I see, okay, this scenario didn't work. I'll go change the prompt and the instructions and the data or whatever to make this scenario work. But then they go, oh, but the other one stopped working and they're now in this continuous loop."
-> — Mrinal Wadhwa (Autonomy), describing ad-hoc fixes without systematic controls
+> — a founder at an AI infrastructure company, describing ad-hoc fixes without systematic controls
 
 > "Agents change user experience and I think to a large extent we haven't even caught up with all of the implications of that. I think that we're bolting on these long running processes to traditional software principles and design."
 > — Tyler (CopilotKit), on the UX gap in production agents
@@ -69,27 +69,27 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 ### Scientific Method as Solution
 
 > "People who are used to science know that you can do it with probabilistic things in the world, right? You need to run a controlled experiment and you need an iteration that builds on a set of controls... I will set up some controls, I'll set up an iterative process. I look at my data, do error analysis, figure out what are the category of errors... make sure that there's a set of tests that are evals is the new term like that makes sure that I don't regress as I try to progress."
-> — Mrinal Wadhwa (Autonomy), prescribing systematic methodology
+> — a founder at an AI infrastructure company, prescribing systematic methodology
 
 > "Controlled, iterative refinement is what separates successful autonomous products from failed experiments and demoware."
-> — Speaker B (Autonomy), at Production Agents Summit
+> — Speaker B (an AI infrastructure company), at Production Agents Summit
 
 > "Most software teams in kind of traditional software don't write a lot of automated tests...But AI products are different. They're different because they're probabilistic. Their behavior can shift in kind of unexpected ways every time you use them. So the way to deal with that problem is controlled iteration."
-> — Speaker B (Autonomy), on necessity of evals for production agents
+> — Speaker B (an AI infrastructure company), on necessity of evals for production agents
 
 ### Evaluation Methodology Challenges
 
 > "Almost never do we evaluate something end to end because it is pointless. So if you can evaluate a system at a time, and that is how you grow better... we built it blind after step one... the only thing that we continuously tested for is that it gets the first step right. The first step typically ends up being retrieval. If it gets the first step right, if it has the right data at that point in time, everything after that will work."
-> — Mehak (Sybill), on component-level evaluation strategy
+> — an AI lead at a sales intelligence company, on component-level evaluation strategy
 
 > "I think a lot of companies that are doing agents, there's not like a standardized way of logging what are the exact actions and being able to do like really like detailed debugging and maybe even like, quote unquote, time traveling of like, why did the agent take this action at this moment in time? And if you had changed what context the agent had at that moment in time, how would it have differed in terms of the final output?"
-> — Saurav (RunLLM), identifying observability gaps
+> — a practitioner at an AI observability company, identifying observability gaps
 
 > "You shouldn't use LLM to judge something which as a human, you find extremely hard to judge. Like, it's a recipe for disaster. It will be inconsistent."
-> — Mehak (Sybill), rule of thumb for LLM-as-judge evaluation
+> — an AI lead at a sales intelligence company, rule of thumb for LLM-as-judge evaluation
 
 > "Agent evals are very hard to measure because what you want to evaluate is actually a final outcome... Your eval for that agent's success is not 'did it do it for $5 or $6? Did it write the correct email?' Your eval for that success is, did I get 10 meetings with these people?"
-> — Yujian Tan, on measurement mismatch
+> — a practitioner, on measurement mismatch
 
 > "Evals are very difficult... I was just talking to the head of your research evals at ardi, and after the this exact question, how do you scale evals? He's like, well, the best eval is a human looks at the end result... But you're looking for metrics like that. But even at the end of the day, when you've spent time chasing those sorts of metrics and then you ship without looking, you can end up in situations where it's like, yeah, you just gained your citation recall metric, but then when you miss citations, you're getting things in completely different documents you know, that you know, aren't relevant at all."
 > — Summer (Harvey), on difficulty of building reliable evaluation systems
@@ -97,18 +97,18 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 ### Deterministic vs Probabilistic Mindset
 
 > "Most people that have built and deployed technology over the last, say, 30 years aren't used to probabilistic stochastic systems. They're used to deterministic things. So the expectation is if I see it working once, I expect it to work reliably from that point on."
-> — Mrinal Wadhwa (Autonomy), explaining fundamental friction point
+> — a founder at an AI infrastructure company, explaining fundamental friction point
 
 > "It's hard to really put agents in production because you have to be able to trust the LLM to make decisions on your behalf. And that is more of a people and processes kind of issue [not just technology]."
-> — Yujian Tan, on the trust barrier
+> — a practitioner, on the trust barrier
 
 ### Context and Accuracy Degradation
 
 > "If your agent is using anything more than 40% of the context window, it's probably going to make mistakes. This is true for an agent you develop for your software. It's also true for things like cursor."
-> — Speaker B (Autonomy), defining context management rule of thumb
+> — Speaker B (an AI infrastructure company), defining context management rule of thumb
 
 > "Too much, too little or irrelevant information in the context can cause an LLM to steer the agent away from its goal by selecting the wrong next action."
-> — Speaker B (Autonomy), at Production Agents Summit
+> — Speaker B (an AI infrastructure company), at Production Agents Summit
 
 > "Agents typically start correctly but 'take a left turn' after several iterations and never recover → caused by context accumulation, not fundamental model limitations."
 > — Production Agents Summit observation on failure patterns
@@ -116,10 +116,10 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 ### Model Capability vs Architecture
 
 > "We found out actually model only maybe contributes 30 or 40% of the whole thing. And the framework, the whole system you build upon the model is much more important, you know, than the model itself."
-> — Manus Co-Founder, discussing shift in understanding
+> — an AI autonomous agent company Co-Founder, discussing shift in understanding
 
 > "The intelligence is really smart enough right. So so it doesn't doesn't need the model to be much better to make this work in enterprise. So the the real sticking point is system integration which has to do with all this you know system that doesn't have never talked to each other."
-> — David (Qurrent), explaining that GPT-4 level models are sufficient
+> — an enterprise AI deployment expert, explaining that GPT-4 level models are sufficient
 
 ### Enterprise Eval Requirements
 
@@ -135,7 +135,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 ### Handoff Rate as Success Metric
 
 > "The question is no longer is the agent small the real question is does it actually reduce the handoff to humans we call this handoff rate. Of the percentage of tasks that it passes back to human and in most companies this number is still very high. So instead of chasing models or new frameworks we could measure outcomes if you have if your kind of grid head drops still have your AI isn't transforming your business."
-> — Cece (Visigrate), defining handoff rate metric at "Why 95% Fail" conference
+> — a practitioner at an AI infrastructure company, defining handoff rate metric at "Why 95% Fail" conference
 
 ### Prototype Validation
 
@@ -145,35 +145,35 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 > "Plan-Verify-Execute orchestration pattern with verification phase as governance mechanism for managing probabilistic agent behavior."
 > — Good Agents prototype implementation
 
-> "During development, we initially implemented the agent using LangGraph but switched to LangChain due to extensive bloat and complexity. This firsthand experience validated interview findings about framework overhead."
+> "During development, we initially implemented the agent using LangGraph but switched to a popular AI agent framework due to extensive bloat and complexity. This firsthand experience validated interview findings about framework overhead."
 > — Shopping Agent prototype, demonstrating practical reliability challenges
 
 ## Sub-Themes Identified
 
 ### 1. Evaluation Methodologies
 
-- **Component-level vs end-to-end testing**: First-step evaluation (Sybill), step-by-step workflow assessment (Clientell), manual document-by-document refinement (Production Agents)
-- **LLM-as-judge patterns**: Model agreement thresholds (Roblox), human-judged difficulty rule (Sybill), multi-stage specialized judges (Clientell)
-- **Benchmark inadequacy**: Industry benchmarks "not even close to real user's requirements" (Manus), custom datasets from real usage necessary (Sybill, Manus)
+- **Component-level vs end-to-end testing**: First-step evaluation (an AI sales intelligence company), step-by-step workflow assessment (a CRM AI company), manual document-by-document refinement (Production Agents)
+- **LLM-as-judge patterns**: Model agreement thresholds (Roblox), human-judged difficulty rule (an AI sales intelligence company), multi-stage specialized judges (a CRM AI company)
+- **Benchmark inadequacy**: Industry benchmarks "not even close to real user's requirements" (an AI autonomous agent company), custom datasets from real usage necessary (an AI sales intelligence company, an AI autonomous agent company)
 - **Eval scaling challenges**: Manual 1000 data points → train judge → scale to millions (Roblox), YC mafia non-adoption signals market immaturity (GMI)
 - **Success rate thresholds**: Metrics use success rate across N runs, not binary pass/fail (Production Agents Summit)
 
 ### 2. Testing Non-Deterministic Systems
 
 - **Controlled iteration**: Test-evaluate-iterate loop tied to business models (Why 95% Fail), incremental test suite growth (Production Agents)
-- **Error categorization**: Analyze by category rather than individual failures (Mrinal/Autonomy)
-- **Regression prevention**: Evals as controls to ensure no regression while progressing (Mrinal/Autonomy)
-- **Adjacent use case brittleness**: 5-degree variance breaks code (VCatTheory), requires extensive testing of workflow variations (Production Agents)
+- **Error categorization**: Analyze by category rather than individual failures (the founder/an AI infrastructure company)
+- **Regression prevention**: Evals as controls to ensure no regression while progressing (the founder/an AI infrastructure company)
+- **Adjacent use case brittleness**: 5-degree variance breaks code (a VC investor), requires extensive testing of workflow variations (Production Agents)
 - **Diverse failure modes**: 20 test scenarios covering imports, logic, assertions, mocks, async operations (Repo Patcher)
 
 ### 3. Demo vs Production Gap
 
-- **70% demo threshold**: Demo-able but creates false expectations (Mrinal/Autonomy)
-- **Pilot failure rates**: 90% pilots don't convert to production (David/Qurrent), 95% failure rate (Why 95% Fail conference title)
-- **Expectation management crisis**: Biggest blocker isn't technology but stakeholder expectations (Mrinal/Autonomy)
+- **70% demo threshold**: Demo-able but creates false expectations (the founder/an AI infrastructure company)
+- **Pilot failure rates**: 90% pilots don't convert to production (the practitioner/an AI agent orchestration company), 95% failure rate (Why 95% Fail conference title)
+- **Expectation management crisis**: Biggest blocker isn't technology but stakeholder expectations (the founder/an AI infrastructure company)
 - **Cost at scale**: Token costs making agents uneconomical at production volume (multiple sources)
 - **Five-phase roadmap gap**: Only Phase 1 complete quantifies production distance (Shopping Agent)
-- **Accuracy degradation**: 30% accuracy with >25 MCP tools (Vivgrid), context bloat causing failures (multiple sources)
+- **Accuracy degradation**: 30% accuracy with >25 MCP tools (an AI infrastructure company), context bloat causing failures (multiple sources)
 
 ### 4. Error Handling Strategies
 
@@ -181,7 +181,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Plan-Verify-Execute pattern**: Verification phase validates feasibility and safety before execution (Good Agents)
 - **Tiered fallback strategies**: API-first → deeplink → headless automation graceful degradation (Shopping Agent)
 - **HITL escalation**: Risk-based routing (auto-approve low-risk, human review high-risk) (Repo Patcher, multiple sources)
-- **Multi-agent decomposition**: Breaking prompts into multi-agent systems reduces hallucination (Apna)
+- **Multi-agent decomposition**: Breaking prompts into multi-agent systems reduces hallucination (a workforce platform)
 - **Context pruning**: Notes summarization, active context curation, just-in-time retrieval (Production Agents Summit)
 
 ### 5. Reliability Metrics
@@ -190,22 +190,22 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Accuracy/Latency/Cost triad**: Three fundamental measures of real adoption (Why 95% Fail)
 - **40% context window rule**: Using >40% of context leads to mistakes (Production Agents Summit)
 - **Success rate thresholds**: Across N runs rather than single attempts (Production Agents Summit)
-- **Productivity multipliers**: 3x for coding agents (Okta, Tian), 3-4x throughput (VCatTheory), time reduction from 21 days → few hours (VCatTheory)
+- **Productivity multipliers**: 3x for coding agents (a major enterprise identity company, the engineering leader), 3-4x throughput (a VC investor), time reduction from 21 days → few hours (a VC investor)
 
 ### 6. Observability Requirements
 
-- **Time-travel debugging**: Modify past step inputs and resume execution (RunLLM)
+- **Time-travel debugging**: Modify past step inputs and resume execution (an AI observability company)
 - **Comprehensive tooling stacks**: OpenTelemetry + Jaeger + Langfuse + Prometheus + Grafana (Good Agents, Roblox)
 - **Trace collection**: Distributed tracing across microservices (Good Agents)
 - **Event streaming**: SSE with structured events (plan, tool_call, token, complete) for real-time visibility (Good Agents)
 - **Audit trails**: Complete compliance logging with session persistence (Repo Patcher)
-- **No standardized logging**: Gap in current agent tooling requiring custom solutions (RunLLM, multiple sources)
+- **No standardized logging**: Gap in current agent tooling requiring custom solutions (an AI observability company, multiple sources)
 
 ### 7. Model-Problem Fit
 
 - **Intersection analysis**: Problem difficulty × model capabilities × available data (Harvey/Summer)
 - **Success bar realism**: 100% accuracy requirements outside current LLM range (Harvey/Summer)
-- **Generation vs analysis asymmetry**: LLMs excel at generation but struggle with analysis (Tushar/CodeForge)
+- **Generation vs analysis asymmetry**: LLMs excel at generation but struggle with analysis (a developer/an AI coding company)
 - **Coding agents as exception**: Only domain showing consistent productivity gains (multiple sources)
 - **Domain specificity**: Vertical specialization required; general agents fail (multiple sources)
 
@@ -215,31 +215,31 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 
 **Framework Value for Reliability:**
 
-- **Skeptics**: Shopping Agent abandoned LangGraph due to bloat; Clientell states frameworks are 3-4x slower and inconsistent (Sahil)
-- **Advocates**: Good Agents successfully uses LangChain for orchestration; Roblox uses LangGraph for state transitions
+- **Skeptics**: Shopping Agent abandoned LangGraph due to bloat; a CRM AI company states frameworks are 3-4x slower and inconsistent (a practitioner)
+- **Advocates**: Good Agents successfully uses a popular AI agent framework for orchestration; Roblox uses LangGraph for state transitions
 - **Resolution**: Framework utility appears context-dependent—useful for complex orchestration (Good Agents), excessive for simple tool calling (Shopping Agent)
 
 **End-to-End vs Component Evaluation:**
 
 - **End-to-End Advocates**: Traditional testing wisdom; comprehensive validation
-- **Component-Level Advocates**: Sybill's "almost never evaluate end-to-end because it is pointless"; Clientell's step-by-step workflow approach
+- **Component-Level Advocates**: an AI sales intelligence company's "almost never evaluate end-to-end because it is pointless"; a CRM AI company's step-by-step workflow approach
 - **Nuance**: Component-level testing of deterministic steps (retrieval accuracy) more reliable than evaluating entire probabilistic pipeline; end-to-end for integration testing only
 
 **LLM-as-Judge Viability:**
 
-- **Supporters**: Roblox scales with model agreement thresholds; Clientell uses 10-15 specialized judge models
-- **Skeptics**: Sybill warns against judging what humans find hard; GMI highlights insufficient capability gap and cost
+- **Supporters**: Roblox scales with model agreement thresholds; a CRM AI company uses 10-15 specialized judge models
+- **Skeptics**: an AI sales intelligence company warns against judging what humans find hard; GMI highlights insufficient capability gap and cost
 - **Resolution**: Works when: (1) task is clearly defined/verifiable, (2) capability gap exists between judge and evaluated model, (3) cost is acceptable, (4) used in combination with human evaluation for training judges
 
 **Model Capability Sufficiency:**
 
-- **Sufficient Camp**: David (Qurrent) claims GPT-4 "already good enough"; Mrinal states "transformative already" if it stopped today
+- **Sufficient Camp**: an enterprise AI deployment expert claims GPT-4 "already good enough"; the founder states "transformative already" if it stopped today
 - **Insufficient Camp**: Harvey notes success bars outside LLM range; emphasis on model improvements needed
 - **Nuance**: Models sufficient for narrow/well-defined tasks (coding, API calling) but insufficient for open-ended reasoning, complex analysis, and 100% accuracy requirements
 
 **Hallucination Timeline:**
 
-- **Optimists**: Manus predicts hallucination solvable in 6-12 months through frontier model improvements
+- **Optimists**: an AI autonomous agent company predicts hallucination solvable in 6-12 months through frontier model improvements
 - **Skeptics**: Architectural solutions (multi-agent, verification phases, HITL) needed rather than waiting for models
 - **Current State**: Both approaches being pursued—model improvements reducing hallucinations while architectures add governance layers
 
@@ -262,7 +262,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 **Cost Economics:**
 
 - Initial development cheap (prototyping), production expensive (scale × token costs)
-- Optimization possible: 8x cost reduction through architecture (Manus), <$0.25 per fix target (Repo Patcher)
+- Optimization possible: 8x cost reduction through architecture (an AI autonomous agent company), <$0.25 per fix target (Repo Patcher)
 - Inference cost declining 10x year-over-year (Alibaba Qwen) but still prohibitive for some use cases
 - Tension between current costs and sustainability for $20-30/month agent subscriptions
 
@@ -270,14 +270,14 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 
 - Agents must be different enough from deterministic automation to provide value
 - But predictable enough to meet SLA and trust requirements
-- "Acceptable trustworthy range" remains unsolved (CrewAI)
+- "Acceptable trustworthy range" remains unsolved (a multi-agent framework company)
 - Guardrails reduce value; insufficient guardrails prevent adoption
 
 ## Prototype Validation
 
 ### Shopping Agent
 
-**Confirms**: Framework bloat reality—forced mid-development switch from LangGraph to LangChain under time pressure
+**Confirms**: Framework bloat reality—forced mid-development switch from LangGraph to a popular AI agent framework under time pressure
 **Validates**: Gap between prototype and production—only Phase 1 of 5-phase roadmap complete
 **Demonstrates**: Tiered fallback strategies (API → deeplink → headless) needed for reliability in real-world integration
 
@@ -323,7 +323,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - No standardized methodologies for controlled iteration and regression prevention
 - Stakeholder expectations misaligned with probabilistic reality
 
-**Evidence**: 90% pilot failure rate (Qurrent), 95% project failure (conference theme), 70% demo threshold (Autonomy), 30% accuracy drop with scale (Vivgrid), LangGraph→LangChain forced switch (Shopping Agent)
+**Evidence**: 90% pilot failure rate (an AI agent orchestration company), 95% project failure (conference theme), 70% demo threshold (an AI infrastructure company), 30% accuracy drop with scale (an AI infrastructure company), LangGraph→a popular AI agent framework forced switch (Shopping Agent)
 
 **Implication**: Success requires organizational change (training, expectations, processes) more than technical improvements. Hiring from science/ML backgrounds may be more effective than retraining traditional software engineers.
 
@@ -336,7 +336,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - LLM-as-judge limited by capability gap, cost, and task verifiability
 - Scaling evals from manual (1000 data points) to automated (millions) remains challenging
 
-**Evidence**: 7 YC companies building eval tools with zero adoption among YC mafia (GMI), Sybill's "build blind after step one" working because first-step evals work, Manus abandoning industry benchmarks, Roblox requiring eval scorecards from all vendors
+**Evidence**: 7 YC companies building eval tools with zero adoption among YC mafia (GMI), an AI sales intelligence company's "build blind after step one" working because first-step evals work, an AI autonomous agent company abandoning industry benchmarks, Roblox requiring eval scorecards from all vendors
 
 **Implication**: Evaluation infrastructure is a critical investment area. Component-level testing of deterministic steps (retrieval accuracy) more reliable than end-to-end evaluation. Market opportunity exists for evaluation tools that focus on specific, verifiable tasks rather than general agent quality.
 
@@ -350,7 +350,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Context management**: 40% context window rule, notes summarization, just-in-time retrieval prevent degradation
 - **Multi-agent decomposition**: Breaking prompts reduces hallucination and improves reliability
 
-**Evidence**: All three prototypes implement architectural governance patterns; Production Agents Summit details 40% context rule and verification importance; Autonomy's scientific method prescription
+**Evidence**: All three prototypes implement architectural governance patterns; Production Agents Summit details 40% context rule and verification importance; an AI infrastructure company's scientific method prescription
 
 **Implication**: Framework design should embed governance patterns (verification, risk assessment, escalation) rather than just orchestration. Companies building production agents need architectural expertise, not just prompt engineering.
 
@@ -364,7 +364,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Incremental test suite growth** (manual document-by-document → CI test → repeat)
 - **Controlled iteration** with established baselines before changing variables
 
-**Evidence**: Mrinal's scientific method prescription, Production Agents Summit's controlled iteration emphasis, Roblox's manual 1000 → automated millions progression, Repo Patcher's 20 diverse test scenario validation
+**Evidence**: the founder's scientific method prescription, Production Agents Summit's controlled iteration emphasis, Roblox's manual 1000 → automated millions progression, Repo Patcher's 20 diverse test scenario validation
 
 **Implication**: Traditional software testing practices (unit tests, integration tests) insufficient. Teams need ML/science backgrounds or training in experimental methodology. Evaluation must be built into development process from the start, not added later.
 
@@ -377,7 +377,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - Handoff rate directly measures the degree to which agents reduce human workload
 - Most companies still have "very high" handoff rates despite agent deployment
 
-**Evidence**: Cece (Visigrate) defining handoff rate at "Why 95% Fail" conference, Yujian Tan's critique of measurement mismatch, Harvey's discussion of outcome-based vs process metrics
+**Evidence**: a practitioner at an AI infrastructure company defining handoff rate at "Why 95% Fail" conference, a practitioner's critique of measurement mismatch, Harvey's discussion of outcome-based vs process metrics
 
 **Implication**: Agent success should be measured by reduction in human handoffs, not model sophistication or framework choice. This shifts focus from technical elegance to pragmatic automation effectiveness. Product design should optimize for task completion without human intervention.
 
@@ -390,9 +390,9 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - "Build blind after step one" works because subsequent steps depend on correct retrieval
 - Step-by-step workflow assessment enables incremental debugging
 
-**Evidence**: Sybill's "almost never evaluate end-to-end because it is pointless," Clientell's multi-stage judge workflow, Production Agents Summit's manual document-by-document refinement
+**Evidence**: an AI sales intelligence company's "almost never evaluate end-to-end because it is pointless," a CRM AI company's multi-stage judge workflow, Production Agents Summit's manual document-by-document refinement
 
-**Implication**: Invest evaluation effort in the first/deterministic steps. Trust foundation models for generation once correct context is retrieved. This aligns with Sybill's philosophy: "The only thing we need to do is how to build a system so that it's almost like as they get better, we get better by default."
+**Implication**: Invest evaluation effort in the first/deterministic steps. Trust foundation models for generation once correct context is retrieved. This aligns with an AI sales intelligence company's philosophy: "The only thing we need to do is how to build a system so that it's almost like as they get better, we get better by default."
 
 ### 7. Observability Cannot Be Retrofitted—It Must Be Architectural
 
@@ -405,7 +405,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Event streaming**: SSE with structured events (plan, tool_call, token, complete) for real-time transparency
 - **Audit trails**: Complete logging for compliance and debugging
 
-**Evidence**: Good Agents' comprehensive stack, Sybill's emphasis on observability gaps, RunLLM's time-travel debugging need, Roblox's monitoring requirements, Production Agents Summit's infrastructure focus
+**Evidence**: Good Agents' comprehensive stack, an AI sales intelligence company's emphasis on observability gaps, an AI observability company's time-travel debugging need, Roblox's monitoring requirements, Production Agents Summit's infrastructure focus
 
 **Implication**: Observability is a first-class architectural concern, not an afterthought. Teams building production agents must invest in monitoring infrastructure early. The absence of standardized logging represents a market opportunity for observability-focused tooling.
 
@@ -418,7 +418,7 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - **Context bloat**: MCP with >25 tools drops accuracy to 30%
 - **Long-running degradation**: Multi-hour conversations require real-time pruning
 
-**Evidence**: Production Agents Summit's 40% rule, Vivgrid's 25-tool MCP limit, Apna's voice conversation challenges, multiple sources on context management as core challenge
+**Evidence**: Production Agents Summit's 40% rule, an AI infrastructure company's 25-tool MCP limit, a workforce platform's voice conversation challenges, multiple sources on context management as core challenge
 
 **Implication**: Context engineering (notes summarization, active context curation, just-in-time retrieval, parallel sub-agents) is more important than large context windows. Framework design should treat context management as primary concern, not just orchestration.
 
@@ -444,6 +444,6 @@ Probabilistic systems present a fundamental paradigm shift from deterministic so
 - No clear path to enterprise revenue (3-4 year delay predicted)
 - Best eval remains "human looks at the end result" (Harvey)
 
-**Evidence**: GMI's YC mafia non-adoption finding, Harvey's head of research quote, Roblox requiring custom scorecards, Manus abandoning industry benchmarks for custom datasets
+**Evidence**: GMI's YC mafia non-adoption finding, Harvey's head of research quote, Roblox requiring custom scorecards, an AI autonomous agent company abandoning industry benchmarks for custom datasets
 
 **Implication**: Market opportunity exists for evaluation tools focused on specific, verifiable tasks with clear ROI rather than general agent quality scoring. Success requires solving "what metrics actually matter" before building scalable infrastructure. Current approaches may be solving the wrong problem (intermediate metrics vs final outcomes).

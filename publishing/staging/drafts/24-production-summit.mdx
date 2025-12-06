@@ -13,7 +13,7 @@ Every large language model announcement boasts about context window size. One mi
 
 ## The Discovery
 
-The Production Agents Summit brought together two speakers with complementary perspectives on building agents that actually work: Tyler from CopilotKit, focused on infrastructure for building copilots and the AGUI protocol, and Rel from Autonomy, whose platform powers autonomous products at scale. What made this conference different from typical AI events was the focus on production realities rather than capabilities.
+The Production Agents Summit brought together two speakers with complementary perspectives on building agents that actually work: Tyler from CopilotKit, focused on infrastructure for building copilots and the AGUI protocol, and Rel from an AI infrastructure company, whose platform powers autonomous products at scale. What made this conference different from typical AI events was the focus on production realities rather than capabilities.
 
 Both speakers had crossed the threshold from prototype to production. They had faced the challenges that only emerge when real users interact with real agents in real workflows. Their insights came from battle scars, not benchmarks. The central question they addressed cuts to the heart of agent development: what does it actually take to move from a working demo to a reliable production system?
 
@@ -26,12 +26,12 @@ The answer, it turns out, involves rethinking fundamental assumptions about how 
 The most counterintuitive finding from the summit challenges the industry's obsession with context window size. Larger context windows were supposed to enable more capable agents. The reality is more nuanced.
 
 > "Every LLM announcement, you'll see they go, the context window sizes increase, we're up to like a few million tokens or whatever. This is just a rule of thumb number that I've made up. But essentially, if your agent is using anything more than 40% of the context window, it's probably going to make mistakes."
-> — Rel, CTO of Autonomy
+> — Rel, CTO of an AI infrastructure company
 
 This 40% threshold is not arbitrary. It emerges from practical observation of agent behavior in production. When context windows fill beyond this point, agents begin to exhibit characteristic failure patterns: selecting wrong actions, losing track of their goals, and producing inconsistent outputs.
 
 > "Too much, too little or irrelevant information in the context can cause an LLM to steer the agent away from its goal by selecting the wrong next action."
-> — Rel, CTO of Autonomy
+> — Rel, CTO of an AI infrastructure company
 
 The implication is profound. The industry has been racing toward larger context windows assuming this solves the memory problem. But context engineering - carefully curating what goes into the context and what stays out - matters more than context capacity. An agent with a 200,000-token window using 40% will outperform an agent with a 2-million-token window filled to capacity.
 
@@ -73,7 +73,7 @@ Production agents require purpose-built observability that goes beyond tradition
 **Controlled Iteration**: The pattern of "controlled, iterative refinement" was repeatedly emphasized as the factor separating successful autonomous products from failed experiments and demoware. Each iteration is measured, validated, and integrated into the growing test suite.
 
 > "Most software teams in kind of traditional software don't write a lot of automated tests...But AI products are different. They're different because they're probabilistic. Their behavior can shift in kind of unexpected ways every time you use them. So the way to deal with that problem is controlled iteration."
-> — Rel, CTO of Autonomy
+> — Rel, CTO of an AI infrastructure company
 
 ### Enterprise Infrastructure Requirements
 
@@ -123,7 +123,7 @@ Teams that treat agent development as primarily an AI problem often discover too
 ### The Demo-to-Production Gap
 
 > "Controlled, iterative refinement is what separates successful autonomous products from failed experiments and demoware."
-> — Rel, CTO of Autonomy
+> — Rel, CTO of an AI infrastructure company
 
 The gap between demo and production is not a model capability gap - it is an engineering maturity gap. Demos can hide context management problems, ignore observability, skip multi-tenancy, and present cherry-picked results. Production cannot. The summit provided a concrete methodology for crossing this gap: controlled iteration with incremental test suite growth.
 
